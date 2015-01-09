@@ -1,0 +1,78 @@
+6.176 MIT Pokerbots - P2 vs P3 vs QBOT (stack=200, bb=2)
+Hand #1, P2 (200), P3 (200), QBOT (200)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [5h Js]
+Dealt to P3 [6d 4h]
+Dealt to QBOT [7h 2h]
+P2 calls 2
+P3 calls 2
+QBOT checks
+*** FLOP *** (6) [Kc Qh As]
+P3 checks
+QBOT checks
+P2 bets 2
+P3 raises to 6
+QBOT folds
+P2 calls 6
+*** TURN *** (18) [Kc Qh As] [Ks]
+P3 bets 4
+P2 calls 4
+*** RIVER *** (26) [Kc Qh As Ks] [3d]
+P3 checks
+P2 bets 25
+P3 calls 25
+P2 shows [5h Js]
+P3 shows [6d 4h]
+P2 wins the pot (76)
+
+Hand #2, QBOT (198), P2 (239), P3 (163)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Td 7d]
+Dealt to P2 [Ah 9h]
+Dealt to P3 [Ac Th]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #3, P3 (164), QBOT (198), P2 (238)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Qs 8h]
+Dealt to QBOT [8s 7h]
+Dealt to P2 [As 4d]
+P3 folds
+QBOT folds
+P2 wins the pot (3)
+
+Hand #4, P2 (239), P3 (164), QBOT (197)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [3d 3s]
+Dealt to P3 [Ad 7s]
+Dealt to QBOT [Ac Ks]
+P2 raises to 5
+P3 folds
+QBOT folds
+P2 wins the pot (8)
+
+Hand #5, QBOT (195), P2 (242), P3 (163)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Jh 4c]
+Dealt to P2 [4h 2c]
+Dealt to P3 [Kh Qs]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [3d Qh As]
+P2 bets 2
+P3 raises to 6
+P2 calls 6
+*** TURN *** (16) [3d Qh As] [2h]
+P2 checks
+P3 bets 9
+P2 folds
+P3 wins the pot (25)
+

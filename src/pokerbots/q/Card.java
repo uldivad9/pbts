@@ -1,6 +1,8 @@
 package pokerbots.q;
 
-class Card {
+import pokerbots.q.Suit;
+
+public class Card {
 	Suit suit;
 	int value;
 	
@@ -78,5 +80,69 @@ class Card {
 	
 	public int compareTo(Card c) {
 		return value-c.value;
+	}
+	
+	public String toString() {
+		String output = "";
+		switch(value) {
+			case 2:
+				output+='2';
+				break;
+			case 3:
+				output+='3';
+				break;
+			case 4:
+				output+='4';
+				break;
+			case 5:
+				output+='5';
+				break;
+			case 6:
+				output+='6';
+				break;
+			case 7:
+				output+='7';
+				break;
+			case 8:
+				output+='8';
+				break;
+			case 9:
+				output+='9';
+				break;
+			case 10:
+				output+='T';
+				break;
+			case 11:
+				output+='J';
+				break;
+			case 12:
+				output+='Q';
+				break;
+			case 13:
+				output+='K';
+				break;
+			case 14:
+				output+='A';
+				break;
+			default:
+				break;
+		}
+		switch(suit) {
+			case C:
+				output+='c';
+				break;
+			case D:
+				output+='d';
+				break;
+			case H:
+				output+='h';
+				break;
+			case S:
+				output+='s';
+				break;
+			default:
+				break;
+		}
+		return output;
 	}
 }

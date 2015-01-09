@@ -7,4 +7,4 @@ newpath=os.environ.get('PATH')
 env.Append(ENV = { 'PATH' : newpath })
 
 env.Java(target='classes', source='src')
-env.Jar(target='pokerbot.jar', source=['classes', 'Manifest.txt'])
+env.Jar(target='src/pokerbots/q/pokerbot.jar', source=['classes', 'Manifest_q.txt'])
