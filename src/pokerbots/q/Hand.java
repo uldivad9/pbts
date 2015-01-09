@@ -51,6 +51,10 @@ public class Hand {
 		addCard(new Card(stringRep));
 	}
 	
+	public int size() {
+		return cards.size();
+	}
+	
 	/*
 	returns a 8-digit integer representing the hand strength.
 	x0000000:

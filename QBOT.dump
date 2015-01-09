@@ -1,28 +1,63 @@
 
-C:\Users\dlu\Documents\Lu\pokerbots\src\pokerbots\q>java -jar pokerbot.jar 3000  
-NEWGAME QBOT P3 P2 200 2 5 10.000000
-NEWHAND 1 3 7h 2h 200 199 198 P3 P2 QBOT 3 true true true 10.000000
-STARTING HAND: {7h,2h,}
-GETACTION 14 0 194 194 198 3 true true true 4 POST:1:P2 POST:2:QBOT RAISE:6:P3 CALL:6:P2 3 FOLD CALL:6 RAISE:10:24 10.0
-HANDOVER 179 223 198 5 Kc Qh As Ks 3d 11 FOLD:QBOT DEAL:FLOP BET:3:P2 CALL:3:P3 DEAL:TURN BET:12:P2 CALL:12:P3 DEAL:RIVER BET:41:P2 FOLD:P3 WIN:85:P2 9.997608623
-NEWHAND 2 1 Td 7d 198 178 221 QBOT P3 P2 3 true true true 9.997609
-STARTING HAND: {Td,7d,}
-GETACTION 3 0 198 178 221 3 true true true 2 POST:1:P3 POST:2:P2 3 CALL:2 FOLD RAISE:4:7 9.997608623
-HANDOVER 198 178 224 0 3 FOLD:QBOT FOLD:P3 WIN:3:P2 9.997364920999999
-NEWHAND 3 2 8s 7h 224 197 176 P2 QBOT P3 3 true true true 9.997365
-STARTING HAND: {8s,7h,}
-GETACTION 7 0 220 197 176 3 true true true 3 POST:1:QBOT POST:2:P3 RAISE:4:P2 3 FOLD CALL:4 RAISE:6:14 9.997364920999999
-HANDOVER 220 197 183 3 Ks 9d 4h 6 FOLD:QBOT CALL:4:P3 DEAL:FLOP BET:7:P3 FOLD:P2 WIN:16:P3 9.996993956999999
-NEWHAND 4 3 Ac Ks 183 219 195 P3 P2 QBOT 3 true true true 9.996994
-STARTING HAND: {Ac,Ks,}
-GETACTION 5 0 181 219 195 3 true true true 4 POST:1:P2 POST:2:QBOT CALL:2:P3 FOLD:P2 2 CHECK RAISE:4:7 9.996993956999999
-GETACTION 5 3 Kd 7h As 181 219 195 3 true true true 2 CHECK:QBOT DEAL:FLOP 2 CHECK BET:2:5 9.996683259
-GETACTION 5 4 Kd 7h As 2h 181 219 195 3 true true true 3 CHECK:QBOT CHECK:P3 DEAL:TURN 2 CHECK BET:2:5 9.996297081
-GETACTION 8 4 Kd 7h As 2h 178 219 195 3 true true true 2 CHECK:QBOT BET:3:P3 3 FOLD CALL:3 RAISE:6:14 9.995971463
-HANDOVER 186 219 195 4 Kd 7h As 2h 2 FOLD:QBOT WIN:8:P3 9.995676271
-NEWHAND 5 1 Jh 4c 195 185 217 QBOT P3 P2 3 true true true 9.995676
-STARTING HAND: {Jh,4c,}
-GETACTION 3 0 195 185 217 3 true true true 2 POST:1:P3 POST:2:P2 3 CALL:2 FOLD RAISE:4:7 9.995676271
-HANDOVER 195 184 221 3 3d Qh As 8 FOLD:QBOT CALL:2:P3 CHECK:P2 DEAL:FLOP CHECK:P3 BET:2:P2 FOLD:P3 WIN:6:P2 9.995424963000001
-REQUESTKEYVALUES 2000
+C:\Users\David\Documents\java\pokerbots\src\pokerbots\q>java -jar pokerbot.jar 3000  
+{5h,5s,}
+My hand: {5h,5s,}
+Stacks: [200, 199, 198] (I have 200)
+My action is: CHECK
+{8c,7d,}
+My hand: {8c,7d,}
+Stacks: [182, 199, 214] (I have 199)
+My action is: CHECK
+{Jd,5c,}
+My hand: {Jd,5c,}
+Stacks: [219, 180, 197] (I have 197)
+My action is: CHECK
+{Jd,5c,6h,2d,5h,}
+My hand: {Jd,5c,6h,2d,5h,}
+Stacks: [219, 180, 197] (I have 197)
+My action is: FOLD
+{Jd,5c,6h,2d,5h,3h,}
+My hand: {Jd,5c,6h,2d,5h,3h,}
+Stacks: [219, 177, 197] (I have 197)
+My action is: FOLD
+{7c,6d,}
+My hand: {7c,6d,}
+Stacks: [197, 218, 182] (I have 197)
+My action is: CHECK
+{6s,2s,}
+My hand: {6s,2s,}
+Stacks: [181, 196, 216] (I have 196)
+My action is: CHECK
+{9h,3h,}
+My hand: {9h,3h,}
+Stacks: [214, 187, 194] (I have 194)
+My action is: CHECK
+{9h,3h,8h,3s,5s,}
+My hand: {9h,3h,8h,3s,5s,}
+Stacks: [214, 187, 194] (I have 194)
+My action is: FOLD
+{9h,3h,8h,3s,5s,Jd,}
+My hand: {9h,3h,8h,3s,5s,Jd,}
+Stacks: [214, 187, 194] (I have 194)
+My action is: FOLD
+{9h,3h,8h,3s,5s,Jd,}
+My hand: {9h,3h,8h,3s,5s,Jd,}
+Stacks: [211, 187, 194] (I have 194)
+My action is: FOLD
+{Ts,8d,}
+My hand: {Ts,8d,}
+Stacks: [194, 218, 185] (I have 194)
+My action is: CHECK
+{9s,Ah,}
+My hand: {9s,Ah,}
+Stacks: [189, 193, 215] (I have 193)
+My action is: CHECK
+{9c,Th,}
+My hand: {9c,Th,}
+Stacks: [214, 180, 191] (I have 191)
+My action is: CHECK
+{Jh,3h,}
+My hand: {Jh,3h,}
+Stacks: [191, 263, 143] (I have 191)
+My action is: CHECK
 Gameover, engine disconnected

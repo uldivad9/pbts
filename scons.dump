@@ -1,12 +1,12 @@
-scons: Entering directory `C:\Users\dlu\Documents\Lu\pokerbots'
+scons: Entering directory `C:\Users\David\Documents\java\pokerbots'
 scons: Reading SConscript files ...
 
 scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
-File "C:\Users\dlu\Documents\Lu\pokerbots\SConstruct", line 5, in <module>
+File "C:\Users\David\Documents\java\pokerbots\SConstruct", line 5, in <module>
 scons: done reading SConscript files.
 scons: Building targets ...
 
 scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
-File "C:\Program Files (x86)\python27\Scripts\scons.py", line 199, in <module>
+File "c:\Users\David\AppData\Local\Enthought\Canopy\User\Scripts\scons.py", line 199, in <module>
 scons: `src\pokerbots\q' is up to date.
 scons: done building targets.
