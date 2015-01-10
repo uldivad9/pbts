@@ -3,23 +3,19 @@ package pokerbots.q;
 import java.io.*;
 import java.util.*;
 
-import pokerbots.q.*;
+import pokerbots.*;
 
 /**
- * Simple example pokerbot, written in Java.
- * 
- * This is an example of a bare bones, pokerbot. It only sets up the socket
- * necessary to connect with the engine and then always returns the same action.
- * It is meant as an example of how a pokerbot should communicate with the
- * engine.
+ * QBOT GG
  * 
  */
 public class Player {
 	
 	private final PrintWriter outStream;
 	private final BufferedReader inStream;
+	private final Random rand = new Random();
 	
-	final boolean debug=false;
+	final boolean debug=true;
 	//whether to print out debug output
 	
 	public Player(PrintWriter output, BufferedReader input) {
@@ -38,6 +34,8 @@ public class Player {
 		int potsize=0;
 		
 		Hand hand = null;
+		Hand board = null;
+		Hand combined = null;
 		
 		try {
 			// Block until engine sends us a packet; read it into input.
@@ -59,22 +57,32 @@ public class Player {
 					//tokens[1] is hand id
 					seatNo = Integer.parseInt(tokens[2]);
 					hand = new Hand();
+					board = new Hand();
+					combined = new Hand();
 					hand.addCard(tokens[3]);
 					hand.addCard(tokens[4]);
+					
+					combined.addCard(tokens[3]);
+					combined.addCard(tokens[4]);
 					
 					stacks[0] = Integer.parseInt(tokens[5]);
 					stacks[1] = Integer.parseInt(tokens[6]);
 					stacks[2] = Integer.parseInt(tokens[7]);
 					//tokens[8,9,10] are player names
-					//token[11] is the number of active players
-					//token[12,13,14] are the booleans of whether players in seats 1,2,3 are active
+					//tokens[11] is the number of active players
+					//tokens[12,13,14] are the booleans of whether players in seats 1,2,3 are active
 					timeBank = Double.parseDouble(tokens[15]);
-				
+					
+					System.out.println("");
+					System.out.println("-------------------------------------------------");
+					
 				} else if ("GETACTION".compareToIgnoreCase(packetType) == 0) {
 					potsize = Integer.parseInt(tokens[1]);
 					int numBoardCards = Integer.parseInt(tokens[2]);
-					for (int i=hand.size(); i<numBoardCards+2; i++) {
-						hand.addCard(tokens[hand.size()+1]);
+					for (int i=board.size(); i<numBoardCards; i++) {
+						Card newCard = new Card(tokens[board.size()+3]);
+						board.addCard(newCard);
+						combined.addCard(newCard);
 					}
 					
 					int base1 = 3+numBoardCards;
@@ -92,9 +100,9 @@ public class Player {
 					//do stuff with the actions
 					
 					int numLegalActions = Integer.parseInt(tokens[base2+numLastActions]);
-					int base3 = numLegalActions+1;
+					int base3 = base2+numLastActions+1;
 					//points to the first token after numLegalActions, which should be the first legal action.
-					boolean canCheck = true; //whether there is a current bet
+					boolean canCheck = false; //whether there is a current bet
 					//to be used if checking is allowed
 					int minBet=0;
 					int maxBet=0;
@@ -103,6 +111,8 @@ public class Player {
 					int minRaise=0;
 					int maxRaise=0;
 					
+					System.out.println("");
+					
 					for (int i=base3; i<base3+numLegalActions; i++) {
 						String legalAction = tokens[i];
 						String[] actionTokens = legalAction.split(":");
@@ -110,52 +120,102 @@ public class Player {
 							minBet = Integer.parseInt(actionTokens[1]);
 							maxBet = Integer.parseInt(actionTokens[2]);
 						} else if ("CALL".equalsIgnoreCase(actionTokens[0])) {
-							canCheck = false;
-							
+							toCall = Integer.parseInt(actionTokens[1]);
 						} else if ("RAISE".equalsIgnoreCase(actionTokens[0])) {
-							canCheck = false;
 							minRaise = Integer.parseInt(actionTokens[1]);
 							maxRaise = Integer.parseInt(actionTokens[2]);
+						} else if ("CHECK".equalsIgnoreCase(actionTokens[0])) {
+							canCheck = true;
 						}
+					}
+					
+					if (debug) {
+						System.out.println("My hand: "+hand.toString());
+						System.out.println("Board: "+board.toString());
+						System.out.println("Combined:"+combined.toString());
+						System.out.println("Stacks: "+Arrays.toString(stacks)+" (I have "+stacks[seatNo-1]+")");
+						if (canCheck) {
+							System.out.println("I can check.");
+						} else {
+							System.out.println("I cannot check.");
+						}
+						System.out.println("I can bet "+minBet+" to "+maxBet);
+						System.out.println("I can call with "+toCall);
+						System.out.println("I can raise from "+minRaise+" to "+maxRaise);
+					} else {
+						System.out.println("My hand is: "+hand);
+						System.out.println("Board: "+board.toString());
 					}
 					
 					String output;
 					
-					//status report
 					
 					
-					if (hand.size() >= 5) {
-					
+					if (combined.size() == 2) {
+					//evaluate starting hand
+						double strength = StartingHands.getStrength(hand);
+						double variance = rand.nextGaussian()*strength/30;
+						System.out.println("My starting hand strength is "+strength);
+						System.out.println("This round's variance is "+variance);
+						
 						if (canCheck) {
-							if (hand.evaluateHand() > 21200000) {
-								output = "BET:"+maxBet;
+							if (strength > 0.43+variance) {
+								//premium hand
+								if (maxBet > 0) {
+									output = "BET:"+maxBet;
+								} else if (maxRaise > 0) {
+									output = "RAISE:"+maxRaise;
+								} else {
+									output = "CHECK";
+								}
+							} else if (strength > 0.38+variance) {
+								//good hand
+								if (maxBet > 0) {
+									output = "BET:"+maxBet/2;
+								} else if (maxRaise > 0) {
+									output = "RAISE:"+maxRaise/2;
+								} else {
+									output = "CHECK";
+								}
 							} else {
-								output = "FOLD";
+								output = "CHECK";
 							}
 						} else {
-							//can't check :(
-							if (hand.evaluateHand() > 30000000) {
-								//raise
+							if (strength > 0.47+variance && maxRaise > 0) {
+								//raise that ho
 								output = "RAISE:"+maxRaise;
-							} else if (hand.evaluateHand() > 21200000) {
+							} else if (strength > 0.4+variance) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";
 							}
 						}
 					} else {
+						int handStrength = combined.evaluateHand();
 						if (canCheck) {
-							output = "CHECK";
+							if (handStrength > 21200000 && maxBet > 0) {
+								output = "BET:"+maxBet;
+							} else {
+								output = "CHECK";
+							}
 						} else {
-							output = "CALL:"+toCall;
+							//can't check :(
+							if (handStrength > 30000000) {
+								//raise
+								if (maxRaise > 0) {
+									output = "RAISE:"+maxRaise;
+								} else {
+									output = "CALL:"+toCall;
+								}
+							} else if (handStrength > 21200000) {
+								output = "CALL:"+toCall;
+							} else {
+								output = "FOLD";
+							}
 						}
 					}
 					
-					if (!debug) {
-						System.out.println("My hand: "+hand.toString());
-						System.out.println("Stacks: "+Arrays.toString(stacks)+" (I have "+stacks[seatNo-1]+")");
-						System.out.println("My action is: "+output);
-					}
+					System.out.println("My action is: "+output);
 					
 					outStream.println(output);
 					

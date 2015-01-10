@@ -1,0 +1,523 @@
+6.176 MIT Pokerbots - P3 vs QBOT vs P2 (stack=200, bb=2)
+Hand #1, P3 (200), QBOT (200), P2 (200)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [9s 8h]
+Dealt to QBOT [4s Th]
+Dealt to P2 [Ad Kd]
+P3 folds
+QBOT folds
+P2 wins the pot (3)
+
+Hand #2, P2 (201), P3 (200), QBOT (199)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Jh Ks]
+Dealt to P3 [4d 3s]
+Dealt to QBOT [7c 6h]
+P2 calls 2
+P3 folds
+QBOT checks
+*** FLOP *** (5) [3h 2c Kc]
+QBOT checks
+P2 checks
+*** TURN *** (5) [3h 2c Kc] [8h]
+QBOT checks
+P2 checks
+*** RIVER *** (5) [3h 2c Kc 8h] [8c]
+QBOT checks
+P2 checks
+P2 shows [Jh Ks]
+QBOT shows [7c 6h]
+P2 wins the pot (5)
+
+Hand #3, QBOT (197), P2 (204), P3 (199)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5d 3c]
+Dealt to P2 [2h As]
+Dealt to P3 [4d 6d]
+QBOT folds
+P2 raises to 5
+P3 folds
+P2 wins the pot (7)
+
+Hand #4, P3 (197), QBOT (197), P2 (206)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [6c 4s]
+Dealt to QBOT [9c Kh]
+Dealt to P2 [Qd Td]
+P3 calls 2
+QBOT calls 2
+P2 raises to 7
+P3 raises to 17
+QBOT calls 17
+P2 folds
+*** FLOP *** (41) [Ts Qc 7c]
+QBOT checks
+P3 checks
+*** TURN *** (41) [Ts Qc 7c] [6d]
+QBOT checks
+P3 bets 37
+QBOT folds
+P3 wins the pot (78)
+
+Hand #5, P2 (199), P3 (221), QBOT (180)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [2c As]
+Dealt to P3 [Kh Kc]
+Dealt to QBOT [5c 6d]
+P2 calls 2
+P3 calls 2
+QBOT checks
+*** FLOP *** (6) [Ac 8s 9s]
+P3 checks
+QBOT checks
+P2 checks
+*** TURN *** (6) [Ac 8s 9s] [8h]
+P3 bets 5
+QBOT folds
+P2 calls 5
+*** RIVER *** (16) [Ac 8s 9s 8h] [7c]
+P3 bets 15
+P2 folds
+P3 wins the pot (31)
+
+Hand #6, QBOT (178), P2 (192), P3 (230)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5d 7h]
+Dealt to P2 [Ad As]
+Dealt to P3 [5h 8h]
+QBOT folds
+P2 calls 2
+P3 raises to 5
+P2 raises to 10
+P3 raises to 20
+P2 folds
+P3 wins the pot (30)
+
+Hand #7, P3 (240), QBOT (178), P2 (182)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [7d Td]
+Dealt to QBOT [2s 4h]
+Dealt to P2 [8c Ts]
+P3 raises to 4
+QBOT folds
+P2 calls 4
+*** FLOP *** (9) [6s 8s 2h]
+P2 checks
+P3 bets 7
+P2 calls 7
+*** TURN *** (23) [6s 8s 2h] [7h]
+P2 bets 5
+P3 calls 5
+*** RIVER *** (33) [6s 8s 2h 7h] [Kc]
+P2 bets 32
+P3 folds
+P2 wins the pot (65)
+
+Hand #8, P2 (199), P3 (224), QBOT (177)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [2c 3d]
+Dealt to P3 [Jh 6s]
+Dealt to QBOT [4h 3h]
+P2 folds
+P3 folds
+QBOT wins the pot (3)
+
+Hand #9, QBOT (178), P2 (199), P3 (223)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [As Js]
+Dealt to P2 [2d 6h]
+Dealt to P3 [Jd Qh]
+QBOT raises to 7
+P2 folds
+P3 folds
+QBOT wins the pot (10)
+
+Hand #10, P3 (221), QBOT (181), P2 (198)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [5c 4c]
+Dealt to QBOT [Jd 3d]
+Dealt to P2 [Td 5h]
+P3 raises to 4
+QBOT folds
+P2 folds
+P3 wins the pot (7)
+
+Hand #11, P2 (196), P3 (224), QBOT (180)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [8d 4s]
+Dealt to P3 [Qc 7h]
+Dealt to QBOT [4h 4c]
+P2 raises to 6
+P3 raises to 10
+QBOT folds
+P2 raises to 28
+P3 folds
+P2 wins the pot (40)
+
+Hand #12, QBOT (178), P2 (208), P3 (214)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [9d 4h]
+Dealt to P2 [Ts As]
+Dealt to P3 [9c Jh]
+QBOT folds
+P2 raises to 5
+P3 folds
+P2 wins the pot (7)
+
+Hand #13, P3 (212), QBOT (178), P2 (210)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [7h 9c]
+Dealt to QBOT [Kd 3d]
+Dealt to P2 [9s Js]
+P3 raises to 6
+QBOT folds
+P2 folds
+P3 wins the pot (9)
+
+Hand #14, P2 (208), P3 (215), QBOT (177)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Jc Kh]
+Dealt to P3 [2d Js]
+Dealt to QBOT [7d 7c]
+P2 raises to 5
+P3 calls 5
+QBOT raises to 20
+P2 raises to 53
+P3 raises to 109
+QBOT calls 109
+P2 calls 109
+*** FLOP *** (327) [Qd Qs 7h]
+P3 checks
+QBOT bets 68
+P2 calls 68
+P3 calls 68
+*** TURN *** (0) [Qd Qs 7h] [Ts]
+P3 bets 15
+P2 raises to 30
+P3 raises to 31
+P2 folds
+*** RIVER *** (61) [Qd Qs 7h Ts] [6h]
+P3 shows [2d Js]
+QBOT shows [7d 7c]
+QBOT wins the pot (531)
+P3 wins the pot (61)
+
+Hand #15, QBOT (531), P2 (1), P3 (68)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Jd 8s]
+Dealt to P2 [9s Td]
+Dealt to P3 [Qs Ks]
+QBOT folds
+Uncalled bet of 1 returned to P3
+*** FLOP *** (2) [Ah 7d 3h]
+*** TURN *** (2) [Ah 7d 3h] [5d]
+*** RIVER *** (2) [Ah 7d 3h 5d] [6s]
+P2 shows [9s Td]
+P3 shows [Qs Ks]
+P3 wins the pot (2)
+
+Hand #16, P3 (69), QBOT (531), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P3 [7s 8d]
+Dealt to QBOT [2d Jd]
+Dealt to P2 [9s Ad]
+P3 folds
+QBOT wins the pot (3)
+
+Hand #17, QBOT (532), P3 (68), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P2 [7c Ad]
+Dealt to P3 [Qh Jc]
+Dealt to QBOT [9h Jd]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #18, P3 (69), QBOT (531), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [5h 4s]
+Dealt to P2 [As Ad]
+Dealt to P3 [Kh 2d]
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [Th 2h Jd]
+QBOT checks
+P3 bets 3
+QBOT folds
+P3 wins the pot (7)
+
+Hand #19, QBOT (529), P3 (71), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P3 [Td Kd]
+Dealt to QBOT [Ts 8s]
+Dealt to P2 [2c Qd]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #20, P3 (72), QBOT (528), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Qs 4d]
+Dealt to P3 [5c 7s]
+Dealt to QBOT [7d Jc]
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [3c 4h 9s]
+QBOT checks
+P3 checks
+*** TURN *** (4) [3c 4h 9s] [9h]
+QBOT checks
+P3 bets 2
+QBOT folds
+P3 wins the pot (6)
+
+Hand #21, QBOT (526), P3 (74), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5d Tc]
+Dealt to P2 [3h 7c]
+Dealt to P3 [6s 9c]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #22, P3 (75), QBOT (525), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P3 [Js Qd]
+Dealt to QBOT [6d 3h]
+Dealt to P2 [Ts Ac]
+P3 raises to 5
+QBOT folds
+P3 wins the pot (7)
+
+Hand #23, QBOT (523), P3 (77), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P2 [5h 5d]
+Dealt to P3 [9c Ac]
+Dealt to QBOT [3c 7d]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #24, P3 (78), QBOT (522), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Js Kd]
+Dealt to P2 [3d 7d]
+Dealt to P3 [Ad 9s]
+P3 folds
+QBOT wins the pot (3)
+
+Hand #25, QBOT (523), P3 (77), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P3 [Ad 8s]
+Dealt to QBOT [4c 3s]
+Dealt to P2 [3d Jc]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #26, P3 (78), QBOT (522), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [9h Jh]
+Dealt to P3 [3h 4h]
+Dealt to QBOT [Kd Qd]
+P3 calls 2
+QBOT raises to 6
+P3 calls 6
+*** FLOP *** (12) [8h Jc Jd]
+QBOT checks
+P3 bets 2
+QBOT folds
+P3 wins the pot (14)
+
+Hand #27, QBOT (516), P3 (84), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5d 6c]
+Dealt to P2 [7h 4d]
+Dealt to P3 [3d 2d]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #28, P3 (85), QBOT (515), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P3 [2d 3s]
+Dealt to QBOT [8s 7h]
+Dealt to P2 [Jc Qc]
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [Qh 3h 7s]
+QBOT checks
+P3 checks
+*** TURN *** (4) [Qh 3h 7s] [Jd]
+QBOT checks
+P3 checks
+*** RIVER *** (4) [Qh 3h 7s Jd] [Kh]
+QBOT checks
+P3 bets 3
+QBOT folds
+P3 wins the pot (7)
+
+Hand #29, QBOT (513), P3 (87), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P2 [7h 4s]
+Dealt to P3 [Ks 5s]
+Dealt to QBOT [8c 6s]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #30, P3 (88), QBOT (512), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Jc 5s]
+Dealt to P2 [Jd 2s]
+Dealt to P3 [8d Kh]
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [7d Qc Qd]
+QBOT bets 4
+P3 folds
+QBOT wins the pot (8)
+
+Hand #31, QBOT (514), P3 (86), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P3 [Js 7c]
+Dealt to QBOT [8d Jc]
+Dealt to P2 [7h 9h]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #32, P3 (87), QBOT (513), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [9h Qh]
+Dealt to P3 [Qs 7h]
+Dealt to QBOT [2s Kc]
+P3 folds
+QBOT wins the pot (3)
+
+Hand #33, QBOT (514), P3 (86), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [2h 7s]
+Dealt to P2 [5s 8h]
+Dealt to P3 [6s 5d]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #34, P3 (87), QBOT (513), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P3 [9h Qc]
+Dealt to QBOT [5h 6c]
+Dealt to P2 [Th Jd]
+P3 folds
+QBOT wins the pot (3)
+
+Hand #35, QBOT (514), P3 (86), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P2 [6h Jc]
+Dealt to P3 [2s Tc]
+Dealt to QBOT [3s 7h]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #36, P3 (87), QBOT (513), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [6h Th]
+Dealt to P2 [5c 9h]
+Dealt to P3 [4c 6d]
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [9d 3s 2c]
+QBOT checks
+P3 bets 3
+QBOT folds
+P3 wins the pot (7)
+
+Hand #37, QBOT (511), P3 (89), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P3 [2d 5h]
+Dealt to QBOT [Td Ts]
+Dealt to P2 [5s Qh]
+QBOT raises to 6
+P3 calls 6
+*** FLOP *** (12) [8d Ah Kd]
+P3 bets 8
+QBOT folds
+P3 wins the pot (20)
+
+Hand #38, P3 (95), QBOT (505), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [As Jc]
+Dealt to P3 [Jd Jh]
+Dealt to QBOT [6d 7h]
+P3 folds
+QBOT wins the pot (3)
+
+Hand #39, QBOT (506), P3 (94), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [2s 8s]
+Dealt to P2 [2h Ks]
+Dealt to P3 [8c 6d]
+QBOT folds
+P3 wins the pot (3)
+
+Hand #40, P3 (95), QBOT (505), P2 (0)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P3 [Tc 3h]
+Dealt to QBOT [9h 8s]
+Dealt to P2 [3d 4s]
+P3 raises to 5
+QBOT folds
+P3 wins the pot (7)
+
+Hand #41, QBOT (503), P3 (97), P2 (0)
+QBOT posts the blind of 1
+P3 posts the blind of 2
+Dealt to P2 [Ah 7d]
+Dealt to P3 [6c 8s]
+Dealt to QBOT [9c 9d]
+QBOT raises to 6
+P3 calls 6
+*** FLOP *** (12) [6d 9s 5h]
+P3 checks
+QBOT bets 12
+P3 raises to 45
+QBOT raises to 91
+P3 calls 91
+*** TURN *** (194) [6d 9s 5h] [Kd]
+*** RIVER *** (194) [6d 9s 5h Kd] [2c]
+P3 shows [6c 8s]
+QBOT shows [9c 9d]
+QBOT wins the pot (194)
+
