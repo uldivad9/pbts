@@ -1,4 +1,4 @@
-package pokerbots.q;
+package pokerbots.fangbot;
 
 import java.io.*;
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.*;
 import pokerbots.*;
 
 /**
- * QBOT GG
+ * FANG GG
  * 
  */
 public class Player {
@@ -15,7 +15,7 @@ public class Player {
 	private final BufferedReader inStream;
 	private final Random rand = new Random();
 	
-	final boolean debug=true;
+	final boolean debug=false;
 	//whether to print out debug output
 	
 	public Player(PrintWriter output, BufferedReader input) {
@@ -43,7 +43,6 @@ public class Player {
 
 				// Here is where you should implement code to parse the packets
 				// from the engine and act on it.
-				if (debug) System.out.println("");
 				if (debug) System.out.println(input);
 				
 				String[] tokens = input.split(" ");
@@ -116,6 +115,8 @@ public class Player {
 					int minRaise=0;
 					int maxRaise=0;
 					
+					if (debug) System.out.println("");
+					
 					for (int i=base3; i<base3+numLegalActions; i++) {
 						String legalAction = tokens[i];
 						String[] actionTokens = legalAction.split(":");
@@ -138,7 +139,6 @@ public class Player {
 						System.out.println("Board: "+board.toString());
 						System.out.println("Combined:"+combined.toString());
 						System.out.println("Stacks: "+Arrays.toString(stacks)+" (I have "+stacks[seatNo-1]+")");
-						System.out.println("Pot size: "+potsize);
 						if (canCheck) {
 							System.out.println("I can check.");
 						} else {
@@ -159,7 +159,7 @@ public class Player {
 					if (combined.size() == 2) {
 					//evaluate starting hand
 						double strength = StartingHands.getStrength(hand);
-						double variance = rand.nextGaussian()*(1-strength)/30;
+						double variance = rand.nextGaussian()*strength/30;
 						if (debug) {
 							System.out.println("My starting hand strength is "+strength);
 							System.out.println("This round's variance is "+variance);
@@ -200,78 +200,161 @@ public class Player {
 					} else {
 						//flop is out.
 						int handStrength = combined.evaluateHand();
-						double relativeStrength = AfterFlop.getRelativeStrength(hand,board);
-						double variance = rand.nextGaussian()*(1-relativeStrength)/20;
-						System.out.println("My hand strength: "+handStrength);
-						System.out.println("Relative strength: "+relativeStrength);
-						System.out.println("This round's variance is: "+ variance);
-						/*
-						if (combined.size() < 7) {
-							double[] outStrength = Outs.getOuts(hand,board);
-							System.out.println("My chances for outs are: " + Arrays.toString(outStrength));
-						}*/
+						Hand extendedBoard = new Hand();
+						for (Card c : board.getCards()) {
+							extendedBoard.addCard(c);
+						}
+						if (board.size() == 3) {
+							extendedBoard.addCard(new Card(Suit.NONE,0));
+							extendedBoard.addCard(new Card(Suit.NONE,1));
+						} else if (board.size() == 4) {
+							extendedBoard.addCard(new Card(Suit.NONE,0));
+						}
+						int boardStrength = extendedBoard.evaluateHand();
+						
+						if (debug) {
+							System.out.println("My combined hand strength is: "+handStrength);
+							System.out.println("The board strength is: "+boardStrength);
+						}
 						
 						if (canCheck) {
 							if (maxBet == 0) {
 								output = "CHECK";
 							} else {
-								if (relativeStrength > 0.9) {
-									if (debug) System.out.println("Uber hand; betting max");
+								if (handStrength >= 50000000) {
+									if (debug) System.out.println("Uber hand, betting max.");
 									int base = maxBet*9/10;
-									int spread = Math.max(maxBet-base,1);
-									int betAmount = Math.min(Math.max(base+rand.nextInt(spread),minBet),maxBet);
-									output = "BET:"+betAmount;
-								} else if (relativeStrength > 0.7+variance) {
-									if (debug) System.out.println("Strong hand; betting high");
-									int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(relativeStrength+variance)),minBet),maxBet);
-									output = "BET:"+betAmount;
+									int variance = Math.max(maxBet-base,1);
+									output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
+								} else if (handStrength >= 40000000) {
+									if (boardStrength < 40000000) {
+										if (debug) System.out.println("Set, betting almost max.");
+										int base = maxBet*8/10;
+										int variance = Math.max(maxBet-base,1);
+										output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
+									} else {
+										output = "CHECK";
+									}
+								} else if (handStrength >= 30000000) {
+									if (boardStrength < 20000000) {
+										if (debug) System.out.println("Two of a kind, betting very high.");
+										int base = maxBet*7/10;
+										int variance = Math.max(maxBet-base,1);
+										output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
+									} else {
+										if ((handStrength%10000000)/100000>(boardStrength%10000000)/100000) {
+											if (debug) System.out.println("Two of a kind (with highest), betting high.");
+											int base = maxBet*3/5;
+											int variance = Math.max(maxBet*4/5-base,1);
+											output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
+										} else {
+											if (debug) System.out.println("Two of a kind (one on board), betting medium.");
+											int base = maxBet*2/5;
+											int variance = Math.max(maxBet*3/5-base,1);
+											output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
+										}
+									}
+								} else if (handStrength >= 21000000) {
+									if (handStrength/100000 > boardStrength/100000) {
+										if (debug) System.out.println("10+ pair, betting medium-low.");
+										int base = maxBet*3/10;
+										int variance = Math.max(maxBet*4/10-base,1);
+										output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
+									} else {
+										output = "CHECK";
+									}
 								} else {
 									output = "CHECK";
 								}
 							}
 						} else {
-							//can't check.
-							if (relativeStrength > 0.95) {
-								if (debug) System.out.println("Uber hand; raising max");
+							if (handStrength >= 50000000) {
+								if (debug) System.out.println("Uber hand, raising max.");
 								if (maxRaise > 0) {
-									int base = maxRaise*9/10;
-									int spread = Math.max(maxRaise-base,1);
-									int raiseAmount = Math.min(Math.max(base+rand.nextInt(spread),minRaise),maxRaise);
-									output = "RAISE:"+raiseAmount;
+									int base = maxRaise*8/10;
+									int variance = Math.max(maxRaise-base,1);
+									output = "RAISE:"+Math.max(minRaise,base+rand.nextInt(variance));
 								} else {
 									output = "CALL:"+toCall;
 								}
-							} else if (relativeStrength > 0.8+variance) {
-								//consider raising.
-								int raiseAmount = (int)(potsize*(relativeStrength-variance)/1.5);
-								if (raiseAmount > minRaise && maxRaise > 0) {
-									if (debug) System.out.println("Strong hand; raising high");
-									output = "RAISE:"+Math.min(raiseAmount,maxRaise);
-								} else {
-									int callAmount = (int)(potsize*(relativeStrength-variance));
-									if (toCall < callAmount) {
-										if (debug) System.out.println("Strong hand; calling");
-										output = "CALL:"+toCall;
+							} else if (handStrength >= 40000000) {
+								if (boardStrength < 40000000) {
+									if (maxRaise > 0) {
+										if (debug) System.out.println("Set, raising almost max.");
+										int base = maxRaise*6/10;
+										int variance = Math.max(maxRaise-base,1);
+										output = "RAISE:"+Math.max(minRaise,base+rand.nextInt(variance));
 									} else {
-										if (debug) System.out.println("Strong hand; folding");
-										output = "FOLD";
+										output = "CALL:"+toCall;
+									}
+								} else {
+									output = "FOLD";
+								}
+							} else if (handStrength >= 30000000) {
+								if (boardStrength < 20000000) {
+									if (maxRaise > 0) {
+										if (debug) System.out.println("Two of a kind, raising medium.");
+										int base = maxRaise*4/10;
+										int variance = Math.max(maxRaise*6/10-base,1);
+										output = "RAISE:"+Math.max(minRaise,base+rand.nextInt(variance));
+									} else {
+										output = "CALL:"+toCall;
+									}
+								} else {
+									if ((handStrength%10000000)/100000>(boardStrength%10000000)/100000) {
+										if (debug) System.out.println("Two of a kind (with highest), probably calling.");
+										if (10*toCall <= 7*potsize) {
+											output = "CALL:"+toCall;
+										} else {
+											output = "FOLD";
+										}
+									} else {
+										if (debug) System.out.println("Two of a kind (one on board), maybe calling.");
+										if (10*toCall <= 5*potsize) {
+											output = "CALL:"+toCall;
+										} else {
+											output = "FOLD";
+										}
 									}
 								}
-							} else if (relativeStrength > 0.65+variance) {
-								//call for small bets.
-								int callAmount = (int)(potsize*(relativeStrength-variance)/1.5);
-								if (toCall < callAmount) {
-									if (debug) System.out.println("Decent hand; calling");
-									output = "CALL:"+toCall;
+							} else if (handStrength >= 21000000) {
+								if (handStrength/100000 > boardStrength/100000) {
+									if (debug) System.out.println("10+ pair, will consider calling.");
+									if (10*toCall <= 4*potsize) {
+										output = "CALL:"+toCall;
+									} else {
+										output = "FOLD";
+									}
 								} else {
-									if (debug) System.out.println("Decent hand; folding");
 									output = "FOLD";
 								}
 							} else {
-								if (debug) System.out.println("Weak hand; folding");
 								output = "FOLD";
 							}
 						}
+						
+						/*
+						if (canCheck) {
+							if (handStrength > 21200000 && maxBet > 0) {
+								output = "BET:"+maxBet;
+							} else {
+								output = "CHECK";
+							}
+						} else {
+							//can't check :(
+							if (handStrength > 30000000) {
+								//raise
+								if (maxRaise > 0) {
+									output = "RAISE:"+maxRaise;
+								} else {
+									output = "CALL:"+toCall;
+								}
+							} else if (handStrength > 21200000) {
+								output = "CALL:"+toCall;
+							} else {
+								output = "FOLD";
+							}
+						}*/
 					}
 					
 					if (debug) {
@@ -284,10 +367,7 @@ public class Player {
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
-					outStream.println("PUT hello goodbye");
 					outStream.println("FINISH");
-				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
-					System.out.println("I GOT A KEY VALUE!");
 				}
 			}
 		} catch (IOException e) {

@@ -2,6 +2,7 @@ package pokerbots;
 
 import pokerbots.*;
 
+import java.util.*;
 /*
 For reference:
 x0000000:
@@ -23,6 +24,18 @@ kicker strengths
 public class Tester {
 	public static void main (String args[]) {
 		Hand hand = null;
+		Hand board = new Hand("Kh Jd Ts");
+		
+		hand = new Hand("7h 8h");
+		board = new Hand("6h 9h Qd");
+		
+		long startTime = System.currentTimeMillis();
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		System.out.println(Arrays.toString(Outs.getOuts(hand,board)));
+		System.out.println(Arrays.toString(Outs.getOuts(hand,board)));
+		long endTime = System.currentTimeMillis();
+		System.out.println(endTime-startTime);
+		
 		/*
 		hand = new Hand("Ks 7s Kc Kd Kh Qs Ad");
 		System.out.println(hand.evaluateHand());
@@ -56,9 +69,31 @@ public class Tester {
 		System.out.println(hand.evaluateHand());
 		hand = new Hand("2h 3s 6d 9d Tc Js Kd");
 		System.out.println(hand.evaluateHand());
-		*/
-		
 		hand = new Hand("4s 3c 2d 1n 0n");
 		System.out.println(hand.evaluateHand());
+		*/
+		
+		/*
+		hand = new Hand("Ad 5s");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("Ad Qs");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("2h 3h");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("Ad 5s");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("7d 7s");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("Qs 9s");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("Kd 4s");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("Jh 4s");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("Td 4s");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		hand = new Hand("Jh Th");
+		System.out.println(AfterFlop.getRelativeStrength(hand,board));
+		*/
 	}
 }

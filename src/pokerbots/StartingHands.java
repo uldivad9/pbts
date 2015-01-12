@@ -1,7 +1,6 @@
 package pokerbots;
 
 import java.util.*;
-import java.io.*;
 
 import pokerbots.*;
 
