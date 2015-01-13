@@ -206,11 +206,6 @@ public class Player {
 						System.out.println("My hand strength: "+handStrength);
 						System.out.println("Relative strength: "+relativeStrength);
 						System.out.println("This round's variance is: "+ variance);
-						/*
-						if (combined.size() < 7) {
-							double[] outStrength = Outs.getOuts(hand,board);
-							System.out.println("My chances for outs are: " + Arrays.toString(outStrength));
-						}*/
 						
 						if (canCheck) {
 							if (maxBet == 0) {
