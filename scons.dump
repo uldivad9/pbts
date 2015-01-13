@@ -8,5 +8,8 @@ scons: Building targets ...
 
 scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
 File "C:\Program Files (x86)\python27\Scripts\scons.py", line 199, in <module>
-scons: `src\pokerbots\q' is up to date.
+javac -d classes -sourcepath src src\pokerbots\AfterFlop.java src\pokerbots\Card.java src\pokerbots\Hand.java src\pokerbots\Outs.java src\pokerbots\StartingHands.java src\pokerbots\Suit.java src\pokerbots\Tester.java src\pokerbots\fangbot\Main.java src\pokerbots\fangbot\Player.java src\pokerbots\q\Main.java src\pokerbots\q\Player.java src\pokerbots\stats\StatUtil.java src\pokerbots\stats\Stats.java
+Note: src\pokerbots\stats\StatUtil.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+jar cfm src\pokerbots\q\pokerbot.jar Manifest_q.txt -C classes .
 scons: done building targets.

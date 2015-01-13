@@ -76,12 +76,12 @@ public class Outs {
 		return output;
 	}
 	
-	public static double[] getOuts (Hand hand, Hand board, double threshold) {
+	public static double getOuts (Hand hand, Hand board, double threshold) {
 		int outs = 0;
 		
 		if (hand.size() != 2 || board.size() < 3) {
 			System.out.println("TRYING TO USE getRelativeStrength FOR WRONG HAND/BOARD SIZE!");
-			return output;
+			return 0.0;
 		}
 		
 		shuffle();

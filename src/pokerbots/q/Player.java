@@ -197,6 +197,7 @@ public class Player {
 								output = "FOLD";
 							}
 						}
+						//end of pre-flop strategy
 					} else {
 						//flop is out.
 						int handStrength = combined.evaluateHand();
@@ -272,7 +273,23 @@ public class Player {
 								output = "FOLD";
 							}
 						}
+						
+						if ("FOLD".equals(output) && combined.size() < 7) {
+							//check outs!
+							//arbitrary threshold.... 0.8!
+							double[] outStrength = Outs.getOuts(hand,board);
+							if(debug) System.out.println("My chances for outs are: " + Arrays.toString(outStrength));
+							
+							if (toCall <= outStrength[2]*potsize*0.8 || toCall <= outStrength[3]*potsize*0.9 || toCall <= outStrength[4]*potsize) {
+								//call dis bitch
+								System.out.println("Drawing hand; calling");
+								output = "CALL:"+toCall;
+							}
+						}
+						//end of after-flop strategy
 					}
+					//end of strategy
+					
 					
 					if (debug) {
 						System.out.println(toCall + " to call");
@@ -284,7 +301,7 @@ public class Player {
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
-					outStream.println("PUT hello goodbye");
+					outStream.println("CLEAR");
 					outStream.println("FINISH");
 				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
 					System.out.println("I GOT A KEY VALUE!");

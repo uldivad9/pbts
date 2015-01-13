@@ -1,0 +1,1527 @@
+6.176 MIT Pokerbots - QBOT vs P2 vs P3 (stack=2000, bb=2)
+Hand #1, QBOT (2000), P2 (2000), P3 (2000)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Qc Qh]
+Dealt to P2 [4s Ks]
+Dealt to P3 [Ad Qd]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [Js 7d 7c]
+P2 checks
+P3 bets 3
+P2 raises to 10
+P3 folds
+P2 wins the pot (17)
+
+Hand #2, P3 (1995), QBOT (2000), P2 (2005)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [3d 6c]
+Dealt to QBOT [9c 7c]
+Dealt to P2 [3h 3c]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 checks
+*** FLOP *** (5) [2c 5c 6s]
+P2 bets 4
+P3 calls 4
+*** TURN *** (13) [2c 5c 6s] [6d]
+P2 checks
+P3 checks
+*** RIVER *** (13) [2c 5c 6s 6d] [8s]
+P2 checks
+P3 checks
+P3 shows [3d 6c]
+P2 shows [3h 3c]
+P3 wins the pot (13)
+
+Hand #3, P2 (1999), P3 (2002), QBOT (1999)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [7d 4c]
+Dealt to P3 [As 5d]
+Dealt to QBOT [4h Kd]
+P2 folds
+P3 folds
+QBOT wins the pot (3)
+
+Hand #4, QBOT (2000), P2 (1999), P3 (2001)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Ts Qd]
+Dealt to P2 [4h 8h]
+Dealt to P3 [Kd Tc]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 raises to 9
+P2 raises to 22
+P3 folds
+P2 wins the pot (31)
+
+Hand #5, P3 (1992), QBOT (2000), P2 (2008)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Qc 6s]
+Dealt to QBOT [6h Ts]
+Dealt to P2 [5d 3s]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #6, P2 (2009), P3 (1992), QBOT (1999)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Ad 6h]
+Dealt to P3 [9s Qd]
+Dealt to QBOT [Ah 6d]
+P2 folds
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #7, QBOT (1997), P2 (2009), P3 (1994)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Ts 7s]
+Dealt to P2 [8c 4d]
+Dealt to P3 [8d Qd]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 calls 5
+*** FLOP *** (10) [Qh 2h 3c]
+P2 checks
+P3 bets 9
+P2 calls 9
+*** TURN *** (28) [Qh 2h 3c] [Jd]
+P2 bets 25
+P3 raises to 97
+P2 raises to 225
+P3 calls 225
+*** RIVER *** (478) [Qh 2h 3c Jd] [4h]
+P2 checks
+P3 checks
+P2 shows [8c 4d]
+P3 shows [8d Qd]
+P3 wins the pot (478)
+
+Hand #8, P3 (2233), QBOT (1997), P2 (1770)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [5s Qh]
+Dealt to QBOT [Kc 3d]
+Dealt to P2 [Kd 2d]
+P3 raises to 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 10
+P3 raises to 19
+P2 calls 19
+*** FLOP *** (39) [9d 3s 3h]
+P2 checks
+P3 bets 25
+P2 folds
+P3 wins the pot (64)
+
+Hand #9, P2 (1751), P3 (2253), QBOT (1996)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [4c Ts]
+Dealt to P3 [Kd 6d]
+Dealt to QBOT [9s Kc]
+P2 folds
+P3 folds
+QBOT wins the pot (3)
+
+Hand #10, QBOT (1997), P2 (1751), P3 (2252)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Th 7h]
+Dealt to P2 [8d As]
+Dealt to P3 [Qd 9s]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #11, P3 (2253), QBOT (1997), P2 (1750)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Jh Ac]
+Dealt to QBOT [7s Qh]
+Dealt to P2 [2c Ks]
+P3 raises to 6
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (9)
+
+Hand #12, P2 (1748), P3 (2256), QBOT (1996)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [3h Jd]
+Dealt to P3 [3s Qc]
+Dealt to QBOT [Tc Ah]
+P2 calls 2
+P3 raises to 7
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (11)
+
+Hand #13, QBOT (1994), P2 (1746), P3 (2260)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [8s Jd]
+Dealt to P2 [2h Kh]
+Dealt to P3 [Kc 3d]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #14, P3 (2261), QBOT (1994), P2 (1745)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [8h Kh]
+Dealt to QBOT [6s As]
+Dealt to P2 [4h Jc]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #15, P2 (1746), P3 (2261), QBOT (1993)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [6c Qs]
+Dealt to P3 [Jd 5d]
+Dealt to QBOT [4d Jc]
+P2 calls 2
+P3 folds
+QBOT checks
+*** FLOP *** (5) [8s 8c Kd]
+QBOT checks
+P2 bets 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (7)
+
+Hand #16, QBOT (1991), P2 (1749), P3 (2260)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [9h 6c]
+Dealt to P2 [5s Ac]
+Dealt to P3 [8h Jc]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [2h 5h 9d]
+P2 checks
+P3 checks
+*** TURN *** (4) [2h 5h 9d] [Qs]
+P2 checks
+P3 checks
+*** RIVER *** (4) [2h 5h 9d Qs] [Qd]
+P2 checks
+P3 checks
+P2 shows [5s Ac]
+P3 shows [8h Jc]
+P2 wins the pot (4)
+
+Hand #17, P3 (2258), QBOT (1991), P2 (1751)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [9c Th]
+Dealt to QBOT [7s 7c]
+Dealt to P2 [7d 2s]
+P3 raises to 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 11
+P3 calls 11
+*** FLOP *** (23) [2d Tc 5c]
+P2 bets 18
+P3 raises to 48
+P2 calls 48
+*** TURN *** (119) [2d Tc 5c] [8s]
+P2 checks
+P3 checks
+*** RIVER *** (119) [2d Tc 5c 8s] [2h]
+P2 checks
+P3 bets 80
+P2 raises to 178
+P3 calls 178
+P3 shows [9c Th]
+P2 shows [7d 2s]
+P2 wins the pot (475)
+
+Hand #18, P2 (1989), P3 (2021), QBOT (1990)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [6s Qd]
+Dealt to P3 [5s Th]
+Dealt to QBOT [8h 5d]
+P2 calls 2
+P3 calls 2
+QBOT checks
+*** FLOP *** (6) [Jd Kc Js]
+P3 checks
+QBOT checks
+P2 bets 5
+P3 calls 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+*** TURN *** (16) [Jd Kc Js] [7h]
+P3 checks
+P2 checks
+*** RIVER *** (16) [Jd Kc Js 7h] [3s]
+P3 checks
+P2 checks
+P2 shows [6s Qd]
+P3 shows [5s Th]
+P2 wins the pot (16)
+
+Hand #19, QBOT (1988), P2 (1998), P3 (2014)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Kc 5h]
+Dealt to P2 [5d Ac]
+Dealt to P3 [4s 7s]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [8s Ad 7c]
+P2 checks
+P3 bets 2
+P2 raises to 9
+P3 folds
+P2 wins the pot (15)
+
+Hand #20, P3 (2010), QBOT (1988), P2 (2002)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [2h 7s]
+Dealt to QBOT [5d 2c]
+Dealt to P2 [2d 9h]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 checks
+*** FLOP *** (5) [9c Qh Td]
+P2 bets 2
+P3 calls 2
+*** TURN *** (9) [9c Qh Td] [6d]
+P2 bets 8
+P3 folds
+P2 wins the pot (17)
+
+Hand #21, P2 (2007), P3 (2006), QBOT (1987)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [5h 7d]
+Dealt to P3 [5s 3s]
+Dealt to QBOT [Ac Kh]
+P2 calls 2
+P3 calls 2
+QBOT checks
+*** FLOP *** (6) [As 9c 6h]
+P3 checks
+QBOT checks
+P2 bets 2
+P3 raises to 6
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 18
+P3 calls 18
+*** TURN *** (42) [As 9c 6h] [Qs]
+P3 bets 37
+P2 raises to 150
+P3 calls 150
+*** RIVER *** (342) [As 9c 6h Qs] [Th]
+P3 checks
+P2 checks
+P2 shows [5h 7d]
+P3 shows [5s 3s]
+P2 wins the pot (342)
+
+Hand #22, QBOT (1985), P2 (2179), P3 (1836)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [7h 3d]
+Dealt to P2 [Jh Td]
+Dealt to P3 [8d 3h]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 raises to 5
+P2 calls 5
+*** FLOP *** (10) [2c 5h 6s]
+P2 checks
+P3 bets 8
+P2 calls 8
+*** TURN *** (26) [2c 5h 6s] [7c]
+P2 checks
+P3 bets 17
+P2 raises to 44
+P3 calls 44
+*** RIVER *** (114) [2c 5h 6s 7c] [Kh]
+P2 bets 36
+P3 calls 36
+P2 shows [Jh Td]
+P3 shows [8d 3h]
+P2 wins the pot (186)
+
+Hand #23, P3 (1743), QBOT (1985), P2 (2272)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [2s 7c]
+Dealt to QBOT [Kc 3d]
+Dealt to P2 [2h 8d]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #24, P2 (2273), P3 (1743), QBOT (1984)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [As 4d]
+Dealt to P3 [Kc 7s]
+Dealt to QBOT [4c Jd]
+P2 calls 2
+P3 folds
+QBOT checks
+*** FLOP *** (5) [5h 4s Td]
+QBOT checks
+P2 bets 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (9)
+
+Hand #25, QBOT (1982), P2 (2276), P3 (1742)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Qh 9c]
+Dealt to P2 [5s 2s]
+Dealt to P3 [Jh 4h]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [Td 7d 7h]
+P2 checks
+P3 checks
+*** TURN *** (4) [Td 7d 7h] [Kc]
+P2 checks
+P3 checks
+*** RIVER *** (4) [Td 7d 7h Kc] [9d]
+P2 bets 2
+P3 raises to 9
+P2 raises to 29
+P3 raises to 82
+P2 folds
+P3 wins the pot (115)
+
+Hand #26, P3 (1773), QBOT (1982), P2 (2245)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [8h 6d]
+Dealt to QBOT [Jh 8c]
+Dealt to P2 [8s 3d]
+P3 raises to 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (8)
+
+Hand #27, P2 (2243), P3 (1776), QBOT (1981)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [2c 8s]
+Dealt to P3 [9c Qc]
+Dealt to QBOT [4d 7d]
+P2 calls 2
+P3 folds
+QBOT checks
+*** FLOP *** (5) [8h 8d 3h]
+QBOT checks
+P2 checks
+*** TURN *** (5) [8h 8d 3h] [6s]
+QBOT checks
+P2 bets 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (9)
+
+Hand #28, QBOT (1979), P2 (2246), P3 (1775)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [2c 9d]
+Dealt to P2 [Js Th]
+Dealt to P3 [2s 5d]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #29, P3 (1776), QBOT (1979), P2 (2245)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [3c 3h]
+Dealt to QBOT [Th 9h]
+Dealt to P2 [5d Jc]
+P3 raises to 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (8)
+
+Hand #30, P2 (2243), P3 (1779), QBOT (1978)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Js 9h]
+Dealt to P3 [Kh 7d]
+Dealt to QBOT [2s 5c]
+P2 folds
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [Qh 4c Qd]
+P3 bets 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #31, QBOT (1976), P2 (2243), P3 (1781)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Ks 6c]
+Dealt to P2 [Jc Jd]
+Dealt to P3 [7c 9s]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #32, P3 (1782), QBOT (1976), P2 (2242)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [2h 9d]
+Dealt to QBOT [Qd Js]
+Dealt to P2 [Jd 5h]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #33, P2 (2243), P3 (1782), QBOT (1975)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Ah 3d]
+Dealt to P3 [7h 9d]
+Dealt to QBOT [5c Ts]
+P2 folds
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [3c Qs Kd]
+P3 checks
+QBOT checks
+*** TURN *** (4) [3c Qs Kd] [4c]
+P3 bets 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #34, QBOT (1973), P2 (2243), P3 (1784)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [8d Jd]
+Dealt to P2 [3s 6h]
+Dealt to P3 [6d 8c]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 4
+P3 calls 4
+*** FLOP *** (8) [9c Ac As]
+P2 checks
+P3 checks
+*** TURN *** (8) [9c Ac As] [7h]
+P2 checks
+P3 bets 6
+P2 folds
+P3 wins the pot (14)
+
+Hand #35, P3 (1788), QBOT (1973), P2 (2239)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Jd 5c]
+Dealt to QBOT [Kc 4c]
+Dealt to P2 [8s Ac]
+P3 raises to 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 13
+P3 folds
+P2 wins the pot (19)
+
+Hand #36, P2 (2245), P3 (1783), QBOT (1972)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Tc 9c]
+Dealt to P3 [Qc As]
+Dealt to QBOT [Ks 3d]
+P2 calls 2
+P3 calls 2
+QBOT checks
+*** FLOP *** (6) [5h Kd 8d]
+P3 checks
+QBOT checks
+P2 checks
+*** TURN *** (6) [5h Kd 8d] [7h]
+P3 bets 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (8)
+
+Hand #37, QBOT (1970), P2 (2243), P3 (1787)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [As Ac]
+Dealt to P2 [8c 3c]
+Dealt to P3 [Qh 7c]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #38, P3 (1788), QBOT (1970), P2 (2242)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [3s Js]
+Dealt to QBOT [Jc 9d]
+Dealt to P2 [8h 2c]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 checks
+*** FLOP *** (5) [Jh 9s 5d]
+P2 bets 3
+P3 calls 3
+*** TURN *** (11) [Jh 9s 5d] [Qh]
+P2 bets 5
+P3 folds
+P2 wins the pot (16)
+
+Hand #39, P2 (2248), P3 (1783), QBOT (1969)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [6c Tc]
+Dealt to P3 [2c Qd]
+Dealt to QBOT [4h Jd]
+P2 folds
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #40, QBOT (1967), P2 (2248), P3 (1785)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Kd 2h]
+Dealt to P2 [7d 8c]
+Dealt to P3 [6h Qd]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [8s Jd 7s]
+P2 bets 3
+P3 folds
+P2 wins the pot (7)
+
+Hand #41, P3 (1783), QBOT (1967), P2 (2250)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [5d Th]
+Dealt to QBOT [Qc Tc]
+Dealt to P2 [4c 4h]
+P3 raises to 6
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 15
+P3 calls 15
+*** FLOP *** (31) [7h 8d Kd]
+P2 bets 18
+P3 raises to 49
+P2 calls 49
+*** TURN *** (129) [7h 8d Kd] [Kc]
+P2 checks
+P3 checks
+*** RIVER *** (129) [7h 8d Kd Kc] [Ac]
+P2 checks
+P3 checks
+P3 shows [5d Th]
+P2 shows [4c 4h]
+P2 wins the pot (129)
+
+Hand #42, P2 (2315), P3 (1719), QBOT (1966)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [7c 3s]
+Dealt to P3 [7h 9h]
+Dealt to QBOT [Td 2h]
+P2 raises to 4
+P3 raises to 10
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 21
+P3 calls 21
+*** FLOP *** (44) [3c 5c Qs]
+P3 bets 17
+P2 calls 17
+*** TURN *** (78) [3c 5c Qs] [Ah]
+P3 bets 26
+P2 calls 26
+*** RIVER *** (130) [3c 5c Qs Ah] [8s]
+P3 checks
+P2 checks
+P2 shows [7c 3s]
+P3 shows [7h 9h]
+P2 wins the pot (130)
+
+Hand #43, QBOT (1964), P2 (2381), P3 (1655)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5h 9d]
+Dealt to P2 [Kc 6h]
+Dealt to P3 [6d Qs]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #44, P3 (1656), QBOT (1964), P2 (2380)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [3d 6h]
+Dealt to QBOT [5c 3h]
+Dealt to P2 [8s Kd]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #45, P2 (2381), P3 (1656), QBOT (1963)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [9s 5s]
+Dealt to P3 [7c 9c]
+Dealt to QBOT [9h Td]
+P2 folds
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #46, QBOT (1961), P2 (2381), P3 (1658)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [9h 8s]
+Dealt to P2 [7c 8d]
+Dealt to P3 [3s 4d]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [7s 2h 2s]
+P2 checks
+P3 checks
+*** TURN *** (4) [7s 2h 2s] [5c]
+P2 bets 3
+P3 calls 3
+*** RIVER *** (10) [7s 2h 2s 5c] [8c]
+P2 checks
+P3 checks
+P2 shows [7c 8d]
+P3 shows [3s 4d]
+P2 wins the pot (10)
+
+Hand #47, P3 (1653), QBOT (1961), P2 (2386)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [7d 7c]
+Dealt to QBOT [Tc Kc]
+Dealt to P2 [7h 8d]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #48, P2 (2387), P3 (1653), QBOT (1960)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [3h 2c]
+Dealt to P3 [4c 9c]
+Dealt to QBOT [7h 8d]
+P2 calls 2
+P3 raises to 6
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 13
+P3 raises to 34
+P2 folds
+P3 wins the pot (49)
+
+Hand #49, QBOT (1958), P2 (2374), P3 (1668)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [3h 2h]
+Dealt to P2 [5c 2c]
+Dealt to P3 [Jc Qc]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 4
+P3 calls 4
+*** FLOP *** (8) [Kd 4c As]
+P2 bets 5
+P3 raises to 22
+P2 raises to 71
+P3 calls 71
+*** TURN *** (150) [Kd 4c As] [Ad]
+P2 checks
+P3 checks
+*** RIVER *** (150) [Kd 4c As Ad] [9s]
+P2 bets 132
+P3 raises to 330
+P2 raises to 719
+P3 folds
+P2 wins the pot (1199)
+
+Hand #50, P3 (1263), QBOT (1958), P2 (2779)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [3s 6s]
+Dealt to QBOT [Ac 9s]
+Dealt to P2 [Th 4c]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #51, P2 (2780), P3 (1263), QBOT (1957)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [2d 4c]
+Dealt to P3 [Td 6d]
+Dealt to QBOT [Jh 3s]
+P2 folds
+P3 folds
+QBOT wins the pot (3)
+
+Hand #52, QBOT (1958), P2 (2780), P3 (1262)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [4d 7c]
+Dealt to P2 [Th 5d]
+Dealt to P3 [6s 5c]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [Kd Ts Kc]
+P2 bets 3
+P3 raises to 6
+P2 folds
+P3 wins the pot (13)
+
+Hand #53, P3 (1267), QBOT (1958), P2 (2775)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [7h 5c]
+Dealt to QBOT [2d Jh]
+Dealt to P2 [Kd 3c]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #54, P2 (2776), P3 (1267), QBOT (1957)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [2d 8s]
+Dealt to P3 [9s 4c]
+Dealt to QBOT [Qc 6h]
+P2 folds
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [Ks 7s Qs]
+P3 bets 3
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (7)
+
+Hand #55, QBOT (1955), P2 (2776), P3 (1269)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Ah Jh]
+Dealt to P2 [Ac Kh]
+Dealt to P3 [Jc 9h]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 4
+P3 calls 4
+*** FLOP *** (8) [6c 9c Ks]
+P2 checks
+P3 checks
+*** TURN *** (8) [6c 9c Ks] [6s]
+P2 bets 3
+P3 folds
+P2 wins the pot (11)
+
+Hand #56, P3 (1265), QBOT (1955), P2 (2780)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [2c Tc]
+Dealt to QBOT [As 3c]
+Dealt to P2 [Qd 9s]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 folds
+P2 wins the pot (8)
+
+Hand #57, P2 (2783), P3 (1263), QBOT (1954)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [6c Tc]
+Dealt to P3 [7c Ks]
+Dealt to QBOT [9s As]
+P2 raises to 5
+P3 calls 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+*** FLOP *** (12) [Ac 6d 5c]
+P3 bets 4
+P2 raises to 19
+P3 folds
+P2 wins the pot (35)
+
+Hand #58, QBOT (1952), P2 (2794), P3 (1254)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [8h Jh]
+Dealt to P2 [As 7h]
+Dealt to P3 [Th Js]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 raises to 9
+P2 folds
+P3 wins the pot (14)
+
+Hand #59, P3 (1259), QBOT (1952), P2 (2789)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [4c Jd]
+Dealt to QBOT [5s Qd]
+Dealt to P2 [Kh 9d]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 checks
+*** FLOP *** (5) [7c Kc 6h]
+P2 checks
+P3 bets 3
+P2 folds
+P3 wins the pot (8)
+
+Hand #60, P2 (2787), P3 (1262), QBOT (1951)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [7s Qd]
+Dealt to P3 [9c 6d]
+Dealt to QBOT [5c Kd]
+P2 folds
+P3 folds
+QBOT wins the pot (3)
+
+Hand #61, QBOT (1952), P2 (2787), P3 (1261)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5c Ad]
+Dealt to P2 [Jc 3c]
+Dealt to P3 [8d Ks]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #62, P3 (1262), QBOT (1952), P2 (2786)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Ac 6c]
+Dealt to QBOT [6h 4d]
+Dealt to P2 [2c 2h]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #63, P2 (2787), P3 (1262), QBOT (1951)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [2h Jc]
+Dealt to P3 [Ad Ts]
+Dealt to QBOT [7d 5s]
+P2 calls 2
+P3 calls 2
+QBOT checks
+*** FLOP *** (6) [Kc Ah 3c]
+P3 bets 5
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 16
+P3 raises to 53
+P2 folds
+P3 wins the pot (75)
+
+Hand #64, QBOT (1949), P2 (2769), P3 (1282)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [9s 8d]
+Dealt to P2 [Kc 7d]
+Dealt to P3 [5d 2d]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 raises to 4
+P2 folds
+P3 wins the pot (6)
+
+Hand #65, P3 (1284), QBOT (1949), P2 (2767)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [9h 4h]
+Dealt to QBOT [7d 4c]
+Dealt to P2 [2d Jc]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #66, P2 (2768), P3 (1284), QBOT (1948)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [4c Ac]
+Dealt to P3 [2s Kc]
+Dealt to QBOT [9h Js]
+P2 raises to 4
+P3 calls 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+*** FLOP *** (10) [Qh 2d 7s]
+P3 bets 6
+P2 calls 6
+*** TURN *** (22) [Qh 2d 7s] [7c]
+P3 checks
+P2 checks
+*** RIVER *** (22) [Qh 2d 7s 7c] [Ts]
+P3 bets 19
+P2 folds
+P3 wins the pot (41)
+
+Hand #67, QBOT (1946), P2 (2758), P3 (1296)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Qd 4s]
+Dealt to P2 [3d 9c]
+Dealt to P3 [8c Qh]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #68, P3 (1297), QBOT (1946), P2 (2757)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Ad 8c]
+Dealt to QBOT [Qs 5s]
+Dealt to P2 [Jd 9h]
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 4
+*** FLOP *** (9) [Qh 9d 6h]
+P2 checks
+P3 checks
+*** TURN *** (9) [Qh 9d 6h] [6s]
+P2 bets 5
+P3 folds
+P2 wins the pot (14)
+
+Hand #69, P2 (2762), P3 (1293), QBOT (1945)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Kd 7s]
+Dealt to P3 [Js 3s]
+Dealt to QBOT [Kc 7d]
+P2 folds
+P3 calls 2
+QBOT checks
+*** FLOP *** (4) [9h 4h 4d]
+P3 bets 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #70, QBOT (1943), P2 (2762), P3 (1295)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [3s Qs]
+Dealt to P2 [2h 6d]
+Dealt to P3 [5c 3d]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 folds
+P2 wins the pot (7)
+
+Hand #71, P3 (1293), QBOT (1943), P2 (2764)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [2h Qc]
+Dealt to QBOT [Td Jd]
+Dealt to P2 [5c 9c]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 4
+P3 calls 4
+*** FLOP *** (9) [6c 8c 6h]
+P2 bets 8
+P3 folds
+P2 wins the pot (17)
+
+Hand #72, P2 (2769), P3 (1289), QBOT (1942)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Ah 6d]
+Dealt to P3 [3c 6s]
+Dealt to QBOT [8h 3d]
+P2 folds
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #73, QBOT (1940), P2 (2769), P3 (1291)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [7h Jh]
+Dealt to P2 [6s Kc]
+Dealt to P3 [Kd Ah]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #74, P3 (1292), QBOT (1940), P2 (2768)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [3s Kh]
+Dealt to QBOT [9h 8s]
+Dealt to P2 [6s 4s]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #75, P2 (2769), P3 (1292), QBOT (1939)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Ac Kh]
+Dealt to P3 [Ks 7c]
+Dealt to QBOT [7h Td]
+P2 folds
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #76, QBOT (1937), P2 (2769), P3 (1294)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Qh 6d]
+Dealt to P2 [Td Ah]
+Dealt to P3 [6h 4c]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 raises to 4
+P2 raises to 8
+P3 calls 8
+*** FLOP *** (16) [9s 3d Kd]
+P2 bets 2
+P3 calls 2
+*** TURN *** (20) [9s 3d Kd] [Kh]
+P2 checks
+P3 checks
+*** RIVER *** (20) [9s 3d Kd Kh] [6c]
+P2 checks
+P3 bets 3
+P2 raises to 6
+P3 folds
+P2 wins the pot (29)
+
+Hand #77, P3 (1281), QBOT (1937), P2 (2782)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Ts 9s]
+Dealt to QBOT [Js 2d]
+Dealt to P2 [3s 8h]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #78, P2 (2783), P3 (1281), QBOT (1936)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [5s 4s]
+Dealt to P3 [Jh 6d]
+Dealt to QBOT [4c 2s]
+P2 calls 2
+P3 calls 2
+QBOT checks
+*** FLOP *** (6) [9s 4h 3s]
+P3 bets 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 10
+P3 calls 10
+*** TURN *** (26) [9s 4h 3s] [Qs]
+P3 bets 17
+P2 folds
+P3 wins the pot (43)
+
+Hand #79, QBOT (1934), P2 (2771), P3 (1295)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5h 6s]
+Dealt to P2 [Ts 9c]
+Dealt to P3 [Jh 6d]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (3)
+
+Hand #80, P3 (1296), QBOT (1934), P2 (2770)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [2h 3d]
+Dealt to QBOT [8c Jh]
+Dealt to P2 [6d 2s]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #81, P2 (2771), P3 (1296), QBOT (1933)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Js 2h]
+Dealt to P3 [9s Tc]
+Dealt to QBOT [2c 4d]
+P2 calls 2
+P3 folds
+QBOT checks
+*** FLOP *** (5) [8c 9c Qd]
+QBOT checks
+P2 bets 3
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (8)
+
+Hand #82, QBOT (1931), P2 (2774), P3 (1295)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [9s Ks]
+Dealt to P2 [3s 9c]
+Dealt to P3 [3c Tc]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 checks
+*** FLOP *** (4) [Jd 9h Th]
+P2 checks
+P3 checks
+*** TURN *** (4) [Jd 9h Th] [7s]
+P2 checks
+P3 checks
+*** RIVER *** (4) [Jd 9h Th 7s] [2s]
+P2 checks
+P3 checks
+P2 shows [3s 9c]
+P3 shows [3c Tc]
+P3 wins the pot (4)
+
+Hand #83, P3 (1297), QBOT (1931), P2 (2772)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Td 7c]
+Dealt to QBOT [4s Qc]
+Dealt to P2 [Kc Jd]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 6
+P3 folds
+P2 wins the pot (9)
+
+Hand #84, P2 (2775), P3 (1295), QBOT (1930)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [3h 8h]
+Dealt to P3 [5s 5h]
+Dealt to QBOT [3d 7s]
+P2 raises to 6
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (9)
+
+Hand #85, QBOT (1928), P2 (2778), P3 (1294)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [5c 4c]
+Dealt to P2 [7h 2s]
+Dealt to P3 [Jc 3d]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 raises to 5
+P2 folds
+P3 wins the pot (7)
+
+Hand #86, P3 (1296), QBOT (1928), P2 (2776)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [7h 7c]
+Dealt to QBOT [6c Tc]
+Dealt to P2 [8s Kh]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 calls 5
+*** FLOP *** (11) [5c 7s 5s]
+P2 bets 6
+P3 folds
+P2 wins the pot (17)
+
+Hand #87, P2 (2782), P3 (1291), QBOT (1927)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [9s 7s]
+Dealt to P3 [6s Js]
+Dealt to QBOT [5h Kd]
+P2 raises to 4
+P3 raises to 10
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (16)
+
+Hand #88, QBOT (1925), P2 (2778), P3 (1297)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [Js 9c]
+Dealt to P2 [3h 7d]
+Dealt to P3 [Ad Jd]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 raises to 11
+P2 calls 11
+*** FLOP *** (22) [5h Jh Qd]
+P2 bets 3
+P3 calls 3
+*** TURN *** (28) [5h Jh Qd] [Kd]
+P2 bets 2
+P3 calls 2
+*** RIVER *** (32) [5h Jh Qd Kd] [As]
+P2 bets 16
+P3 raises to 61
+P2 folds
+P3 wins the pot (109)
+
+Hand #89, P3 (1329), QBOT (1925), P2 (2746)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [7d Ac]
+Dealt to QBOT [Qd 5h]
+Dealt to P2 [2s 6h]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #90, P2 (2747), P3 (1329), QBOT (1924)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [2h Ac]
+Dealt to P3 [2c Ah]
+Dealt to QBOT [Ts Jh]
+P2 raises to 5
+P3 raises to 9
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 9
+*** FLOP *** (20) [6h 4s 8d]
+P3 checks
+P2 bets 9
+P3 folds
+P2 wins the pot (29)
+
+Hand #91, QBOT (1922), P2 (2758), P3 (1320)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [3c Ts]
+Dealt to P2 [Ks Qh]
+Dealt to P3 [3h 6h]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 folds
+P2 wins the pot (7)
+
+Hand #92, P3 (1318), QBOT (1922), P2 (2760)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [6d Jc]
+Dealt to QBOT [2d Ts]
+Dealt to P2 [3d As]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #93, P2 (2761), P3 (1318), QBOT (1921)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [3s 2h]
+Dealt to P3 [Ts 8h]
+Dealt to QBOT [Ks Ad]
+P2 folds
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P3 wins the pot (6)
+
+Hand #94, QBOT (1919), P2 (2761), P3 (1320)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [8d 6h]
+Dealt to P2 [7h 8s]
+Dealt to P3 [5s 9c]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 5
+P3 calls 5
+*** FLOP *** (10) [Kh 4c 4d]
+P2 bets 3
+P3 folds
+P2 wins the pot (13)
+
+Hand #95, P3 (1315), QBOT (1919), P2 (2766)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [Ah 3s]
+Dealt to QBOT [Kd 9h]
+Dealt to P2 [7d Jc]
+P3 calls 2
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 raises to 6
+P3 raises to 14
+P2 folds
+P3 wins the pot (21)
+
+Hand #96, P2 (2760), P3 (1322), QBOT (1918)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [Jd Kd]
+Dealt to P3 [Th 7c]
+Dealt to QBOT [6d Tc]
+P2 calls 2
+P3 raises to 4
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (8)
+
+Hand #97, QBOT (1916), P2 (2758), P3 (1326)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [3c 7d]
+Dealt to P2 [7h 8h]
+Dealt to P3 [Ad Jc]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 raises to 5
+P2 folds
+P3 wins the pot (7)
+
+Hand #98, P3 (1328), QBOT (1916), P2 (2756)
+QBOT posts the blind of 1
+P2 posts the blind of 2
+Dealt to P3 [7c Kc]
+Dealt to QBOT [6s 5d]
+Dealt to P2 [Qs Tc]
+P3 folds
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 wins the pot (3)
+
+Hand #99, P2 (2757), P3 (1328), QBOT (1915)
+P3 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to P2 [7d 4d]
+Dealt to P3 [5h 2c]
+Dealt to QBOT [8c Kd]
+P2 raises to 4
+P3 raises to 6
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 folds
+P3 wins the pot (12)
+
+Hand #100, QBOT (1913), P2 (2753), P3 (1334)
+P2 posts the blind of 1
+P3 posts the blind of 2
+Dealt to QBOT [7c 8c]
+Dealt to P2 [4c 9h]
+Dealt to P3 [As Kc]
+### ILLEGAL ACTION: Check [player=QBOT]
+QBOT folds
+P2 calls 2
+P3 raises to 5
+P2 calls 5
+*** FLOP *** (10) [Ah Jd 8d]
+P2 bets 3
+P3 raises to 14
+P2 folds
+P3 wins the pot (27)
+
