@@ -33,6 +33,8 @@ public class Player {
 		int[] stacks = new int[3]; //0 is own stack, 1 is the next player over
 		int potsize=0;
 		
+		ArrayList<String> actionList = new ArrayList<String>();
+		
 		Hand hand = null;
 		Hand board = null;
 		Hand combined = null;
@@ -55,6 +57,8 @@ public class Player {
 					numHands = Integer.parseInt(tokens[6]);
 					timeBank = Double.parseDouble(tokens[7]);
 				} else if ("NEWHAND".compareToIgnoreCase(packetType) == 0) {
+					actionList = new ArrayList<String>();
+					
 					//tokens[1] is hand id
 					seatNo = Integer.parseInt(tokens[2]);
 					hand = new Hand();
@@ -102,7 +106,10 @@ public class Player {
 					int numLastActions = Integer.parseInt(tokens[base1+7]);
 					int base2 = base1+8;
 					//points to the first token after numLastActions, which should be the first last action.
-					//do stuff with the actions
+					//do stuff with the action
+					for (int i=0; i<numLastActions; i++) {
+						actionList.add(tokens[base2+numLastActions]);
+					}
 					
 					int numLegalActions = Integer.parseInt(tokens[base2+numLastActions]);
 					int base3 = base2+numLastActions+1;
@@ -133,6 +140,7 @@ public class Player {
 					}
 					
 					if (debug) {
+						System.out.println("Actions: "+actionList);
 						System.out.println("Time left: "+timeBank);
 						System.out.println("My hand: "+hand.toString());
 						System.out.println("Board: "+board.toString());
