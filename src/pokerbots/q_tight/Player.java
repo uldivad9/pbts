@@ -1,4 +1,4 @@
-package pokerbots.q;
+package pokerbots.q_tight;
 
 import java.io.*;
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.*;
 import pokerbots.*;
 
 /**
- * QBOT GG
+ * Q_TIGHT
  * 
  */
 public class Player {
@@ -41,8 +41,6 @@ public class Player {
 		int failedSteals = 0; //number of steals that failed (opp didn't fold)
 		boolean countedSteal = false; //have i counted this steal in failedsteals yet
 		HashMap<String, Integer> failedStealMap = new HashMap<String, Integer>();
-		HashMap<String, double> startingTMap = new Hashmap<String, double>();
-		HashMap<String, double> afterFlopTMap = new Hashmap<String, double>();
 		
 		ArrayList<String> actionList = new ArrayList<String>();
 		
@@ -68,12 +66,6 @@ public class Player {
 					for (int i=1; i<=3; i++) {
 						if (!failedStealMap.containsKey(tokens[i])) {
 							failedStealMap.put(tokens[i],0);
-						}
-						if (!startingTMap.containsKey(tokens[i])) {
-							startingTMap.put(tokens[i],0.5);
-						}
-						if (!afterFlopTMap.containsKey(tokens[i])) {
-							startingTMap.put(tokens[i],0.5);
 						}
 					}
 					
@@ -285,7 +277,7 @@ public class Player {
 									int spread = Math.max(maxBet-base,1);
 									int betAmount = Math.min(Math.max(base+rand.nextInt(spread),minBet),maxBet);
 									output = "BET:"+betAmount;
-								} else if (relativeStrength > 0.7+variance) {
+								} else if (relativeStrength > 0.8+variance) {
 									if (debug) System.out.println("Strong hand; betting high");
 									int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(relativeStrength+variance)),minBet),maxBet);
 									output = "BET:"+betAmount;
@@ -301,7 +293,7 @@ public class Player {
 									if (shouldSteal) {
 									//try a steal
 										if (debug) System.out.println("Decent hand with position; attempting steal");
-										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.5+variance)),minBet),maxBet);
+										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.4+variance)),minBet),maxBet);
 										stole = true;
 										output = "BET:"+betAmount;
 									} else {
@@ -318,7 +310,7 @@ public class Player {
 									
 									if (shouldSteal) {
 										if (debug) System.out.println("Weak hand with position; attempting steal");
-										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.3+variance)),minBet),maxBet);
+										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.2+variance)),minBet),maxBet);
 										stole = true;
 										output = "BET:"+betAmount;
 									} else {

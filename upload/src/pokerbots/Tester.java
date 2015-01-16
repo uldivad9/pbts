@@ -23,18 +23,12 @@ kicker strengths
 
 public class Tester {
 	public static void main (String args[]) {
-		Hand hand = null;
-		Hand board = new Hand("Kh Jd Ts");
+		Hand hand = new Hand();
+		Hand board = new Hand();
 		
-		hand = new Hand("7h 8h");
-		board = new Hand("6h 9h Qd");
-		
-		long startTime = System.currentTimeMillis();
+		hand = new Hand("3d 2h");
+		board = new Hand("5h 6c 9c 4c Kc");
 		System.out.println(AfterFlop.getRelativeStrength(hand,board));
-		System.out.println(Arrays.toString(Outs.getOuts(hand,board)));
-		System.out.println(Arrays.toString(Outs.getOuts(hand,board)));
-		long endTime = System.currentTimeMillis();
-		System.out.println(endTime-startTime);
 		
 		/*
 		hand = new Hand("Ks 7s Kc Kd Kh Qs Ad");

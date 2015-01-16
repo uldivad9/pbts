@@ -8,4 +8,5 @@ env.Append(ENV = { 'PATH' : newpath })
 
 env.Java(target='classes', source='src')
 env.Jar(target='src/pokerbots/q/pokerbot.jar', source=['classes', 'Manifest_q.txt'])
+env.Jar(target='src/pokerbots/q_tight/pokerbot.jar', source=['classes', 'Manifest_q_tight.txt'])
 env.Jar(target='src/pokerbots/fangbot/pokerbot.jar', source=['classes', 'Manifest_fangbot.txt'])

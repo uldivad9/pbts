@@ -11,6 +11,8 @@ import pokerbots.*;
  */
 public class Player {
 	
+	private String MY_NAME;
+	
 	private final PrintWriter outStream;
 	private final BufferedReader inStream;
 	private final Random rand = new Random();
@@ -25,6 +27,7 @@ public class Player {
 	
 	public void run() {
 		String input;
+		String[] playerNames = new String[3];
 		int seatNo = 0;
 		int stackSize=200;
 		int bb=2;
@@ -32,6 +35,12 @@ public class Player {
 		double timeBank=20.0;
 		int[] stacks = new int[3]; //0 is own stack, 1 is the next player over
 		int potsize=0;
+		
+		boolean button=false; //am i the button
+		boolean stole=false; //if i tried a steal this round
+		int failedSteals = 0; //number of steals that failed (opp didn't fold)
+		boolean countedSteal = false; //have i counted this steal in failedsteals yet
+		HashMap<String, Integer> failedStealMap = new HashMap<String, Integer>();
 		
 		ArrayList<String> actionList = new ArrayList<String>();
 		
@@ -51,11 +60,25 @@ public class Player {
 				String[] tokens = input.split(" ");
 				String packetType = tokens[0];
 				if ("NEWGAME".compareToIgnoreCase(packetType) == 0) {
+					MY_NAME = tokens[1];
+					
 					//tokens[1-3] are player names
+					for (int i=1; i<=3; i++) {
+						if (!failedStealMap.containsKey(tokens[i])) {
+							failedStealMap.put(tokens[i],0);
+						}
+					}
+					
 					stackSize = Integer.parseInt(tokens[4]);
 					bb = Integer.parseInt(tokens[5]);
 					numHands = Integer.parseInt(tokens[6]);
 					timeBank = Double.parseDouble(tokens[7]);
+					
+					button = false;
+					stole = false;
+					failedSteals = 0;
+					countedSteal = false;
+					
 				} else if ("NEWHAND".compareToIgnoreCase(packetType) == 0) {
 					actionList = new ArrayList<String>();
 					
@@ -74,15 +97,28 @@ public class Player {
 					stacks[1] = Integer.parseInt(tokens[6]);
 					stacks[2] = Integer.parseInt(tokens[7]);
 					//tokens[8,9,10] are player names
+					for (int i=0; i<3; i++) {
+						playerNames[i] = tokens[i+8];
+					}
+					
+					if (tokens[8].equals(MY_NAME)) {
+						button = true;
+					} else {
+						button = false;
+					}
 					//tokens[11] is the number of active players
 					//tokens[12,13,14] are the booleans of whether players in seats 1,2,3 are active
 					timeBank = Double.parseDouble(tokens[15]);
+					
+					stole = false;
+					countedSteal = false;
 					
 					if (debug) {
 						System.out.println("");
 						System.out.println("-------------------------------------------------");
 						System.out.println("");
 						System.out.println("Hand number: "+tokens[1]);
+						System.out.println("Button: "+button);
 					}
 					
 				} else if ("GETACTION".compareToIgnoreCase(packetType) == 0) {
@@ -101,14 +137,21 @@ public class Player {
 					stacks[2] = Integer.parseInt(tokens[base1+2]);
 					
 					//tokens[base1+3] is the number of active players
+					int numActivePlayers = Integer.parseInt(tokens[base1+3]);
+					ArrayList<String> activePlayers = new ArrayList<String>();
+					for (int i=0; i<numActivePlayers; i++) {
+						if(tokens[base1+4+i].equals("true")) {
+							activePlayers.add(playerNames[i]);
+						}
+					}
 					//tokens[base1+4-6] is the booleans of whether players are active
 					
 					int numLastActions = Integer.parseInt(tokens[base1+7]);
 					int base2 = base1+8;
 					//points to the first token after numLastActions, which should be the first last action.
-					//do stuff with the action
+					//do stuff with the actions
 					for (int i=0; i<numLastActions; i++) {
-						actionList.add(tokens[base2+numLastActions]);
+						actionList.add(tokens[base2+i]);
 					}
 					
 					int numLegalActions = Integer.parseInt(tokens[base2+numLastActions]);
@@ -140,6 +183,7 @@ public class Player {
 					}
 					
 					if (debug) {
+						System.out.println("Active players: "+activePlayers);
 						System.out.println("Actions: "+actionList);
 						System.out.println("Time left: "+timeBank);
 						System.out.println("My hand: "+hand.toString());
@@ -215,6 +259,14 @@ public class Player {
 						System.out.println("Relative strength: "+relativeStrength);
 						System.out.println("This round's variance is: "+ variance);
 						
+						if (stole && !countedSteal) {
+							for (String teamName : activePlayers) {
+								failedStealMap.put(teamName,failedStealMap.getOrDefault(teamName,0)+1);
+							}
+							System.out.println("Failed a steal during this hand");
+							countedSteal = true;
+						}
+						
 						if (canCheck) {
 							if (maxBet == 0) {
 								output = "CHECK";
@@ -229,6 +281,42 @@ public class Player {
 									if (debug) System.out.println("Strong hand; betting high");
 									int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(relativeStrength+variance)),minBet),maxBet);
 									output = "BET:"+betAmount;
+								} else if (button && !stole && relativeStrength > 0.5+variance) {
+									//make sure you haven't failed 3 steals on anyone
+									boolean shouldSteal = true;
+									for (String teamName : activePlayers) {
+										if (!teamName.equals(MY_NAME) && failedStealMap.getOrDefault(teamName,0) >= 2) {
+											shouldSteal = false;
+										}
+									}
+									
+									if (shouldSteal) {
+									//try a steal
+										if (debug) System.out.println("Decent hand with position; attempting steal");
+										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.4+variance)),minBet),maxBet);
+										stole = true;
+										output = "BET:"+betAmount;
+									} else {
+										System.out.println("Failed too many weak steals; checking");
+										output = "CHECK";
+									}
+								} else if (button && !stole) {
+									boolean shouldSteal = true;
+									for (String teamName : activePlayers) {
+										if (!teamName.equals(MY_NAME) && failedStealMap.getOrDefault(teamName,0) > 0) {
+											shouldSteal = false;
+										}
+									}
+									
+									if (shouldSteal) {
+										if (debug) System.out.println("Weak hand with position; attempting steal");
+										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.2+variance)),minBet),maxBet);
+										stole = true;
+										output = "BET:"+betAmount;
+									} else {
+										System.out.println("Failed too many bluff steals; checking");
+										output = "CHECK";
+									}
 								} else {
 									output = "CHECK";
 								}
@@ -304,10 +392,20 @@ public class Player {
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
-					outStream.println("CLEAR");
+					
+					Set<String> keys = failedStealMap.keySet();
+					for (String key : keys) {
+						String keyInstruction = "PUT FSM"+key+" "+failedStealMap.get(key);
+						outStream.println(keyInstruction);
+						System.out.println(keyInstruction);
+					}
+					outStream.println("DELETE hello");
 					outStream.println("FINISH");
 				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
-					System.out.println("I GOT A KEY VALUE!");
+					if ("FSM".equals(tokens[1].substring(0,3))) {
+						//deal with failedstealmap
+						failedStealMap.put(tokens[1].substring(3,tokens[1].length()),Integer.parseInt(tokens[2]));
+					}
 				}
 			}
 		} catch (IOException e) {
