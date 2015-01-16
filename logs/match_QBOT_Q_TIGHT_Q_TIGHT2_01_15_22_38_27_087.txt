@@ -1,0 +1,2065 @@
+6.176 MIT Pokerbots - QBOT vs Q_TIGHT vs Q_TIGHT2 (stack=2000000, bb=2)
+Hand #1, QBOT (2000000), Q_TIGHT (2000000), Q_TIGHT2 (2000000)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [9d Ac]
+Dealt to Q_TIGHT [3s 8h]
+Dealt to Q_TIGHT2 [6s 6d]
+QBOT calls 2
+Q_TIGHT folds
+Q_TIGHT2 raises to 7
+QBOT calls 7
+*** FLOP *** (15) [8d Js Kd]
+Q_TIGHT2 checks
+QBOT bets 5
+Q_TIGHT2 folds
+QBOT wins the pot (20)
+
+Hand #2, Q_TIGHT2 (1999993), QBOT (2000008), Q_TIGHT (1999999)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Qs 3h]
+Dealt to QBOT [Kd 4d]
+Dealt to Q_TIGHT [2s 9s]
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #3, Q_TIGHT (2000000), Q_TIGHT2 (1999993), QBOT (2000007)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [3c 4c]
+Dealt to Q_TIGHT2 [Ks 4h]
+Dealt to QBOT [5c 9c]
+Q_TIGHT folds
+Q_TIGHT2 folds
+QBOT wins the pot (3)
+
+Hand #4, QBOT (2000008), Q_TIGHT (2000000), Q_TIGHT2 (1999992)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [5h 2h]
+Dealt to Q_TIGHT [8s 8h]
+Dealt to Q_TIGHT2 [6d 3d]
+QBOT folds
+Q_TIGHT raises to 6
+Q_TIGHT2 folds
+Q_TIGHT wins the pot (8)
+
+Hand #5, Q_TIGHT2 (1999990), QBOT (2000008), Q_TIGHT (2000002)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Qd Kd]
+Dealt to QBOT [3h 6d]
+Dealt to Q_TIGHT [3c 6h]
+Q_TIGHT2 raises to 7
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (10)
+
+Hand #6, Q_TIGHT (2000000), Q_TIGHT2 (1999993), QBOT (2000007)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [4c 7c]
+Dealt to Q_TIGHT2 [2d 6h]
+Dealt to QBOT [Jd Th]
+Q_TIGHT folds
+Q_TIGHT2 folds
+QBOT wins the pot (3)
+
+Hand #7, QBOT (2000008), Q_TIGHT (2000000), Q_TIGHT2 (1999992)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [Qc 7h]
+Dealt to Q_TIGHT [8c 6s]
+Dealt to Q_TIGHT2 [8s Td]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #8, Q_TIGHT2 (1999993), QBOT (2000008), Q_TIGHT (1999999)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Td 2h]
+Dealt to QBOT [Th 6d]
+Dealt to Q_TIGHT [3h 2c]
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #9, Q_TIGHT (2000000), Q_TIGHT2 (1999993), QBOT (2000007)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [8c 7c]
+Dealt to Q_TIGHT2 [5h Ks]
+Dealt to QBOT [8h 3s]
+Q_TIGHT folds
+Q_TIGHT2 folds
+QBOT wins the pot (3)
+
+Hand #10, QBOT (2000008), Q_TIGHT (2000000), Q_TIGHT2 (1999992)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [2d Jh]
+Dealt to Q_TIGHT [2h 6d]
+Dealt to Q_TIGHT2 [8h 4d]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #11, Q_TIGHT2 (1999993), QBOT (2000008), Q_TIGHT (1999999)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Js Kd]
+Dealt to QBOT [5s 7c]
+Dealt to Q_TIGHT [8h 8s]
+Q_TIGHT2 calls 2
+QBOT folds
+Q_TIGHT raises to 7
+Q_TIGHT2 calls 7
+*** FLOP *** (15) [7h Qh 6s]
+Q_TIGHT bets 12
+Q_TIGHT2 folds
+Q_TIGHT wins the pot (27)
+
+Hand #12, Q_TIGHT (2000007), Q_TIGHT2 (1999986), QBOT (2000007)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [8s 9h]
+Dealt to Q_TIGHT2 [6s 6c]
+Dealt to QBOT [7d Jc]
+Q_TIGHT folds
+Q_TIGHT2 calls 2
+QBOT checks
+*** FLOP *** (4) [8h 5c Ad]
+Q_TIGHT2 checks
+QBOT checks
+*** TURN *** (4) [8h 5c Ad] [Ts]
+Q_TIGHT2 checks
+QBOT checks
+*** RIVER *** (4) [8h 5c Ad Ts] [9d]
+Q_TIGHT2 checks
+QBOT bets 3
+Q_TIGHT2 folds
+QBOT wins the pot (7)
+
+Hand #13, QBOT (2000009), Q_TIGHT (2000007), Q_TIGHT2 (1999984)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [8d 7d]
+Dealt to Q_TIGHT [8h Jc]
+Dealt to Q_TIGHT2 [Qs 3s]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #14, Q_TIGHT2 (1999985), QBOT (2000009), Q_TIGHT (2000006)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Ac 2c]
+Dealt to QBOT [Qd 6d]
+Dealt to Q_TIGHT [2s 6h]
+Q_TIGHT2 calls 2
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (6) [Jh 8d 5s]
+QBOT checks
+Q_TIGHT checks
+Q_TIGHT2 checks
+*** TURN *** (6) [Jh 8d 5s] [7s]
+QBOT checks
+Q_TIGHT checks
+Q_TIGHT2 checks
+*** RIVER *** (6) [Jh 8d 5s 7s] [8c]
+QBOT checks
+Q_TIGHT checks
+Q_TIGHT2 checks
+Q_TIGHT2 shows [Ac 2c]
+QBOT shows [Qd 6d]
+Q_TIGHT shows [2s 6h]
+Q_TIGHT2 wins the pot (6)
+
+Hand #15, Q_TIGHT (2000004), Q_TIGHT2 (1999989), QBOT (2000007)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Th Kh]
+Dealt to Q_TIGHT2 [Ts Qd]
+Dealt to QBOT [5d 6h]
+Q_TIGHT raises to 7
+Q_TIGHT2 calls 7
+QBOT folds
+*** FLOP *** (16) [Ad 5c Js]
+Q_TIGHT2 checks
+Q_TIGHT checks
+*** TURN *** (16) [Ad 5c Js] [Qh]
+Q_TIGHT2 bets 13
+Q_TIGHT raises to 52
+Q_TIGHT2 calls 52
+*** RIVER *** (120) [Ad 5c Js Qh] [6s]
+Q_TIGHT2 checks
+Q_TIGHT bets 119
+Q_TIGHT2 calls 119
+Q_TIGHT shows [Th Kh]
+Q_TIGHT2 shows [Ts Qd]
+Q_TIGHT wins the pot (358)
+
+Hand #16, QBOT (2000005), Q_TIGHT (2000184), Q_TIGHT2 (1999811)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [5h 7d]
+Dealt to Q_TIGHT [4h Qh]
+Dealt to Q_TIGHT2 [6h 4s]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #17, Q_TIGHT2 (1999812), QBOT (2000005), Q_TIGHT (2000183)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Jh 3h]
+Dealt to QBOT [6c 6h]
+Dealt to Q_TIGHT [9d 2c]
+Q_TIGHT2 folds
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [Th Js 8h]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [Th Js 8h] [Jc]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (4) [Th Js 8h Jc] [9h]
+QBOT checks
+Q_TIGHT checks
+QBOT shows [6c 6h]
+Q_TIGHT shows [9d 2c]
+Q_TIGHT wins the pot (4)
+
+Hand #18, Q_TIGHT (2000185), Q_TIGHT2 (1999812), QBOT (2000003)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [5h Kd]
+Dealt to Q_TIGHT2 [7c 3s]
+Dealt to QBOT [5c 8d]
+Q_TIGHT folds
+Q_TIGHT2 folds
+QBOT wins the pot (3)
+
+Hand #19, QBOT (2000004), Q_TIGHT (2000185), Q_TIGHT2 (1999811)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [2c 8d]
+Dealt to Q_TIGHT [As Kh]
+Dealt to Q_TIGHT2 [6c 6d]
+QBOT folds
+Q_TIGHT raises to 6
+Q_TIGHT2 calls 6
+*** FLOP *** (12) [2d Td 6h]
+Q_TIGHT checks
+Q_TIGHT2 bets 10
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (22)
+
+Hand #20, Q_TIGHT2 (1999817), QBOT (2000004), Q_TIGHT (2000179)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Th 3d]
+Dealt to QBOT [9c 9d]
+Dealt to Q_TIGHT [8c 6h]
+Q_TIGHT2 folds
+QBOT raises to 6
+Q_TIGHT folds
+QBOT wins the pot (8)
+
+Hand #21, Q_TIGHT (2000177), Q_TIGHT2 (1999817), QBOT (2000006)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [3d 9h]
+Dealt to Q_TIGHT2 [Jh Tc]
+Dealt to QBOT [2h Th]
+Q_TIGHT folds
+Q_TIGHT2 folds
+QBOT wins the pot (3)
+
+Hand #22, QBOT (2000007), Q_TIGHT (2000177), Q_TIGHT2 (1999816)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [7c 5c]
+Dealt to Q_TIGHT [Ah 8d]
+Dealt to Q_TIGHT2 [7d Kc]
+QBOT folds
+Q_TIGHT calls 2
+Q_TIGHT2 checks
+*** FLOP *** (4) [2s 6d 6c]
+Q_TIGHT checks
+Q_TIGHT2 checks
+*** TURN *** (4) [2s 6d 6c] [Ks]
+Q_TIGHT checks
+Q_TIGHT2 bets 3
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (7)
+
+Hand #23, Q_TIGHT2 (1999818), QBOT (2000007), Q_TIGHT (2000175)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [7c 5s]
+Dealt to QBOT [3d 7d]
+Dealt to Q_TIGHT [3c Qc]
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #24, Q_TIGHT (2000176), Q_TIGHT2 (1999818), QBOT (2000006)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [2d 3s]
+Dealt to Q_TIGHT2 [Qs Ad]
+Dealt to QBOT [8h 4d]
+Q_TIGHT folds
+Q_TIGHT2 raises to 6
+QBOT folds
+Q_TIGHT2 wins the pot (8)
+
+Hand #25, QBOT (2000004), Q_TIGHT (2000176), Q_TIGHT2 (1999820)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [Qd 8h]
+Dealt to Q_TIGHT [7d 8s]
+Dealt to Q_TIGHT2 [3s 6h]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #26, Q_TIGHT2 (1999821), QBOT (2000004), Q_TIGHT (2000175)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Kd Ad]
+Dealt to QBOT [2h 4c]
+Dealt to Q_TIGHT [4d Jh]
+Q_TIGHT2 raises to 7
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (10)
+
+Hand #27, Q_TIGHT (2000173), Q_TIGHT2 (1999824), QBOT (2000003)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [5c Th]
+Dealt to Q_TIGHT2 [8h Ac]
+Dealt to QBOT [9h Ad]
+Q_TIGHT folds
+Q_TIGHT2 calls 2
+QBOT raises to 4
+Q_TIGHT2 calls 4
+*** FLOP *** (8) [Jc 3s 7c]
+Q_TIGHT2 checks
+QBOT checks
+*** TURN *** (8) [Jc 3s 7c] [3h]
+Q_TIGHT2 checks
+QBOT checks
+*** RIVER *** (8) [Jc 3s 7c 3h] [Kd]
+Q_TIGHT2 checks
+QBOT checks
+Q_TIGHT2 shows [8h Ac]
+QBOT shows [9h Ad]
+Q_TIGHT2 ties for the pot (4)
+QBOT ties for the pot (4)
+
+Hand #28, QBOT (2000003), Q_TIGHT (2000173), Q_TIGHT2 (1999824)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [Kc 8c]
+Dealt to Q_TIGHT [6c Kh]
+Dealt to Q_TIGHT2 [2h 6s]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #29, Q_TIGHT2 (1999825), QBOT (2000003), Q_TIGHT (2000172)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [4h 7d]
+Dealt to QBOT [2c Js]
+Dealt to Q_TIGHT [Qd 9c]
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #30, Q_TIGHT (2000173), Q_TIGHT2 (1999825), QBOT (2000002)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [8s Qs]
+Dealt to Q_TIGHT2 [7s 6d]
+Dealt to QBOT [4h 4s]
+Q_TIGHT calls 2
+Q_TIGHT2 folds
+QBOT raises to 4
+Q_TIGHT calls 4
+*** FLOP *** (9) [3h 7h Ac]
+QBOT bets 6
+Q_TIGHT folds
+QBOT wins the pot (15)
+
+Hand #31, QBOT (2000007), Q_TIGHT (2000169), Q_TIGHT2 (1999824)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [Js 4d]
+Dealt to Q_TIGHT [Kd Kc]
+Dealt to Q_TIGHT2 [Qs 5d]
+QBOT folds
+Q_TIGHT raises to 6
+Q_TIGHT2 folds
+Q_TIGHT wins the pot (8)
+
+Hand #32, Q_TIGHT2 (1999822), QBOT (2000007), Q_TIGHT (2000171)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [7h 3c]
+Dealt to QBOT [5c Kh]
+Dealt to Q_TIGHT [8d 3h]
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #33, Q_TIGHT (2000172), Q_TIGHT2 (1999822), QBOT (2000006)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [8c 4d]
+Dealt to Q_TIGHT2 [4h Qc]
+Dealt to QBOT [2c 7c]
+Q_TIGHT folds
+Q_TIGHT2 folds
+QBOT wins the pot (3)
+
+Hand #34, QBOT (2000007), Q_TIGHT (2000172), Q_TIGHT2 (1999821)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [2c Jc]
+Dealt to Q_TIGHT [4c 3h]
+Dealt to Q_TIGHT2 [Jd 7d]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #35, Q_TIGHT2 (1999822), QBOT (2000007), Q_TIGHT (2000171)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [6c 7d]
+Dealt to QBOT [Kd 7s]
+Dealt to Q_TIGHT [4d 3d]
+Q_TIGHT2 folds
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [7c Jd 3s]
+QBOT bets 3
+Q_TIGHT folds
+QBOT wins the pot (7)
+
+Hand #36, Q_TIGHT (2000169), Q_TIGHT2 (1999822), QBOT (2000009)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [8c 8d]
+Dealt to Q_TIGHT2 [4c 6s]
+Dealt to QBOT [Kh 9c]
+Q_TIGHT raises to 7
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (10)
+
+Hand #37, QBOT (2000007), Q_TIGHT (2000172), Q_TIGHT2 (1999821)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [3s 3d]
+Dealt to Q_TIGHT [Kc 4s]
+Dealt to Q_TIGHT2 [Ad Kh]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #38, Q_TIGHT2 (1999822), QBOT (2000007), Q_TIGHT (2000171)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [4s 7c]
+Dealt to QBOT [4c Jh]
+Dealt to Q_TIGHT [Qd 8s]
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #39, Q_TIGHT (2000172), Q_TIGHT2 (1999822), QBOT (2000006)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Th 9d]
+Dealt to Q_TIGHT2 [4s 7h]
+Dealt to QBOT [Kc 3s]
+Q_TIGHT calls 2
+Q_TIGHT2 folds
+QBOT checks
+*** FLOP *** (5) [Jh 8s 9h]
+QBOT checks
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (8)
+
+Hand #40, QBOT (2000004), Q_TIGHT (2000175), Q_TIGHT2 (1999821)
+Q_TIGHT posts the blind of 1
+Q_TIGHT2 posts the blind of 2
+Dealt to QBOT [8c Jh]
+Dealt to Q_TIGHT [7h 5c]
+Dealt to Q_TIGHT2 [4c As]
+QBOT folds
+Q_TIGHT folds
+Q_TIGHT2 wins the pot (3)
+
+Hand #41, Q_TIGHT2 (1999822), QBOT (2000004), Q_TIGHT (2000174)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Kc 3c]
+Dealt to QBOT [Ah 3d]
+Dealt to Q_TIGHT [Qh Js]
+Q_TIGHT2 folds
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #42, Q_TIGHT (2000175), Q_TIGHT2 (1999822), QBOT (2000003)
+Q_TIGHT2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [9c 8c]
+Dealt to Q_TIGHT2 [Ad Kh]
+Dealt to QBOT [7c 7h]
+Q_TIGHT folds
+Q_TIGHT2 calls 2
+QBOT raises to 6
+Q_TIGHT2 raises to 18
+QBOT calls 18
+*** FLOP *** (36) [As Jh 7d]
+Q_TIGHT2 bets 32
+QBOT raises to 126
+Q_TIGHT2 raises to 384
+QBOT raises to 1133
+Q_TIGHT2 raises to 3136
+QBOT raises to 9067
+Q_TIGHT2 raises to 25608
+QBOT raises to 75454
+Q_TIGHT2 raises to 220122
+QBOT raises to 632831
+Q_TIGHT2 raises to 1871059
+QBOT raises to 1999804
+Q_TIGHT2 calls 1999804
+*** TURN *** (3999644) [As Jh 7d] [Ah]
+*** RIVER *** (3999644) [As Jh 7d Ah] [Qh]
+Q_TIGHT2 shows [Ad Kh]
+QBOT shows [7c 7h]
+QBOT wins the pot (3999644)
+
+Hand #43, QBOT (3999825), Q_TIGHT (2000175), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Qs 3c]
+Dealt to Q_TIGHT [Ts Kc]
+Dealt to Q_TIGHT2 [5h 6h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #44, Q_TIGHT (2000176), QBOT (3999824), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [2h Th]
+Dealt to QBOT [Qd 3c]
+Dealt to Q_TIGHT [7d 9s]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #45, QBOT (3999825), Q_TIGHT (2000175), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [4h 7c]
+Dealt to Q_TIGHT2 [5h Ah]
+Dealt to QBOT [9h Th]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [2d As Kh]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (6)
+
+Hand #46, Q_TIGHT (2000173), QBOT (3999827), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [6c 5d]
+Dealt to Q_TIGHT [9s 2s]
+Dealt to Q_TIGHT2 [Ts Ah]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #47, QBOT (3999828), Q_TIGHT (2000172), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Kc 2h]
+Dealt to QBOT [7h Td]
+Dealt to Q_TIGHT [Jc Qs]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #48, Q_TIGHT (2000173), QBOT (3999827), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Js Kd]
+Dealt to Q_TIGHT2 [6s 3c]
+Dealt to QBOT [Td Jd]
+Q_TIGHT calls 2
+QBOT raises to 4
+Q_TIGHT calls 4
+*** FLOP *** (8) [5c 6c 8h]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (8) [5c 6c 8h] [As]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (8) [5c 6c 8h As] [9d]
+QBOT checks
+Q_TIGHT checks
+Q_TIGHT shows [Js Kd]
+QBOT shows [Td Jd]
+Q_TIGHT wins the pot (8)
+
+Hand #49, QBOT (3999823), Q_TIGHT (2000177), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [5d 9s]
+Dealt to Q_TIGHT [9c 3s]
+Dealt to Q_TIGHT2 [2h 4h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #50, Q_TIGHT (2000178), QBOT (3999822), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [8s Qc]
+Dealt to QBOT [Jh 2s]
+Dealt to Q_TIGHT [Jc Tc]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [Kh 5d Ah]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [Kh 5d Ah] [9h]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (4) [Kh 5d Ah 9h] [9c]
+QBOT checks
+Q_TIGHT checks
+QBOT shows [Jh 2s]
+Q_TIGHT shows [Jc Tc]
+QBOT ties for the pot (2)
+Q_TIGHT ties for the pot (2)
+
+Hand #51, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [2d 6h]
+Dealt to Q_TIGHT2 [Kd 4s]
+Dealt to QBOT [5d 9s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #52, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [5c 6h]
+Dealt to Q_TIGHT [3h Td]
+Dealt to Q_TIGHT2 [7h As]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #53, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [4d 3c]
+Dealt to QBOT [Qc 5s]
+Dealt to Q_TIGHT [5h Kh]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #54, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Qd Jd]
+Dealt to Q_TIGHT2 [9d 2s]
+Dealt to QBOT [4c Ad]
+Q_TIGHT calls 2
+QBOT raises to 4
+Q_TIGHT calls 4
+*** FLOP *** (8) [As 2c 9s]
+QBOT bets 7
+Q_TIGHT folds
+QBOT wins the pot (15)
+
+Hand #55, QBOT (3999825), Q_TIGHT (2000175), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [4c Qs]
+Dealt to Q_TIGHT [3d 4s]
+Dealt to Q_TIGHT2 [8h 9s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #56, Q_TIGHT (2000176), QBOT (3999824), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [4c 3c]
+Dealt to QBOT [Qs 6d]
+Dealt to Q_TIGHT [2h 9c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #57, QBOT (3999825), Q_TIGHT (2000175), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [6c 4d]
+Dealt to Q_TIGHT2 [Js Ah]
+Dealt to QBOT [Kc 9d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #58, Q_TIGHT (2000176), QBOT (3999824), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [8d 7h]
+Dealt to Q_TIGHT [Ts Tc]
+Dealt to Q_TIGHT2 [2d Qh]
+Q_TIGHT raises to 6
+QBOT folds
+Q_TIGHT wins the pot (8)
+
+Hand #59, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Qd Tc]
+Dealt to QBOT [Qs 7c]
+Dealt to Q_TIGHT [6c Kh]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #60, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [5c 7c]
+Dealt to Q_TIGHT2 [Ad Qh]
+Dealt to QBOT [Th Qc]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #61, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [2c 4s]
+Dealt to Q_TIGHT [Ad Ac]
+Dealt to Q_TIGHT2 [9h 9d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #62, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [4c 9s]
+Dealt to QBOT [Ad Th]
+Dealt to Q_TIGHT [8d 3d]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #63, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [8c Qd]
+Dealt to Q_TIGHT2 [7c Qc]
+Dealt to QBOT [8s Jd]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #64, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Qc 5s]
+Dealt to Q_TIGHT [Js 2d]
+Dealt to Q_TIGHT2 [Kd 7h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #65, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Qh Ac]
+Dealt to QBOT [Qc 2h]
+Dealt to Q_TIGHT [7s 2d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #66, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Qc 2s]
+Dealt to Q_TIGHT2 [Qh Ks]
+Dealt to QBOT [6d Th]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #67, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [5c Qs]
+Dealt to Q_TIGHT [Ts Qd]
+Dealt to Q_TIGHT2 [2h 5h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #68, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [3h 3d]
+Dealt to QBOT [9s Js]
+Dealt to Q_TIGHT [Qs Kc]
+Q_TIGHT calls 2
+QBOT raises to 4
+Q_TIGHT calls 4
+*** FLOP *** (8) [8h 7c 7s]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (8) [8h 7c 7s] [Kh]
+QBOT checks
+Q_TIGHT bets 7
+QBOT folds
+Q_TIGHT wins the pot (15)
+
+Hand #69, QBOT (3999817), Q_TIGHT (2000183), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [Ac 9s]
+Dealt to Q_TIGHT2 [Qh 3d]
+Dealt to QBOT [Td 3h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #70, Q_TIGHT (2000184), QBOT (3999816), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Ts 8h]
+Dealt to Q_TIGHT [Kc Ad]
+Dealt to Q_TIGHT2 [3h 4c]
+Q_TIGHT raises to 6
+QBOT folds
+Q_TIGHT wins the pot (8)
+
+Hand #71, QBOT (3999814), Q_TIGHT (2000186), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [4h 3s]
+Dealt to QBOT [Qh 9d]
+Dealt to Q_TIGHT [4c Ad]
+QBOT calls 2
+Q_TIGHT raises to 4
+QBOT calls 4
+*** FLOP *** (8) [8h 7s 2s]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (10)
+
+Hand #72, Q_TIGHT (2000182), QBOT (3999818), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Jc 5c]
+Dealt to Q_TIGHT2 [Ts Jd]
+Dealt to QBOT [6d 7d]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #73, QBOT (3999819), Q_TIGHT (2000181), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [As Ts]
+Dealt to Q_TIGHT [6c Td]
+Dealt to Q_TIGHT2 [Kd 8c]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [Ac 8d Jd]
+Q_TIGHT checks
+QBOT bets 3
+Q_TIGHT folds
+QBOT wins the pot (7)
+
+Hand #74, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Kc 2s]
+Dealt to QBOT [Jd Ah]
+Dealt to Q_TIGHT [Th 6h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #75, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [Qs 3c]
+Dealt to Q_TIGHT2 [5c Qc]
+Dealt to QBOT [8h 4s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #76, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [8d 3c]
+Dealt to Q_TIGHT [7h Kd]
+Dealt to Q_TIGHT2 [Ac Qd]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #77, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Qh 7s]
+Dealt to QBOT [7c 4d]
+Dealt to Q_TIGHT [8d 6s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #78, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [4d 8c]
+Dealt to Q_TIGHT2 [9c 5c]
+Dealt to QBOT [9s Jh]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #79, QBOT (3999822), Q_TIGHT (2000178), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [2d Ah]
+Dealt to Q_TIGHT [Th 5d]
+Dealt to Q_TIGHT2 [9s Ac]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #80, Q_TIGHT (2000179), QBOT (3999821), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Qc 8h]
+Dealt to QBOT [Ah 7c]
+Dealt to Q_TIGHT [5h 5s]
+Q_TIGHT calls 2
+QBOT raises to 4
+Q_TIGHT calls 4
+*** FLOP *** (8) [4s Qd Js]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (8) [4s Qd Js] [Ac]
+QBOT bets 7
+Q_TIGHT folds
+QBOT wins the pot (15)
+
+Hand #81, QBOT (3999825), Q_TIGHT (2000175), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [6c 8c]
+Dealt to Q_TIGHT2 [Qd 3h]
+Dealt to QBOT [4h 7s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #82, Q_TIGHT (2000176), QBOT (3999824), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [3h 2c]
+Dealt to Q_TIGHT [2d Qd]
+Dealt to Q_TIGHT2 [8d 6h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #83, QBOT (3999825), Q_TIGHT (2000175), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [3s 5s]
+Dealt to QBOT [Qs Ks]
+Dealt to Q_TIGHT [Jd Ac]
+QBOT calls 2
+Q_TIGHT raises to 6
+QBOT raises to 18
+Q_TIGHT calls 18
+*** FLOP *** (36) [Tc Jc Ts]
+Q_TIGHT bets 35
+QBOT folds
+Q_TIGHT wins the pot (71)
+
+Hand #84, Q_TIGHT (2000193), QBOT (3999807), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [3s Qs]
+Dealt to Q_TIGHT2 [Ts 7d]
+Dealt to QBOT [9c Kh]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #85, QBOT (3999808), Q_TIGHT (2000192), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Td 3h]
+Dealt to Q_TIGHT [3s Jd]
+Dealt to Q_TIGHT2 [6h 4s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #86, Q_TIGHT (2000193), QBOT (3999807), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Kh 8c]
+Dealt to QBOT [4c 3h]
+Dealt to Q_TIGHT [5s 5d]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #87, QBOT (3999808), Q_TIGHT (2000192), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [2h 5c]
+Dealt to Q_TIGHT2 [Tc Ac]
+Dealt to QBOT [Ts Jc]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [Kc Kh 3c]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (6)
+
+Hand #88, Q_TIGHT (2000190), QBOT (3999810), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Jd Kd]
+Dealt to Q_TIGHT [7h 7d]
+Dealt to Q_TIGHT2 [7s Th]
+Q_TIGHT calls 2
+QBOT raises to 6
+Q_TIGHT raises to 18
+QBOT calls 18
+*** FLOP *** (36) [2s 2h 6d]
+QBOT checks
+Q_TIGHT bets 31
+QBOT folds
+Q_TIGHT wins the pot (67)
+
+Hand #89, QBOT (3999792), Q_TIGHT (2000208), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [6c 5s]
+Dealt to QBOT [Ks 4h]
+Dealt to Q_TIGHT [3c 6s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #90, Q_TIGHT (2000209), QBOT (3999791), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [5s 4c]
+Dealt to Q_TIGHT2 [8h 3s]
+Dealt to QBOT [Ad Qc]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #91, QBOT (3999792), Q_TIGHT (2000208), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [3d Jd]
+Dealt to Q_TIGHT [Kc Kh]
+Dealt to Q_TIGHT2 [9c As]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #92, Q_TIGHT (2000209), QBOT (3999791), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Kd Jd]
+Dealt to QBOT [5s Ac]
+Dealt to Q_TIGHT [Ts 6s]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #93, QBOT (3999792), Q_TIGHT (2000208), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [Jh 4c]
+Dealt to Q_TIGHT2 [Ks 5c]
+Dealt to QBOT [7d 9d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #94, Q_TIGHT (2000209), QBOT (3999791), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [5s 7c]
+Dealt to Q_TIGHT [Js Qd]
+Dealt to Q_TIGHT2 [3c 6s]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [Jc Ts 8c]
+QBOT checks
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #95, QBOT (3999789), Q_TIGHT (2000211), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Ks 9h]
+Dealt to QBOT [2s Qd]
+Dealt to Q_TIGHT [3h 4h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #96, Q_TIGHT (2000212), QBOT (3999788), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [5c 6d]
+Dealt to Q_TIGHT2 [7s 4c]
+Dealt to QBOT [3d 4d]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #97, QBOT (3999789), Q_TIGHT (2000211), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Ts Kc]
+Dealt to Q_TIGHT [8h 3c]
+Dealt to Q_TIGHT2 [7d 8s]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [7s 9d Qs]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (6)
+
+Hand #98, Q_TIGHT (2000209), QBOT (3999791), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [6s Kd]
+Dealt to QBOT [4c 9h]
+Dealt to Q_TIGHT [9s Qh]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [Kc 8d 4s]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [Kc 8d 4s] [Th]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (4) [Kc 8d 4s Th] [4h]
+QBOT bets 3
+Q_TIGHT folds
+QBOT wins the pot (7)
+
+Hand #99, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [5c Qs]
+Dealt to Q_TIGHT2 [Ks 7s]
+Dealt to QBOT [9c 2d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #100, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [4c 2s]
+Dealt to Q_TIGHT [Kc 8c]
+Dealt to Q_TIGHT2 [8d 9c]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [Tc 9d Ah]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [Tc 9d Ah] [Ks]
+QBOT checks
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #101, QBOT (3999790), Q_TIGHT (2000210), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Jh Kh]
+Dealt to QBOT [Ks Qc]
+Dealt to Q_TIGHT [3s Td]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [2d 2s 8d]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (6)
+
+Hand #102, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Ts 4c]
+Dealt to Q_TIGHT2 [9d Qd]
+Dealt to QBOT [Th Kh]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #103, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [4c 7s]
+Dealt to Q_TIGHT [Kc Jd]
+Dealt to Q_TIGHT2 [7d 8h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #104, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [2h 5s]
+Dealt to QBOT [5h 8h]
+Dealt to Q_TIGHT [Ad 4h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #105, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [7h 2s]
+Dealt to Q_TIGHT2 [7c Ad]
+Dealt to QBOT [3h Qc]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #106, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Ah 9h]
+Dealt to Q_TIGHT [6c Tc]
+Dealt to Q_TIGHT2 [Qc 5s]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #107, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [5c 6c]
+Dealt to QBOT [Qh Qc]
+Dealt to Q_TIGHT [6s 9d]
+QBOT raises to 6
+Q_TIGHT folds
+QBOT wins the pot (8)
+
+Hand #108, Q_TIGHT (2000205), QBOT (3999795), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [2s 3s]
+Dealt to Q_TIGHT2 [7s Td]
+Dealt to QBOT [4s 5h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #109, QBOT (3999796), Q_TIGHT (2000204), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Jd Js]
+Dealt to Q_TIGHT [Kd 2h]
+Dealt to Q_TIGHT2 [4h 4c]
+QBOT raises to 6
+Q_TIGHT folds
+QBOT wins the pot (8)
+
+Hand #110, Q_TIGHT (2000202), QBOT (3999798), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Ts 3h]
+Dealt to QBOT [Qh Ks]
+Dealt to Q_TIGHT [7h Jd]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #111, QBOT (3999799), Q_TIGHT (2000201), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [4d 6d]
+Dealt to Q_TIGHT2 [Th 6c]
+Dealt to QBOT [6h 9h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #112, Q_TIGHT (2000202), QBOT (3999798), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [8s 5h]
+Dealt to Q_TIGHT [Qd Ts]
+Dealt to Q_TIGHT2 [2s Ks]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [2h Jh Jc]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [2h Jh Jc] [7d]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (4) [2h Jh Jc 7d] [3h]
+QBOT checks
+Q_TIGHT checks
+QBOT shows [8s 5h]
+Q_TIGHT shows [Qd Ts]
+Q_TIGHT wins the pot (4)
+
+Hand #113, QBOT (3999796), Q_TIGHT (2000204), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [6s Ah]
+Dealt to QBOT [9d 3d]
+Dealt to Q_TIGHT [7c 8c]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #114, Q_TIGHT (2000205), QBOT (3999795), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Ad Qd]
+Dealt to Q_TIGHT2 [9c Th]
+Dealt to QBOT [9h 5c]
+Q_TIGHT raises to 6
+QBOT folds
+Q_TIGHT wins the pot (8)
+
+Hand #115, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Td Ah]
+Dealt to Q_TIGHT [5h Qs]
+Dealt to Q_TIGHT2 [3s 2s]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [Jd Tc 5d]
+Q_TIGHT checks
+QBOT bets 3
+Q_TIGHT folds
+QBOT wins the pot (7)
+
+Hand #116, Q_TIGHT (2000205), QBOT (3999795), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [6d 5d]
+Dealt to QBOT [5s Ac]
+Dealt to Q_TIGHT [9s 4h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #117, QBOT (3999796), Q_TIGHT (2000204), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [8s Js]
+Dealt to Q_TIGHT2 [6s Ah]
+Dealt to QBOT [Ks 5h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #118, Q_TIGHT (2000205), QBOT (3999795), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Tc 9h]
+Dealt to Q_TIGHT [7s 6h]
+Dealt to Q_TIGHT2 [2c Ah]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #119, QBOT (3999796), Q_TIGHT (2000204), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [4d 7s]
+Dealt to QBOT [3h Ts]
+Dealt to Q_TIGHT [6c 4h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #120, Q_TIGHT (2000205), QBOT (3999795), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [5s Ah]
+Dealt to Q_TIGHT2 [4c 2h]
+Dealt to QBOT [4d 3c]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [Th Ks 2d]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [Th Ks 2d] [6c]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (4) [Th Ks 2d 6c] [Ac]
+QBOT checks
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #121, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [8s 3d]
+Dealt to Q_TIGHT [5s Kh]
+Dealt to Q_TIGHT2 [Tc 4s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #122, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Th 4h]
+Dealt to QBOT [Qs 7s]
+Dealt to Q_TIGHT [7c 4c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #123, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [5h 4d]
+Dealt to Q_TIGHT2 [Kd 4c]
+Dealt to QBOT [2h Ts]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #124, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Tc Qd]
+Dealt to Q_TIGHT [Jc 3d]
+Dealt to Q_TIGHT2 [3h Td]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #125, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [2s Ts]
+Dealt to QBOT [Kh 9d]
+Dealt to Q_TIGHT [As Ah]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #126, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [6c 8s]
+Dealt to Q_TIGHT2 [3s Js]
+Dealt to QBOT [Ks 3c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #127, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [7d 9h]
+Dealt to Q_TIGHT [2s Td]
+Dealt to Q_TIGHT2 [As 3d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #128, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Qs 7d]
+Dealt to QBOT [Js 7c]
+Dealt to Q_TIGHT [Qd 8c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #129, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [3d 4c]
+Dealt to Q_TIGHT2 [Td Qc]
+Dealt to QBOT [Tc 6d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #130, Q_TIGHT (2000208), QBOT (3999792), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Jd 7d]
+Dealt to Q_TIGHT [4d 5s]
+Dealt to Q_TIGHT2 [2d 6d]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #131, QBOT (3999793), Q_TIGHT (2000207), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Qs Ac]
+Dealt to QBOT [Qd 8c]
+Dealt to Q_TIGHT [5d Ks]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [Kh Js 6h]
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #132, Q_TIGHT (2000209), QBOT (3999791), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [2s 6c]
+Dealt to Q_TIGHT2 [Qd 9h]
+Dealt to QBOT [Kc Qs]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #133, QBOT (3999792), Q_TIGHT (2000208), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Ks Kh]
+Dealt to Q_TIGHT [7h 5h]
+Dealt to Q_TIGHT2 [Jh Th]
+QBOT raises to 6
+Q_TIGHT folds
+QBOT wins the pot (8)
+
+Hand #134, Q_TIGHT (2000206), QBOT (3999794), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Jd 2d]
+Dealt to QBOT [9c Kh]
+Dealt to Q_TIGHT [Ks 6h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #135, QBOT (3999795), Q_TIGHT (2000205), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [Th 6h]
+Dealt to Q_TIGHT2 [Qh 4s]
+Dealt to QBOT [As 6s]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [7d 5d 4h]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (6)
+
+Hand #136, Q_TIGHT (2000203), QBOT (3999797), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [7c 8c]
+Dealt to Q_TIGHT [Ks Jh]
+Dealt to Q_TIGHT2 [Ad Kc]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [2h Jd 9s]
+QBOT checks
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #137, QBOT (3999795), Q_TIGHT (2000205), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [3s 2d]
+Dealt to QBOT [Ks Ah]
+Dealt to Q_TIGHT [Tc Kd]
+QBOT raises to 6
+Q_TIGHT calls 6
+*** FLOP *** (12) [5s 4s Qc]
+Q_TIGHT checks
+QBOT bets 5
+Q_TIGHT folds
+QBOT wins the pot (17)
+
+Hand #138, Q_TIGHT (2000199), QBOT (3999801), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [Qh 9d]
+Dealt to Q_TIGHT2 [As 2s]
+Dealt to QBOT [Tc Ad]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #139, QBOT (3999802), Q_TIGHT (2000198), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Th 8c]
+Dealt to Q_TIGHT [Kd 4s]
+Dealt to Q_TIGHT2 [5h 4d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #140, Q_TIGHT (2000199), QBOT (3999801), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [2s Qh]
+Dealt to QBOT [4d Ac]
+Dealt to Q_TIGHT [7d 9s]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #141, QBOT (3999802), Q_TIGHT (2000198), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [8h Jd]
+Dealt to Q_TIGHT2 [Th Ts]
+Dealt to QBOT [Ad 3d]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [6d 8d Kd]
+Q_TIGHT checks
+QBOT bets 3
+Q_TIGHT calls 3
+*** TURN *** (10) [6d 8d Kd] [5s]
+Q_TIGHT checks
+QBOT bets 9
+Q_TIGHT folds
+QBOT wins the pot (19)
+
+Hand #142, Q_TIGHT (2000193), QBOT (3999807), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Qh Jc]
+Dealt to Q_TIGHT [Ac Jd]
+Dealt to Q_TIGHT2 [6d Ah]
+Q_TIGHT raises to 6
+QBOT calls 6
+*** FLOP *** (12) [7h 7s Ks]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (12) [7h 7s Ks] [2c]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (12) [7h 7s Ks 2c] [Kd]
+QBOT checks
+Q_TIGHT checks
+QBOT shows [Qh Jc]
+Q_TIGHT shows [Ac Jd]
+Q_TIGHT wins the pot (12)
+
+Hand #143, QBOT (3999801), Q_TIGHT (2000199), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [3d Kc]
+Dealt to QBOT [Ad 6h]
+Dealt to Q_TIGHT [Qs 4c]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [Qh Qd 8h]
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #144, Q_TIGHT (2000201), QBOT (3999799), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [4s 4d]
+Dealt to Q_TIGHT2 [6h 5d]
+Dealt to QBOT [7d 3d]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #145, QBOT (3999800), Q_TIGHT (2000200), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [9h 4c]
+Dealt to Q_TIGHT [Ks 9s]
+Dealt to Q_TIGHT2 [2d 3d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #146, Q_TIGHT (2000201), QBOT (3999799), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [2s 7c]
+Dealt to QBOT [Jh 6s]
+Dealt to Q_TIGHT [Jc Kd]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [2c Tc 5d]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [2c Tc 5d] [3d]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (4) [2c Tc 5d 3d] [Ah]
+QBOT checks
+Q_TIGHT checks
+QBOT shows [Jh 6s]
+Q_TIGHT shows [Jc Kd]
+Q_TIGHT wins the pot (4)
+
+Hand #147, QBOT (3999797), Q_TIGHT (2000203), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [7h Th]
+Dealt to Q_TIGHT2 [Ah 4h]
+Dealt to QBOT [Kd 6c]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #148, Q_TIGHT (2000204), QBOT (3999796), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [8h Jh]
+Dealt to Q_TIGHT [Jc 3h]
+Dealt to Q_TIGHT2 [9h 7h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #149, QBOT (3999797), Q_TIGHT (2000203), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Kh Qc]
+Dealt to QBOT [4s Kd]
+Dealt to Q_TIGHT [Qd Th]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #150, Q_TIGHT (2000204), QBOT (3999796), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [2h Ah]
+Dealt to Q_TIGHT2 [Js 5s]
+Dealt to QBOT [Jd Qc]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #151, QBOT (3999797), Q_TIGHT (2000203), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Qs 8c]
+Dealt to Q_TIGHT [5d Ts]
+Dealt to Q_TIGHT2 [4h 4s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #152, Q_TIGHT (2000204), QBOT (3999796), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [5c Ts]
+Dealt to QBOT [Tc 3d]
+Dealt to Q_TIGHT [Kh 9d]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [Ac 3h 8d]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [Ac 3h 8d] [9c]
+QBOT checks
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #153, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [7s 6c]
+Dealt to Q_TIGHT2 [Ah 9s]
+Dealt to QBOT [6d 3h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #154, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Ts 5d]
+Dealt to Q_TIGHT [9h 6d]
+Dealt to Q_TIGHT2 [Qd 4h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #155, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [3d Jd]
+Dealt to QBOT [8c Th]
+Dealt to Q_TIGHT [9c 9h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #156, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [4h 5d]
+Dealt to Q_TIGHT2 [Ks Qs]
+Dealt to QBOT [3c Qc]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #157, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [As 2d]
+Dealt to Q_TIGHT [5h Kc]
+Dealt to Q_TIGHT2 [9s 5d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #158, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [Kc 8s]
+Dealt to QBOT [Ac Ks]
+Dealt to Q_TIGHT [4c 9h]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #159, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [6c Tc]
+Dealt to Q_TIGHT2 [5c Ks]
+Dealt to QBOT [Kd 2c]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #160, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [5d Kh]
+Dealt to Q_TIGHT [4c Jc]
+Dealt to Q_TIGHT2 [3c Qc]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #161, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [2c Jc]
+Dealt to QBOT [8h Ac]
+Dealt to Q_TIGHT [Qd 8c]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [2d 2h 7h]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (6)
+
+Hand #162, Q_TIGHT (2000204), QBOT (3999796), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [5h 7s]
+Dealt to Q_TIGHT2 [Jc As]
+Dealt to QBOT [Ah Ks]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #163, QBOT (3999797), Q_TIGHT (2000203), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Jh Kc]
+Dealt to Q_TIGHT [Kh 9s]
+Dealt to Q_TIGHT2 [3d 7s]
+QBOT calls 2
+Q_TIGHT raises to 4
+QBOT calls 4
+*** FLOP *** (8) [8s 4d 9h]
+Q_TIGHT bets 7
+QBOT folds
+Q_TIGHT wins the pot (15)
+
+Hand #164, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [4h 5c]
+Dealt to QBOT [2h 5h]
+Dealt to Q_TIGHT [7c Qs]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #165, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [Ah 3s]
+Dealt to Q_TIGHT2 [3d 6h]
+Dealt to QBOT [Jh Qs]
+QBOT calls 2
+Q_TIGHT checks
+*** FLOP *** (4) [2d 5d 9c]
+Q_TIGHT checks
+QBOT bets 2
+Q_TIGHT folds
+QBOT wins the pot (6)
+
+Hand #166, Q_TIGHT (2000204), QBOT (3999796), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [7c As]
+Dealt to Q_TIGHT [5h 2c]
+Dealt to Q_TIGHT2 [5d 8c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #167, QBOT (3999797), Q_TIGHT (2000203), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [6c 4s]
+Dealt to QBOT [Tc 3s]
+Dealt to Q_TIGHT [5d Kh]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #168, Q_TIGHT (2000204), QBOT (3999796), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [7c 2d]
+Dealt to Q_TIGHT2 [Jc 7s]
+Dealt to QBOT [Jh 3d]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #169, QBOT (3999797), Q_TIGHT (2000203), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Jh 8c]
+Dealt to Q_TIGHT [2s Qh]
+Dealt to Q_TIGHT2 [Kd Tc]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #170, Q_TIGHT (2000204), QBOT (3999796), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [5c Ks]
+Dealt to QBOT [Qd 7c]
+Dealt to Q_TIGHT [8c Tc]
+Q_TIGHT calls 2
+QBOT checks
+*** FLOP *** (4) [Js 5h Ah]
+QBOT checks
+Q_TIGHT checks
+*** TURN *** (4) [Js 5h Ah] [Td]
+QBOT checks
+Q_TIGHT checks
+*** RIVER *** (4) [Js 5h Ah Td] [Ts]
+QBOT checks
+Q_TIGHT bets 3
+QBOT folds
+Q_TIGHT wins the pot (7)
+
+Hand #171, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [2s 6s]
+Dealt to Q_TIGHT2 [Kd 8s]
+Dealt to QBOT [2h Tc]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #172, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [2d Qh]
+Dealt to Q_TIGHT [Jc 7d]
+Dealt to Q_TIGHT2 [3d 2c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #173, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [Kc 2s]
+Dealt to QBOT [3c 7c]
+Dealt to Q_TIGHT [Js 3d]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #174, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [2c 2h]
+Dealt to Q_TIGHT2 [Th 3s]
+Dealt to QBOT [5c 9c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #175, QBOT (3999794), Q_TIGHT (2000206), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [Td 8h]
+Dealt to Q_TIGHT [5d 9h]
+Dealt to Q_TIGHT2 [2h 2s]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #176, Q_TIGHT (2000207), QBOT (3999793), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT2 [5s 7c]
+Dealt to QBOT [6h 4d]
+Dealt to Q_TIGHT [Js Jd]
+Q_TIGHT raises to 6
+QBOT folds
+Q_TIGHT wins the pot (8)
+
+Hand #177, QBOT (3999791), Q_TIGHT (2000209), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT [Jh 3c]
+Dealt to Q_TIGHT2 [6c 9h]
+Dealt to QBOT [Kd 7c]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #178, Q_TIGHT (2000210), QBOT (3999790), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to QBOT [Ts Kc]
+Dealt to Q_TIGHT [4d 8s]
+Dealt to Q_TIGHT2 [5s Kd]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #179, QBOT (3999791), Q_TIGHT (2000209), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to Q_TIGHT2 [6s 2c]
+Dealt to QBOT [5c 4d]
+Dealt to Q_TIGHT [2d 9h]
+QBOT folds
+Q_TIGHT wins the pot (3)
+
+Hand #180, Q_TIGHT (2000210), QBOT (3999790), Q_TIGHT2 (0)
+Q_TIGHT posts the blind of 1
+QBOT posts the blind of 2
+Dealt to Q_TIGHT [3h Qd]
+Dealt to Q_TIGHT2 [3d 7h]
+Dealt to QBOT [5d 7c]
+Q_TIGHT folds
+QBOT wins the pot (3)
+
+Hand #181, QBOT (3999791), Q_TIGHT (2000209), Q_TIGHT2 (0)
+QBOT posts the blind of 1
+Q_TIGHT posts the blind of 2
+Dealt to QBOT [8c 8h]
+Dealt to Q_TIGHT [Ad 8s]
+Dealt to Q_TIGHT2 [2h Ks]
+QBOT raises to 6
+Q_TIGHT calls 6
+*** FLOP *** (12) [4h Ah 8d]
+Q_TIGHT bets 10
+QBOT raises to 40
+Q_TIGHT raises to 124
+QBOT raises to 352
+Q_TIGHT raises to 980
+QBOT raises to 2934
+Q_TIGHT raises to 8526
+QBOT raises to 23845
+Q_TIGHT raises to 69871
+QBOT raises to 207190
+Q_TIGHT raises to 610857
+QBOT raises to 1801472
+Q_TIGHT raises to 2000203
+QBOT calls 2000203
+*** TURN *** (4000418) [4h Ah 8d] [6c]
+*** RIVER *** (4000418) [4h Ah 8d 6c] [2d]
+QBOT shows [8c 8h]
+Q_TIGHT shows [Ad 8s]
+QBOT wins the pot (4000418)
+

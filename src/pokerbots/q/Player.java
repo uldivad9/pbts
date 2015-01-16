@@ -36,6 +36,9 @@ public class Player {
 		int[] stacks = new int[3]; //0 is own stack, 1 is the next player over
 		int potsize=0;
 		
+		
+		int numRaises=0; //number of raises during this street
+		int numFolds=0; //number of folds during this street
 		boolean button=false; //am i the button
 		boolean stole=false; //if i tried a steal this round
 		int failedSteals = 0; //number of steals that failed (opp didn't fold)
@@ -65,7 +68,7 @@ public class Player {
 					//tokens[1-3] are player names
 					for (int i=1; i<=3; i++) {
 						if (!failedStealMap.containsKey(tokens[i])) {
-							failedStealMap.put(tokens[i],0);
+							failedStealMap.put(tokens[i],0); //must be 30 or less to try a steal, min 10
 						}
 					}
 					
@@ -89,6 +92,9 @@ public class Player {
 					combined = new Hand();
 					hand.addCard(tokens[3]);
 					hand.addCard(tokens[4]);
+					
+					numRaises = 0;
+					numFolds = 0;
 					
 					combined.addCard(tokens[3]);
 					combined.addCard(tokens[4]);
@@ -151,6 +157,15 @@ public class Player {
 					//points to the first token after numLastActions, which should be the first last action.
 					//do stuff with the actions
 					for (int i=0; i<numLastActions; i++) {
+						String[] actionTokens = tokens[base2+i].split(":");
+						if ("FOLD".equals(actionTokens[0])) {
+							numFolds++;
+						} else if ("RAISE".equals(actionTokens[0])) {
+							numRaises++;
+						} else if ("DEAL".equals(actionTokens[0])) {
+							numFolds = 0;
+							numRaises = 0;
+						}
 						actionList.add(tokens[base2+i]);
 					}
 					
@@ -185,6 +200,7 @@ public class Player {
 					if (debug) {
 						System.out.println("Active players: "+activePlayers);
 						System.out.println("Actions: "+actionList);
+						System.out.println("Raises/folds: "+numRaises+"/"+numFolds);
 						System.out.println("Time left: "+timeBank);
 						System.out.println("My hand: "+hand.toString());
 						System.out.println("Board: "+board.toString());
@@ -240,8 +256,12 @@ public class Player {
 								output = "CHECK";
 							}
 						} else {
-							if (strength > 0.47+variance && maxRaise > 0) {
+							if (strength > 0.63+variance && maxRaise > 0) {
 								//raise that ho
+								output = "RAISE:"+maxRaise;
+							}
+							else if (strength > 0.47+variance && maxRaise > 0 && numRaises < 2) {
+								//raise the roof
 								output = "RAISE:"+maxRaise;
 							} else if (strength > 0.4+variance) {
 								output = "CALL:"+toCall;
@@ -255,7 +275,6 @@ public class Player {
 						int handStrength = combined.evaluateHand();
 						double relativeStrength = AfterFlop.getRelativeStrength(hand,board);
 						double variance = rand.nextGaussian()*(1-relativeStrength)/20;
-						System.out.println("My hand strength: "+handStrength);
 						System.out.println("Relative strength: "+relativeStrength);
 						System.out.println("This round's variance is: "+ variance);
 						
@@ -277,7 +296,7 @@ public class Player {
 									int spread = Math.max(maxBet-base,1);
 									int betAmount = Math.min(Math.max(base+rand.nextInt(spread),minBet),maxBet);
 									output = "BET:"+betAmount;
-								} else if (relativeStrength > 0.7+variance) {
+								} else if (relativeStrength > 0.75+variance) {
 									if (debug) System.out.println("Strong hand; betting high");
 									int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(relativeStrength+variance)),minBet),maxBet);
 									output = "BET:"+betAmount;
@@ -321,7 +340,7 @@ public class Player {
 									output = "CHECK";
 								}
 							}
-						} else {
+						} else if (numRaises == 0) {
 							//can't check.
 							if (relativeStrength > 0.95) {
 								if (debug) System.out.println("Uber hand; raising max");
@@ -363,6 +382,23 @@ public class Player {
 								if (debug) System.out.println("Weak hand; folding");
 								output = "FOLD";
 							}
+						} else {
+							//someone has already raised
+							if (relativeStrength > 0.96) {
+								if (debug) System.out.println("Uber hand; reraising max");
+								if (maxRaise > 0) {
+									int base = maxRaise*9/10;
+									int spread = Math.max(maxRaise-base,1);
+									int raiseAmount = Math.min(Math.max(base+rand.nextInt(spread),minRaise),maxRaise);
+									output = "RAISE:"+raiseAmount;
+								} else {
+									output = "CALL:"+toCall;
+								}
+							} else if (relativeStrength > 0.84+variance) {
+								output = "CALL:"+toCall;
+							} else {
+								output = "FOLD";
+							}
 						}
 						
 						if ("FOLD".equals(output) && combined.size() < 7) {
@@ -388,7 +424,19 @@ public class Player {
 					}
 					
 					outStream.println(output);
-					
+				
+				} else if ("HANDOVER".compareToIgnoreCase(packetType) == 0) {
+					//hand is over.
+					//tokens[1-3] are stack sizes
+					int numBoardCards = Integer.parseInt(tokens[4]);
+					int base1 = 5+numBoardCards;
+					//base1 is the index of numLastActions
+					int numLastActions = Integer.parseInt(tokens[base1]);
+					for (int i=0; i<numLastActions; i++) {
+						actionList.add(tokens[base1+i+1]);
+					}
+					System.out.println("All hand actions: "+actionList);
+					analyze(actionList);
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
@@ -424,6 +472,37 @@ public class Player {
 		}
 	}
 	
+	public void analyze(String[] actions) {
+		assert(actions[actions.length-1].substring(0,3).equals("WIN"));
+		for (int i=actions.length-1; i>=Math.max(0,actions.length-4); i--) {
+			String[] tokens = actions[i].split(":");
+			if (tokens[0].equals("SHOW")) {
+				String player = tokens[3];
+				Card c1 = new Card(tokens[1]);
+				Card c2 = new Card(tokens[2]);
+				//do stuff with playername and cards... more analysis
+			}
+		}
+		
+		//check actions until flop
+		int actionNum = 0;
+		preflop:
+		while (actionNum < actions.length) {
+			String[] tokens = actions[actionNum].split(":");
+			if ("DEAL".equals(tokens[0])) {
+				break preflop;
+			} else if ("FOLD".equals(tokens[0])) {
+				String playerName = tokens[1];
+			}
+		}
+		
+		
+		//check actions until turn
+		
+		
+		//check actions until river
+		
+		//check actions until showdown
+	}
+	
 }
-
-
