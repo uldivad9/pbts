@@ -200,7 +200,7 @@ public class Player {
 					if (debug) {
 						System.out.println("Active players: "+activePlayers);
 						System.out.println("Actions: "+actionList);
-						System.out.println("Raises/folds:"+numRaises+" "+numFolds);
+						System.out.println("Raises/folds: "+numRaises+"/"+numFolds);
 						System.out.println("Time left: "+timeBank);
 						System.out.println("My hand: "+hand.toString());
 						System.out.println("Board: "+board.toString());
@@ -394,7 +394,7 @@ public class Player {
 								} else {
 									output = "CALL:"+toCall;
 								}
-							} else if (relativeStrength > 0.85+variance) {
+							} else if (relativeStrength > 0.84+variance) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";
@@ -424,7 +424,18 @@ public class Player {
 					}
 					
 					outStream.println(output);
-					
+				
+				} else if ("HANDOVER".compareToIgnoreCase(packetType) == 0) {
+					//hand is over.
+					//tokens[1-3] are stack sizes
+					int numBoardCards = Integer.parseInt(tokens[4]);
+					int base1 = 5+numBoardCards;
+					//base1 is the index of numLastActions
+					int numLastActions = Integer.parseInt(tokens[base1]);
+					for (int i=0; i<numLastActions; i++) {
+						actionList.add(tokens[base1+i+1]);
+					}
+					System.out.println("All hand actions: "+actionList);
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
@@ -459,5 +470,6 @@ public class Player {
 			e.printStackTrace();
 		}
 	}
+	
 	
 }
