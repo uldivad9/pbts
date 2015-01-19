@@ -3,6 +3,7 @@ package pokerbots;
 import pokerbots.*;
 
 import java.util.*;
+import java.io.*;
 /*
 For reference:
 x0000000:
@@ -23,11 +24,20 @@ kicker strengths
 
 public class Tester {
 	public static void main (String args[]) {
-		PlayerProfile pp = new PlayerProfile("Q_TIGHT2");
-		String actionstring = "POST:1:Q_TIGHT, POST:2:Q_TIGHT2, RAISE:7:QBOT, FOLD:Q_TIGHT, RAISE:22:Q_TIGHT2, CALL:22:QBOT, DEAL:FLOP, BET:37:Q_TIGHT2, CALL:37:QBOT, DEAL:TURN, BET:97:Q_TIGHT2, CALL:97:QBOT, DEAL:RIVER, CHECK:Q_TIGHT2, BET:126:QBOT, CALL:126:Q_TIGHT2, SHOW:Th:Tc:QBOT, SHOW:Qd:Td:Q_TIGHT2, WIN:565:Q_TIGHT2";
-		String[] actions = actionstring.split(", ");
+		/*
+		PlayerProfile pp = new PlayerProfile("QBOT");
+		//String actionstring = "POST:1:Q_TIGHT, POST:2:Q_TIGHT2, RAISE:7:QBOT, FOLD:Q_TIGHT, RAISE:22:Q_TIGHT2, CALL:22:QBOT, DEAL:FLOP, BET:37:Q_TIGHT2, CALL:37:QBOT, DEAL:TURN, BET:97:Q_TIGHT2, CALL:97:QBOT, DEAL:RIVER, CHECK:Q_TIGHT2, BET:126:QBOT, CALL:126:Q_TIGHT2, SHOW:Th:Tc:QBOT, SHOW:Qd:Td:Q_TIGHT2, WIN:565:Q_TIGHT2";
+		//String[] actions = actionstring.split(", ");
 		
-		pp.updateProfileAfterHand(actions);
-		pp.printInfo();
+		Scanner scan = new Scanner(System.in);
+		
+		String line;
+		while ((line = scan.nextLine()) != null) {
+			String[] actions = line.split(", ");
+			pp.updateProfileAfterHand(actions);
+			pp.printInfo();
+		}*/
+		
+		PlayerProfile POTRIPPER = PlayerProfile.parseKeyValue("POTRIPPER","4020 1964 320 1336 720 180 237 13 208 330 36 31 5 0 294 21 55 7 33 240 108");
 	}
 }

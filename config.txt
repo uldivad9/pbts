@@ -44,13 +44,13 @@ PLAYER_1_NAME = QBOT
 PLAYER_1_RESET_KEYS = true
 
 PLAYER_2_TYPE = FOLDER
-PLAYER_2_PATH = ./src/pokerbots/q_tight
+PLAYER_2_PATH = ./src/pokerbots/rikkubot
 PLAYER_2_SCONS_ARGS = -u
-PLAYER_2_NAME = Q_TIGHT
+PLAYER_2_NAME = RB1
 PLAYER_2_RESET_KEYS = true
 
 PLAYER_3_TYPE = FOLDER
-PLAYER_3_PATH = ./src/pokerbots/q_tight
+PLAYER_3_PATH = ./src/pokerbots/rikkubot
 PLAYER_3_SCONS_ARGS = -u
-PLAYER_3_NAME = Q_TIGHT2
+PLAYER_3_NAME = RB2
 PLAYER_3_RESET_KEYS = true

@@ -1,4 +1,4 @@
-package pokerbots.q;
+package pokerbots.rikkubot;
 
 import java.io.*;
 import java.util.*;
@@ -39,7 +39,7 @@ public class Player {
 		double timeBank=20.0;
 		int[] stacks = new int[3]; //0 is own stack, 1 is the next player over
 		int potsize=0;
-		ArrayList<String> activePlayers = new ArrayList<String>();
+		
 		
 		int numRaises=0; //number of raises during this street
 		int numFolds=0; //number of folds during this street
@@ -48,7 +48,6 @@ public class Player {
 		int failedSteals = 0; //number of steals that failed (opp didn't fold)
 		boolean countedSteal = false; //have i counted this steal in failedsteals yet
 		HashMap<String, Integer> failedStealMap = new HashMap<String, Integer>();
-		HashMap<String, PlayerProfile> profileMap = new HashMap<String, PlayerProfile>();
 		
 		ArrayList<String> actionList = new ArrayList<String>();
 		
@@ -70,20 +69,14 @@ public class Player {
 				if ("NEWGAME".compareToIgnoreCase(packetType) == 0) {
 					MY_NAME = tokens[1];
 					
-					//myProfile = new PlayerProfile(MY_NAME);
-					//oppProfile1 = new PlayerProfile(tokens[2]);
-					//oppProfile2 = new PlayerProfile(tokens[3]);
-					
-					
+					myProfile = new PlayerProfile(MY_NAME);
+					oppProfile1 = new PlayerProfile(tokens[2]);
+					oppProfile2 = new PlayerProfile(tokens[3]);
 					
 					//tokens[1-3] are player names
 					for (int i=1; i<=3; i++) {
 						if (!failedStealMap.containsKey(tokens[i])) {
 							failedStealMap.put(tokens[i],0); //must be 30 or less to try a steal, min 10
-						}
-						
-						if (!profileMap.containsKey(tokens[i])) {
-							profileMap.put(tokens[i],new PlayerProfile(tokens[i]));
 						}
 					}
 					
@@ -159,7 +152,7 @@ public class Player {
 					
 					//tokens[base1+3] is the number of active players
 					int numActivePlayers = Integer.parseInt(tokens[base1+3]);
-					activePlayers = new ArrayList<String>();
+					ArrayList<String> activePlayers = new ArrayList<String>();
 					for (int i=0; i<numActivePlayers; i++) {
 						if(tokens[base1+4+i].equals("true")) {
 							activePlayers.add(playerNames[i]);
@@ -453,24 +446,17 @@ public class Player {
 					System.out.println("All hand actions: "+actionList);
 					
 					String[] actionArray = actionList.toArray(new String[actionList.size()]);
-					
-					for (String playername : activePlayers) {
-						profileMap.get(playername).updateProfileAfterHand(actionArray);
-					}
+					myProfile.updateProfileAfterHand(actionArray);
+					oppProfile1.updateProfileAfterHand(actionArray);
+					oppProfile2.updateProfileAfterHand(actionArray);
 					
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
-					for (String playername : playerNames) {
-						profileMap.get(playername).printInfo();
-					}
 					
-					Set<String> profilekeys = profileMap.keySet();
-					for (String key : profilekeys) {
-						String keyInstruction = "PUT "+profileMap.get(key).toKeyValue();
-						outStream.println(keyInstruction);
-						System.out.println(keyInstruction);
-					}
+					myProfile.printInfo();
+					oppProfile1.printInfo();
+					oppProfile2.printInfo();
 					
 					Set<String> keys = failedStealMap.keySet();
 					for (String key : keys) {
@@ -478,13 +464,12 @@ public class Player {
 						outStream.println(keyInstruction);
 						System.out.println(keyInstruction);
 					}
+					outStream.println("DELETE hello");
 					outStream.println("FINISH");
 				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
 					if ("FSM".equals(tokens[1].substring(0,3))) {
 						//deal with failedstealmap
 						failedStealMap.put(tokens[1].substring(3,tokens[1].length()),Integer.parseInt(tokens[2]));
-					} else if (profileMap.containsKey(tokens[1])) {
-						profileMap.put(tokens[1],PlayerProfile.parseKeyValue(input.substring(9,input.length())));
 					}
 				}
 			}

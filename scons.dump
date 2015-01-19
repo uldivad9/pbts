@@ -8,5 +8,5 @@ scons: Building targets ...
 
 scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
 File "C:\Program Files (x86)\python27\Scripts\scons.py", line 199, in <module>
-scons: `src\pokerbots\q_tight' is up to date.
+scons: `src\pokerbots\rikkubot' is up to date.
 scons: done building targets.
