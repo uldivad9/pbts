@@ -24,6 +24,7 @@ kicker strengths
 
 public class Tester {
 	public static void main (String args[]) {
+		/*
 		PlayerProfile pp = new PlayerProfile("QBOT");
 		//String actionstring = "POST:1:Q_TIGHT, POST:2:Q_TIGHT2, RAISE:7:QBOT, FOLD:Q_TIGHT, RAISE:22:Q_TIGHT2, CALL:22:QBOT, DEAL:FLOP, BET:37:Q_TIGHT2, CALL:37:QBOT, DEAL:TURN, BET:97:Q_TIGHT2, CALL:97:QBOT, DEAL:RIVER, CHECK:Q_TIGHT2, BET:126:QBOT, CALL:126:Q_TIGHT2, SHOW:Th:Tc:QBOT, SHOW:Qd:Td:Q_TIGHT2, WIN:565:Q_TIGHT2";
 		//String[] actions = actionstring.split(", ");
@@ -35,6 +36,23 @@ public class Tester {
 			String[] actions = line.split(", ");
 			pp.updateProfileAfterHand(actions);
 			pp.printInfo();
+		}*/
+		
+		PlayerProfile RB = PlayerProfile.parseKeyValue("RB1","4020 2140 372 875 1005 237 268 9 217 549 50 84 7 47 452 47 74 9 40 365 173");
+		
+		Scanner scan = new Scanner(System.in);
+		String line;
+		while ((line = scan.nextLine()) != null) {
+			
+			String[] actions = line.split(", ");
+			String line2;
+			int hi = 0;
+			innerloop:
+			while ((line2 = scan.nextLine()) != null) {
+				hi = Integer.parseInt(line2);
+				break innerloop;
+			}
+			System.out.println(RB.estimateStrength(actions,hi));
 		}
 	}
 }

@@ -1,0 +1,1221 @@
+6.176 MIT Pokerbots - RAND14 vs RAND24 vs QBOT4 (stack=200, bb=2)
+Hand #1, RAND14 (200), RAND24 (200), QBOT4 (200)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [3c 4h]
+Dealt to RAND24 [6h Ts]
+Dealt to QBOT4 [Tc Qd]
+RAND14 folds
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #2, QBOT4 (198), RAND14 (200), RAND24 (202)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [4s Jd]
+Dealt to RAND14 [5h Th]
+Dealt to RAND24 [Qs Ks]
+QBOT4 folds
+RAND14 folds
+RAND24 wins the pot (3)
+
+Hand #3, RAND24 (203), QBOT4 (198), RAND14 (199)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [2h Tc]
+Dealt to QBOT4 [Th Qs]
+Dealt to RAND14 [8s 7c]
+RAND24 folds
+QBOT4 raises to 6
+RAND14 folds
+QBOT4 wins the pot (8)
+
+Hand #4, RAND14 (197), RAND24 (203), QBOT4 (200)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [8s 2s]
+Dealt to RAND24 [Jc Jd]
+Dealt to QBOT4 [Qc 7s]
+RAND14 calls 2
+RAND24 folds
+QBOT4 checks
+*** FLOP *** (5) [9d 6s Ad]
+QBOT4 checks
+RAND14 bets 4
+QBOT4 folds
+RAND14 wins the pot (9)
+
+Hand #5, QBOT4 (198), RAND14 (200), RAND24 (202)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [Qs Jc]
+Dealt to RAND14 [4d 9c]
+Dealt to RAND24 [Ac 3h]
+QBOT4 raises to 7
+RAND14 calls 7
+RAND24 calls 7
+*** FLOP *** (21) [3c 2d 5d]
+RAND14 checks
+RAND24 checks
+QBOT4 checks
+*** TURN *** (21) [3c 2d 5d] [6s]
+RAND14 checks
+RAND24 bets 12
+QBOT4 folds
+RAND14 raises to 33
+RAND24 folds
+RAND14 wins the pot (66)
+
+Hand #6, RAND24 (183), QBOT4 (191), RAND14 (226)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [5s 7h]
+Dealt to QBOT4 [3h Jc]
+Dealt to RAND14 [4d 8h]
+RAND24 calls 2
+QBOT4 folds
+RAND14 raises to 6
+RAND24 calls 6
+*** FLOP *** (13) [Jh 9h 3s]
+RAND14 bets 10
+RAND24 calls 10
+*** TURN *** (33) [Jh 9h 3s] [Jd]
+RAND14 checks
+RAND24 checks
+*** RIVER *** (33) [Jh 9h 3s Jd] [Ad]
+RAND14 checks
+RAND24 checks
+RAND24 shows [5s 7h]
+RAND14 shows [4d 8h]
+RAND14 wins the pot (33)
+
+Hand #7, RAND14 (243), RAND24 (167), QBOT4 (190)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [Qs 8d]
+Dealt to RAND24 [Jd 3h]
+Dealt to QBOT4 [5h Kh]
+RAND14 folds
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [8c 3c 8s]
+RAND24 checks
+QBOT4 checks
+*** TURN *** (4) [8c 3c 8s] [Qh]
+RAND24 bets 2
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #8, QBOT4 (188), RAND14 (243), RAND24 (169)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [9h Js]
+Dealt to RAND14 [7s 5s]
+Dealt to RAND24 [Jh Ts]
+QBOT4 calls 2
+RAND14 folds
+RAND24 checks
+*** FLOP *** (5) [Jd 3d 7d]
+RAND24 checks
+QBOT4 bets 4
+RAND24 raises to 8
+QBOT4 calls 8
+*** TURN *** (21) [Jd 3d 7d] [Qs]
+RAND24 checks
+QBOT4 checks
+*** RIVER *** (21) [Jd 3d 7d Qs] [Tc]
+RAND24 bets 13
+QBOT4 folds
+RAND24 wins the pot (34)
+
+Hand #9, RAND24 (180), QBOT4 (178), RAND14 (242)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [Ts 4d]
+Dealt to QBOT4 [5s Qd]
+Dealt to RAND14 [8h 5c]
+RAND24 calls 2
+QBOT4 folds
+RAND14 raises to 5
+RAND24 calls 5
+*** FLOP *** (11) [8s Jc 4s]
+RAND14 bets 5
+RAND24 raises to 12
+RAND14 raises to 28
+RAND24 calls 28
+*** TURN *** (67) [8s Jc 4s] [Th]
+RAND14 bets 40
+RAND24 calls 40
+*** RIVER *** (147) [8s Jc 4s Th] [Qc]
+RAND14 checks
+RAND24 checks
+RAND24 shows [Ts 4d]
+RAND14 shows [8h 5c]
+RAND24 wins the pot (147)
+
+Hand #10, RAND14 (169), RAND24 (254), QBOT4 (177)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [Th Jc]
+Dealt to RAND24 [7s 9s]
+Dealt to QBOT4 [9c 3h]
+RAND14 folds
+RAND24 raises to 5
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #11, QBOT4 (175), RAND14 (169), RAND24 (256)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [4d Jh]
+Dealt to RAND14 [8h 4c]
+Dealt to RAND24 [3s 6c]
+QBOT4 folds
+RAND14 folds
+RAND24 wins the pot (3)
+
+Hand #12, RAND24 (257), QBOT4 (175), RAND14 (168)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [3h 2s]
+Dealt to QBOT4 [Qs 2h]
+Dealt to RAND14 [Jd 3s]
+RAND24 folds
+QBOT4 folds
+RAND14 wins the pot (3)
+
+Hand #13, RAND14 (169), RAND24 (257), QBOT4 (174)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [9s 7s]
+Dealt to RAND24 [6s 2s]
+Dealt to QBOT4 [5d Qh]
+RAND14 raises to 4
+RAND24 folds
+QBOT4 folds
+RAND14 wins the pot (7)
+
+Hand #14, QBOT4 (172), RAND14 (172), RAND24 (256)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [Qh 9h]
+Dealt to RAND14 [As 9d]
+Dealt to RAND24 [3c Th]
+QBOT4 raises to 7
+RAND14 folds
+RAND24 raises to 13
+QBOT4 folds
+RAND24 wins the pot (21)
+
+Hand #15, RAND24 (264), QBOT4 (165), RAND14 (171)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [5s 2c]
+Dealt to QBOT4 [7d Qh]
+Dealt to RAND14 [7s 5d]
+RAND24 raises to 4
+QBOT4 folds
+RAND14 folds
+RAND24 wins the pot (7)
+
+Hand #16, RAND14 (169), RAND24 (267), QBOT4 (164)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [5h 2s]
+Dealt to RAND24 [Tc 2c]
+Dealt to QBOT4 [Qh 6c]
+RAND14 calls 2
+RAND24 raises to 5
+QBOT4 folds
+RAND14 folds
+RAND24 wins the pot (9)
+
+Hand #17, QBOT4 (162), RAND14 (167), RAND24 (271)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [7h Qd]
+Dealt to RAND14 [5s 7d]
+Dealt to RAND24 [2s 4h]
+QBOT4 folds
+RAND14 folds
+RAND24 wins the pot (3)
+
+Hand #18, RAND24 (272), QBOT4 (162), RAND14 (166)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [7c 5d]
+Dealt to QBOT4 [6d 7h]
+Dealt to RAND14 [2d Jh]
+RAND24 folds
+QBOT4 folds
+RAND14 wins the pot (3)
+
+Hand #19, RAND14 (167), RAND24 (272), QBOT4 (161)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [9s 4s]
+Dealt to RAND24 [Jh 6c]
+Dealt to QBOT4 [7d Ah]
+RAND14 folds
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #20, QBOT4 (162), RAND14 (167), RAND24 (271)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [8d Ks]
+Dealt to RAND14 [9d 5c]
+Dealt to RAND24 [5h Tc]
+QBOT4 calls 2
+RAND14 calls 2
+RAND24 checks
+*** FLOP *** (6) [2h Qc 7s]
+RAND14 checks
+RAND24 bets 4
+QBOT4 folds
+RAND14 calls 4
+*** TURN *** (14) [2h Qc 7s] [8c]
+RAND14 bets 13
+RAND24 raises to 42
+RAND14 calls 42
+*** RIVER *** (98) [2h Qc 7s 8c] [7c]
+RAND14 checks
+RAND24 checks
+RAND14 shows [9d 5c]
+RAND24 shows [5h Tc]
+RAND24 wins the pot (98)
+
+Hand #21, RAND24 (321), QBOT4 (160), RAND14 (119)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [3d Th]
+Dealt to QBOT4 [Qs Js]
+Dealt to RAND14 [7d 9s]
+RAND24 raises to 6
+QBOT4 calls 6
+RAND14 raises to 15
+RAND24 folds
+QBOT4 calls 15
+*** FLOP *** (36) [Ad 6h 2s]
+QBOT4 checks
+RAND14 bets 29
+QBOT4 folds
+RAND14 wins the pot (65)
+
+Hand #22, RAND14 (140), RAND24 (315), QBOT4 (145)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [2s 5c]
+Dealt to RAND24 [3c Js]
+Dealt to QBOT4 [9s Qs]
+RAND14 raises to 5
+RAND24 folds
+QBOT4 folds
+RAND14 wins the pot (8)
+
+Hand #23, QBOT4 (143), RAND14 (143), RAND24 (314)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [3d 8s]
+Dealt to RAND14 [2d 4c]
+Dealt to RAND24 [Tc 6s]
+QBOT4 folds
+RAND14 calls 2
+RAND24 checks
+*** FLOP *** (4) [3s 5c 7h]
+RAND14 checks
+RAND24 bets 3
+RAND14 folds
+RAND24 wins the pot (7)
+
+Hand #24, RAND24 (316), QBOT4 (143), RAND14 (141)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [3c As]
+Dealt to QBOT4 [Ad 5c]
+Dealt to RAND14 [Tc 7h]
+RAND24 folds
+QBOT4 calls 2
+RAND14 raises to 4
+QBOT4 folds
+RAND14 wins the pot (6)
+
+Hand #25, RAND14 (143), RAND24 (316), QBOT4 (141)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [3h 4c]
+Dealt to RAND24 [8d 3s]
+Dealt to QBOT4 [6c 9d]
+RAND14 folds
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #26, QBOT4 (142), RAND14 (143), RAND24 (315)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [3s 7s]
+Dealt to RAND14 [Ks 6d]
+Dealt to RAND24 [Jd Jh]
+QBOT4 folds
+RAND14 raises to 5
+RAND24 folds
+RAND14 wins the pot (7)
+
+Hand #27, RAND24 (313), QBOT4 (142), RAND14 (145)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [Jc Kd]
+Dealt to QBOT4 [9h Th]
+Dealt to RAND14 [Qc 7s]
+RAND24 folds
+QBOT4 calls 2
+RAND14 raises to 4
+QBOT4 folds
+RAND14 wins the pot (6)
+
+Hand #28, RAND14 (147), RAND24 (313), QBOT4 (140)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [8h Ah]
+Dealt to RAND24 [Qd 5c]
+Dealt to QBOT4 [2c Qc]
+RAND14 calls 2
+RAND24 raises to 7
+QBOT4 folds
+RAND14 raises to 13
+RAND24 raises to 39
+RAND14 raises to 95
+RAND24 calls 95
+*** FLOP *** (192) [3c As Js]
+RAND24 checks
+RAND14 bets 5
+RAND24 raises to 46
+RAND14 calls 46
+*** TURN *** (284) [3c As Js] [7s]
+RAND24 checks
+RAND14 checks
+*** RIVER *** (284) [3c As Js 7s] [9h]
+RAND24 bets 4
+RAND14 folds
+RAND24 wins the pot (288)
+
+Hand #29, QBOT4 (138), RAND14 (6), RAND24 (456)
+RAND14 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [4c 2d]
+Dealt to RAND14 [8d Td]
+Dealt to RAND24 [9c 7h]
+QBOT4 folds
+RAND14 folds
+RAND24 wins the pot (3)
+
+Hand #30, RAND24 (457), QBOT4 (138), RAND14 (5)
+QBOT4 posts the blind of 1
+RAND14 posts the blind of 2
+Dealt to RAND24 [Jc 8h]
+Dealt to QBOT4 [9h Td]
+Dealt to RAND14 [3d 2c]
+RAND24 calls 2
+QBOT4 folds
+RAND14 checks
+*** FLOP *** (5) [7c 7s 9d]
+RAND14 bets 2
+RAND24 raises to 3
+RAND14 calls 3
+*** TURN *** (11) [7c 7s 9d] [Tc]
+*** RIVER *** (11) [7c 7s 9d Tc] [3c]
+RAND24 shows [Jc 8h]
+RAND14 shows [3d 2c]
+RAND24 wins the pot (11)
+
+Hand #31, QBOT4 (137), RAND24 (463), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [2h Jh]
+Dealt to RAND24 [Ac 3h]
+Dealt to QBOT4 [Tc Th]
+QBOT4 raises to 6
+RAND24 calls 6
+*** FLOP *** (12) [Qh Jc 9d]
+RAND24 bets 4
+QBOT4 folds
+RAND24 wins the pot (16)
+
+Hand #32, RAND24 (469), QBOT4 (131), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [8h 8d]
+Dealt to RAND14 [3s 3d]
+Dealt to RAND24 [Qh Th]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #33, QBOT4 (132), RAND24 (468), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [Jh 7s]
+Dealt to QBOT4 [As 8c]
+Dealt to RAND14 [8h 2h]
+QBOT4 raises to 6
+RAND24 raises to 11
+QBOT4 folds
+RAND24 wins the pot (17)
+
+Hand #34, RAND24 (474), QBOT4 (126), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [Th 2h]
+Dealt to RAND24 [Kd 5h]
+Dealt to QBOT4 [As 4d]
+RAND24 raises to 5
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #35, QBOT4 (124), RAND24 (476), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [7c 5c]
+Dealt to RAND14 [7d Ac]
+Dealt to RAND24 [Jh 6h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #36, RAND24 (477), QBOT4 (123), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [8h 8s]
+Dealt to QBOT4 [6d Tc]
+Dealt to RAND14 [5s 6c]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #37, QBOT4 (124), RAND24 (476), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [5s 7d]
+Dealt to RAND24 [9h 9d]
+Dealt to QBOT4 [Ts 8h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #38, RAND24 (477), QBOT4 (123), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [Th 7s]
+Dealt to RAND14 [Ah 2d]
+Dealt to RAND24 [5c Kd]
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #39, QBOT4 (121), RAND24 (479), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [Qs Qd]
+Dealt to QBOT4 [4d Jc]
+Dealt to RAND14 [Ts 4h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #40, RAND24 (480), QBOT4 (120), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [9c 3d]
+Dealt to RAND24 [9h 4d]
+Dealt to QBOT4 [5h Jc]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #41, QBOT4 (121), RAND24 (479), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [8c Kh]
+Dealt to RAND14 [2d 8h]
+Dealt to RAND24 [Jd 2h]
+QBOT4 calls 2
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #42, RAND24 (481), QBOT4 (119), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [Tc 8c]
+Dealt to QBOT4 [2d 6s]
+Dealt to RAND14 [Ts 9c]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [Jh 8h Kd]
+QBOT4 checks
+RAND24 bets 3
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #43, QBOT4 (117), RAND24 (483), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [5c Kh]
+Dealt to RAND24 [Kc Ac]
+Dealt to QBOT4 [Ks Qd]
+QBOT4 raises to 6
+RAND24 folds
+QBOT4 wins the pot (8)
+
+Hand #44, RAND24 (481), QBOT4 (119), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [Qs Qd]
+Dealt to RAND14 [Qc Tc]
+Dealt to RAND24 [7c 9h]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #45, QBOT4 (120), RAND24 (480), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [Ks 9h]
+Dealt to QBOT4 [8c Jh]
+Dealt to RAND14 [3h 4h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #46, RAND24 (481), QBOT4 (119), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [5c 8c]
+Dealt to RAND24 [7d Tc]
+Dealt to QBOT4 [5h Jh]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [3h 2h Kh]
+QBOT4 bets 3
+RAND24 raises to 9
+QBOT4 raises to 30
+RAND24 raises to 66
+QBOT4 raises to 113
+RAND24 folds
+QBOT4 wins the pot (183)
+
+Hand #47, QBOT4 (187), RAND24 (413), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [2h 3s]
+Dealt to RAND14 [Jc Js]
+Dealt to RAND24 [6c 3c]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #48, RAND24 (414), QBOT4 (186), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [Ts 6s]
+Dealt to QBOT4 [3d 8c]
+Dealt to RAND14 [2s 2c]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [5s Qs 7s]
+QBOT4 checks
+RAND24 bets 2
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #49, QBOT4 (184), RAND24 (416), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [Js 8c]
+Dealt to RAND24 [Jd 3s]
+Dealt to QBOT4 [7d 8h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #50, RAND24 (417), QBOT4 (183), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [9h Js]
+Dealt to RAND14 [Ad 6c]
+Dealt to RAND24 [2c Ac]
+RAND24 raises to 5
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #51, QBOT4 (181), RAND24 (419), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [9h Jc]
+Dealt to QBOT4 [Ac Qd]
+Dealt to RAND14 [Qs Th]
+QBOT4 raises to 6
+RAND24 calls 6
+*** FLOP *** (12) [Ah Ts Ad]
+RAND24 bets 5
+QBOT4 raises to 26
+RAND24 calls 26
+*** TURN *** (64) [Ah Ts Ad] [7h]
+RAND24 checks
+QBOT4 bets 58
+RAND24 calls 58
+*** RIVER *** (180) [Ah Ts Ad 7h] [6c]
+RAND24 bets 9
+QBOT4 raises to 84
+RAND24 folds
+QBOT4 wins the pot (273)
+
+Hand #52, RAND24 (320), QBOT4 (280), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [Kc Qd]
+Dealt to RAND24 [Ad 7c]
+Dealt to QBOT4 [7d 3h]
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #53, QBOT4 (278), RAND24 (322), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [Ad 2d]
+Dealt to RAND14 [Qd Td]
+Dealt to RAND24 [5h 4c]
+QBOT4 calls 2
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #54, RAND24 (324), QBOT4 (276), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [8s 2c]
+Dealt to QBOT4 [9h 2h]
+Dealt to RAND14 [3s 6h]
+RAND24 raises to 5
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #55, QBOT4 (274), RAND24 (326), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [2d As]
+Dealt to RAND24 [7s 6d]
+Dealt to QBOT4 [2s Th]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #56, RAND24 (327), QBOT4 (273), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [7d Qs]
+Dealt to RAND14 [8h Td]
+Dealt to RAND24 [Qd 5s]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #57, QBOT4 (274), RAND24 (326), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [3s Qd]
+Dealt to QBOT4 [Qs 2s]
+Dealt to RAND14 [3c 8c]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #58, RAND24 (327), QBOT4 (273), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [5s 7s]
+Dealt to RAND24 [Qs 6s]
+Dealt to QBOT4 [4h 3h]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #59, QBOT4 (274), RAND24 (326), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [Ks 3c]
+Dealt to RAND14 [6s Qc]
+Dealt to RAND24 [2s Ts]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #60, RAND24 (327), QBOT4 (273), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [8s As]
+Dealt to QBOT4 [Th Td]
+Dealt to RAND14 [2h 8c]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #61, QBOT4 (274), RAND24 (326), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [7s Kc]
+Dealt to RAND24 [Qs 2h]
+Dealt to QBOT4 [3s Ad]
+QBOT4 calls 2
+RAND24 checks
+*** FLOP *** (4) [4c Ks Qc]
+RAND24 bets 2
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #62, RAND24 (328), QBOT4 (272), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [Td 3d]
+Dealt to RAND14 [2c Qs]
+Dealt to RAND24 [6h 5d]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #63, QBOT4 (273), RAND24 (327), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [Ah Ac]
+Dealt to QBOT4 [Jh As]
+Dealt to RAND14 [8d 8s]
+QBOT4 raises to 6
+RAND24 calls 6
+*** FLOP *** (12) [Qs 7h Td]
+RAND24 bets 6
+QBOT4 folds
+RAND24 wins the pot (18)
+
+Hand #64, RAND24 (333), QBOT4 (267), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [4c 8c]
+Dealt to RAND24 [9d 4h]
+Dealt to QBOT4 [3c 3s]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [2c Ah Jh]
+QBOT4 checks
+RAND24 checks
+*** TURN *** (4) [2c Ah Jh] [6h]
+QBOT4 checks
+RAND24 checks
+*** RIVER *** (4) [2c Ah Jh 6h] [7s]
+QBOT4 bets 3
+RAND24 folds
+QBOT4 wins the pot (7)
+
+Hand #65, QBOT4 (269), RAND24 (331), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [Qc Kh]
+Dealt to RAND14 [6s 3s]
+Dealt to RAND24 [Ad Td]
+QBOT4 raises to 6
+RAND24 calls 6
+*** FLOP *** (12) [6d 9s Jh]
+RAND24 checks
+QBOT4 checks
+*** TURN *** (12) [6d 9s Jh] [8s]
+RAND24 checks
+QBOT4 checks
+*** RIVER *** (12) [6d 9s Jh 8s] [Js]
+RAND24 checks
+QBOT4 checks
+QBOT4 shows [Qc Kh]
+RAND24 shows [Ad Td]
+RAND24 wins the pot (12)
+
+Hand #66, RAND24 (337), QBOT4 (263), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [5c 4s]
+Dealt to QBOT4 [3s 9d]
+Dealt to RAND14 [7d 2h]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #67, QBOT4 (264), RAND24 (336), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [Ks 7s]
+Dealt to RAND24 [Kd 7c]
+Dealt to QBOT4 [7h Qs]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #68, RAND24 (337), QBOT4 (263), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [7h 2d]
+Dealt to RAND14 [3s Qd]
+Dealt to RAND24 [7s 7c]
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #69, QBOT4 (261), RAND24 (339), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [Js 6c]
+Dealt to QBOT4 [Jd Tc]
+Dealt to RAND14 [2s 3d]
+QBOT4 calls 2
+RAND24 checks
+*** FLOP *** (4) [6d 3h 4h]
+RAND24 bets 3
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #70, RAND24 (341), QBOT4 (259), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [9d As]
+Dealt to RAND24 [9s Qd]
+Dealt to QBOT4 [8s Kh]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [6d Ah Td]
+QBOT4 checks
+RAND24 bets 2
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #71, QBOT4 (257), RAND24 (343), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [7d 4h]
+Dealt to RAND14 [Qs 9c]
+Dealt to RAND24 [2d Ks]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #72, RAND24 (344), QBOT4 (256), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [3s 4d]
+Dealt to QBOT4 [2c 5d]
+Dealt to RAND14 [7c 4s]
+RAND24 raises to 5
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #73, QBOT4 (254), RAND24 (346), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [5d 7s]
+Dealt to RAND24 [2c 5s]
+Dealt to QBOT4 [Td Ah]
+QBOT4 raises to 6
+RAND24 calls 6
+*** FLOP *** (12) [Jc 3d As]
+RAND24 checks
+QBOT4 bets 11
+RAND24 folds
+QBOT4 wins the pot (23)
+
+Hand #74, RAND24 (340), QBOT4 (260), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [3s 6s]
+Dealt to RAND14 [2h Ks]
+Dealt to RAND24 [5c 4h]
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #75, QBOT4 (258), RAND24 (342), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [3d Ad]
+Dealt to QBOT4 [5d Qc]
+Dealt to RAND14 [Qd 4h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #76, RAND24 (343), QBOT4 (257), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [Qd 6s]
+Dealt to RAND24 [Qc Th]
+Dealt to QBOT4 [8s 3h]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [Js Ad 7h]
+QBOT4 checks
+RAND24 checks
+*** TURN *** (4) [Js Ad 7h] [Jc]
+QBOT4 checks
+RAND24 checks
+*** RIVER *** (4) [Js Ad 7h Jc] [2c]
+QBOT4 bets 3
+RAND24 folds
+QBOT4 wins the pot (7)
+
+Hand #77, QBOT4 (259), RAND24 (341), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [Kd 9c]
+Dealt to RAND14 [5c 5h]
+Dealt to RAND24 [5d Ad]
+QBOT4 calls 2
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #78, RAND24 (343), QBOT4 (257), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [7s 5d]
+Dealt to QBOT4 [5h 6c]
+Dealt to RAND14 [2h Jh]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [Th 4c Ts]
+QBOT4 checks
+RAND24 checks
+*** TURN *** (4) [Th 4c Ts] [6s]
+QBOT4 bets 3
+RAND24 folds
+QBOT4 wins the pot (7)
+
+Hand #79, QBOT4 (259), RAND24 (341), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [6c 4s]
+Dealt to RAND24 [8c 3d]
+Dealt to QBOT4 [9c 8s]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #80, RAND24 (342), QBOT4 (258), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [Js 9s]
+Dealt to RAND14 [Qs 9d]
+Dealt to RAND24 [As Ks]
+RAND24 calls 2
+QBOT4 raises to 4
+RAND24 folds
+QBOT4 wins the pot (6)
+
+Hand #81, QBOT4 (260), RAND24 (340), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [4d 4h]
+Dealt to QBOT4 [6d 3d]
+Dealt to RAND14 [Qc 8c]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #82, RAND24 (341), QBOT4 (259), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [2c Th]
+Dealt to RAND24 [5s 6s]
+Dealt to QBOT4 [Kd Ks]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #83, QBOT4 (260), RAND24 (340), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [6c 5s]
+Dealt to RAND14 [7c Tc]
+Dealt to RAND24 [6s 4h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #84, RAND24 (341), QBOT4 (259), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [Td Qc]
+Dealt to QBOT4 [5s Kc]
+Dealt to RAND14 [Ah Ks]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [Qs 4d 8c]
+QBOT4 checks
+RAND24 bets 3
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #85, QBOT4 (257), RAND24 (343), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [2h Jc]
+Dealt to RAND24 [Td Jh]
+Dealt to QBOT4 [2d Ad]
+QBOT4 calls 2
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #86, RAND24 (345), QBOT4 (255), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [Kh 9c]
+Dealt to RAND14 [8c 7d]
+Dealt to RAND24 [Td 9h]
+RAND24 calls 2
+QBOT4 raises to 4
+RAND24 calls 4
+*** FLOP *** (8) [Qh Kd Qd]
+QBOT4 bets 7
+RAND24 raises to 26
+QBOT4 calls 26
+*** TURN *** (60) [Qh Kd Qd] [6s]
+QBOT4 bets 59
+RAND24 folds
+QBOT4 wins the pot (119)
+
+Hand #87, QBOT4 (285), RAND24 (315), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [As Qd]
+Dealt to QBOT4 [7h 4d]
+Dealt to RAND14 [6s 4s]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #88, RAND24 (316), QBOT4 (284), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [Td 6h]
+Dealt to RAND24 [2h Tc]
+Dealt to QBOT4 [Th 3c]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #89, QBOT4 (285), RAND24 (315), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [9c 5c]
+Dealt to RAND14 [9h Qd]
+Dealt to RAND24 [Qh 4c]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #90, RAND24 (316), QBOT4 (284), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [2h 4s]
+Dealt to QBOT4 [Jd 3d]
+Dealt to RAND14 [4c Th]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [Ts Td 4h]
+QBOT4 checks
+RAND24 bets 2
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #91, QBOT4 (282), RAND24 (318), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [8d 5d]
+Dealt to RAND24 [2d 3s]
+Dealt to QBOT4 [Jh 4s]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #92, RAND24 (319), QBOT4 (281), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [2s 3d]
+Dealt to RAND14 [Ac Ah]
+Dealt to RAND24 [5d 5s]
+RAND24 calls 2
+QBOT4 checks
+*** FLOP *** (4) [8s 6d 4d]
+QBOT4 checks
+RAND24 checks
+*** TURN *** (4) [8s 6d 4d] [4s]
+QBOT4 checks
+RAND24 bets 3
+QBOT4 folds
+RAND24 wins the pot (7)
+
+Hand #93, QBOT4 (279), RAND24 (321), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [Qs 5s]
+Dealt to QBOT4 [7h 4c]
+Dealt to RAND14 [Ts 2h]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #94, RAND24 (322), QBOT4 (278), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [3s 6c]
+Dealt to RAND24 [9d 4h]
+Dealt to QBOT4 [Qc 2h]
+RAND24 folds
+QBOT4 wins the pot (3)
+
+Hand #95, QBOT4 (279), RAND24 (321), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to QBOT4 [Kd Ks]
+Dealt to RAND14 [7h 9h]
+Dealt to RAND24 [2c 4h]
+QBOT4 raises to 6
+RAND24 folds
+QBOT4 wins the pot (8)
+
+Hand #96, RAND24 (319), QBOT4 (281), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND24 [4c 4d]
+Dealt to QBOT4 [2c Ac]
+Dealt to RAND14 [8d 7d]
+RAND24 raises to 4
+QBOT4 folds
+RAND24 wins the pot (6)
+
+Hand #97, QBOT4 (279), RAND24 (321), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND14 [Qd 8h]
+Dealt to RAND24 [6d 7d]
+Dealt to QBOT4 [8c Ts]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #98, RAND24 (322), QBOT4 (278), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to QBOT4 [Ts Kh]
+Dealt to RAND14 [7s 9c]
+Dealt to RAND24 [Ks 7h]
+RAND24 calls 2
+QBOT4 raises to 6
+RAND24 raises to 13
+QBOT4 calls 13
+*** FLOP *** (26) [Jd 9d 4c]
+QBOT4 checks
+RAND24 checks
+*** TURN *** (26) [Jd 9d 4c] [8c]
+QBOT4 checks
+RAND24 checks
+*** RIVER *** (26) [Jd 9d 4c 8c] [2c]
+QBOT4 checks
+RAND24 checks
+QBOT4 shows [Ts Kh]
+RAND24 shows [Ks 7h]
+QBOT4 wins the pot (26)
+
+Hand #99, QBOT4 (291), RAND24 (309), RAND14 (0)
+QBOT4 posts the blind of 1
+RAND24 posts the blind of 2
+Dealt to RAND24 [6h 5c]
+Dealt to QBOT4 [9h 4d]
+Dealt to RAND14 [9s As]
+QBOT4 folds
+RAND24 wins the pot (3)
+
+Hand #100, RAND24 (310), QBOT4 (290), RAND14 (0)
+RAND24 posts the blind of 1
+QBOT4 posts the blind of 2
+Dealt to RAND14 [Ac Jc]
+Dealt to RAND24 [2d 8s]
+Dealt to QBOT4 [Jd 3c]
+RAND24 folds
+QBOT4 wins the pot (3)
+

@@ -1,0 +1,995 @@
+6.176 MIT Pokerbots - RAND25 vs QBOT5 vs RAND15 (stack=200, bb=2)
+Hand #1, RAND25 (200), QBOT5 (200), RAND15 (200)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [3c 4h]
+Dealt to QBOT5 [6h Ts]
+Dealt to RAND15 [Tc Qd]
+RAND25 calls 2
+QBOT5 folds
+RAND15 raises to 6
+RAND25 folds
+RAND15 wins the pot (9)
+
+Hand #2, RAND15 (203), RAND25 (198), QBOT5 (199)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [4s Jd]
+Dealt to RAND25 [5h Th]
+Dealt to QBOT5 [Qs Ks]
+RAND15 folds
+RAND25 raises to 5
+QBOT5 calls 5
+*** FLOP *** (10) [Tc 4c 3s]
+RAND25 checks
+QBOT5 checks
+*** TURN *** (10) [Tc 4c 3s] [3d]
+RAND25 bets 7
+QBOT5 folds
+RAND25 wins the pot (17)
+
+Hand #3, QBOT5 (194), RAND15 (203), RAND25 (203)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [2h Tc]
+Dealt to RAND15 [Th Qs]
+Dealt to RAND25 [8s 7c]
+QBOT5 folds
+RAND15 calls 2
+RAND25 checks
+*** FLOP *** (4) [8d Qh 5s]
+RAND15 bets 2
+RAND25 calls 2
+*** TURN *** (8) [8d Qh 5s] [4h]
+RAND15 checks
+RAND25 bets 2
+RAND15 raises to 9
+RAND25 calls 9
+*** RIVER *** (26) [8d Qh 5s 4h] [4c]
+RAND15 bets 7
+RAND25 folds
+RAND15 wins the pot (33)
+
+Hand #4, RAND25 (190), QBOT5 (194), RAND15 (216)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [8s 2s]
+Dealt to QBOT5 [Jc Jd]
+Dealt to RAND15 [Qc 7s]
+RAND25 raises to 5
+QBOT5 raises to 17
+RAND15 folds
+RAND25 calls 17
+*** FLOP *** (36) [9d 6s Ad]
+QBOT5 bets 34
+RAND25 calls 34
+*** TURN *** (104) [9d 6s Ad] [9c]
+QBOT5 bets 78
+RAND25 folds
+QBOT5 wins the pot (182)
+
+Hand #5, RAND15 (214), RAND25 (139), QBOT5 (247)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [Qs Jc]
+Dealt to RAND25 [4d 9c]
+Dealt to QBOT5 [Ac 3h]
+RAND15 calls 2
+RAND25 folds
+QBOT5 checks
+*** FLOP *** (5) [3c 2d 5d]
+QBOT5 bets 3
+RAND15 raises to 12
+QBOT5 folds
+RAND15 wins the pot (20)
+
+Hand #6, QBOT5 (242), RAND15 (220), RAND25 (138)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [5s 7h]
+Dealt to RAND15 [3h Jc]
+Dealt to RAND25 [4d 8h]
+QBOT5 folds
+RAND15 calls 2
+RAND25 raises to 4
+RAND15 folds
+RAND25 wins the pot (6)
+
+Hand #7, RAND25 (140), QBOT5 (242), RAND15 (218)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [Qs 8d]
+Dealt to QBOT5 [Jd 3h]
+Dealt to RAND15 [5h Kh]
+RAND25 folds
+QBOT5 folds
+RAND15 wins the pot (3)
+
+Hand #8, RAND15 (219), RAND25 (140), QBOT5 (241)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [9h Js]
+Dealt to RAND25 [7s 5s]
+Dealt to QBOT5 [Jh Ts]
+RAND15 calls 2
+RAND25 folds
+QBOT5 checks
+*** FLOP *** (5) [Jd 3d 7d]
+QBOT5 bets 4
+RAND15 calls 4
+*** TURN *** (13) [Jd 3d 7d] [Qs]
+QBOT5 bets 10
+RAND15 raises to 20
+QBOT5 folds
+RAND15 wins the pot (43)
+
+Hand #9, QBOT5 (225), RAND15 (236), RAND25 (139)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [Ts 4d]
+Dealt to RAND15 [5s Qd]
+Dealt to RAND25 [8h 5c]
+QBOT5 folds
+RAND15 calls 2
+RAND25 checks
+*** FLOP *** (4) [8s Jc 4s]
+RAND15 bets 2
+RAND25 raises to 6
+RAND15 raises to 14
+RAND25 calls 14
+*** TURN *** (32) [8s Jc 4s] [Th]
+RAND15 checks
+RAND25 bets 14
+RAND15 folds
+RAND25 wins the pot (46)
+
+Hand #10, RAND25 (155), QBOT5 (225), RAND15 (220)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [Th Jc]
+Dealt to QBOT5 [7s 9s]
+Dealt to RAND15 [9c 3h]
+RAND25 calls 2
+QBOT5 folds
+RAND15 checks
+*** FLOP *** (5) [9h Tc 2d]
+RAND15 checks
+RAND25 bets 4
+RAND15 calls 4
+*** TURN *** (13) [9h Tc 2d] [8d]
+RAND15 bets 3
+RAND25 folds
+RAND15 wins the pot (16)
+
+Hand #11, RAND15 (227), RAND25 (149), QBOT5 (224)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [4d Jh]
+Dealt to RAND25 [8h 4c]
+Dealt to QBOT5 [3s 6c]
+RAND15 raises to 5
+RAND25 raises to 8
+QBOT5 folds
+RAND15 calls 8
+*** FLOP *** (18) [Th 9c 5d]
+RAND25 checks
+RAND15 bets 10
+RAND25 raises to 46
+RAND15 calls 46
+*** TURN *** (110) [Th 9c 5d] [3d]
+RAND25 bets 3
+RAND15 raises to 86
+RAND25 calls 86
+*** RIVER *** (282) [Th 9c 5d 3d] [6d]
+RAND25 bets 6
+RAND15 folds
+RAND25 wins the pot (288)
+
+Hand #12, QBOT5 (222), RAND15 (87), RAND25 (291)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [3h 2s]
+Dealt to RAND15 [Qs 2h]
+Dealt to RAND25 [Jd 3s]
+QBOT5 folds
+RAND15 calls 2
+RAND25 raises to 4
+RAND15 raises to 7
+RAND25 raises to 19
+RAND15 folds
+RAND25 wins the pot (26)
+
+Hand #13, RAND25 (298), QBOT5 (222), RAND15 (80)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [9s 7s]
+Dealt to QBOT5 [6s 2s]
+Dealt to RAND15 [5d Qh]
+RAND25 folds
+QBOT5 folds
+RAND15 wins the pot (3)
+
+Hand #14, RAND15 (81), RAND25 (298), QBOT5 (221)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [Qh 9h]
+Dealt to RAND25 [As 9d]
+Dealt to QBOT5 [3c Th]
+RAND15 raises to 6
+RAND25 raises to 13
+QBOT5 folds
+RAND15 folds
+RAND25 wins the pot (21)
+
+Hand #15, QBOT5 (219), RAND15 (75), RAND25 (306)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [5s 2c]
+Dealt to RAND15 [7d Qh]
+Dealt to RAND25 [7s 5d]
+QBOT5 folds
+RAND15 raises to 4
+RAND25 calls 4
+*** FLOP *** (8) [Th 9s Tc]
+RAND15 checks
+RAND25 checks
+*** TURN *** (8) [Th 9s Tc] [3d]
+RAND15 checks
+RAND25 checks
+*** RIVER *** (8) [Th 9s Tc 3d] [Qc]
+RAND15 bets 7
+RAND25 folds
+RAND15 wins the pot (15)
+
+Hand #16, RAND25 (302), QBOT5 (219), RAND15 (79)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [5h 2s]
+Dealt to QBOT5 [Tc 2c]
+Dealt to RAND15 [Qh 6c]
+RAND25 folds
+QBOT5 folds
+RAND15 wins the pot (3)
+
+Hand #17, RAND15 (80), RAND25 (302), QBOT5 (218)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [7h Qd]
+Dealt to RAND25 [5s 7d]
+Dealt to QBOT5 [2s 4h]
+RAND15 folds
+RAND25 calls 2
+QBOT5 checks
+*** FLOP *** (4) [Kh 3s 6h]
+RAND25 bets 2
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #18, QBOT5 (216), RAND15 (80), RAND25 (304)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [7c 5d]
+Dealt to RAND15 [6d 7h]
+Dealt to RAND25 [2d Jh]
+QBOT5 folds
+RAND15 folds
+RAND25 wins the pot (3)
+
+Hand #19, RAND25 (305), QBOT5 (216), RAND15 (79)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [9s 4s]
+Dealt to QBOT5 [Jh 6c]
+Dealt to RAND15 [7d Ah]
+RAND25 folds
+QBOT5 folds
+RAND15 wins the pot (3)
+
+Hand #20, RAND15 (80), RAND25 (305), QBOT5 (215)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [8d Ks]
+Dealt to RAND25 [9d 5c]
+Dealt to QBOT5 [5h Tc]
+RAND15 folds
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #21, QBOT5 (216), RAND15 (80), RAND25 (304)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [3d Th]
+Dealt to RAND15 [Qs Js]
+Dealt to RAND25 [7d 9s]
+QBOT5 folds
+RAND15 calls 2
+RAND25 raises to 5
+RAND15 calls 5
+*** FLOP *** (10) [Ad 6h 2s]
+RAND15 checks
+RAND25 bets 9
+RAND15 calls 9
+*** TURN *** (28) [Ad 6h 2s] [Jh]
+RAND15 checks
+RAND25 checks
+*** RIVER *** (28) [Ad 6h 2s Jh] [Kh]
+RAND15 checks
+RAND25 checks
+RAND15 shows [Qs Js]
+RAND25 shows [7d 9s]
+RAND15 wins the pot (28)
+
+Hand #22, RAND25 (290), QBOT5 (216), RAND15 (94)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [2s 5c]
+Dealt to QBOT5 [3c Js]
+Dealt to RAND15 [9s Qs]
+RAND25 calls 2
+QBOT5 folds
+RAND15 raises to 6
+RAND25 folds
+RAND15 wins the pot (9)
+
+Hand #23, RAND15 (97), RAND25 (288), QBOT5 (215)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [3d 8s]
+Dealt to RAND25 [2d 4c]
+Dealt to QBOT5 [Tc 6s]
+RAND15 calls 2
+RAND25 folds
+QBOT5 checks
+*** FLOP *** (5) [3s 5c 7h]
+QBOT5 checks
+RAND15 checks
+*** TURN *** (5) [3s 5c 7h] [2h]
+QBOT5 checks
+RAND15 bets 2
+QBOT5 folds
+RAND15 wins the pot (7)
+
+Hand #24, QBOT5 (213), RAND15 (100), RAND25 (287)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [3c As]
+Dealt to RAND15 [Ad 5c]
+Dealt to RAND25 [Tc 7h]
+QBOT5 calls 2
+RAND15 calls 2
+RAND25 raises to 4
+QBOT5 folds
+RAND15 calls 4
+*** FLOP *** (10) [9h 8c 8h]
+RAND15 checks
+RAND25 checks
+*** TURN *** (10) [9h 8c 8h] [6d]
+RAND15 bets 5
+RAND25 raises to 16
+RAND15 calls 16
+*** RIVER *** (42) [9h 8c 8h 6d] [5s]
+RAND15 bets 33
+RAND25 folds
+RAND15 wins the pot (75)
+
+Hand #25, RAND25 (267), QBOT5 (211), RAND15 (122)
+QBOT5 posts the blind of 1
+RAND15 posts the blind of 2
+Dealt to RAND25 [3h 4c]
+Dealt to QBOT5 [8d 3s]
+Dealt to RAND15 [6c 9d]
+RAND25 calls 2
+QBOT5 folds
+RAND15 checks
+*** FLOP *** (5) [7c Qd 8s]
+RAND15 bets 3
+RAND25 folds
+RAND15 wins the pot (8)
+
+Hand #26, RAND15 (125), RAND25 (265), QBOT5 (210)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [3s 7s]
+Dealt to RAND25 [Ks 6d]
+Dealt to QBOT5 [Jd Jh]
+RAND15 calls 2
+RAND25 raises to 6
+QBOT5 raises to 20
+RAND15 raises to 39
+RAND25 folds
+QBOT5 calls 39
+*** FLOP *** (84) [7d Kh Js]
+QBOT5 bets 78
+RAND15 folds
+QBOT5 wins the pot (162)
+
+Hand #27, QBOT5 (255), RAND15 (86), RAND25 (259)
+RAND15 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [Jc Kd]
+Dealt to RAND15 [9h Th]
+Dealt to RAND25 [Qc 7s]
+QBOT5 raises to 7
+RAND15 calls 7
+RAND25 calls 7
+*** FLOP *** (21) [Kc 3h As]
+RAND15 bets 14
+RAND25 calls 14
+QBOT5 calls 14
+*** TURN *** (63) [Kc 3h As] [6s]
+RAND15 bets 6
+RAND25 calls 6
+QBOT5 raises to 41
+RAND15 raises to 65
+RAND25 raises to 121
+QBOT5 folds
+*** RIVER *** (290) [Kc 3h As 6s] [Ad]
+RAND15 shows [9h Th]
+RAND25 shows [Qc 7s]
+RAND25 wins the pot (290)
+
+Hand #28, RAND25 (407), QBOT5 (193), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [8h Ah]
+Dealt to QBOT5 [Qd 5c]
+Dealt to RAND15 [2c Qc]
+RAND25 raises to 4
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #29, QBOT5 (191), RAND25 (409), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [4c 2d]
+Dealt to RAND25 [8d Td]
+Dealt to QBOT5 [9c 7h]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #30, RAND25 (410), QBOT5 (190), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [Jc 8h]
+Dealt to RAND15 [9h Td]
+Dealt to RAND25 [3d 2c]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #31, QBOT5 (191), RAND25 (409), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [2h Jh]
+Dealt to QBOT5 [Ac 3h]
+Dealt to RAND15 [Tc Th]
+QBOT5 calls 2
+RAND25 raises to 4
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #32, RAND25 (411), QBOT5 (189), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [8h 8d]
+Dealt to RAND25 [3s 3d]
+Dealt to QBOT5 [Qh Th]
+RAND25 calls 2
+QBOT5 raises to 6
+RAND25 folds
+QBOT5 wins the pot (8)
+
+Hand #33, QBOT5 (191), RAND25 (409), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [Jh 7s]
+Dealt to RAND15 [As 8c]
+Dealt to RAND25 [8h 2h]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #34, RAND25 (410), QBOT5 (190), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [Th 2h]
+Dealt to QBOT5 [Kd 5h]
+Dealt to RAND15 [As 4d]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #35, QBOT5 (191), RAND25 (409), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [7c 5c]
+Dealt to RAND25 [7d Ac]
+Dealt to QBOT5 [Jh 6h]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #36, RAND25 (410), QBOT5 (190), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [8h 8s]
+Dealt to RAND15 [6d Tc]
+Dealt to RAND25 [5s 6c]
+RAND25 calls 2
+QBOT5 raises to 6
+RAND25 folds
+QBOT5 wins the pot (8)
+
+Hand #37, QBOT5 (192), RAND25 (408), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [5s 7d]
+Dealt to QBOT5 [9h 9d]
+Dealt to RAND15 [Ts 8h]
+QBOT5 raises to 6
+RAND25 folds
+QBOT5 wins the pot (8)
+
+Hand #38, RAND25 (406), QBOT5 (194), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [Th 7s]
+Dealt to RAND25 [Ah 2d]
+Dealt to QBOT5 [5c Kd]
+RAND25 raises to 4
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #39, QBOT5 (192), RAND25 (408), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [Qs Qd]
+Dealt to RAND15 [4d Jc]
+Dealt to RAND25 [Ts 4h]
+QBOT5 raises to 6
+RAND25 folds
+QBOT5 wins the pot (8)
+
+Hand #40, RAND25 (406), QBOT5 (194), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [9c 3d]
+Dealt to QBOT5 [9h 4d]
+Dealt to RAND15 [5h Jc]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #41, QBOT5 (195), RAND25 (405), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [8c Kh]
+Dealt to RAND25 [2d 8h]
+Dealt to QBOT5 [Jd 2h]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #42, RAND25 (406), QBOT5 (194), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [Tc 8c]
+Dealt to RAND15 [2d 6s]
+Dealt to RAND25 [Ts 9c]
+RAND25 raises to 4
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #43, QBOT5 (192), RAND25 (408), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [5c Kh]
+Dealt to QBOT5 [Kc Ac]
+Dealt to RAND15 [Ks Qd]
+QBOT5 raises to 6
+RAND25 raises to 12
+QBOT5 calls 12
+*** FLOP *** (24) [6h 6c 6s]
+RAND25 bets 12
+QBOT5 calls 12
+*** TURN *** (48) [6h 6c 6s] [9c]
+RAND25 bets 10
+QBOT5 calls 10
+*** RIVER *** (68) [6h 6c 6s 9c] [5s]
+RAND25 bets 33
+QBOT5 folds
+RAND25 wins the pot (101)
+
+Hand #44, RAND25 (442), QBOT5 (158), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [Qs Qd]
+Dealt to RAND25 [Qc Tc]
+Dealt to QBOT5 [7c 9h]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #45, QBOT5 (159), RAND25 (441), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [Ks 9h]
+Dealt to RAND15 [8c Jh]
+Dealt to RAND25 [3h 4h]
+QBOT5 calls 2
+RAND25 raises to 5
+QBOT5 folds
+RAND25 wins the pot (7)
+
+Hand #46, RAND25 (443), QBOT5 (157), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [5c 8c]
+Dealt to QBOT5 [7d Tc]
+Dealt to RAND15 [5h Jh]
+RAND25 raises to 5
+QBOT5 folds
+RAND25 wins the pot (7)
+
+Hand #47, QBOT5 (155), RAND25 (445), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [2h 3s]
+Dealt to RAND25 [Jc Js]
+Dealt to QBOT5 [6c 3c]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #48, RAND25 (446), QBOT5 (154), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [Ts 6s]
+Dealt to RAND15 [3d 8c]
+Dealt to RAND25 [2s 2c]
+RAND25 raises to 5
+QBOT5 folds
+RAND25 wins the pot (7)
+
+Hand #49, QBOT5 (152), RAND25 (448), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [Js 8c]
+Dealt to QBOT5 [Jd 3s]
+Dealt to RAND15 [7d 8h]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #50, RAND25 (449), QBOT5 (151), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [9h Js]
+Dealt to RAND25 [Ad 6c]
+Dealt to QBOT5 [2c Ac]
+RAND25 raises to 4
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #51, QBOT5 (149), RAND25 (451), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [9h Jc]
+Dealt to RAND15 [Ac Qd]
+Dealt to RAND25 [Qs Th]
+QBOT5 calls 2
+RAND25 checks
+*** FLOP *** (4) [Ah Ts Ad]
+RAND25 bets 2
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #52, RAND25 (453), QBOT5 (147), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [Kc Qd]
+Dealt to QBOT5 [Ad 7c]
+Dealt to RAND15 [7d 3h]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #53, QBOT5 (148), RAND25 (452), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [Ad 2d]
+Dealt to RAND25 [Qd Td]
+Dealt to QBOT5 [5h 4c]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #54, RAND25 (453), QBOT5 (147), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [8s 2c]
+Dealt to RAND15 [9h 2h]
+Dealt to RAND25 [3s 6h]
+RAND25 calls 2
+QBOT5 checks
+*** FLOP *** (4) [9c Ac 4h]
+QBOT5 checks
+RAND25 checks
+*** TURN *** (4) [9c Ac 4h] [2s]
+QBOT5 checks
+RAND25 checks
+*** RIVER *** (4) [9c Ac 4h 2s] [3d]
+QBOT5 bets 3
+RAND25 folds
+QBOT5 wins the pot (7)
+
+Hand #55, QBOT5 (149), RAND25 (451), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [2d As]
+Dealt to QBOT5 [7s 6d]
+Dealt to RAND15 [2s Th]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #56, RAND25 (452), QBOT5 (148), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [7d Qs]
+Dealt to RAND25 [8h Td]
+Dealt to QBOT5 [Qd 5s]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #57, QBOT5 (149), RAND25 (451), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [3s Qd]
+Dealt to RAND15 [Qs 2s]
+Dealt to RAND25 [3c 8c]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #58, RAND25 (452), QBOT5 (148), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [5s 7s]
+Dealt to QBOT5 [Qs 6s]
+Dealt to RAND15 [4h 3h]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #59, QBOT5 (149), RAND25 (451), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [Ks 3c]
+Dealt to RAND25 [6s Qc]
+Dealt to QBOT5 [2s Ts]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #60, RAND25 (452), QBOT5 (148), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [8s As]
+Dealt to RAND15 [Th Td]
+Dealt to RAND25 [2h 8c]
+RAND25 raises to 5
+QBOT5 calls 5
+*** FLOP *** (10) [3c Jh Ks]
+QBOT5 checks
+RAND25 checks
+*** TURN *** (10) [3c Jh Ks] [Tc]
+QBOT5 checks
+RAND25 checks
+*** RIVER *** (10) [3c Jh Ks Tc] [Qh]
+QBOT5 bets 9
+RAND25 raises to 25
+QBOT5 raises to 77
+RAND25 calls 77
+QBOT5 shows [8s As]
+RAND25 shows [2h 8c]
+QBOT5 wins the pot (164)
+
+Hand #61, QBOT5 (230), RAND25 (370), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [7s Kc]
+Dealt to QBOT5 [Qs 2h]
+Dealt to RAND15 [3s Ad]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #62, RAND25 (371), QBOT5 (229), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [Td 3d]
+Dealt to RAND25 [2c Qs]
+Dealt to QBOT5 [6h 5d]
+RAND25 raises to 4
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #63, QBOT5 (227), RAND25 (373), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [Ah Ac]
+Dealt to RAND15 [Jh As]
+Dealt to RAND25 [8d 8s]
+QBOT5 raises to 6
+RAND25 raises to 11
+QBOT5 raises to 33
+RAND25 calls 33
+*** FLOP *** (66) [Qs 7h Td]
+RAND25 bets 56
+QBOT5 raises to 182
+RAND25 raises to 194
+QBOT5 calls 194
+*** TURN *** (454) [Qs 7h Td] [3s]
+*** RIVER *** (454) [Qs 7h Td 3s] [Ad]
+QBOT5 shows [Ah Ac]
+RAND25 shows [8d 8s]
+QBOT5 wins the pot (454)
+
+Hand #64, RAND25 (146), QBOT5 (454), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [4c 8c]
+Dealt to QBOT5 [9d 4h]
+Dealt to RAND15 [3c 3s]
+RAND25 raises to 4
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #65, QBOT5 (452), RAND25 (148), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [Qc Kh]
+Dealt to RAND25 [6s 3s]
+Dealt to QBOT5 [Ad Td]
+QBOT5 raises to 6
+RAND25 calls 6
+*** FLOP *** (12) [6d 9s Jh]
+RAND25 checks
+QBOT5 bets 8
+RAND25 folds
+QBOT5 wins the pot (20)
+
+Hand #66, RAND25 (142), QBOT5 (458), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [5c 4s]
+Dealt to RAND15 [3s 9d]
+Dealt to RAND25 [7d 2h]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #67, QBOT5 (459), RAND25 (141), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [Ks 7s]
+Dealt to QBOT5 [Kd 7c]
+Dealt to RAND15 [7h Qs]
+QBOT5 calls 2
+RAND25 checks
+*** FLOP *** (4) [Ad 9h 6d]
+RAND25 bets 2
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #68, RAND25 (143), QBOT5 (457), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [7h 2d]
+Dealt to RAND25 [3s Qd]
+Dealt to QBOT5 [7s 7c]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #69, QBOT5 (458), RAND25 (142), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [Js 6c]
+Dealt to RAND15 [Jd Tc]
+Dealt to RAND25 [2s 3d]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #70, RAND25 (143), QBOT5 (457), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [9d As]
+Dealt to QBOT5 [9s Qd]
+Dealt to RAND15 [8s Kh]
+RAND25 raises to 5
+QBOT5 folds
+RAND25 wins the pot (7)
+
+Hand #71, QBOT5 (455), RAND25 (145), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [7d 4h]
+Dealt to RAND25 [Qs 9c]
+Dealt to QBOT5 [2d Ks]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #72, RAND25 (146), QBOT5 (454), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to QBOT5 [3s 4d]
+Dealt to RAND15 [2c 5d]
+Dealt to RAND25 [7c 4s]
+RAND25 calls 2
+QBOT5 checks
+*** FLOP *** (4) [Kc 6c Td]
+QBOT5 checks
+RAND25 bets 2
+QBOT5 folds
+RAND25 wins the pot (6)
+
+Hand #73, QBOT5 (452), RAND25 (148), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND25 [5d 7s]
+Dealt to QBOT5 [2c 5s]
+Dealt to RAND15 [Td Ah]
+QBOT5 folds
+RAND25 wins the pot (3)
+
+Hand #74, RAND25 (149), QBOT5 (451), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND15 [3s 6s]
+Dealt to RAND25 [2h Ks]
+Dealt to QBOT5 [5c 4h]
+RAND25 calls 2
+QBOT5 checks
+*** FLOP *** (4) [6h Qc 3d]
+QBOT5 checks
+RAND25 checks
+*** TURN *** (4) [6h Qc 3d] [Td]
+QBOT5 checks
+RAND25 checks
+*** RIVER *** (4) [6h Qc 3d Td] [7c]
+QBOT5 bets 3
+RAND25 calls 3
+RAND25 shows [2h Ks]
+QBOT5 shows [5c 4h]
+QBOT5 wins the pot (10)
+
+Hand #75, QBOT5 (456), RAND25 (144), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to QBOT5 [3d Ad]
+Dealt to RAND15 [5d Qc]
+Dealt to RAND25 [Qd 4h]
+QBOT5 raises to 6
+RAND25 calls 6
+*** FLOP *** (12) [4c 4s 5h]
+RAND25 bets 2
+QBOT5 folds
+RAND25 wins the pot (14)
+
+Hand #76, RAND25 (150), QBOT5 (450), RAND15 (0)
+RAND25 posts the blind of 1
+QBOT5 posts the blind of 2
+Dealt to RAND25 [Qd 6s]
+Dealt to QBOT5 [Qc Th]
+Dealt to RAND15 [8s 3h]
+RAND25 folds
+QBOT5 wins the pot (3)
+
+Hand #77, QBOT5 (451), RAND25 (149), RAND15 (0)
+QBOT5 posts the blind of 1
+RAND25 posts the blind of 2
+Dealt to RAND15 [Kd 9c]
+Dealt to RAND25 [5c 5h]
+Dealt to QBOT5 [5d Ad]
+QBOT5 raises to 6
+RAND25 raises to 13
+QBOT5 calls 13
+*** FLOP *** (26) [7h Qs Ac]
+RAND25 checks
+QBOT5 bets 24
+RAND25 raises to 60
+QBOT5 calls 60
+*** TURN *** (146) [7h Qs Ac] [4h]
+RAND25 checks
+QBOT5 bets 71
+RAND25 raises to 76
+QBOT5 calls 76
+*** RIVER *** (298) [7h Qs Ac 4h] [6c]
+RAND25 shows [5c 5h]
+QBOT5 shows [5d Ad]
+QBOT5 wins the pot (298)
+

@@ -1,0 +1,1356 @@
+6.176 MIT Pokerbots - QBOT vs RAND1 vs RAND2 (stack=200, bb=2)
+Hand #1, QBOT (200), RAND1 (200), RAND2 (200)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [3c 4h]
+Dealt to RAND1 [6h Ts]
+Dealt to RAND2 [Tc Qd]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #2, RAND2 (201), QBOT (200), RAND1 (199)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [4s Jd]
+Dealt to QBOT [5h Th]
+Dealt to RAND1 [Qs Ks]
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (3)
+
+Hand #3, RAND1 (200), RAND2 (201), QBOT (199)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [2h Tc]
+Dealt to RAND2 [Th Qs]
+Dealt to QBOT [8s 7c]
+RAND1 calls 2
+RAND2 calls 2
+QBOT checks
+*** FLOP *** (6) [8d Qh 5s]
+RAND2 checks
+QBOT bets 4
+RAND1 raises to 10
+RAND2 calls 10
+QBOT folds
+*** TURN *** (30) [8d Qh 5s] [4h]
+RAND2 bets 17
+RAND1 folds
+RAND2 wins the pot (47)
+
+Hand #4, QBOT (193), RAND1 (188), RAND2 (219)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [8s 2s]
+Dealt to RAND1 [Jc Jd]
+Dealt to RAND2 [Qc 7s]
+QBOT folds
+RAND1 calls 2
+RAND2 checks
+*** FLOP *** (4) [9d 6s Ad]
+RAND1 bets 2
+RAND2 calls 2
+*** TURN *** (8) [9d 6s Ad] [9c]
+RAND1 checks
+RAND2 bets 6
+RAND1 folds
+RAND2 wins the pot (14)
+
+Hand #5, RAND2 (223), QBOT (193), RAND1 (184)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Qs Jc]
+Dealt to QBOT [4d 9c]
+Dealt to RAND1 [Ac 3h]
+RAND2 raises to 5
+QBOT folds
+RAND1 raises to 9
+RAND2 calls 9
+*** FLOP *** (19) [3c 2d 5d]
+RAND1 bets 2
+RAND2 calls 2
+*** TURN *** (23) [3c 2d 5d] [6s]
+RAND1 bets 11
+RAND2 calls 11
+*** RIVER *** (45) [3c 2d 5d 6s] [7c]
+RAND1 bets 34
+RAND2 raises to 115
+RAND1 folds
+RAND2 wins the pot (194)
+
+Hand #6, RAND1 (128), RAND2 (280), QBOT (192)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [5s 7h]
+Dealt to RAND2 [3h Jc]
+Dealt to QBOT [4d 8h]
+RAND1 folds
+RAND2 raises to 5
+QBOT folds
+RAND2 wins the pot (7)
+
+Hand #7, QBOT (190), RAND1 (128), RAND2 (282)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [Qs 8d]
+Dealt to RAND1 [Jd 3h]
+Dealt to RAND2 [5h Kh]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #8, RAND2 (283), QBOT (190), RAND1 (127)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [9h Js]
+Dealt to QBOT [7s 5s]
+Dealt to RAND1 [Jh Ts]
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (3)
+
+Hand #9, RAND1 (128), RAND2 (283), QBOT (189)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [Ts 4d]
+Dealt to RAND2 [5s Qd]
+Dealt to QBOT [8h 5c]
+RAND1 raises to 5
+RAND2 raises to 15
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (22)
+
+Hand #10, QBOT (187), RAND1 (123), RAND2 (290)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [Th Jc]
+Dealt to RAND1 [7s 9s]
+Dealt to RAND2 [9c 3h]
+QBOT calls 2
+RAND1 calls 2
+RAND2 raises to 5
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (9)
+
+Hand #11, RAND2 (294), QBOT (185), RAND1 (121)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [4d Jh]
+Dealt to QBOT [8h 4c]
+Dealt to RAND1 [3s 6c]
+RAND2 calls 2
+QBOT folds
+RAND1 checks
+*** FLOP *** (5) [Th 9c 5d]
+RAND1 checks
+RAND2 checks
+*** TURN *** (5) [Th 9c 5d] [3d]
+RAND1 bets 3
+RAND2 calls 3
+*** RIVER *** (11) [Th 9c 5d 3d] [6d]
+RAND1 checks
+RAND2 checks
+RAND2 shows [4d Jh]
+RAND1 shows [3s 6c]
+RAND1 wins the pot (11)
+
+Hand #12, RAND1 (127), RAND2 (289), QBOT (184)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [3h 2s]
+Dealt to RAND2 [Qs 2h]
+Dealt to QBOT [Jd 3s]
+RAND1 raises to 6
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (9)
+
+Hand #13, QBOT (182), RAND1 (130), RAND2 (288)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [9s 7s]
+Dealt to RAND1 [6s 2s]
+Dealt to RAND2 [5d Qh]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #14, RAND2 (289), QBOT (182), RAND1 (129)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Qh 9h]
+Dealt to QBOT [As 9d]
+Dealt to RAND1 [3c Th]
+RAND2 folds
+QBOT raises to 6
+RAND1 folds
+QBOT wins the pot (8)
+
+Hand #15, RAND1 (127), RAND2 (289), QBOT (184)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [5s 2c]
+Dealt to RAND2 [7d Qh]
+Dealt to QBOT [7s 5d]
+RAND1 raises to 5
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (8)
+
+Hand #16, QBOT (182), RAND1 (130), RAND2 (288)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [5h 2s]
+Dealt to RAND1 [Tc 2c]
+Dealt to RAND2 [Qh 6c]
+QBOT folds
+RAND1 calls 2
+RAND2 raises to 5
+RAND1 calls 5
+*** FLOP *** (10) [4h Qs Qd]
+RAND1 bets 9
+RAND2 calls 9
+*** TURN *** (28) [4h Qs Qd] [Kc]
+RAND1 checks
+RAND2 checks
+*** RIVER *** (28) [4h Qs Qd Kc] [Jc]
+RAND1 checks
+RAND2 bets 8
+RAND1 folds
+RAND2 wins the pot (36)
+
+Hand #17, RAND2 (302), QBOT (182), RAND1 (116)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [7h Qd]
+Dealt to QBOT [5s 7d]
+Dealt to RAND1 [2s 4h]
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (3)
+
+Hand #18, RAND1 (117), RAND2 (302), QBOT (181)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [7c 5d]
+Dealt to RAND2 [6d 7h]
+Dealt to QBOT [2d Jh]
+RAND1 raises to 5
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (8)
+
+Hand #19, QBOT (179), RAND1 (120), RAND2 (301)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [9s 4s]
+Dealt to RAND1 [Jh 6c]
+Dealt to RAND2 [7d Ah]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #20, RAND2 (302), QBOT (179), RAND1 (119)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [8d Ks]
+Dealt to QBOT [9d 5c]
+Dealt to RAND1 [5h Tc]
+RAND2 raises to 4
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (7)
+
+Hand #21, RAND1 (117), RAND2 (305), QBOT (178)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [3d Th]
+Dealt to RAND2 [Qs Js]
+Dealt to QBOT [7d 9s]
+RAND1 raises to 5
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (8)
+
+Hand #22, QBOT (176), RAND1 (120), RAND2 (304)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [2s 5c]
+Dealt to RAND1 [3c Js]
+Dealt to RAND2 [9s Qs]
+QBOT folds
+RAND1 calls 2
+RAND2 checks
+*** FLOP *** (4) [9d Qh 3s]
+RAND1 bets 3
+RAND2 raises to 6
+RAND1 folds
+RAND2 wins the pot (13)
+
+Hand #23, RAND2 (309), QBOT (176), RAND1 (115)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [3d 8s]
+Dealt to QBOT [2d 4c]
+Dealt to RAND1 [Tc 6s]
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (3)
+
+Hand #24, RAND1 (116), RAND2 (309), QBOT (175)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [3c As]
+Dealt to RAND2 [Ad 5c]
+Dealt to QBOT [Tc 7h]
+RAND1 calls 2
+RAND2 calls 2
+QBOT checks
+*** FLOP *** (6) [9h 8c 8h]
+RAND2 checks
+QBOT checks
+RAND1 bets 2
+RAND2 raises to 10
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (18)
+
+Hand #25, QBOT (173), RAND1 (112), RAND2 (315)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [3h 4c]
+Dealt to RAND1 [8d 3s]
+Dealt to RAND2 [6c 9d]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #26, RAND2 (316), QBOT (173), RAND1 (111)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [3s 7s]
+Dealt to QBOT [Ks 6d]
+Dealt to RAND1 [Jd Jh]
+RAND2 raises to 5
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (8)
+
+Hand #27, RAND1 (109), RAND2 (319), QBOT (172)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [Jc Kd]
+Dealt to RAND2 [9h Th]
+Dealt to QBOT [Qc 7s]
+RAND1 folds
+RAND2 folds
+QBOT wins the pot (3)
+
+Hand #28, QBOT (173), RAND1 (109), RAND2 (318)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [8h Ah]
+Dealt to RAND1 [Qd 5c]
+Dealt to RAND2 [2c Qc]
+QBOT raises to 7
+RAND1 folds
+RAND2 calls 7
+*** FLOP *** (15) [3c As Js]
+RAND2 bets 3
+QBOT raises to 23
+RAND2 folds
+QBOT wins the pot (41)
+
+Hand #29, RAND2 (308), QBOT (184), RAND1 (108)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [4c 2d]
+Dealt to QBOT [8d Td]
+Dealt to RAND1 [9c 7h]
+RAND2 calls 2
+QBOT folds
+RAND1 raises to 5
+RAND2 folds
+RAND1 wins the pot (8)
+
+Hand #30, RAND1 (111), RAND2 (306), QBOT (183)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [Jc 8h]
+Dealt to RAND2 [9h Td]
+Dealt to QBOT [3d 2c]
+RAND1 raises to 4
+RAND2 calls 4
+QBOT folds
+*** FLOP *** (10) [7c 7s 9d]
+RAND2 checks
+RAND1 bets 3
+RAND2 raises to 18
+RAND1 raises to 39
+RAND2 raises to 63
+RAND1 calls 63
+*** TURN *** (136) [7c 7s 9d] [Tc]
+RAND2 bets 7
+RAND1 folds
+RAND2 wins the pot (143)
+
+Hand #31, QBOT (181), RAND1 (44), RAND2 (375)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [2h Jh]
+Dealt to RAND1 [Ac 3h]
+Dealt to RAND2 [Tc Th]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #32, RAND2 (376), QBOT (181), RAND1 (43)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [8h 8d]
+Dealt to QBOT [3s 3d]
+Dealt to RAND1 [Qh Th]
+RAND2 calls 2
+QBOT folds
+RAND1 raises to 4
+RAND2 calls 4
+*** FLOP *** (9) [2h 7s 7c]
+RAND1 bets 3
+RAND2 raises to 8
+RAND1 raises to 14
+RAND2 calls 14
+*** TURN *** (37) [2h 7s 7c] [Tc]
+RAND1 bets 21
+RAND2 folds
+RAND1 wins the pot (58)
+
+Hand #33, RAND1 (62), RAND2 (358), QBOT (180)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [Jh 7s]
+Dealt to RAND2 [As 8c]
+Dealt to QBOT [8h 2h]
+RAND1 folds
+RAND2 folds
+QBOT wins the pot (3)
+
+Hand #34, QBOT (181), RAND1 (62), RAND2 (357)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [Th 2h]
+Dealt to RAND1 [Kd 5h]
+Dealt to RAND2 [As 4d]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #35, RAND2 (358), QBOT (181), RAND1 (61)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [7c 5c]
+Dealt to QBOT [7d Ac]
+Dealt to RAND1 [Jh 6h]
+RAND2 folds
+QBOT calls 2
+RAND1 raises to 4
+QBOT folds
+RAND1 wins the pot (6)
+
+Hand #36, RAND1 (63), RAND2 (358), QBOT (179)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [8h 8s]
+Dealt to RAND2 [6d Tc]
+Dealt to QBOT [5s 6c]
+RAND1 folds
+RAND2 calls 2
+QBOT checks
+*** FLOP *** (4) [7s 9d Ah]
+RAND2 checks
+QBOT checks
+*** TURN *** (4) [7s 9d Ah] [4s]
+RAND2 bets 2
+QBOT folds
+RAND2 wins the pot (6)
+
+Hand #37, QBOT (177), RAND1 (63), RAND2 (360)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [5s 7d]
+Dealt to RAND1 [9h 9d]
+Dealt to RAND2 [Ts 8h]
+QBOT folds
+RAND1 raises to 4
+RAND2 raises to 8
+RAND1 raises to 17
+RAND2 raises to 39
+RAND1 folds
+RAND2 wins the pot (56)
+
+Hand #38, RAND2 (377), QBOT (177), RAND1 (46)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Th 7s]
+Dealt to QBOT [Ah 2d]
+Dealt to RAND1 [5c Kd]
+RAND2 calls 2
+QBOT folds
+RAND1 raises to 6
+RAND2 folds
+RAND1 wins the pot (9)
+
+Hand #39, RAND1 (49), RAND2 (375), QBOT (176)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [Qs Qd]
+Dealt to RAND2 [4d Jc]
+Dealt to QBOT [Ts 4h]
+RAND1 calls 2
+RAND2 folds
+QBOT checks
+*** FLOP *** (5) [7d Kh 3h]
+QBOT checks
+RAND1 bets 3
+QBOT folds
+RAND1 wins the pot (8)
+
+Hand #40, QBOT (174), RAND1 (52), RAND2 (374)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [9c 3d]
+Dealt to RAND1 [9h 4d]
+Dealt to RAND2 [5h Jc]
+QBOT folds
+RAND1 calls 2
+RAND2 raises to 5
+RAND1 raises to 8
+RAND2 folds
+RAND1 wins the pot (13)
+
+Hand #41, RAND2 (369), QBOT (174), RAND1 (57)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [8c Kh]
+Dealt to QBOT [2d 8h]
+Dealt to RAND1 [Jd 2h]
+RAND2 raises to 6
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (9)
+
+Hand #42, RAND1 (55), RAND2 (372), QBOT (173)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [Tc 8c]
+Dealt to RAND2 [2d 6s]
+Dealt to QBOT [Ts 9c]
+RAND1 calls 2
+RAND2 calls 2
+QBOT checks
+*** FLOP *** (6) [Jh 8h Kd]
+RAND2 bets 4
+QBOT folds
+RAND1 calls 4
+*** TURN *** (14) [Jh 8h Kd] [4h]
+RAND2 bets 2
+RAND1 folds
+RAND2 wins the pot (16)
+
+Hand #43, QBOT (171), RAND1 (49), RAND2 (380)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [5c Kh]
+Dealt to RAND1 [Kc Ac]
+Dealt to RAND2 [Ks Qd]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #44, RAND2 (381), QBOT (171), RAND1 (48)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Qs Qd]
+Dealt to QBOT [Qc Tc]
+Dealt to RAND1 [7c 9h]
+RAND2 calls 2
+QBOT raises to 8
+RAND1 calls 8
+RAND2 raises to 14
+QBOT calls 14
+RAND1 raises to 44
+RAND2 calls 44
+QBOT calls 44
+*** FLOP *** (132) [2h 9d 5h]
+QBOT checks
+RAND1 bets 2
+RAND2 calls 2
+QBOT calls 2
+*** TURN *** (138) [2h 9d 5h] [4s]
+QBOT checks
+RAND1 checks
+RAND2 checks
+*** RIVER *** (138) [2h 9d 5h 4s] [5c]
+QBOT checks
+RAND1 bets 2
+RAND2 folds
+QBOT folds
+RAND1 wins the pot (140)
+
+Hand #45, RAND1 (140), RAND2 (335), QBOT (125)
+RAND2 posts the blind of 1
+QBOT posts the blind of 2
+Dealt to RAND1 [Ks 9h]
+Dealt to RAND2 [8c Jh]
+Dealt to QBOT [3h 4h]
+RAND1 raises to 4
+RAND2 raises to 12
+QBOT folds
+RAND1 raises to 25
+RAND2 calls 25
+*** FLOP *** (52) [2c Kh 6s]
+RAND2 checks
+RAND1 bets 8
+RAND2 folds
+RAND1 wins the pot (60)
+
+Hand #46, QBOT (123), RAND1 (167), RAND2 (310)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [5c 8c]
+Dealt to RAND1 [7d Tc]
+Dealt to RAND2 [5h Jh]
+QBOT folds
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #47, RAND2 (311), QBOT (123), RAND1 (166)
+QBOT posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [2h 3s]
+Dealt to QBOT [Jc Js]
+Dealt to RAND1 [6c 3c]
+RAND2 raises to 6
+QBOT raises to 20
+RAND1 calls 20
+RAND2 raises to 48
+QBOT calls 48
+RAND1 calls 48
+*** FLOP *** (144) [4h 5c Kh]
+QBOT bets 70
+RAND1 raises to 118
+RAND2 calls 118
+QBOT calls 75
+*** TURN *** (455) [4h 5c Kh] [7d]
+*** RIVER *** (455) [4h 5c Kh 7d] [7c]
+RAND2 shows [2h 3s]
+QBOT shows [Jc Js]
+RAND1 shows [6c 3c]
+RAND1 wins the pot (455)
+
+Hand #48, RAND1 (455), RAND2 (145), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [Ts 6s]
+Dealt to RAND2 [3d 8c]
+Dealt to QBOT [2s 2c]
+RAND1 raises to 5
+RAND2 raises to 11
+RAND1 calls 11
+*** FLOP *** (22) [5s Qs 7s]
+RAND2 checks
+RAND1 bets 2
+RAND2 raises to 25
+RAND1 raises to 51
+RAND2 raises to 131
+RAND1 folds
+RAND2 wins the pot (204)
+
+Hand #49, RAND2 (207), RAND1 (393), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [Js 8c]
+Dealt to RAND1 [Jd 3s]
+Dealt to RAND2 [7d 8h]
+RAND2 raises to 4
+RAND1 folds
+RAND2 wins the pot (6)
+
+Hand #50, RAND1 (391), RAND2 (209), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [9h Js]
+Dealt to QBOT [Ad 6c]
+Dealt to RAND1 [2c Ac]
+RAND1 raises to 4
+RAND2 raises to 7
+RAND1 folds
+RAND2 wins the pot (11)
+
+Hand #51, RAND2 (213), RAND1 (387), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [9h Jc]
+Dealt to RAND2 [Ac Qd]
+Dealt to QBOT [Qs Th]
+RAND2 calls 2
+RAND1 checks
+*** FLOP *** (4) [Ah Ts Ad]
+RAND1 bets 2
+RAND2 raises to 8
+RAND1 calls 8
+*** TURN *** (20) [Ah Ts Ad] [7h]
+RAND1 checks
+RAND2 checks
+*** RIVER *** (20) [Ah Ts Ad 7h] [6c]
+RAND1 checks
+RAND2 bets 5
+RAND1 folds
+RAND2 wins the pot (25)
+
+Hand #52, RAND1 (377), RAND2 (223), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [Kc Qd]
+Dealt to RAND1 [Ad 7c]
+Dealt to RAND2 [7d 3h]
+RAND1 raises to 5
+RAND2 calls 5
+*** FLOP *** (10) [Qc Th 7h]
+RAND2 checks
+RAND1 bets 7
+RAND2 calls 7
+*** TURN *** (24) [Qc Th 7h] [Td]
+RAND2 bets 5
+RAND1 folds
+RAND2 wins the pot (29)
+
+Hand #53, RAND2 (235), RAND1 (365), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Ad 2d]
+Dealt to QBOT [Qd Td]
+Dealt to RAND1 [5h 4c]
+RAND2 folds
+RAND1 wins the pot (3)
+
+Hand #54, RAND1 (366), RAND2 (234), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [8s 2c]
+Dealt to RAND2 [9h 2h]
+Dealt to QBOT [3s 6h]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #55, RAND2 (235), RAND1 (365), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [2d As]
+Dealt to RAND1 [7s 6d]
+Dealt to RAND2 [2s Th]
+RAND2 raises to 5
+RAND1 raises to 11
+RAND2 folds
+RAND1 wins the pot (16)
+
+Hand #56, RAND1 (370), RAND2 (230), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [7d Qs]
+Dealt to QBOT [8h Td]
+Dealt to RAND1 [Qd 5s]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #57, RAND2 (231), RAND1 (369), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [3s Qd]
+Dealt to RAND2 [Qs 2s]
+Dealt to QBOT [3c 8c]
+RAND2 raises to 5
+RAND1 folds
+RAND2 wins the pot (7)
+
+Hand #58, RAND1 (367), RAND2 (233), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [5s 7s]
+Dealt to RAND1 [Qs 6s]
+Dealt to RAND2 [4h 3h]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #59, RAND2 (234), RAND1 (366), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Ks 3c]
+Dealt to QBOT [6s Qc]
+Dealt to RAND1 [2s Ts]
+RAND2 calls 2
+RAND1 checks
+*** FLOP *** (4) [8s Qd Ac]
+RAND1 bets 3
+RAND2 folds
+RAND1 wins the pot (7)
+
+Hand #60, RAND1 (368), RAND2 (232), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [8s As]
+Dealt to RAND2 [Th Td]
+Dealt to QBOT [2h 8c]
+RAND1 raises to 4
+RAND2 calls 4
+*** FLOP *** (8) [3c Jh Ks]
+RAND2 checks
+RAND1 bets 5
+RAND2 calls 5
+*** TURN *** (18) [3c Jh Ks] [Tc]
+RAND2 bets 7
+RAND1 calls 7
+*** RIVER *** (32) [3c Jh Ks Tc] [Qh]
+RAND2 bets 8
+RAND1 calls 8
+RAND1 shows [8s As]
+RAND2 shows [Th Td]
+RAND1 wins the pot (48)
+
+Hand #61, RAND2 (208), RAND1 (392), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [7s Kc]
+Dealt to RAND1 [Qs 2h]
+Dealt to RAND2 [3s Ad]
+RAND2 folds
+RAND1 wins the pot (3)
+
+Hand #62, RAND1 (393), RAND2 (207), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [Td 3d]
+Dealt to QBOT [2c Qs]
+Dealt to RAND1 [6h 5d]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #63, RAND2 (208), RAND1 (392), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [Ah Ac]
+Dealt to RAND2 [Jh As]
+Dealt to QBOT [8d 8s]
+RAND2 folds
+RAND1 wins the pot (3)
+
+Hand #64, RAND1 (393), RAND2 (207), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [4c 8c]
+Dealt to RAND1 [9d 4h]
+Dealt to RAND2 [3c 3s]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #65, RAND2 (208), RAND1 (392), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Qc Kh]
+Dealt to QBOT [6s 3s]
+Dealt to RAND1 [Ad Td]
+RAND2 calls 2
+RAND1 checks
+*** FLOP *** (4) [6d 9s Jh]
+RAND1 checks
+RAND2 bets 3
+RAND1 raises to 8
+RAND2 folds
+RAND1 wins the pot (15)
+
+Hand #66, RAND1 (397), RAND2 (203), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [5c 4s]
+Dealt to RAND2 [3s 9d]
+Dealt to QBOT [7d 2h]
+RAND1 calls 2
+RAND2 raises to 5
+RAND1 calls 5
+*** FLOP *** (10) [3c 5s 9h]
+RAND2 bets 9
+RAND1 calls 9
+*** TURN *** (28) [3c 5s 9h] [8c]
+RAND2 bets 26
+RAND1 calls 26
+*** RIVER *** (80) [3c 5s 9h 8c] [4h]
+RAND2 checks
+RAND1 checks
+RAND1 shows [5c 4s]
+RAND2 shows [3s 9d]
+RAND2 wins the pot (80)
+
+Hand #67, RAND2 (243), RAND1 (357), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [Ks 7s]
+Dealt to RAND1 [Kd 7c]
+Dealt to RAND2 [7h Qs]
+RAND2 raises to 4
+RAND1 folds
+RAND2 wins the pot (6)
+
+Hand #68, RAND1 (355), RAND2 (245), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [7h 2d]
+Dealt to QBOT [3s Qd]
+Dealt to RAND1 [7s 7c]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #69, RAND2 (246), RAND1 (354), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [Js 6c]
+Dealt to RAND2 [Jd Tc]
+Dealt to QBOT [2s 3d]
+RAND2 calls 2
+RAND1 checks
+*** FLOP *** (4) [6d 3h 4h]
+RAND1 bets 3
+RAND2 calls 3
+*** TURN *** (10) [6d 3h 4h] [8h]
+RAND1 bets 9
+RAND2 folds
+RAND1 wins the pot (19)
+
+Hand #70, RAND1 (359), RAND2 (241), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [9d As]
+Dealt to RAND1 [9s Qd]
+Dealt to RAND2 [8s Kh]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #71, RAND2 (242), RAND1 (358), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [7d 4h]
+Dealt to QBOT [Qs 9c]
+Dealt to RAND1 [2d Ks]
+RAND2 raises to 4
+RAND1 calls 4
+*** FLOP *** (8) [3s Tc Qd]
+RAND1 checks
+RAND2 bets 2
+RAND1 calls 2
+*** TURN *** (12) [3s Tc Qd] [8c]
+RAND1 bets 2
+RAND2 raises to 5
+RAND1 calls 5
+*** RIVER *** (22) [3s Tc Qd 8c] [Td]
+RAND1 checks
+RAND2 checks
+RAND2 shows [7d 4h]
+RAND1 shows [2d Ks]
+RAND1 wins the pot (22)
+
+Hand #72, RAND1 (369), RAND2 (231), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [3s 4d]
+Dealt to RAND2 [2c 5d]
+Dealt to QBOT [7c 4s]
+RAND1 raises to 5
+RAND2 folds
+RAND1 wins the pot (7)
+
+Hand #73, RAND2 (229), RAND1 (371), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [5d 7s]
+Dealt to RAND1 [2c 5s]
+Dealt to RAND2 [Td Ah]
+RAND2 calls 2
+RAND1 checks
+*** FLOP *** (4) [Jc 3d As]
+RAND1 checks
+RAND2 bets 3
+RAND1 folds
+RAND2 wins the pot (7)
+
+Hand #74, RAND1 (369), RAND2 (231), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [3s 6s]
+Dealt to QBOT [2h Ks]
+Dealt to RAND1 [5c 4h]
+RAND1 calls 2
+RAND2 raises to 5
+RAND1 calls 5
+*** FLOP *** (10) [6h Qc 3d]
+RAND2 bets 5
+RAND1 calls 5
+*** TURN *** (20) [6h Qc 3d] [Td]
+RAND2 bets 18
+RAND1 folds
+RAND2 wins the pot (38)
+
+Hand #75, RAND2 (241), RAND1 (359), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [3d Ad]
+Dealt to RAND2 [5d Qc]
+Dealt to QBOT [Qd 4h]
+RAND2 folds
+RAND1 wins the pot (3)
+
+Hand #76, RAND1 (360), RAND2 (240), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [Qd 6s]
+Dealt to RAND1 [Qc Th]
+Dealt to RAND2 [8s 3h]
+RAND1 raises to 4
+RAND2 folds
+RAND1 wins the pot (6)
+
+Hand #77, RAND2 (238), RAND1 (362), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Kd 9c]
+Dealt to QBOT [5c 5h]
+Dealt to RAND1 [5d Ad]
+RAND2 calls 2
+RAND1 checks
+*** FLOP *** (4) [7h Qs Ac]
+RAND1 bets 3
+RAND2 folds
+RAND1 wins the pot (7)
+
+Hand #78, RAND1 (364), RAND2 (236), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [7s 5d]
+Dealt to RAND2 [5h 6c]
+Dealt to QBOT [2h Jh]
+RAND1 calls 2
+RAND2 checks
+*** FLOP *** (4) [Th 4c Ts]
+RAND2 bets 3
+RAND1 calls 3
+*** TURN *** (10) [Th 4c Ts] [6s]
+RAND2 bets 5
+RAND1 raises to 15
+RAND2 calls 15
+*** RIVER *** (40) [Th 4c Ts 6s] [7c]
+RAND2 bets 21
+RAND1 raises to 97
+RAND2 raises to 189
+RAND1 folds
+RAND2 wins the pot (326)
+
+Hand #79, RAND2 (353), RAND1 (247), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [6c 4s]
+Dealt to RAND1 [8c 3d]
+Dealt to RAND2 [9c 8s]
+RAND2 folds
+RAND1 wins the pot (3)
+
+Hand #80, RAND1 (248), RAND2 (352), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [Js 9s]
+Dealt to QBOT [Qs 9d]
+Dealt to RAND1 [As Ks]
+RAND1 raises to 5
+RAND2 calls 5
+*** FLOP *** (10) [9h 8c Ts]
+RAND2 checks
+RAND1 checks
+*** TURN *** (10) [9h 8c Ts] [Ac]
+RAND2 bets 9
+RAND1 folds
+RAND2 wins the pot (19)
+
+Hand #81, RAND2 (357), RAND1 (243), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [4d 4h]
+Dealt to RAND2 [6d 3d]
+Dealt to QBOT [Qc 8c]
+RAND2 raises to 5
+RAND1 calls 5
+*** FLOP *** (10) [3c Jc 2c]
+RAND1 checks
+RAND2 bets 8
+RAND1 folds
+RAND2 wins the pot (18)
+
+Hand #82, RAND1 (238), RAND2 (362), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [2c Th]
+Dealt to RAND1 [5s 6s]
+Dealt to RAND2 [Kd Ks]
+RAND1 calls 2
+RAND2 raises to 5
+RAND1 folds
+RAND2 wins the pot (7)
+
+Hand #83, RAND2 (364), RAND1 (236), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [6c 5s]
+Dealt to QBOT [7c Tc]
+Dealt to RAND1 [6s 4h]
+RAND2 folds
+RAND1 wins the pot (3)
+
+Hand #84, RAND1 (237), RAND2 (363), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [Td Qc]
+Dealt to RAND2 [5s Kc]
+Dealt to QBOT [Ah Ks]
+RAND1 calls 2
+RAND2 checks
+*** FLOP *** (4) [Qs 4d 8c]
+RAND2 checks
+RAND1 checks
+*** TURN *** (4) [Qs 4d 8c] [Kh]
+RAND2 checks
+RAND1 bets 2
+RAND2 calls 2
+*** RIVER *** (8) [Qs 4d 8c Kh] [2h]
+RAND2 bets 5
+RAND1 calls 5
+RAND1 shows [Td Qc]
+RAND2 shows [5s Kc]
+RAND2 wins the pot (18)
+
+Hand #85, RAND2 (372), RAND1 (228), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [2h Jc]
+Dealt to RAND1 [Td Jh]
+Dealt to RAND2 [2d Ad]
+RAND2 raises to 5
+RAND1 folds
+RAND2 wins the pot (7)
+
+Hand #86, RAND1 (226), RAND2 (374), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [Kh 9c]
+Dealt to QBOT [8c 7d]
+Dealt to RAND1 [Td 9h]
+RAND1 calls 2
+RAND2 checks
+*** FLOP *** (4) [Qh Kd Qd]
+RAND2 checks
+RAND1 bets 3
+RAND2 raises to 8
+RAND1 raises to 24
+RAND2 calls 24
+*** TURN *** (52) [Qh Kd Qd] [6s]
+RAND2 bets 18
+RAND1 raises to 103
+RAND2 raises to 197
+RAND1 calls 197
+*** RIVER *** (446) [Qh Kd Qd 6s] [Ac]
+RAND2 bets 2
+RAND1 raises to 3
+RAND2 folds
+RAND1 wins the pot (451)
+
+Hand #87, RAND2 (149), RAND1 (451), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [As Qd]
+Dealt to RAND2 [7h 4d]
+Dealt to QBOT [6s 4s]
+RAND2 raises to 4
+RAND1 folds
+RAND2 wins the pot (6)
+
+Hand #88, RAND1 (449), RAND2 (151), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [Td 6h]
+Dealt to RAND1 [2h Tc]
+Dealt to RAND2 [Th 3c]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #89, RAND2 (152), RAND1 (448), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [9c 5c]
+Dealt to QBOT [9h Qd]
+Dealt to RAND1 [Qh 4c]
+RAND2 calls 2
+RAND1 checks
+*** FLOP *** (4) [7h 6d 3s]
+RAND1 checks
+RAND2 checks
+*** TURN *** (4) [7h 6d 3s] [7c]
+RAND1 checks
+RAND2 checks
+*** RIVER *** (4) [7h 6d 3s 7c] [Js]
+RAND1 bets 2
+RAND2 calls 2
+RAND2 shows [9c 5c]
+RAND1 shows [Qh 4c]
+RAND1 wins the pot (8)
+
+Hand #90, RAND1 (452), RAND2 (148), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [2h 4s]
+Dealt to RAND2 [Jd 3d]
+Dealt to QBOT [4c Th]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #91, RAND2 (149), RAND1 (451), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [8d 5d]
+Dealt to RAND1 [2d 3s]
+Dealt to RAND2 [Jh 4s]
+RAND2 raises to 5
+RAND1 calls 5
+*** FLOP *** (10) [7c Kd Kc]
+RAND1 checks
+RAND2 checks
+*** TURN *** (10) [7c Kd Kc] [9s]
+RAND1 bets 7
+RAND2 calls 7
+*** RIVER *** (24) [7c Kd Kc 9s] [Tc]
+RAND1 bets 19
+RAND2 raises to 54
+RAND1 raises to 105
+RAND2 calls 105
+RAND1 shows [2d 3s]
+RAND2 shows [Jh 4s]
+RAND2 wins the pot (234)
+
+Hand #92, RAND1 (334), RAND2 (266), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [2s 3d]
+Dealt to QBOT [Ac Ah]
+Dealt to RAND1 [5d 5s]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #93, RAND2 (267), RAND1 (333), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [Qs 5s]
+Dealt to RAND2 [7h 4c]
+Dealt to QBOT [Ts 2h]
+RAND2 calls 2
+RAND1 raises to 5
+RAND2 folds
+RAND1 wins the pot (7)
+
+Hand #94, RAND1 (335), RAND2 (265), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [3s 6c]
+Dealt to RAND1 [9d 4h]
+Dealt to RAND2 [Qc 2h]
+RAND1 raises to 4
+RAND2 folds
+RAND1 wins the pot (6)
+
+Hand #95, RAND2 (263), RAND1 (337), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND2 [Kd Ks]
+Dealt to QBOT [7h 9h]
+Dealt to RAND1 [2c 4h]
+RAND2 raises to 5
+RAND1 calls 5
+*** FLOP *** (10) [2h Tc Js]
+RAND1 checks
+RAND2 checks
+*** TURN *** (10) [2h Tc Js] [Kh]
+RAND1 checks
+RAND2 checks
+*** RIVER *** (10) [2h Tc Js Kh] [3d]
+RAND1 bets 3
+RAND2 calls 3
+RAND2 shows [Kd Ks]
+RAND1 shows [2c 4h]
+RAND2 wins the pot (16)
+
+Hand #96, RAND1 (329), RAND2 (271), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND1 [4c 4d]
+Dealt to RAND2 [2c Ac]
+Dealt to QBOT [8d 7d]
+RAND1 raises to 4
+RAND2 folds
+RAND1 wins the pot (6)
+
+Hand #97, RAND2 (269), RAND1 (331), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to QBOT [Qd 8h]
+Dealt to RAND1 [6d 7d]
+Dealt to RAND2 [8c Ts]
+RAND2 raises to 4
+RAND1 folds
+RAND2 wins the pot (6)
+
+Hand #98, RAND1 (329), RAND2 (271), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to RAND2 [Ts Kh]
+Dealt to QBOT [7s 9c]
+Dealt to RAND1 [Ks 7h]
+RAND1 folds
+RAND2 wins the pot (3)
+
+Hand #99, RAND2 (272), RAND1 (328), QBOT (0)
+RAND2 posts the blind of 1
+RAND1 posts the blind of 2
+Dealt to RAND1 [6h 5c]
+Dealt to RAND2 [9h 4d]
+Dealt to QBOT [9s As]
+RAND2 calls 2
+RAND1 raises to 5
+RAND2 raises to 10
+RAND1 raises to 22
+RAND2 raises to 55
+RAND1 raises to 126
+RAND2 folds
+RAND1 wins the pot (181)
+
+Hand #100, RAND1 (383), RAND2 (217), QBOT (0)
+RAND1 posts the blind of 1
+RAND2 posts the blind of 2
+Dealt to QBOT [Ac Jc]
+Dealt to RAND1 [2d 8s]
+Dealt to RAND2 [Jd 3c]
+RAND1 raises to 4
+RAND2 raises to 10
+RAND1 calls 10
+*** FLOP *** (20) [Js 6h 2c]
+RAND2 checks
+RAND1 bets 16
+RAND2 raises to 62
+RAND1 raises to 174
+RAND2 folds
+RAND1 wins the pot (256)
+

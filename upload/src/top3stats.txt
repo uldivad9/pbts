@@ -1,0 +1,137 @@
+PLAYER PROFILE FOR POTRIPPER
+Out of 4020 preflop observations:
+ raise: 0.07960199004975124 - less
+ fold: 0.48855721393034823 - less
+ won: 0.33233830845771145 - more
+Out of 720 flop observations: .18
+ raise: 0.018055555555555554 - less
+ bet: 0.32916666666666666 - less
+ fold: 0.25 - less
+ won: 0.28888888888888886 - less
+Out of 330 turn observations: .082
+ raise: 0.015151515151515152 - more
+ bet: 0.09393939393939393 - more
+ fold: 0.10909090909090909 - less
+ won: 0.0
+Out of 294 river observations: .073
+ raise: 0.023809523809523808 - more
+ bet: 0.1870748299319728 - more
+ fold: 0.07142857142857142 - less
+ won: 0.11224489795918367 - more
+Showdown 0.05970149253731343 - less
+ wins: 0.45 - more
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PLAYER PROFILE FOR QBOT
+Out of 6020 preflop observations:
+ raise: 0.09003322259136212
+ fold: 0.5465116279069767 
+ won: 0.23338870431893688 - ???
+Out of 1325 flop observations: .22
+ raise: 0.02188679245283019
+ bet: 0.3471698113207547 
+ fold: 0.2724528301886792
+ won: 0.30339622641509434
+Out of 560 turn observations: .093
+ raise: 0.010714285714285714
+ bet: 0.09107142857142857
+ fold: 0.1125
+ won: 0.0
+Out of 497 river observations: .082
+ raise: 0.014084507042253521
+ bet: 0.1710261569416499
+ fold: 0.1227364185110664
+ won: 0.09456740442655935
+Showdown 0.06461794019933555
+ wins: 0.38817480719794345
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ PLAYER PROFILE FOR kerbopots
+Out of 1020 preflop observations:
+ raise: 0.153921568627451 - more
+ fold: 0.11960784313725491 - less
+ won: 0.5186274509803922 - ??
+Out of 369 flop observations: .36
+ raise: 0.02981029810298103 - more
+ bet: 0.25745257452574527 - less
+ fold: 0.1978319783197832 - less
+ won: 0.25745257452574527 - less
+Out of 199 turn observations: .195
+ raise: 0.020100502512562814 - more
+ bet: 0.01507537688442211 - more
+ fold: 0.1507537688442211 - more
+ won: 0.0
+Out of 169 river observations: .166
+ raise: 0.029585798816568046 - more
+ bet: 0.24260355029585798 - more
+ fold: 0.10650887573964497 - less
+ won: 0.2485207100591716 - more
+Showdown 0.10686274509803921 - more
+ wins: 0.3302752293577982 - less
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
