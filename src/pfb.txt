@@ -1,0 +1,10 @@
+344 {pfr0.44,pfb0.4,pfc0.42,afr0.9,afb0.62,afc0.9}
+28 {pfr0.44,pfb0.42000000000000004,pfc0.42,afr0.9,afb0.62,afc0.9}
+344 {pfr0.44,pfb0.44,pfc0.42,afr0.9,afb0.62,afc0.9}
+196 {pfr0.44,pfb0.46,pfc0.42,afr0.9,afb0.62,afc0.9}
+208 {pfr0.44,pfb0.48000000000000004,pfc0.42,afr0.9,afb0.62,afc0.9}
+180 {pfr0.44,pfb0.5,pfc0.42,afr0.9,afb0.62,afc0.9}
+-558 {pfr0.44,pfb0.52,pfc0.42,afr0.9,afb0.62,afc0.9}
+-496 {pfr0.44,pfb0.54,pfc0.42,afr0.9,afb0.62,afc0.9}
+-434 {pfr0.44,pfb0.56,pfc0.42,afr0.9,afb0.62,afc0.9}
+-532 {pfr0.44,pfb0.5800000000000001,pfc0.42,afr0.9,afb0.62,afc0.9}

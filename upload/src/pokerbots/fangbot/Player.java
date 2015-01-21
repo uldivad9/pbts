@@ -6,14 +6,20 @@ import java.util.*;
 import pokerbots.*;
 
 /**
- * FANG GG
+ * YUN FANG
  * 
  */
 public class Player {
 	
+	private String MY_NAME;
+	
 	private final PrintWriter outStream;
 	private final BufferedReader inStream;
 	private final Random rand = new Random();
+	
+	PlayerProfile myProfile;
+	PlayerProfile oppProfile1;
+	PlayerProfile oppProfile2;
 	
 	final boolean debug=false;
 	//whether to print out debug output
@@ -25,17 +31,38 @@ public class Player {
 	
 	public void run() {
 		String input;
+		String[] playerNames = new String[3];
 		int seatNo = 0;
 		int stackSize=200;
 		int bb=2;
 		int numHands;
 		double timeBank=20.0;
 		int[] stacks = new int[3]; //0 is own stack, 1 is the next player over
+		int myStack = 200;
 		int potsize=0;
+		ArrayList<String> activePlayers = new ArrayList<String>();
+		
+		int numActivePlayers = 0;
+		int numRaises=0; //number of raises during this STREET
+		int numFolds=0; //number of folds during this hand
+		boolean button=false; //am i the button
+		
+		HashMap<String,Integer> playerRaises = new HashMap<String,Integer>();
+		ArrayList<String> actionList = new ArrayList<String>();
 		
 		Hand hand = null;
 		Hand board = null;
 		Hand combined = null;
+		
+		int wins = 0;
+		boolean reset = false; //reset all poor performing bots to given specs
+		
+		double pfraise = 0.456545447759851;
+		double pfbet = 0.32555048286957056;
+		double pfcall = 0.4785323492092885;
+		double afraise = 0.9386514688178289;
+		double afbet = 0.6888379785584023;
+		double afcall = 0.7163182823913401;
 		
 		try {
 			// Block until engine sends us a packet; read it into input.
@@ -43,17 +70,28 @@ public class Player {
 
 				// Here is where you should implement code to parse the packets
 				// from the engine and act on it.
+				if (debug) System.out.println("");
 				if (debug) System.out.println(input);
 				
 				String[] tokens = input.split(" ");
 				String packetType = tokens[0];
 				if ("NEWGAME".compareToIgnoreCase(packetType) == 0) {
+					MY_NAME = tokens[1];
+					
+					
 					//tokens[1-3] are player names
+					for (int i=1; i<=3; i++) {
+						playerRaises.put(tokens[i],0);
+					}
+					
 					stackSize = Integer.parseInt(tokens[4]);
 					bb = Integer.parseInt(tokens[5]);
 					numHands = Integer.parseInt(tokens[6]);
 					timeBank = Double.parseDouble(tokens[7]);
+					
 				} else if ("NEWHAND".compareToIgnoreCase(packetType) == 0) {
+					actionList = new ArrayList<String>();
+					
 					//tokens[1] is hand id
 					seatNo = Integer.parseInt(tokens[2]);
 					hand = new Hand();
@@ -62,6 +100,9 @@ public class Player {
 					hand.addCard(tokens[3]);
 					hand.addCard(tokens[4]);
 					
+					numRaises = 0;
+					numFolds = 0;
+					
 					combined.addCard(tokens[3]);
 					combined.addCard(tokens[4]);
 					
@@ -69,9 +110,28 @@ public class Player {
 					stacks[1] = Integer.parseInt(tokens[6]);
 					stacks[2] = Integer.parseInt(tokens[7]);
 					//tokens[8,9,10] are player names
+					for (int i=0; i<3; i++) {
+						playerNames[i] = tokens[i+8];
+					}
+					
+					if (tokens[8].equals(MY_NAME)) {
+						button = true;
+					} else {
+						button = false;
+					}
 					//tokens[11] is the number of active players
 					//tokens[12,13,14] are the booleans of whether players in seats 1,2,3 are active
+					numActivePlayers = Integer.parseInt(tokens[11]);
+					activePlayers = new ArrayList<String>();
+					for (int i=0; i<numActivePlayers; i++) {
+						if(tokens[12+i].equals("true")) {
+							activePlayers.add(playerNames[i]);
+						}
+					}
+					
 					timeBank = Double.parseDouble(tokens[15]);
+					
+					playerRaises = new HashMap<String,Integer>();
 					
 					if (debug) {
 						System.out.println("");
@@ -96,12 +156,39 @@ public class Player {
 					stacks[2] = Integer.parseInt(tokens[base1+2]);
 					
 					//tokens[base1+3] is the number of active players
+					/*
+					int numActivePlayers = Integer.parseInt(tokens[base1+3]);
+					activePlayers = new ArrayList<String>();
+					for (int i=0; i<numActivePlayers; i++) {
+						if(tokens[base1+4+i].equals("true")) {
+							activePlayers.add(playerNames[i]);
+						}
+					}*/
 					//tokens[base1+4-6] is the booleans of whether players are active
 					
 					int numLastActions = Integer.parseInt(tokens[base1+7]);
 					int base2 = base1+8;
 					//points to the first token after numLastActions, which should be the first last action.
 					//do stuff with the actions
+					for (int i=0; i<numLastActions; i++) {
+						String[] actionTokens = tokens[base2+i].split(":");
+						if ("FOLD".equals(actionTokens[0])) {
+							numFolds++;
+							numActivePlayers--;
+							activePlayers.remove(actionTokens[1]);
+						} else if ("RAISE".equals(actionTokens[0])) {
+							numRaises++;
+							String playerName = actionTokens[2];
+							if (playerRaises.containsKey(playerName)) {
+								playerRaises.put(playerName,playerRaises.get(playerName)+1);
+							} else {
+								playerRaises.put(playerName,1);
+							}
+						} else if ("DEAL".equals(actionTokens[0])) {
+							numRaises = 0;
+						}
+						actionList.add(tokens[base2+i]);
+					}
 					
 					int numLegalActions = Integer.parseInt(tokens[base2+numLastActions]);
 					int base3 = base2+numLastActions+1;
@@ -115,7 +202,8 @@ public class Player {
 					int minRaise=0;
 					int maxRaise=0;
 					
-					if (debug) System.out.println("");
+					//estimations
+					
 					
 					for (int i=base3; i<base3+numLegalActions; i++) {
 						String legalAction = tokens[i];
@@ -134,11 +222,14 @@ public class Player {
 					}
 					
 					if (debug) {
+						System.out.println("Players: "+numActivePlayers);
+						System.out.println("Raises: "+numRaises);
 						System.out.println("Time left: "+timeBank);
 						System.out.println("My hand: "+hand.toString());
 						System.out.println("Board: "+board.toString());
 						System.out.println("Combined:"+combined.toString());
 						System.out.println("Stacks: "+Arrays.toString(stacks)+" (I have "+stacks[seatNo-1]+")");
+						System.out.println("Pot size: "+potsize);
 						if (canCheck) {
 							System.out.println("I can check.");
 						} else {
@@ -147,227 +238,109 @@ public class Player {
 						System.out.println("I can bet "+minBet+" to "+maxBet);
 						System.out.println("I can call with "+toCall);
 						System.out.println("I can raise from "+minRaise+" to "+maxRaise);
-					} else {
-						System.out.println("My hand is: "+hand);
-						System.out.println("Board: "+board.toString());
 					}
 					
 					String output;
 					
-					
-					
 					if (combined.size() == 2) {
-					//evaluate starting hand
 						double strength = StartingHands.getStrength(hand);
-						double variance = rand.nextGaussian()*strength/30;
-						if (debug) {
-							System.out.println("My starting hand strength is "+strength);
-							System.out.println("This round's variance is "+variance);
-						}
-						
 						if (canCheck) {
-							if (strength > 0.43+variance) {
-								//premium hand
-								if (maxBet > 0) {
-									output = "BET:"+maxBet;
-								} else if (maxRaise > 0) {
-									output = "RAISE:"+maxRaise;
-								} else {
-									output = "CHECK";
-								}
-							} else if (strength > 0.38+variance) {
-								//good hand
-								if (maxBet > 0) {
-									output = "BET:"+Math.max(minBet,maxBet/2);
-								} else if (maxRaise > 0) {
-									output = "RAISE:"+Math.max(minRaise,maxRaise/2);
-								} else {
-									output = "CHECK";
-								}
+							if (strength > pfbet && maxRaise > 0) {
+								output = "RAISE:"+maxRaise;
 							} else {
 								output = "CHECK";
 							}
 						} else {
-							if (strength > 0.47+variance && maxRaise > 0) {
-								//raise that ho
+							if (strength > pfraise && maxRaise > 0 && numRaises < 2) {
 								output = "RAISE:"+maxRaise;
-							} else if (strength > 0.4+variance) {
+							} else if (strength > pfcall) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";
 							}
 						}
 					} else {
-						//flop is out.
-						int handStrength = combined.evaluateHand();
-						Hand extendedBoard = new Hand();
-						for (Card c : board.getCards()) {
-							extendedBoard.addCard(c);
-						}
-						if (board.size() == 3) {
-							extendedBoard.addCard(new Card(Suit.NONE,0));
-							extendedBoard.addCard(new Card(Suit.NONE,1));
-						} else if (board.size() == 4) {
-							extendedBoard.addCard(new Card(Suit.NONE,0));
-						}
-						int boardStrength = extendedBoard.evaluateHand();
-						
-						if (debug) {
-							System.out.println("My combined hand strength is: "+handStrength);
-							System.out.println("The board strength is: "+boardStrength);
-						}
-						
+						double relativeStrength = AfterFlop.getRelativeStrength(hand,board);
 						if (canCheck) {
-							if (maxBet == 0) {
-								output = "CHECK";
-							} else {
-								if (handStrength >= 50000000) {
-									if (debug) System.out.println("Uber hand, betting max.");
-									int base = maxBet*9/10;
-									int variance = Math.max(maxBet-base,1);
-									output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
-								} else if (handStrength >= 40000000) {
-									if (boardStrength < 40000000) {
-										if (debug) System.out.println("Set, betting almost max.");
-										int base = maxBet*8/10;
-										int variance = Math.max(maxBet-base,1);
-										output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
-									} else {
-										output = "CHECK";
-									}
-								} else if (handStrength >= 30000000) {
-									if (boardStrength < 20000000) {
-										if (debug) System.out.println("Two of a kind, betting very high.");
-										int base = maxBet*7/10;
-										int variance = Math.max(maxBet-base,1);
-										output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
-									} else {
-										if ((handStrength%10000000)/100000>(boardStrength%10000000)/100000) {
-											if (debug) System.out.println("Two of a kind (with highest), betting high.");
-											int base = maxBet*3/5;
-											int variance = Math.max(maxBet*4/5-base,1);
-											output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
-										} else {
-											if (debug) System.out.println("Two of a kind (one on board), betting medium.");
-											int base = maxBet*2/5;
-											int variance = Math.max(maxBet*3/5-base,1);
-											output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
-										}
-									}
-								} else if (handStrength >= 21000000) {
-									if (handStrength/100000 > boardStrength/100000) {
-										if (debug) System.out.println("10+ pair, betting medium-low.");
-										int base = maxBet*3/10;
-										int variance = Math.max(maxBet*4/10-base,1);
-										output = "BET:"+Math.max(minBet,base+rand.nextInt(variance));
-									} else {
-										output = "CHECK";
-									}
-								} else {
-									output = "CHECK";
-								}
-							}
-						} else {
-							if (handStrength >= 50000000) {
-								if (debug) System.out.println("Uber hand, raising max.");
-								if (maxRaise > 0) {
-									int base = maxRaise*8/10;
-									int variance = Math.max(maxRaise-base,1);
-									output = "RAISE:"+Math.max(minRaise,base+rand.nextInt(variance));
-								} else {
-									output = "CALL:"+toCall;
-								}
-							} else if (handStrength >= 40000000) {
-								if (boardStrength < 40000000) {
-									if (maxRaise > 0) {
-										if (debug) System.out.println("Set, raising almost max.");
-										int base = maxRaise*6/10;
-										int variance = Math.max(maxRaise-base,1);
-										output = "RAISE:"+Math.max(minRaise,base+rand.nextInt(variance));
-									} else {
-										output = "CALL:"+toCall;
-									}
-								} else {
-									output = "FOLD";
-								}
-							} else if (handStrength >= 30000000) {
-								if (boardStrength < 20000000) {
-									if (maxRaise > 0) {
-										if (debug) System.out.println("Two of a kind, raising medium.");
-										int base = maxRaise*4/10;
-										int variance = Math.max(maxRaise*6/10-base,1);
-										output = "RAISE:"+Math.max(minRaise,base+rand.nextInt(variance));
-									} else {
-										output = "CALL:"+toCall;
-									}
-								} else {
-									if ((handStrength%10000000)/100000>(boardStrength%10000000)/100000) {
-										if (debug) System.out.println("Two of a kind (with highest), probably calling.");
-										if (10*toCall <= 7*potsize) {
-											output = "CALL:"+toCall;
-										} else {
-											output = "FOLD";
-										}
-									} else {
-										if (debug) System.out.println("Two of a kind (one on board), maybe calling.");
-										if (10*toCall <= 5*potsize) {
-											output = "CALL:"+toCall;
-										} else {
-											output = "FOLD";
-										}
-									}
-								}
-							} else if (handStrength >= 21000000) {
-								if (handStrength/100000 > boardStrength/100000) {
-									if (debug) System.out.println("10+ pair, will consider calling.");
-									if (10*toCall <= 4*potsize) {
-										output = "CALL:"+toCall;
-									} else {
-										output = "FOLD";
-									}
-								} else {
-									output = "FOLD";
-								}
-							} else {
-								output = "FOLD";
-							}
-						}
-						
-						/*
-						if (canCheck) {
-							if (handStrength > 21200000 && maxBet > 0) {
+							if (relativeStrength > afbet && maxBet > 0) {
 								output = "BET:"+maxBet;
 							} else {
 								output = "CHECK";
 							}
 						} else {
-							//can't check :(
-							if (handStrength > 30000000) {
-								//raise
-								if (maxRaise > 0) {
-									output = "RAISE:"+maxRaise;
-								} else {
-									output = "CALL:"+toCall;
-								}
-							} else if (handStrength > 21200000) {
+							if (relativeStrength > afraise && maxRaise > 0 && numRaises < 2) {
+								output = "RAISE:"+maxRaise;
+							} else if (relativeStrength > afcall) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";
 							}
-						}*/
-					}
-					
-					if (debug) {
-						System.out.println(toCall + " to call");
-						System.out.println("My action is: "+output);
+						}
 					}
 					
 					outStream.println(output);
-					
+				
+				} else if ("HANDOVER".compareToIgnoreCase(packetType) == 0) {
+					//tokens[1-3] are stack sizes
+					stacks[0] = Integer.parseInt(tokens[1]);
+					stacks[1] = Integer.parseInt(tokens[2]);
+					stacks[2] = Integer.parseInt(tokens[3]);
+					myStack = stacks[seatNo-1];
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
+					try {
+						System.out.println("PUT RESULTS "+myStack+" "+pfraise+" "+pfbet+" "+pfcall+" "+afraise+" "+afbet+" "+afcall);
+						outStream.println("PUT RESULTS "+myStack+" "+pfraise+" "+pfbet+" "+pfcall+" "+afraise+" "+afbet+" "+afcall);
+						System.out.println("PUT WINS "+myStack+" "+wins);
+						outStream.println("PUT WINS "+myStack+" "+wins);
+					} catch (Exception e) {
+						e.printStackTrace();
+						System.out.println(e.getMessage());
+					}
+					//outStream.println("RESET");
 					outStream.println("FINISH");
+				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
+					try {
+						if (tokens[1].equals("RESULTS")) {
+							if (Integer.parseInt(tokens[2]) > 9000000) {
+								//stay
+								pfraise = Double.parseDouble(tokens[3]);
+								pfbet = Double.parseDouble(tokens[4]);
+								pfcall  = Double.parseDouble(tokens[5]);
+								afraise = Double.parseDouble(tokens[6]);
+								afbet = Double.parseDouble(tokens[7]);
+								afcall = Double.parseDouble(tokens[8]);
+							} else if (reset) {
+								//do nothing!
+							} else {
+								System.out.println("mutating");
+								pfraise = Double.parseDouble(tokens[3])+rand.nextGaussian()/30;
+								pfbet = Double.parseDouble(tokens[4])+rand.nextGaussian()/30;
+								pfcall  = Double.parseDouble(tokens[5])+rand.nextGaussian()/30;
+								afraise = Double.parseDouble(tokens[6])+rand.nextGaussian()/30;
+								afbet = Double.parseDouble(tokens[7])+rand.nextGaussian()/30;
+								afcall = Double.parseDouble(tokens[8])+rand.nextGaussian()/30;
+							}
+							
+							System.out.println("pfraise: "+pfraise);
+							System.out.println("pfbet:   "+pfbet);
+							System.out.println("pfcall:  "+pfcall);
+							System.out.println("afraise: "+afraise);
+							System.out.println("afbet:   "+afbet);
+							System.out.println("afcall:  "+afcall);
+						} else if (tokens[1].equals("WINS")) {
+							if (Integer.parseInt(tokens[2]) > 9000000) {
+								wins = Integer.parseInt(tokens[3])+1;
+							} else {
+								wins = 0;
+							}
+							System.out.println("CONSECUTIVE WINS: "+wins);
+						}
+					} catch (Exception e) {
+						e.printStackTrace();
+						System.out.println(e.getMessage());
+					}
 				}
 			}
 		} catch (IOException e) {
@@ -386,6 +359,5 @@ public class Player {
 		}
 	}
 	
+	
 }
-
-

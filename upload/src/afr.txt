@@ -1,0 +1,10 @@
+45492 {pfr0.52,pfb0.4,pfc0.42,afr0.7,afb0.78,afc0.9}
+41828 {pfr0.52,pfb0.4,pfc0.42,afr0.73,afb0.78,afc0.9}
+35948 {pfr0.52,pfb0.4,pfc0.42,afr0.76,afb0.78,afc0.9}
+16844 {pfr0.52,pfb0.4,pfc0.42,afr0.7899999999999999,afb0.78,afc0.9}
+17796 {pfr0.52,pfb0.4,pfc0.42,afr0.82,afb0.78,afc0.9}
+16046 {pfr0.52,pfb0.4,pfc0.42,afr0.85,afb0.78,afc0.9}
+-40804 {pfr0.52,pfb0.4,pfc0.42,afr0.8799999999999999,afb0.78,afc0.9}
+-40584 {pfr0.52,pfb0.4,pfc0.42,afr0.9099999999999999,afb0.78,afc0.9}
+-49177 {pfr0.52,pfb0.4,pfc0.42,afr0.94,afb0.78,afc0.9}
+-44829 {pfr0.52,pfb0.4,pfc0.42,afr0.97,afb0.78,afc0.9}

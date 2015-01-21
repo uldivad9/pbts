@@ -41,8 +41,9 @@ public class Player {
 		int potsize=0;
 		ArrayList<String> activePlayers = new ArrayList<String>();
 		
-		int numRaises=0; //number of raises during this street
-		int numFolds=0; //number of folds during this street
+		int numActivePlayers = 0;
+		int numRaises=0; //number of raises during this STREET
+		int numFolds=0; //number of folds during this hand
 		boolean button=false; //am i the button
 		boolean stole=false; //if i tried a steal this round
 		int failedSteals = 0; //number of steals that failed (opp didn't fold)
@@ -51,6 +52,7 @@ public class Player {
 		HashMap<String, Integer> failedStealMap = new HashMap<String, Integer>();
 		HashMap<String, Integer> attemptedStealMap = new HashMap<String, Integer>();
 		HashMap<String, PlayerProfile> profileMap = new HashMap<String, PlayerProfile>();
+		HashMap<String, Integer> playerRaises = new HashMap<String, Integer>();
 		
 		ArrayList<String> actionList = new ArrayList<String>();
 		
@@ -86,6 +88,8 @@ public class Player {
 						if (!profileMap.containsKey(tokens[i])) {
 							profileMap.put(tokens[i],new PlayerProfile(tokens[i]));
 						}
+						
+						playerRaises.put(tokens[i],0);
 					}
 					
 					stackSize = Integer.parseInt(tokens[4]);
@@ -130,10 +134,20 @@ public class Player {
 					}
 					//tokens[11] is the number of active players
 					//tokens[12,13,14] are the booleans of whether players in seats 1,2,3 are active
+					numActivePlayers = Integer.parseInt(tokens[11]);
+					activePlayers = new ArrayList<String>();
+					for (int i=0; i<numActivePlayers; i++) {
+						if(tokens[12+i].equals("true")) {
+							activePlayers.add(playerNames[i]);
+						}
+					}
+					
 					timeBank = Double.parseDouble(tokens[15]);
 					
 					stole = false;
 					countedSteal = false;
+					
+					playerRaises = new HashMap<String,Integer>();
 					
 					if (debug) {
 						System.out.println("");
@@ -158,13 +172,14 @@ public class Player {
 					stacks[2] = Integer.parseInt(tokens[base1+2]);
 					
 					//tokens[base1+3] is the number of active players
+					/*
 					int numActivePlayers = Integer.parseInt(tokens[base1+3]);
 					activePlayers = new ArrayList<String>();
 					for (int i=0; i<numActivePlayers; i++) {
 						if(tokens[base1+4+i].equals("true")) {
 							activePlayers.add(playerNames[i]);
 						}
-					}
+					}*/
 					//tokens[base1+4-6] is the booleans of whether players are active
 					
 					int numLastActions = Integer.parseInt(tokens[base1+7]);
@@ -175,16 +190,21 @@ public class Player {
 						String[] actionTokens = tokens[base2+i].split(":");
 						if ("FOLD".equals(actionTokens[0])) {
 							numFolds++;
+							numActivePlayers--;
 							activePlayers.remove(actionTokens[1]);
 						} else if ("RAISE".equals(actionTokens[0])) {
 							numRaises++;
+							String playerName = actionTokens[2];
+							if (playerRaises.containsKey(playerName)) {
+								playerRaises.put(playerName,playerRaises.get(playerName)+1);
+							} else {
+								playerRaises.put(playerName,1);
+							}
 						} else if ("DEAL".equals(actionTokens[0])) {
-							numFolds = 0;
 							numRaises = 0;
 						}
 						actionList.add(tokens[base2+i]);
 					}
-					numActivePlayers = numActivePlayers-numFolds;
 					
 					ArrayList<Double> estimatedStrengths = new ArrayList<Double>();
 					for (String playerName : activePlayers) {
@@ -227,6 +247,7 @@ public class Player {
 					
 					if (debug) {
 						System.out.println("Actions: "+actionList);
+						System.out.println("Active players: "+activePlayers);
 						System.out.println("Players: "+numActivePlayers);
 						System.out.println("Estimated strengths: "+estimatedStrengths);
 						System.out.println("Raises: "+numRaises);
@@ -326,22 +347,32 @@ public class Player {
 							if (maxBet == 0) {
 								output = "CHECK";
 							} else {
-								if (relativeStrength > (estr+0.9)/2) {
+								if (estr > 0.5 && relativeStrength < estr) {
+								//check if you think you're beat.
+									System.out.println("Opponents probably beat me; checking");
+									output = "CHECK";
+								} else if (relativeStrength > (estr+0.9)/2 && relativeStrength > 0.85) {
 									if (debug) System.out.println("Uber hand; betting max");
 									int base = maxBet*9/10;
 									int spread = Math.max(maxBet-base,1);
 									int betAmount = Math.min(Math.max(base+rand.nextInt(spread),minBet),maxBet);
 									output = "BET:"+betAmount;
-								} else if (relativeStrength > (estr+0.75)/2) {
+								} else if (relativeStrength > (estr+0.75)/2 && relativeStrength > 0.72) {
 									if (debug) System.out.println("Strong hand; betting high");
 									int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(relativeStrength+variance)),minBet),maxBet);
 									output = "BET:"+betAmount;
-								} else if (button && !stole && relativeStrength > (estr+0.5)/2) {
+								} else if (button && !stole && relativeStrength > (estr+0.5)/2 && estr<=0.6) {
 									//make sure you haven't failed 3 steals on anyone
 									boolean shouldSteal = true;
 									for (String teamName : activePlayers) {
-										if (!teamName.equals(MY_NAME) && failedStealMap.get(teamName)*2 >= attemptedStealMap.get(teamName)) {
+										double failrate = failedStealMap.get(teamName)/(double)attemptedStealMap.get(teamName);
+										if (!teamName.equals(MY_NAME) && rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
 											shouldSteal = false;
+											System.out.println("Failed too many steals to try again.");
+										}
+										if (playerRaises.getOrDefault(teamName,0) > 1) {
+											shouldSteal = false;
+											System.out.println("Too many raises to steal.");
 										}
 									}
 									
@@ -355,36 +386,72 @@ public class Player {
 										}
 										output = "BET:"+betAmount;
 									} else {
-										System.out.println("Failed too many weak steals; checking");
 										output = "CHECK";
 									}
-								} else if (button && !stole) {
+								} else if (button && !stole && estr<=0.6) {
 									boolean shouldSteal = true;
 									for (String teamName : activePlayers) {
-										if (!teamName.equals(MY_NAME) && failedStealMap.get(teamName)*3 >= attemptedStealMap.get(teamName)) {
+										double failrate = failedStealMap.get(teamName)/(double)attemptedStealMap.get(teamName);
+										if (!teamName.equals(MY_NAME) && rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
 											shouldSteal = false;
+											System.out.println("Failed too many steals to try again.");
+										}
+										if (playerRaises.getOrDefault(teamName,0) > 0) {
+											shouldSteal = false;
+											System.out.println("Too many raises to steal.");
 										}
 									}
 									
 									if (shouldSteal) {
 										if (debug) System.out.println("Weak hand with position; attempting steal");
-										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.7+variance)),minBet),maxBet);
+										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.8+variance)),minBet),maxBet);
 										stole = true;
 										for (String teamName : activePlayers) {
 											attemptedStealMap.put(teamName,attemptedStealMap.get(teamName)+1);
 										}
 										output = "BET:"+betAmount;
 									} else {
-										System.out.println("Failed too many bluff steals; checking");
+										System.out.println("Decided not to steal");
 										output = "CHECK";
 									}
 								} else {
-									output = "CHECK";
+									//do i want to blufferino?
+									boolean bluff = false;
+									if (estr < 0.6) {
+										double foldchance = 1;
+										
+										for (String teamName : activePlayers) {
+											if (!teamName.equals(MY_NAME)) {
+												foldchance*=profileMap.get(teamName).getFoldRate(board.size());
+												if (playerRaises.getOrDefault(teamName,0) > 0) {
+													foldchance = 0;
+													System.out.println("Not bluffing when opponent raised early");
+												}
+											}
+										}
+										
+										if (foldchance > 0.6) {
+											bluff = true;
+											
+											System.out.println("Attempting steal from early position");
+										}
+									}
+									
+									if (bluff) {
+										int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(0.8+variance)),minBet),maxBet);
+										output = "BET:"+betAmount;
+									} else {
+										output = "CHECK";
+									}
 								}
 							}
 						} else if (numRaises == 0) {
 							//can't check.
-							if (relativeStrength > (estr+0.95)/2) {
+							if (relativeStrength < estr) {
+								//fold if you think you're beat.
+								System.out.println("Opponents probably beat me; folding");
+								output = "FOLD";
+							} else if (relativeStrength > (estr+0.95)/2 && relativeStrength > 0.92) {
 								if (debug) System.out.println("Uber hand; raising max");
 								if (maxRaise > 0) {
 									int base = maxRaise*9/10;
@@ -394,7 +461,7 @@ public class Player {
 								} else {
 									output = "CALL:"+toCall;
 								}
-							} else if (relativeStrength > (estr+0.8)/2) {
+							} else if (relativeStrength > (estr+0.8)/2 && relativeStrength > 0.77) {
 								//consider raising.
 								int raiseAmount = (int)(potsize*(relativeStrength-variance)/1.5);
 								if (raiseAmount > minRaise && maxRaise > 0) {
@@ -410,7 +477,7 @@ public class Player {
 										output = "FOLD";
 									}
 								}
-							} else if (relativeStrength > (estr+0.65)/2) {
+							} else if (relativeStrength > (estr+0.65)/2 && relativeStrength > 0.62) {
 								//call for small bets.
 								int callAmount = (int)(potsize*(relativeStrength-variance)/1.5);
 								if (toCall < callAmount) {
@@ -426,7 +493,7 @@ public class Player {
 							}
 						} else {
 							//someone has already raised
-							if (relativeStrength > (estr+0.96)/2) {
+							if (relativeStrength > (estr+0.96)/2 && relativeStrength > 0.93) {
 								if (debug) System.out.println("Uber hand; reraising max");
 								if (maxRaise > 0) {
 									int base = maxRaise*9/10;
@@ -436,7 +503,7 @@ public class Player {
 								} else {
 									output = "CALL:"+toCall;
 								}
-							} else if (relativeStrength > (estr+0.85)/2) {
+							} else if (relativeStrength > (estr+0.85)/2 && relativeStrength > 0.82) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";
@@ -485,12 +552,36 @@ public class Player {
 						profileMap.get(playername).updateProfileAfterHand(actionArray);
 					}
 					
+					if (tokens[1].equals("600") || tokens[2].equals("600") || tokens[3].equals("600")) {
+						for (String playername : playerNames) {
+							profileMap.get(playername).printInfo();
+						}
+						
+						Set<String> profilekeys = profileMap.keySet();
+						for (String key : profilekeys) {
+							System.out.println(profileMap.get(key).toKeyValue());
+							String keyInstruction = "PUT "+profileMap.get(key).name+" "+BytePacker.pack(profileMap.get(key).toKeyValue());
+							System.out.println(keyInstruction);
+						}
+						
+						Set<String> keys = failedStealMap.keySet();
+						for (String key : keys) {
+							String keyInstruction = "PUT F"+key+" "+failedStealMap.get(key);
+							System.out.println(keyInstruction);
+						}
+						keys = attemptedStealMap.keySet();
+						for (String key : keys) {
+							String keyInstruction = "PUT A"+key+" "+attemptedStealMap.get(key);
+							System.out.println(keyInstruction);
+						}
+					}
+					
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
 					try {
 						for (String playername : playerNames) {
-							profileMap.get(playername).printInfo();
+							profileMap.get(playername).printRatios();
 						}
 						
 						Set<String> profilekeys = profileMap.keySet();
@@ -517,7 +608,7 @@ public class Player {
 						e.printStackTrace();
 						System.out.println(e.getMessage());
 					}
-					//outStream.println("RESET");
+					outStream.println("RESET");
 					outStream.println("FINISH");
 				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
 					try {
