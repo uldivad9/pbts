@@ -208,36 +208,6 @@ public class PlayerProfile {
 			
 			
 			
-			/*
-			if ("POST".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				if ("2".equals(tokens[1])) {
-					postedBB = true;
-				}
-			} else if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				winPreFlop++;
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (postedBB && !raised) {
-					preFlopCheckObs++;
-				} else {
-					preFlopCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldPreFlop++;
-				} else if ("RAISE".equals(tokens[0])) {
-					if (postedBB && !raised) {
-						betPreFlop++;
-						
-						
-					} else {
-						raisePreFlop++;
-					}
-				}
-			} else if ("RAISE".equals(tokens[0])) {
-				raised = true;
-			} else if ("DEAL".equals(tokens[0])) {
-				break preflop;
-			}*/
 		}
 		
 		for (String key : pips.keySet()) {
@@ -312,28 +282,6 @@ public class PlayerProfile {
 				}
 			}
 			
-			/*
-			if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				winFlop++;
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (canCheck) {
-					flopCheckObs++;
-				} else {
-					flopCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldFlop++;
-				} else if ("BET".equals(tokens[0])) {
-					betFlop++;
-				} else if ("RAISE".equals(tokens[0])) {
-					raiseFlop++;
-				}
-			} else if ("BET".equals(tokens[0]) || "RAISE".equals(tokens[0])) {
-				canCheck = false;
-			} else if ("DEAL".equals(tokens[0])) {
-				break flop;
-			}*/
 		}
 		
 		for (String key : pips.keySet()) {
@@ -406,28 +354,6 @@ public class PlayerProfile {
 					foldTurn++;
 				}
 			}
-			/*
-			if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				winTurn++;
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (canCheck) {
-					turnCheckObs++;
-				} else {
-					turnCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldTurn++;
-				} else if ("BET".equals(tokens[0])) {
-					betTurn++;
-				} else if ("RAISE".equals(tokens[0])) {
-					raiseTurn++;
-				}
-			} else if ("BET".equals(tokens[0]) || "RAISE".equals(tokens[0])) {
-				canCheck = false;
-			} else if ("DEAL".equals(tokens[0])) {
-				break turn;
-			}*/
 		}
 		
 		for (String key : pips.keySet()) {
@@ -509,34 +435,79 @@ public class PlayerProfile {
 				}
 			}
 			
-			/*
-			if ("SHOW".equals(tokens[0]) && name.equals(parsePlayer(tokens[3]))) {
-				madeShowdown = true;
-				showdown++;
-			} else if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				if (madeShowdown) {
-					showdownWin++;
-				} else {
-					winRiver++;
-				}
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (canCheck) {
-					riverCheckObs++;
-				} else {
-					riverCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldRiver++;
-				} else if ("BET".equals(tokens[0])) {
-					betRiver++;
-				} else if ("RAISE".equals(tokens[0])) {
-					raiseRiver++;
-				}
-			} else if ("BET".equals(tokens[0]) || "RAISE".equals(tokens[0])) {
-				canCheck = false;
-			}*/
 		}
+		
+		
+		/*
+		public int preFlopCheckObs;
+		public int preFlopCallObs;
+		public int flopCheckObs;
+		public int flopCallObs;
+		public int turnCheckObs;
+		public int turnCallObs;
+		public int riverCheckObs;
+		public int riverCallObs;
+		
+		//percentage of x during y means the probability that the player will do x if in y.
+		int foldPreFlop; //number of folds preflop
+		int foldFlop; //number of folds during flop
+		int foldTurn; //number of folds during turn
+		int foldRiver; //number of folds during river
+		int raisePreFlop; //number of raises preflop
+		int raiseFlop; //number of raises during flop
+		int raiseTurn; //number of raises during turn
+		int raiseRiver; //number of raises during river
+		int betPreFlop; //number of raises instead of checking preflop
+		int betFlop; //number of bets during flop
+		int betTurn; //number of bets during turn
+		int betRiver; //number of bets during river
+		int winPreFlop; //number of hands won by folds preflop
+		int winFlop; //number of hands won by folds during flop
+		int winTurn; //number of hands won by folds during turn
+		int winRiver; //number of hands won by folds during river*/
+		/*
+		if (preFlopCheckObs >= 120) {
+			System.out.println("Resetting preFlopCheckObs");
+			System.out.println(betPreFlop);
+			betPreFlop = (int)Math.round(betPreFlop*preFlopCheckObs/80.0);
+			preFlopCheckObs = 80;
+			System.out.println(betPreFlop);
+		}
+		if (preFlopCallObs >= 120) {
+			System.out.println("Resetting preFlopCallObs");
+			System.out.println(raisePreFlop+" "+foldPreFlop);
+			raisePreFlop = (int)Math.round(raisePreFlop*80.0/preFlopCallObs);
+			foldPreFlop = (int)Math.round(foldPreFlop*80.0/preFlopCallObs);
+			preFlopCallObs = 80;
+			System.out.println(raisePreFlop+" "+foldPreFlop);
+		}
+		if (flopCheckObs >= 75) {
+			betFlop = (int)Math.round(betFlop*50.0/flopCheckObs);
+			flopCheckObs = 50;
+		}
+		if (flopCallObs >= 75) {
+			raiseFlop = (int)Math.round(raiseFlop*50.0/flopCallObs);
+			foldFlop = (int)Math.round(foldFlop*50.0/flopCallObs);
+			flopCallObs = 50;
+		}
+		if (turnCheckObs >= 75) {
+			betTurn = (int)Math.round(betTurn*50.0/turnCheckObs);
+			turnCheckObs = 50;
+		}
+		if (turnCallObs >= 75) {
+			raiseTurn = (int)Math.round(raiseTurn*50.0/turnCallObs);
+			foldTurn = (int)Math.round(foldTurn*50.0/turnCallObs);
+			turnCallObs = 50;
+		}
+		if (riverCheckObs >= 75) {
+			betRiver = (int)Math.round(betRiver*50.0/riverCheckObs);
+			riverCheckObs = 50;
+		}
+		if (riverCallObs >= 75) {
+			raiseRiver = (int)Math.round(raiseRiver*50.0/riverCallObs);
+			foldRiver = (int)Math.round(foldRiver*50.0/riverCallObs);
+			riverCallObs = 50;
+		}*/
 	}
 	
 	//'street' is the number of cards on the board (should be 0, 3, 4, or 5)

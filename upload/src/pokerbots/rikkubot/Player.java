@@ -235,11 +235,13 @@ public class Player {
 								output = "CHECK";
 							} else {
 								if (relativeStrength > 0.9) {
+								//if (relativeStrength > 0.95) {
 									int base = maxBet*9/10;
 									int spread = Math.max(maxBet-base,1);
 									int betAmount = Math.min(Math.max(base+rand.nextInt(spread),minBet),maxBet);
 									output = "BET:"+betAmount;
 								} else if (relativeStrength > 0.75+variance) {
+								//} else if (relativeStrength > 0.85+variance) {
 									int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(relativeStrength+variance)),minBet),maxBet);
 									output = "BET:"+betAmount;
 								} else {
@@ -249,6 +251,7 @@ public class Player {
 						} else if (numRaises == 0) {
 							//can't check.
 							if (relativeStrength > 0.95+0.1*numRaises) {
+							//if (relativeStrength > 0.96+0.1*numRaises) {
 								if (maxRaise > 0) {
 									int base = maxRaise*9/10;
 									int spread = Math.max(maxRaise-base,1);
@@ -258,6 +261,7 @@ public class Player {
 									output = "CALL:"+toCall;
 								}
 							} else if (relativeStrength > 0.8+variance) {
+							//} else if (relativeStrength > 0.85+variance) {
 								//consider raising.
 								int raiseAmount = (int)(potsize*(relativeStrength-variance)/1.5);
 								if (raiseAmount > minRaise && maxRaise > 0 && numRaises == 0) {
@@ -271,6 +275,7 @@ public class Player {
 									}
 								}
 							} else if (relativeStrength > 0.65+variance) {
+							//} else if (relativeStrength > 0.75+variance) {
 								//call for small bets.
 								int callAmount = (int)(potsize*(relativeStrength-variance)/1.5);
 								if (toCall < callAmount) {
@@ -293,6 +298,7 @@ public class Player {
 									output = "CALL:"+toCall;
 								}
 							} else if (relativeStrength > 0.84+variance) {
+							//} else if (relativeStrength > 0.88+variance) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";

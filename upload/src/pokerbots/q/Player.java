@@ -47,8 +47,11 @@ public class Player {
 		boolean button=false; //am i the button
 		boolean stole=false; //if i tried a steal this round
 		boolean raiseStole = false;
+		boolean pfstole = false;
 		boolean countedSteal = false; //have i counted this steal in failedstealmap yet
 		boolean countedRaiseSteal = false;
+		boolean countedpfSteal = false;
+		int pip=0;
 		
 		HashMap<String, Integer> failedStealMap = new HashMap<String, Integer>();
 		HashMap<String, Integer> attemptedStealMap = new HashMap<String, Integer>();
@@ -56,6 +59,8 @@ public class Player {
 		HashMap<String, Integer> playerRaises = new HashMap<String, Integer>();
 		HashMap<String, Integer> failedRaiseMap = new HashMap<String,Integer>();
 		HashMap<String, Integer> attemptedRaiseMap = new HashMap<String,Integer>();
+		HashMap<String, Integer> pfFailedStealMap = new HashMap<String, Integer>();
+		HashMap<String, Integer> pfAttemptedStealMap = new HashMap<String,Integer>();
 		
 		ArrayList<String> actionList = new ArrayList<String>();
 		
@@ -98,6 +103,14 @@ public class Player {
 							attemptedRaiseMap.put(nameMinusInstance,1);
 						}
 						
+						if (!pfFailedStealMap.containsKey(nameMinusInstance)) {
+							pfFailedStealMap.put(nameMinusInstance, 1);
+						}
+						
+						if (!pfAttemptedStealMap.containsKey(nameMinusInstance)) {
+							pfAttemptedStealMap.put(nameMinusInstance, 3);
+						}
+						
 						if (!profileMap.containsKey(nameMinusInstance)) {
 							profileMap.put(nameMinusInstance,new PlayerProfile(nameMinusInstance));
 						}
@@ -113,8 +126,10 @@ public class Player {
 					button = false;
 					stole = false;
 					raiseStole = false;
+					pfstole = false;
 					countedSteal = false;
 					countedRaiseSteal = false;
+					countedpfSteal = false;
 					
 				} else if ("NEWHAND".compareToIgnoreCase(packetType) == 0) {
 					actionList = new ArrayList<String>();
@@ -160,8 +175,11 @@ public class Player {
 					
 					stole = false;
 					raiseStole = false;
+					pfstole = false;
 					countedSteal = false;
 					countedRaiseSteal = false;
+					countedpfSteal = false;
+					pip=0;
 					
 					playerRaises = new HashMap<String,Integer>();
 					
@@ -179,6 +197,7 @@ public class Player {
 						Card newCard = new Card(tokens[board.size()+3]);
 						board.addCard(newCard);
 						combined.addCard(newCard);
+						pip=0;
 					}
 					
 					int base1 = 3+numBoardCards;
@@ -210,6 +229,9 @@ public class Player {
 							}
 						} else if ("DEAL".equals(actionTokens[0])) {
 							numRaises = 0;
+						} else if ("POST".equals(actionTokens[0]) && MY_NAME.equals(actionTokens[2].substring(0,actionTokens[2].length()-1))) {
+							pip = Integer.parseInt(actionTokens[1]);
+							System.out.println("POSTed blind of "+pip);
 						}
 						actionList.add(tokens[base2+i]);
 					}
@@ -231,6 +253,7 @@ public class Player {
 					int maxBet=0;
 					//to be used if checking is disallowed
 					int toCall=0;
+					int addToCall = 0;
 					int minRaise=0;
 					int maxRaise=0;
 					
@@ -245,6 +268,7 @@ public class Player {
 							maxBet = Integer.parseInt(actionTokens[2]);
 						} else if ("CALL".equalsIgnoreCase(actionTokens[0])) {
 							toCall = Integer.parseInt(actionTokens[1]);
+							addToCall = toCall-pip;
 						} else if ("RAISE".equalsIgnoreCase(actionTokens[0])) {
 							minRaise = Integer.parseInt(actionTokens[1]);
 							maxRaise = Integer.parseInt(actionTokens[2]);
@@ -270,8 +294,9 @@ public class Player {
 						} else {
 							System.out.println("I cannot check.");
 						}
+						System.out.println("Pip: "+pip);
 						System.out.println("I can bet "+minBet+" to "+maxBet);
-						System.out.println("I can call with "+toCall);
+						System.out.println("I can call with "+toCall +" (an addition of "+addToCall+")");
 						System.out.println("I can raise from "+minRaise+" to "+maxRaise);
 					} else {
 						System.out.println("My hand is: "+hand);
@@ -293,6 +318,14 @@ public class Player {
 							System.out.println("This round's variance is "+variance);
 						}
 						
+						if (pfstole && !countedpfSteal) {
+							for (String teamName : activePlayers) {
+								pfFailedStealMap.put(teamName,pfFailedStealMap.get(teamName)+1);
+							}
+							System.out.println("Failed a preflop steal during this hand");
+							countedpfSteal = true;
+						}
+						
 						if (canCheck) {
 							if (strength > (estr*2+0.45)/3) {
 								//premium hand
@@ -303,7 +336,7 @@ public class Player {
 								} else {
 									output = "CHECK";
 								}
-							} else if (strength > (estr*2+0.4)/3) {
+							} else if (strength > (estr*2+0.37)/3) {
 								//good hand
 								if (maxBet > 0) {
 									output = "BET:"+Math.max(minBet,maxBet/2);
@@ -313,20 +346,63 @@ public class Player {
 									output = "CHECK";
 								}
 							} else {
-								output = "CHECK";
+								//how 2 mine 4 fish
+								
+								boolean shouldSteal = true;
+								for (String teamName : activePlayers) {
+									if (!teamName.equals(MY_NAME)) {
+										double failrate = pfFailedStealMap.get(teamName)/(double)pfAttemptedStealMap.get(teamName);
+										if (rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
+											shouldSteal = false;
+											System.out.println("Failed too many preflop steals to try again.");
+										}
+									}
+								}
+								
+								if (shouldSteal) {
+								//try a steal
+									if (debug) System.out.println("Attempting preflop steal");
+									int raiseAmount = Math.min(Math.max((int)Math.floor(maxRaise*(0.7)),minRaise),maxRaise);
+									pfstole = true;
+									for (String teamName : activePlayers) {
+										pfAttemptedStealMap.put(teamName,pfAttemptedStealMap.get(teamName)+1);
+									}
+									output = "RAISE:"+raiseAmount;
+								} else {
+									output = "CHECK";
+								}
 							}
 						} else {
 							if (strength > 0.63 && maxRaise > 0) {
 								//raise that ho
 								output = "RAISE:"+maxRaise;
 							}
-							else if (strength > (estr*2+0.48)/3 && maxRaise > 0 && numRaises < 2) {
+							else if (strength > (estr*2+0.41)/3 && maxRaise > 0 && numRaises < 2) {
 								//raise the roof
 								output = "RAISE:"+maxRaise;
-							} else if (strength > (estr*2+0.4)/3) {
+							} else if (strength > (estr*2+0.37)/3) {
 								output = "CALL:"+toCall;
 							} else {
-								output = "FOLD";
+								//dat bluff?
+								double foldchance = 1;
+								
+								for (String teamName : activePlayers) {
+									if (!teamName.equals(MY_NAME)) {
+										foldchance*=profileMap.get(teamName).getFoldRate(0);
+										if (numRaises > 0) {
+											System.out.println("Not bluffing preflop against a raise");
+											foldchance = 0;
+										}
+									}
+								}
+								
+								
+								if (foldchance > 0.55 && maxRaise > 0) {
+									System.out.println("Attempting preflop bluff");
+									output = "RAISE:"+Math.max(minRaise,(maxRaise*3)/5);
+								} else {
+									output = "FOLD";
+								}
 							}
 						}
 						//end of pre-flop strategy
@@ -357,6 +433,14 @@ public class Player {
 							}
 							System.out.println("Failed a raise-steal during this hand");
 							countedRaiseSteal = true;
+						}
+						
+						if (pfstole && !countedpfSteal) {
+							for (String teamName : activePlayers) {
+								pfFailedStealMap.put(teamName,pfFailedStealMap.get(teamName)+1);
+							}
+							System.out.println("Failed a preflop steal during this hand");
+							countedpfSteal = true;
 						}
 						
 						if (canCheck) {
@@ -469,7 +553,7 @@ public class Player {
 							}
 						} else if (numRaises == 0) {
 							//can't check.
-							if (relativeStrength < estr) {
+							if (relativeStrength < 2*estr-1) {
 								//fold if you think you're beat.
 								System.out.println("Opponents probably beat me; folding");
 								output = "FOLD";
@@ -491,7 +575,7 @@ public class Player {
 									output = "RAISE:"+Math.min(raiseAmount,maxRaise);
 								} else {
 									int callAmount = (int)(potsize*(relativeStrength-variance));
-									if (toCall < callAmount) {
+									if (addToCall < callAmount) {
 										if (debug) System.out.println("Strong hand; calling");
 										output = "CALL:"+toCall;
 									} else {
@@ -502,7 +586,7 @@ public class Player {
 							} else if (relativeStrength > (estr*2+0.65)/3 && relativeStrength > 0.60) {
 								//call for small bets.
 								int callAmount = (int)(potsize*(relativeStrength-variance)/1.5);
-								if (toCall < callAmount) {
+								if (addToCall < callAmount) {
 									if (debug) System.out.println("Decent hand; calling");
 									output = "CALL:"+toCall;
 								} else {
@@ -550,7 +634,11 @@ public class Player {
 							}
 						} else {
 							//someone has already raised
-							if (relativeStrength > (estr*2+0.96)/3 && relativeStrength > 0.92) {
+							if (relativeStrength < 2*estr-1) {
+								//fold if you think you're beat.
+								System.out.println("Opponents probably beat me; folding");
+								output = "FOLD";
+							} else if (relativeStrength > (estr*2+0.96)/3 && relativeStrength > 0.92 && numRaises < 2) {
 								if (debug) System.out.println("Uber hand; reraising max");
 								if (maxRaise > 0) {
 									int base = maxRaise*9/10;
@@ -570,11 +658,10 @@ public class Player {
 						
 						if ("FOLD".equals(output) && combined.size() < 7) {
 							//check outs!
-							//arbitrary threshold.... 0.8!
-							double[] outStrength = Outs.getOuts(hand,board);
-							if(debug) System.out.println("My chances for outs are: " + Arrays.toString(outStrength));
+							double outStrength = Outs.getOuts(hand,board,(1+estr)/2);
+							if(debug) System.out.println("My chances for outs are: " + outStrength);
 							
-							if (toCall <= outStrength[2]*potsize*0.8 || toCall <= outStrength[3]*potsize*0.9 || toCall <= outStrength[4]*potsize) {
+							if (addToCall <= outStrength*potsize) {
 								//call dis bitch
 								System.out.println("Drawing hand; calling");
 								output = "CALL:"+toCall;
@@ -583,6 +670,11 @@ public class Player {
 						//end of after-flop strategy
 					}
 					//end of strategy
+					
+					String[] outputTokens = output.split(":");
+					if ("BET".equals(outputTokens[0]) || "RAISE".equals(outputTokens[0])) {
+						pip = Integer.parseInt(outputTokens[1]);
+					}
 					
 					
 					if (debug) {
@@ -610,30 +702,6 @@ public class Player {
 						profileMap.get(playername).updateProfileAfterHand(actionArray);
 					}
 					
-					if (tokens[1].equals("600") || tokens[2].equals("600") || tokens[3].equals("600")) {
-						for (String playername : playerNames) {
-							profileMap.get(playername).printInfo();
-						}
-						
-						Set<String> profilekeys = profileMap.keySet();
-						for (String key : profilekeys) {
-							System.out.println(profileMap.get(key).toKeyValue());
-							String keyInstruction = "PUT "+profileMap.get(key).name+" "+BytePacker.pack(profileMap.get(key).toKeyValue());
-							System.out.println(keyInstruction);
-						}
-						
-						Set<String> keys = failedStealMap.keySet();
-						for (String key : keys) {
-							String keyInstruction = "PUT F"+key+" "+failedStealMap.get(key);
-							System.out.println(keyInstruction);
-						}
-						keys = attemptedStealMap.keySet();
-						for (String key : keys) {
-							String keyInstruction = "PUT A"+key+" "+attemptedStealMap.get(key);
-							System.out.println(keyInstruction);
-						}
-					}
-					
 				} else if ("REQUESTKEYVALUES".compareToIgnoreCase(packetType) == 0) {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
@@ -659,7 +727,7 @@ public class Player {
 						}
 						
 						for (String playername : playerNames) {
-							String keyInstruction = "PUT I"+playername+" "+failedStealMap.get(playername)+" "+attemptedStealMap.get(playername)+" "+failedRaiseMap.get(playername)+" "+attemptedRaiseMap.get(playername);
+							String keyInstruction = "PUT I"+playername+" "+failedStealMap.get(playername)+" "+attemptedStealMap.get(playername)+" "+failedRaiseMap.get(playername)+" "+attemptedRaiseMap.get(playername)+" "+pfFailedStealMap.get(playername)+" "+pfAttemptedStealMap.get(playername);
 							outStream.println(keyInstruction);
 							System.out.println(keyInstruction);
 						}
@@ -678,6 +746,8 @@ public class Player {
 							attemptedStealMap.put(playerName,Integer.parseInt(tokens[3]));
 							failedRaiseMap.put(playerName,Integer.parseInt(tokens[4]));
 							attemptedRaiseMap.put(playerName,Integer.parseInt(tokens[5]));
+							pfFailedStealMap.put(playerName,Integer.parseInt(tokens[6]));
+							pfAttemptedStealMap.put(playerName,Integer.parseInt(tokens[7]));
 						} else if (profileMap.containsKey(tokens[1])) {
 							String[] codedtokens = new String[tokens.length-2];
 							for (int i=2; i<tokens.length; i++) {
