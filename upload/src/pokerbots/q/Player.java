@@ -46,13 +46,16 @@ public class Player {
 		int numFolds=0; //number of folds during this hand
 		boolean button=false; //am i the button
 		boolean stole=false; //if i tried a steal this round
-		int failedSteals = 0; //number of steals that failed (opp didn't fold)
-		boolean countedSteal = false; //have i counted this steal in failedsteals yet
+		boolean raiseStole = false;
+		boolean countedSteal = false; //have i counted this steal in failedstealmap yet
+		boolean countedRaiseSteal = false;
 		
 		HashMap<String, Integer> failedStealMap = new HashMap<String, Integer>();
 		HashMap<String, Integer> attemptedStealMap = new HashMap<String, Integer>();
 		HashMap<String, PlayerProfile> profileMap = new HashMap<String, PlayerProfile>();
 		HashMap<String, Integer> playerRaises = new HashMap<String, Integer>();
+		HashMap<String, Integer> failedRaiseMap = new HashMap<String,Integer>();
+		HashMap<String, Integer> attemptedRaiseMap = new HashMap<String,Integer>();
 		
 		ArrayList<String> actionList = new ArrayList<String>();
 		
@@ -72,24 +75,34 @@ public class Player {
 				String[] tokens = input.split(" ");
 				String packetType = tokens[0];
 				if ("NEWGAME".compareToIgnoreCase(packetType) == 0) {
-					MY_NAME = tokens[1];
+					MY_NAME = tokens[1].substring(0,tokens[1].length()-1);
 					
 					
 					//tokens[1-3] are player names
 					for (int i=1; i<=3; i++) {
-						if (!failedStealMap.containsKey(tokens[i])) {
-							failedStealMap.put(tokens[i],0);
+						String nameMinusInstance = tokens[i].substring(0,tokens[i].length()-1);
+						
+						if (!failedStealMap.containsKey(nameMinusInstance)) {
+							failedStealMap.put(nameMinusInstance,0);
 						}
 						
-						if (!attemptedStealMap.containsKey(tokens[i])) {
-							attemptedStealMap.put(tokens[i],2);
+						if (!attemptedStealMap.containsKey(nameMinusInstance)) {
+							attemptedStealMap.put(nameMinusInstance,2);
 						}
 						
-						if (!profileMap.containsKey(tokens[i])) {
-							profileMap.put(tokens[i],new PlayerProfile(tokens[i]));
+						if (!failedRaiseMap.containsKey(nameMinusInstance)) {
+							failedRaiseMap.put(nameMinusInstance,0);
 						}
 						
-						playerRaises.put(tokens[i],0);
+						if (!attemptedRaiseMap.containsKey(nameMinusInstance)) {
+							attemptedRaiseMap.put(nameMinusInstance,1);
+						}
+						
+						if (!profileMap.containsKey(nameMinusInstance)) {
+							profileMap.put(nameMinusInstance,new PlayerProfile(nameMinusInstance));
+						}
+						
+						playerRaises.put(nameMinusInstance,0);
 					}
 					
 					stackSize = Integer.parseInt(tokens[4]);
@@ -99,8 +112,9 @@ public class Player {
 					
 					button = false;
 					stole = false;
-					failedSteals = 0;
+					raiseStole = false;
 					countedSteal = false;
+					countedRaiseSteal = false;
 					
 				} else if ("NEWHAND".compareToIgnoreCase(packetType) == 0) {
 					actionList = new ArrayList<String>();
@@ -124,10 +138,10 @@ public class Player {
 					stacks[2] = Integer.parseInt(tokens[7]);
 					//tokens[8,9,10] are player names
 					for (int i=0; i<3; i++) {
-						playerNames[i] = tokens[i+8];
+						playerNames[i] = tokens[i+8].substring(0,tokens[i+8].length()-1);
 					}
 					
-					if (tokens[8].equals(MY_NAME)) {
+					if (playerNames[0].equals(MY_NAME)) {
 						button = true;
 					} else {
 						button = false;
@@ -145,7 +159,9 @@ public class Player {
 					timeBank = Double.parseDouble(tokens[15]);
 					
 					stole = false;
+					raiseStole = false;
 					countedSteal = false;
+					countedRaiseSteal = false;
 					
 					playerRaises = new HashMap<String,Integer>();
 					
@@ -172,14 +188,6 @@ public class Player {
 					stacks[2] = Integer.parseInt(tokens[base1+2]);
 					
 					//tokens[base1+3] is the number of active players
-					/*
-					int numActivePlayers = Integer.parseInt(tokens[base1+3]);
-					activePlayers = new ArrayList<String>();
-					for (int i=0; i<numActivePlayers; i++) {
-						if(tokens[base1+4+i].equals("true")) {
-							activePlayers.add(playerNames[i]);
-						}
-					}*/
 					//tokens[base1+4-6] is the booleans of whether players are active
 					
 					int numLastActions = Integer.parseInt(tokens[base1+7]);
@@ -191,10 +199,10 @@ public class Player {
 						if ("FOLD".equals(actionTokens[0])) {
 							numFolds++;
 							numActivePlayers--;
-							activePlayers.remove(actionTokens[1]);
+							activePlayers.remove(actionTokens[1].substring(0,actionTokens[1].length()-1));
 						} else if ("RAISE".equals(actionTokens[0])) {
 							numRaises++;
-							String playerName = actionTokens[2];
+							String playerName = actionTokens[2].substring(0,actionTokens[2].length()-1);
 							if (playerRaises.containsKey(playerName)) {
 								playerRaises.put(playerName,playerRaises.get(playerName)+1);
 							} else {
@@ -275,7 +283,7 @@ public class Player {
 					if (combined.size() == 2) {
 					//evaluate starting hand
 						double strength = StartingHands.getStrength(hand);
-						double variance = rand.nextGaussian()*(1-strength)/30;
+						double variance = rand.nextGaussian()*(1-strength)/20;
 						double estr = 0.0;
 						for (double d : estimatedStrengths) {
 							estr = Math.max(estr,d);
@@ -286,7 +294,7 @@ public class Player {
 						}
 						
 						if (canCheck) {
-							if (strength > (estr+0.45)/2) {
+							if (strength > (estr*2+0.45)/3) {
 								//premium hand
 								if (maxBet > 0) {
 									output = "BET:"+maxBet;
@@ -295,7 +303,7 @@ public class Player {
 								} else {
 									output = "CHECK";
 								}
-							} else if (strength > (estr+0.4)/2) {
+							} else if (strength > (estr*2+0.4)/3) {
 								//good hand
 								if (maxBet > 0) {
 									output = "BET:"+Math.max(minBet,maxBet/2);
@@ -312,10 +320,10 @@ public class Player {
 								//raise that ho
 								output = "RAISE:"+maxRaise;
 							}
-							else if (strength > (estr+0.48)/2 && maxRaise > 0 && numRaises < 2) {
+							else if (strength > (estr*2+0.48)/3 && maxRaise > 0 && numRaises < 2) {
 								//raise the roof
 								output = "RAISE:"+maxRaise;
-							} else if (strength > (estr+0.4)/2) {
+							} else if (strength > (estr*2+0.4)/3) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";
@@ -343,6 +351,14 @@ public class Player {
 							countedSteal = true;
 						}
 						
+						if (raiseStole && !countedRaiseSteal) {
+							for (String teamName : activePlayers) {
+								failedRaiseMap.put(teamName,failedRaiseMap.get(teamName)+1);
+							}
+							System.out.println("Failed a raise-steal during this hand");
+							countedRaiseSteal = true;
+						}
+						
 						if (canCheck) {
 							if (maxBet == 0) {
 								output = "CHECK";
@@ -351,28 +367,29 @@ public class Player {
 								//check if you think you're beat.
 									System.out.println("Opponents probably beat me; checking");
 									output = "CHECK";
-								} else if (relativeStrength > (estr+0.9)/2 && relativeStrength > 0.85) {
+								} else if (relativeStrength > (estr*2+0.9)/3 && relativeStrength > 0.85) {
 									if (debug) System.out.println("Uber hand; betting max");
 									int base = maxBet*9/10;
 									int spread = Math.max(maxBet-base,1);
 									int betAmount = Math.min(Math.max(base+rand.nextInt(spread),minBet),maxBet);
 									output = "BET:"+betAmount;
-								} else if (relativeStrength > (estr+0.75)/2 && relativeStrength > 0.72) {
+								} else if (relativeStrength > (estr*2+0.75)/3 && relativeStrength > 0.72) {
 									if (debug) System.out.println("Strong hand; betting high");
 									int betAmount = Math.min(Math.max((int)Math.floor(maxBet*(relativeStrength+variance)),minBet),maxBet);
 									output = "BET:"+betAmount;
-								} else if (button && !stole && relativeStrength > (estr+0.5)/2 && estr<=0.6) {
-									//make sure you haven't failed 3 steals on anyone
+								} else if (button && !stole && relativeStrength > (estr*2+0.5)/3 && estr<=0.6) {
 									boolean shouldSteal = true;
 									for (String teamName : activePlayers) {
-										double failrate = failedStealMap.get(teamName)/(double)attemptedStealMap.get(teamName);
-										if (!teamName.equals(MY_NAME) && rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
-											shouldSteal = false;
-											System.out.println("Failed too many steals to try again.");
-										}
-										if (playerRaises.getOrDefault(teamName,0) > 1) {
-											shouldSteal = false;
-											System.out.println("Too many raises to steal.");
+										if (!teamName.equals(MY_NAME)) {
+											double failrate = failedStealMap.get(teamName)/(double)attemptedStealMap.get(teamName);
+											if (rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
+												shouldSteal = false;
+												System.out.println("Failed too many steals to try again.");
+											}
+											if (playerRaises.getOrDefault(teamName,0) > 1) {
+												shouldSteal = false;
+												System.out.println("Too many raises to steal.");
+											}
 										}
 									}
 									
@@ -391,14 +408,16 @@ public class Player {
 								} else if (button && !stole && estr<=0.6) {
 									boolean shouldSteal = true;
 									for (String teamName : activePlayers) {
-										double failrate = failedStealMap.get(teamName)/(double)attemptedStealMap.get(teamName);
-										if (!teamName.equals(MY_NAME) && rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
-											shouldSteal = false;
-											System.out.println("Failed too many steals to try again.");
-										}
-										if (playerRaises.getOrDefault(teamName,0) > 0) {
-											shouldSteal = false;
-											System.out.println("Too many raises to steal.");
+										if (!teamName.equals(MY_NAME)) {
+											double failrate = failedStealMap.get(teamName)/(double)attemptedStealMap.get(teamName);
+											if (rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
+												shouldSteal = false;
+												System.out.println("Failed too many steals to try again.");
+											}
+											if (playerRaises.getOrDefault(teamName,0) > 0) {
+												shouldSteal = false;
+												System.out.println("Too many raises to steal.");
+											}
 										}
 									}
 									
@@ -416,6 +435,7 @@ public class Player {
 									}
 								} else {
 									//do i want to blufferino?
+									//accounts for multiple players.
 									boolean bluff = false;
 									if (estr < 0.6) {
 										double foldchance = 1;
@@ -430,10 +450,12 @@ public class Player {
 											}
 										}
 										
-										if (foldchance > 0.6) {
+										if (foldchance > 0.55) {
 											bluff = true;
 											
-											System.out.println("Attempting steal from early position");
+											System.out.println("Attempting bluff");
+										} else {
+											System.out.println("Bluff probably won't work");
 										}
 									}
 									
@@ -451,7 +473,7 @@ public class Player {
 								//fold if you think you're beat.
 								System.out.println("Opponents probably beat me; folding");
 								output = "FOLD";
-							} else if (relativeStrength > (estr+0.95)/2 && relativeStrength > 0.92) {
+							} else if (relativeStrength > (estr*2+0.95)/3 && relativeStrength > 0.90) {
 								if (debug) System.out.println("Uber hand; raising max");
 								if (maxRaise > 0) {
 									int base = maxRaise*9/10;
@@ -461,7 +483,7 @@ public class Player {
 								} else {
 									output = "CALL:"+toCall;
 								}
-							} else if (relativeStrength > (estr+0.8)/2 && relativeStrength > 0.77) {
+							} else if (relativeStrength > (estr*2+0.8)/3 && relativeStrength > 0.75) {
 								//consider raising.
 								int raiseAmount = (int)(potsize*(relativeStrength-variance)/1.5);
 								if (raiseAmount > minRaise && maxRaise > 0) {
@@ -477,7 +499,7 @@ public class Player {
 										output = "FOLD";
 									}
 								}
-							} else if (relativeStrength > (estr+0.65)/2 && relativeStrength > 0.62) {
+							} else if (relativeStrength > (estr*2+0.65)/3 && relativeStrength > 0.60) {
 								//call for small bets.
 								int callAmount = (int)(potsize*(relativeStrength-variance)/1.5);
 								if (toCall < callAmount) {
@@ -488,12 +510,47 @@ public class Player {
 									output = "FOLD";
 								}
 							} else {
-								if (debug) System.out.println("Weak hand; folding");
-								output = "FOLD";
+								boolean shouldRaise = true;
+								for (String teamName : activePlayers) {
+									if (!teamName.equals(MY_NAME)) {
+										double failrate = failedRaiseMap.get(teamName)/(double)attemptedRaiseMap.get(teamName);
+										PlayerProfile profile = profileMap.get(teamName);
+										double callrate = profile.getCallRate(board.size());
+										double betrate = profile.getBetRate(board.size());
+										System.out.println("Call rate of "+callrate+", Bet rate of "+betrate);
+										if ((betrate-callrate)/(betrate) < 0.50) {
+											shouldRaise = false;
+											System.out.println("Player does not bluff enough to steal-raise.");
+										}
+										if (rand.nextDouble() < ((Math.atan(failrate*10-5))/(2*Math.atan(5))+0.5)) {
+											shouldRaise = false;
+											System.out.println("Failed too many steal-raises to try again.");
+										}
+										if (playerRaises.getOrDefault(teamName,0) > 1) {
+											shouldRaise = false;
+											System.out.println("Too many raises to steal-raise.");
+										}
+										
+									}
+								}
+								
+								if (shouldRaise) {
+								//try a steal
+									if (debug) System.out.println("Attempting steal-raise");
+									int raiseAmount = Math.min(Math.max((int)Math.floor(maxRaise*(0.7+variance)),minRaise),maxRaise);
+									raiseStole = true;
+									for (String teamName : activePlayers) {
+										attemptedRaiseMap.put(teamName,attemptedRaiseMap.get(teamName)+1);
+									}
+									output = "RAISE:"+raiseAmount;
+								} else {
+									if (debug) System.out.println("Weak hand; folding");
+									output = "FOLD";
+								}
 							}
 						} else {
 							//someone has already raised
-							if (relativeStrength > (estr+0.96)/2 && relativeStrength > 0.93) {
+							if (relativeStrength > (estr*2+0.96)/3 && relativeStrength > 0.92) {
 								if (debug) System.out.println("Uber hand; reraising max");
 								if (maxRaise > 0) {
 									int base = maxRaise*9/10;
@@ -503,12 +560,13 @@ public class Player {
 								} else {
 									output = "CALL:"+toCall;
 								}
-							} else if (relativeStrength > (estr+0.85)/2 && relativeStrength > 0.82) {
+							} else if (relativeStrength > (estr*2+0.85)/3 && relativeStrength > 0.80) {
 								output = "CALL:"+toCall;
 							} else {
 								output = "FOLD";
 							}
 						}
+						
 						
 						if ("FOLD".equals(output) && combined.size() < 7) {
 							//check outs!
@@ -582,6 +640,14 @@ public class Player {
 					try {
 						for (String playername : playerNames) {
 							profileMap.get(playername).printRatios();
+							System.out.println("-"+profileMap.get(playername).preFlopBets);
+							System.out.println("-"+profileMap.get(playername).preFlopRaises);
+							System.out.println("-"+profileMap.get(playername).flopBets);
+							System.out.println("-"+profileMap.get(playername).flopRaises);
+							System.out.println("-"+profileMap.get(playername).turnBets);
+							System.out.println("-"+profileMap.get(playername).turnRaises);
+							System.out.println("-"+profileMap.get(playername).riverBets);
+							System.out.println("-"+profileMap.get(playername).riverRaises);
 						}
 						
 						Set<String> profilekeys = profileMap.keySet();
@@ -592,15 +658,8 @@ public class Player {
 							System.out.println(keyInstruction);
 						}
 						
-						Set<String> keys = failedStealMap.keySet();
-						for (String key : keys) {
-							String keyInstruction = "PUT F"+key+" "+failedStealMap.get(key);
-							outStream.println(keyInstruction);
-							System.out.println(keyInstruction);
-						}
-						keys = attemptedStealMap.keySet();
-						for (String key : keys) {
-							String keyInstruction = "PUT A"+key+" "+attemptedStealMap.get(key);
+						for (String playername : playerNames) {
+							String keyInstruction = "PUT I"+playername+" "+failedStealMap.get(playername)+" "+attemptedStealMap.get(playername)+" "+failedRaiseMap.get(playername)+" "+attemptedRaiseMap.get(playername);
 							outStream.println(keyInstruction);
 							System.out.println(keyInstruction);
 						}
@@ -612,11 +671,13 @@ public class Player {
 					outStream.println("FINISH");
 				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
 					try {
-						if ("F".equals(tokens[1].substring(0,1))) {
+						if ("I".equals(tokens[1].substring(0,1))) {
 							//deal with failedstealmap
-							failedStealMap.put(tokens[1].substring(1,tokens[1].length()),Integer.parseInt(tokens[2]));
-						} else if ("A".equals(tokens[1].substring(0,1))) {
-							attemptedStealMap.put(tokens[1].substring(1,tokens[1].length()),Integer.parseInt(tokens[2]));
+							String playerName = tokens[1].substring(1,tokens[1].length());
+							failedStealMap.put(playerName,Integer.parseInt(tokens[2]));
+							attemptedStealMap.put(playerName,Integer.parseInt(tokens[3]));
+							failedRaiseMap.put(playerName,Integer.parseInt(tokens[4]));
+							attemptedRaiseMap.put(playerName,Integer.parseInt(tokens[5]));
 						} else if (profileMap.containsKey(tokens[1])) {
 							String[] codedtokens = new String[tokens.length-2];
 							for (int i=2; i<tokens.length; i++) {

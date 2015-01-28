@@ -290,10 +290,7 @@ public class Player {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
 					try {
-						System.out.println("PUT RESULTS "+myStack+" "+pfraise+" "+pfbet+" "+pfcall+" "+afraise+" "+afbet+" "+afcall);
-						outStream.println("PUT RESULTS "+myStack+" "+pfraise+" "+pfbet+" "+pfcall+" "+afraise+" "+afbet+" "+afcall);
-						System.out.println("PUT WINS "+myStack+" "+wins);
-						outStream.println("PUT WINS "+myStack+" "+wins);
+						
 					} catch (Exception e) {
 						e.printStackTrace();
 						System.out.println(e.getMessage());
@@ -302,41 +299,7 @@ public class Player {
 					outStream.println("FINISH");
 				} else if ("KEYVALUE".compareToIgnoreCase(packetType) == 0) {
 					try {
-						if (tokens[1].equals("RESULTS")) {
-							if (Integer.parseInt(tokens[2]) > 9000000) {
-								//stay
-								pfraise = Double.parseDouble(tokens[3]);
-								pfbet = Double.parseDouble(tokens[4]);
-								pfcall  = Double.parseDouble(tokens[5]);
-								afraise = Double.parseDouble(tokens[6]);
-								afbet = Double.parseDouble(tokens[7]);
-								afcall = Double.parseDouble(tokens[8]);
-							} else if (reset) {
-								//do nothing!
-							} else {
-								System.out.println("mutating");
-								pfraise = Double.parseDouble(tokens[3])+rand.nextGaussian()/30;
-								pfbet = Double.parseDouble(tokens[4])+rand.nextGaussian()/30;
-								pfcall  = Double.parseDouble(tokens[5])+rand.nextGaussian()/30;
-								afraise = Double.parseDouble(tokens[6])+rand.nextGaussian()/30;
-								afbet = Double.parseDouble(tokens[7])+rand.nextGaussian()/30;
-								afcall = Double.parseDouble(tokens[8])+rand.nextGaussian()/30;
-							}
-							
-							System.out.println("pfraise: "+pfraise);
-							System.out.println("pfbet:   "+pfbet);
-							System.out.println("pfcall:  "+pfcall);
-							System.out.println("afraise: "+afraise);
-							System.out.println("afbet:   "+afbet);
-							System.out.println("afcall:  "+afcall);
-						} else if (tokens[1].equals("WINS")) {
-							if (Integer.parseInt(tokens[2]) > 9000000) {
-								wins = Integer.parseInt(tokens[3])+1;
-							} else {
-								wins = 0;
-							}
-							System.out.println("CONSECUTIVE WINS: "+wins);
-						}
+						
 					} catch (Exception e) {
 						e.printStackTrace();
 						System.out.println(e.getMessage());

@@ -5,20 +5,14 @@ import pokerbots.*;
 
 public class PlayerProfile {
 	public String name;
-	/*
-	int preFlopObs;
-	int flopObs;
-	int turnObs;
-	int riverObs;
-	*/
-	int preFlopCheckObs;
-	int preFlopCallObs;
-	int flopCheckObs;
-	int flopCallObs;
-	int turnCheckObs;
-	int turnCallObs;
-	int riverCheckObs;
-	int riverCallObs;
+	public int preFlopCheckObs;
+	public int preFlopCallObs;
+	public int flopCheckObs;
+	public int flopCallObs;
+	public int turnCheckObs;
+	public int turnCallObs;
+	public int riverCheckObs;
+	public int riverCallObs;
 	
 	//percentage of x during y means the probability that the player will do x if in y.
 	int foldPreFlop; //number of folds preflop
@@ -42,7 +36,14 @@ public class PlayerProfile {
 	int showdownWin; //number of showdowns won
 	
 	ArrayList<Double> startingHandStrengths;
-	
+	public SortedList preFlopBets;
+	public SortedList flopBets;
+	public SortedList turnBets;
+	public SortedList riverBets;
+	public SortedList preFlopRaises;
+	public SortedList flopRaises;
+	public SortedList turnRaises;
+	public SortedList riverRaises;
 
 	public static PlayerProfile parseKeyValue(String name, String kv) {
 		String[] tokens = kv.split(" ");
@@ -80,51 +81,43 @@ public class PlayerProfile {
 		name = newName;
 		preFlopCheckObs = 10;
 		preFlopCallObs = 20;
-		flopCheckObs = 10;
-		flopCallObs = 8;
-		turnCheckObs = 6;
-		turnCallObs = 5;
-		riverCheckObs = 6;
-		riverCallObs = 5;
 		foldPreFlop = 12;
 		betPreFlop = 1;
 		raisePreFlop = 2;
+		winPreFlop = 10;
+		flopCheckObs = 10;
+		flopCallObs = 8;
 		foldFlop = 4;
 		betFlop = 5;
 		raiseFlop = 1;
+		winFlop = 6;
+		turnCheckObs = 6;
+		turnCallObs = 5;
 		foldTurn = 3;
 		betTurn = 2;
 		raiseTurn = 1;
+		winTurn = 3;
+		riverCheckObs = 6;
+		riverCallObs = 5;
 		foldRiver = 3;
 		betRiver = 2;
 		raiseRiver = 1;
+		winRiver= 3;
 		showdown = 5;
 		showdownWin = 2;
-		
-		/*
-		preFlopObs = 40;
-		flopObs = 10;
-		turnObs = 5;
-		riverObs = 4;
-		foldPreFlop = 20;
-		raisePreFlop = 5;
-		foldFlop = 3;
-		betFlop = 3;
-		raiseFlop = 1;
-		foldTurn = 2;
-		betTurn = 1;
-		raiseTurn = 1;
-		foldRiver = 1;
-		betRiver = 1;
-		raiseRiver = 1;
-		showdown = 2;
-		showdownWin = 1;*/
+		preFlopBets = new SortedList();
+		flopBets = new SortedList();
+		turnBets = new SortedList();
+		riverBets = new SortedList();
+		preFlopRaises = new SortedList();
+		flopRaises = new SortedList();
+		turnRaises = new SortedList();
+		riverRaises = new SortedList();
 		initializeStartingHandStrengths();
 	}
 	
 	//actions: a list of strings that are the actions of an entire round	
 	public void updateProfileAfterHand(String[] actions) {
-		
 		/*
 		for (int i=actions.length-1; i>=Math.max(0,actions.length-4); i--) {
 			String[] tokens = actions[i].split(":");
@@ -132,27 +125,97 @@ public class PlayerProfile {
 				String player = tokens[3];
 				Card c1 = new Card(tokens[1]);
 				Card c2 = new Card(tokens[2]);
-				//do stuff with playername and cards... more analysis
+				//do stuff with playername and cards... more analysis??????????
 			}
 		}*/
 		
-		//check actions until flop
-		int action = 0;
+		
+		//for bet size analysis
+		int lastIncrease = 2;
+		int potsize = 3;
+		int toCall = 2;
+		HashMap<String,Integer> pips = new HashMap<String,Integer>();
 		
 		boolean postedBB = false;
 		boolean raised = false;
+		
+		//check actions until flop
+		int action = 0;
 		preflop:
 		while (action < actions.length) {
 			String[] tokens = actions[action++].split(":");
 			
+			String playerName = parsePlayer(tokens[tokens.length-1]);
+			if (!pips.containsKey(playerName)) {
+				pips.put(playerName,0);
+			}
 			
-			if ("POST".equals(tokens[0]) && name.equals(tokens[2])) {
+			if ("POST".equals(tokens[0])) {
+				int amount = Integer.parseInt(tokens[1]);
+				pips.put(playerName,amount);
+				//POSTs are already accounted for in bet size variables
+				
+				if (amount == 2 && name.equals(playerName)) {
+					postedBB = true;
+				}
+			} else if ("WIN".equals(tokens[0]) && name.equals(playerName)) {
+				winPreFlop++;
+			} else if ("DEAL".equals(tokens[0])) {
+				break preflop;
+			} else if (name.equals(playerName)) {
+				if (postedBB && !raised) {
+					preFlopCheckObs++;
+				} else {
+					preFlopCallObs++;
+				}
+			}
+			
+			if ("RAISE".equals(tokens[0])) {
+				if (name.equals(playerName)) {
+					//it's me raising
+					if (postedBB && !raised) {
+						betPreFlop++;
+					} else {
+						raisePreFlop++;
+					}
+				}
+				
+				int min = toCall+lastIncrease;
+				int max = potsize+toCall*2;
+				
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+				lastIncrease = amount-toCall;
+				toCall = amount;
+				
+				double ratio = calculateBetSize(amount, min, max);
+				if (!raised) {
+					preFlopBets.insert(ratio);
+				} else {
+					preFlopRaises.insert(ratio);
+				}
+				raised = true;
+			} else if ("CALL".equals(tokens[0])) {
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+			} else if ("FOLD".equals(tokens[0])) {
+				if (playerName.equals(name)) {
+					foldPreFlop++;
+				}
+			}
+			
+			
+			
+			/*
+			if ("POST".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 				if ("2".equals(tokens[1])) {
 					postedBB = true;
 				}
-			} else if ("WIN".equals(tokens[0]) && name.equals(tokens[2])) {
+			} else if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 				winPreFlop++;
-			} else if (name.equals(tokens[tokens.length-1])) {
+			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
 				//our player is making an action
 				if (postedBB && !raised) {
 					preFlopCheckObs++;
@@ -164,6 +227,8 @@ public class PlayerProfile {
 				} else if ("RAISE".equals(tokens[0])) {
 					if (postedBB && !raised) {
 						betPreFlop++;
+						
+						
 					} else {
 						raisePreFlop++;
 					}
@@ -172,18 +237,85 @@ public class PlayerProfile {
 				raised = true;
 			} else if ("DEAL".equals(tokens[0])) {
 				break preflop;
-			}
+			}*/
 		}
 		
-		
+		for (String key : pips.keySet()) {
+			pips.put(key,0);
+		}
+		lastIncrease = 2;
+		toCall = 0;
 		//check actions until turn
 		boolean canCheck = true;
 		flop:
 		while(action < actions.length) {
 			String[] tokens = actions[action++].split(":");
-			if ("WIN".equals(tokens[0]) && name.equals(tokens[2])) {
+			
+			String playerName = parsePlayer(tokens[tokens.length-1]);
+			
+			if ("WIN".equals(tokens[0]) && name.equals(playerName)) {
 				winFlop++;
-			} else if (name.equals(tokens[tokens.length-1])) {
+			} else if ("DEAL".equals(tokens[0])) {
+				break flop;
+			} else if (name.equals(playerName)) {
+				if (canCheck) {
+					flopCheckObs++;
+				} else {
+					flopCallObs++;
+				}
+			}
+			
+			if ("RAISE".equals(tokens[0])) {
+				if (name.equals(playerName)) {
+					//it's me raising
+					raiseFlop++;
+				}
+				canCheck = false;
+				
+				int min = toCall+lastIncrease;
+				int max = potsize+toCall*2;
+				
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+				lastIncrease = toCall-amount;
+				toCall = amount;
+				
+				double ratio = calculateBetSize(amount, min, max);
+				flopRaises.insert(ratio);
+				
+			} else if ("BET".equals(tokens[0])) {
+				if (name.equals(playerName)) {
+					betFlop++;
+				}
+				canCheck = false;
+				
+				int min = 2;
+				int max = potsize;
+				
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=amount;
+				pips.put(playerName,amount);
+				lastIncrease = amount;
+				toCall = amount;
+				
+				double ratio = calculateBetSize(amount, min, max);
+				flopBets.insert(ratio);
+				
+			} else if ("CALL".equals(tokens[0])) {
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+			} else if ("FOLD".equals(tokens[0])) {
+				if (playerName.equals(name)) {
+					foldFlop++;
+				}
+			}
+			
+			/*
+			if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
+				winFlop++;
+			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
 				//our player is making an action
 				if (canCheck) {
 					flopCheckObs++;
@@ -201,17 +333,83 @@ public class PlayerProfile {
 				canCheck = false;
 			} else if ("DEAL".equals(tokens[0])) {
 				break flop;
-			}
+			}*/
 		}
 		
+		for (String key : pips.keySet()) {
+			pips.put(key,0);
+		}
+		lastIncrease = 2;
+		toCall = 0;
 		//check actions until river
 		canCheck = true;
 		turn:
 		while(action < actions.length) {
 			String[] tokens = actions[action++].split(":");
-			if ("WIN".equals(tokens[0]) && name.equals(tokens[2])) {
+			
+			String playerName = parsePlayer(tokens[tokens.length-1]);
+			
+			if ("WIN".equals(tokens[0]) && name.equals(playerName)) {
 				winTurn++;
-			} else if (name.equals(tokens[tokens.length-1])) {
+			} else if ("DEAL".equals(tokens[0])) {
+				break turn;
+			} else if (name.equals(playerName)) {
+				if (canCheck) {
+					turnCheckObs++;
+				} else {
+					turnCallObs++;
+				}
+			}
+			
+			if ("RAISE".equals(tokens[0])) {
+				if (name.equals(playerName)) {
+					//it's me raising
+					raiseTurn++;
+				}
+				canCheck = false;
+				
+				int min = toCall+lastIncrease;
+				int max = potsize+toCall*2;
+				
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+				lastIncrease = toCall-amount;
+				toCall = amount;
+				
+				double ratio = calculateBetSize(amount, min, max);
+				turnRaises.insert(ratio);
+			} else if ("BET".equals(tokens[0])) {
+				if (name.equals(playerName)) {
+					betTurn++;
+				}
+				canCheck = false;
+				
+				int min = 2;
+				int max = potsize;
+				
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=amount;
+				pips.put(playerName,amount);
+				lastIncrease = amount;
+				toCall = amount;
+				
+				double ratio = calculateBetSize(amount, min, max);
+				turnBets.insert(ratio);
+				
+			} else if ("CALL".equals(tokens[0])) {
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+			} else if ("FOLD".equals(tokens[0])) {
+				if (playerName.equals(name)) {
+					foldTurn++;
+				}
+			}
+			/*
+			if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
+				winTurn++;
+			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
 				//our player is making an action
 				if (canCheck) {
 					turnCheckObs++;
@@ -229,25 +427,99 @@ public class PlayerProfile {
 				canCheck = false;
 			} else if ("DEAL".equals(tokens[0])) {
 				break turn;
-			}
+			}*/
 		}
 		
+		for (String key : pips.keySet()) {
+			pips.put(key,0);
+		}
+		lastIncrease = 2;
+		toCall = 0;
 		//check actions until showdown
 		canCheck = true;
 		boolean madeShowdown = false;
 		river:
 		while(action < actions.length) {
 			String[] tokens = actions[action++].split(":");
-			if ("SHOW".equals(tokens[0]) && name.equals(tokens[3])) {
+			
+			String playerName = parsePlayer(tokens[tokens.length-1]);
+			
+			if ("SHOW".equals(tokens[0]) && name.equals(playerName)) {
 				madeShowdown = true;
 				showdown++;
-			} else if ("WIN".equals(tokens[0]) && name.equals(tokens[2])) {
+			} else if ("WIN".equals(tokens[0]) && name.equals(playerName)) {
 				if (madeShowdown) {
 					showdownWin++;
 				} else {
 					winRiver++;
 				}
-			} else if (name.equals(tokens[tokens.length-1])) {
+			} else if ("DEAL".equals(tokens[0])) {
+				break river;
+			} else if (name.equals(playerName)) {
+				if (canCheck) {
+					riverCheckObs++;
+				} else {
+					riverCallObs++;
+				}
+			}
+			
+			if ("RAISE".equals(tokens[0])) {
+				if (name.equals(playerName)) {
+					//it's me raising
+					raiseRiver++;
+				}
+				canCheck = false;
+				
+				int min = toCall+lastIncrease;
+				int max = potsize+toCall*2;
+				
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+				lastIncrease = toCall-amount;
+				toCall = amount;
+				
+				double ratio = calculateBetSize(amount, min, max);
+				riverRaises.insert(ratio);
+			} else if ("BET".equals(tokens[0])) {
+				if (name.equals(playerName)) {
+					betRiver++;
+				}
+				canCheck = false;
+				
+				int min = 2;
+				int max = potsize;
+				
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=amount;
+				pips.put(playerName,amount);
+				lastIncrease = amount;
+				toCall = amount;
+				
+				double ratio = calculateBetSize(amount, min, max);
+				riverBets.insert(ratio);
+				
+			} else if ("CALL".equals(tokens[0])) {
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+			} else if ("FOLD".equals(tokens[0])) {
+				if (playerName.equals(name)) {
+					foldRiver++;
+				}
+			}
+			
+			/*
+			if ("SHOW".equals(tokens[0]) && name.equals(parsePlayer(tokens[3]))) {
+				madeShowdown = true;
+				showdown++;
+			} else if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
+				if (madeShowdown) {
+					showdownWin++;
+				} else {
+					winRiver++;
+				}
+			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
 				//our player is making an action
 				if (canCheck) {
 					riverCheckObs++;
@@ -263,7 +535,7 @@ public class PlayerProfile {
 				}
 			} else if ("BET".equals(tokens[0]) || "RAISE".equals(tokens[0])) {
 				canCheck = false;
-			}
+			}*/
 		}
 	}
 	
@@ -278,19 +550,21 @@ public class PlayerProfile {
 		boolean foundAction = false;
 		int firstRaise = 0;
 		int actionCounter = actions.length-1;
+		int streetOfAction = street;
+		
 		String[] tokens = actions[actionCounter--].split(":");
 		while (!("DEAL".equals(tokens[0])) && actionCounter > 0) {
-			if ("RAISE".equals(tokens[0]) && name.equals(tokens[2])) {
+			if ("RAISE".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 				raised = true;
 				numRaises++;
 				foundAction = true;
 				if (firstRaise == 0) {
 					firstRaise = actionCounter;
 				}
-			} else if ("BET".equals(tokens[0]) && name.equals(tokens[2])) {
+			} else if ("BET".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 				bet = true;
 				foundAction = true;
-			} else if ("CALL".equals(tokens[0]) && name.equals(tokens[2])) {
+			} else if ("CALL".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 				called = true;
 				foundAction = true;
 			}
@@ -298,14 +572,15 @@ public class PlayerProfile {
 		}
 		if (!foundAction && street > 3) {
 			street--;
+			streetOfAction--;
 			tokens = actions[actionCounter--].split(":");
 			while (!("DEAL".equals(tokens[0])) && actionCounter >= 0) {
-				if ("RAISE".equals(tokens[0]) && name.equals(tokens[2])) {
+				if ("RAISE".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 					raised = true;
 					numRaises++;
-				} else if ("BET".equals(tokens[0]) && name.equals(tokens[2])) {
+				} else if ("BET".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 					bet = true;
-				} else if ("CALL".equals(tokens[0]) && name.equals(tokens[2])) {
+				} else if ("CALL".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
 					called = true;
 				}
 				tokens = actions[actionCounter--].split(":");
@@ -314,7 +589,7 @@ public class PlayerProfile {
 		if (street == 0) {
 			for (int i=0; i<firstRaise; i++) {
 				tokens = actions[i].split(":");
-				if ("POST".equals(tokens[0]) && "2".equals(tokens[1]) && name.equals(tokens[2])) {
+				if ("POST".equals(tokens[0]) && "2".equals(tokens[1]) && name.equals(parsePlayer(tokens[2]))) {
 					isBB = true;
 				} else if ("RAISE".equals(tokens[0])) {
 					canCheck = false;
@@ -323,20 +598,149 @@ public class PlayerProfile {
 		}
 		
 		
+		//analyze bet amount
+		String stop;
+		
+		switch (streetOfAction) {
+			case 0:
+				stop = "FLOP";
+				break;
+			case 3:
+				stop = "TURN";
+				break;
+			case 4:
+				stop = "RIVER";
+				break;
+			case 5:
+				stop = "never";
+				break;
+			default:
+				System.out.println("INVALID STREET OF ACTION!");
+				stop = "never";
+				break;
+		}
+		
+		//find bet amount
+		int lastIncrease = 2;
+		int potsize = 3;
+		int toCall = 2;
+		actionCounter = 0;
+		boolean onStreetOfAction = (streetOfAction == 0);
+		HashMap<String,Integer> pips = new HashMap<String,Integer>();
+		
+		boolean postedBB = false;
+		boolean hasOption = true;
+		
+		double maxBetRatio=-1;
+		double maxRaiseRatio=-1;
+		
+		
+		while (actionCounter < actions.length) {
+			tokens = actions[actionCounter++].split(":");
+			
+			String playerName = parsePlayer(tokens[tokens.length-1]);
+			
+			if (actionCounter < 4) {
+				if (!pips.containsKey(playerName)) {
+					pips.put(playerName,0);
+				}
+			}
+			
+			if ("POST".equals(tokens[0])) {
+				int amount = Integer.parseInt(tokens[1]);
+				pips.put(playerName,Integer.parseInt(tokens[1]));
+				if (amount == 2 && name.equals(playerName)) {
+					postedBB = true;
+				}
+			} else if ("RAISE".equals(tokens[0])) {
+				int min = toCall+lastIncrease;
+				int max = potsize+toCall*2;
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+				lastIncrease = toCall-amount;
+				toCall = amount;
+				
+				if (onStreetOfAction && name.equals(playerName)) {
+					double ratio = calculateBetSize(amount,min,max);
+					if (postedBB && hasOption) {
+						maxBetRatio = Math.max(maxBetRatio,ratio);
+					} else {
+						maxRaiseRatio=Math.max(maxRaiseRatio,ratio);
+					}
+				}
+				
+				hasOption = false;
+			} else if ("BET".equals(tokens[0])) {
+				int min = 2;
+				int max = potsize;
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=amount;
+				pips.put(playerName,amount);
+				lastIncrease = amount;
+				toCall = amount;
+				
+				if (onStreetOfAction && name.equals(playerName)) {
+					double ratio = calculateBetSize(amount,min,max);
+					maxBetRatio = Math.max(maxBetRatio,ratio);
+				}
+				
+				hasOption = false;
+			} else if ("CALL".equals(tokens[0])) {
+				int amount = Integer.parseInt(tokens[1]);
+				potsize+=(amount-pips.get(playerName));
+				pips.put(playerName,amount);
+			} else if ("DEAL".equals(tokens[0])) {
+				if (tokens[1].equals(stop)) {
+					//STOP
+					actionCounter = actions.length;
+				} else if ((streetOfAction == 3 && tokens[1].equals("FLOP")) || (streetOfAction == 4 && tokens[1].equals("TURN")) || (streetOfAction == 5 && tokens[1].equals("RIVER"))) {
+					onStreetOfAction = true;
+				}
+				lastIncrease = 0;
+				toCall = 0;
+				for (String key : pips.keySet()) {
+					pips.put(key,0);
+				}
+			}
+			
+			
+		}
+		
+		
+		
 		
 		switch(street) {
 			case 0:
 				if (raised && canCheck && isBB) {
 					double probBetRaise = betPreFlop/(double)preFlopCheckObs;
-					double estimated = startingHandStrengths.get((int)(probBetRaise*169/2));
-					return estimated;
+					if (preFlopBets.size() > 5) {
+						double max = 1.0;
+						double min = 1.0-probBetRaise;
+						//int index=0;
+						int index = (int)((min+(max-min)*preFlopBets.relativeIndex(maxBetRatio))*168);
+						double estimated = startingHandStrengths.get(index);
+						return estimated;
+					} else {
+						double estimated = startingHandStrengths.get((int)(84*(2-probBetRaise)));
+						return estimated;
+					}
 				} else if (raised) {
 					double probRaise = raisePreFlop/(double)preFlopCallObs;
-					double estimated = startingHandStrengths.get((int)(probRaise*169/2));
-					return estimated;
+					if (preFlopRaises.size() > 5) {
+						double max = 1.0;
+						double min = 1.0-probRaise;
+						//int index=0;
+						int index = (int)((min+(max-min)*preFlopRaises.relativeIndex(maxRaiseRatio))*168);
+						double estimated = startingHandStrengths.get(index);
+						return estimated;
+					} else {
+						double estimated = startingHandStrengths.get((int)(84*(2-probRaise)));
+						return estimated;
+					}
 				} else if (called) {
-					double probCall = 1-(foldPreFlop/(double)preFlopCallObs);
-					double estimated = startingHandStrengths.get((int)(probCall*169/2));
+					double probCall = 1-(foldPreFlop/(double)preFlopCallObs); //should this include raise chance?
+					double estimated = startingHandStrengths.get((int)(84*(2-probCall)));
 					return estimated;
 				} else {
 					return 0.35;
@@ -344,12 +748,29 @@ public class PlayerProfile {
 			case 3:
 				if (raised) {
 					double probRaise = raiseFlop/(double)flopCallObs;
-					double estimated = 1-probRaise/2;
-					return estimated;
+					if (flopRaises.size() > 3) {
+						double max = 1.0;
+						double min = 1.0-probRaise;
+						//double estimated = 0.0;
+						double estimated = (min+(max-min)*flopRaises.relativeIndex(maxRaiseRatio)); //should i check if i have enough observations?
+						return estimated;
+					} else {
+						double estimated = 1-probRaise/2;
+						return estimated;
+					}
 				} else if (bet) {
+					
 					double probBet = betFlop/(double)flopCheckObs;
-					double estimated = 1-probBet/2;
-					return estimated;
+					if (flopBets.size() > 3) {
+						double max = 1.0;
+						double min = 1.0-probBet;
+						//double estimated = 0.0;
+						double estimated = (min+(max-min)*flopBets.relativeIndex(maxBetRatio));
+						return estimated;
+					} else {
+						double estimated = 1-probBet/2;
+						return estimated;
+					}
 				} else if (called) {
 					double probCall = 1-(foldFlop/(double)flopCallObs);
 					double estimated = 1-probCall/2;
@@ -361,12 +782,28 @@ public class PlayerProfile {
 			case 4:
 				if (raised) {
 					double probRaise = raiseTurn/(double)turnCallObs;
-					double estimated = 1-probRaise/2;
-					return estimated;
+					if (turnRaises.size() > 3) {
+						double max = 1.0;
+						double min = 1.0-probRaise;
+						//double estimated = 0.0;
+						double estimated = (min+(max-min)*turnRaises.relativeIndex(maxRaiseRatio));
+						return estimated;
+					} else {
+						double estimated = 1-probRaise/2;
+						return estimated;
+					}
 				} else if (bet) {
 					double probBet = betTurn/(double)turnCheckObs;
-					double estimated = 1-probBet/2;
-					return estimated;
+					if (turnBets.size() > 3) {
+						double max = 1.0;
+						double min = 1.0-probBet;
+						//double estimated = 0.0;
+						double estimated = (min+(max-min)*turnBets.relativeIndex(maxBetRatio));
+						return estimated;
+					} else {
+						double estimated = 1-probBet/2;
+						return estimated;
+					}
 				} else if (called) {
 					double probCall = 1-(foldTurn/(double)turnCallObs);
 					double estimated = 1-probCall/2;
@@ -378,12 +815,28 @@ public class PlayerProfile {
 			case 5:
 				if (raised) {
 					double probRaise = raiseRiver/(double)riverCallObs;
-					double estimated = 1-probRaise/2;
-					return estimated;
+					if (riverRaises.size() > 3) {
+						double max = 1.0;
+						double min = 1.0-probRaise;
+						//double estimated = 0.0;
+						double estimated = (min+(max-min)*riverRaises.relativeIndex(maxRaiseRatio));
+						return estimated;
+					} else {
+						double estimated = 1-probRaise/2;
+						return estimated;
+					}
 				} else if (bet) {
 					double probBet = betRiver/(double)riverCheckObs;
-					double estimated = 1-probBet/2;
-					return estimated;
+					if (riverBets.size() > 3) {
+						double max = 1.0;
+						double min = 1.0-probBet;
+						//double estimated = 0.0;
+						double estimated = (min+(max-min)*riverBets.relativeIndex(maxBetRatio));
+						return estimated;
+					} else {
+						double estimated = 1-probBet/2;
+						return estimated;
+					}
 				} else if (called) {
 					double probCall = 1-(foldRiver/(double)riverCallObs);
 					double estimated = 1-probCall/2;
@@ -503,7 +956,55 @@ public class PlayerProfile {
 				}
 			}
 		}
-		Collections.sort(startingHandStrengths, Collections.reverseOrder());
+		Collections.sort(startingHandStrengths);
+	}
+	
+	public double getBetRate(int street) {
+		switch(street) {
+			case 0:
+				return betPreFlop/(double)preFlopCheckObs;
+			case 3:
+				return betFlop/(double)flopCheckObs;
+			case 4:
+				return betTurn/(double)turnCheckObs;
+			case 5:
+				return betRiver/(double)riverCheckObs;
+			default:
+				System.out.println("INVALID STREET SPECIFIED TO getBetRate!");
+				return 0.5;
+		}
+	}
+	
+	public double getCallRate(int street) {
+		switch(street) {
+			case 0:
+				return 1-((raisePreFlop+foldPreFlop)/(double)preFlopCallObs);
+			case 3:
+				return 1-((raiseFlop+foldFlop)/(double)flopCallObs);
+			case 4:
+				return 1-((raiseTurn+foldTurn)/(double)turnCallObs);
+			case 5:
+				return 1-((raiseRiver+foldRiver)/(double)riverCallObs);
+			default:
+				System.out.println("INVALID STREET SPECIFIED TO getCallRate!");
+				return 0.5;
+		}
+	}
+	
+	public double getRaiseRate(int street) {
+		switch(street) {
+			case 0:
+				return raisePreFlop/(double)preFlopCheckObs;
+			case 3:
+				return raiseFlop/(double)flopCheckObs;
+			case 4:
+				return raiseTurn/(double)turnCheckObs;
+			case 5:
+				return raiseRiver/(double)riverCheckObs;
+			default:
+				System.out.println("INVALID STREET SPECIFIED TO getRaiseRate!");
+				return 0.5;
+		}
 	}
 	
 	public double getFoldRate(int street) {
@@ -520,5 +1021,18 @@ public class PlayerProfile {
 				System.out.println("INVALID STREET SPECIFIED TO getFoldRate!");
 				return 0.5;
 		}
+	}
+	
+	public double calculateBetSize(int bet, int min, int max) {
+		double ratio = (bet-min)/(double)(max-min);
+		if (ratio < 0 || ratio > 1) {
+			return 1.0;
+		} else {
+			return ratio;
+		}
+	}
+	
+	public String parsePlayer(String s) {
+		return s.substring(0,s.length()-1);
 	}
 }
