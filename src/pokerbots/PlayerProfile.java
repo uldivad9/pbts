@@ -79,16 +79,16 @@ public class PlayerProfile {
 	
 	public PlayerProfile(String newName) {
 		name = newName;
-		preFlopCheckObs = 10;
-		preFlopCallObs = 20;
-		foldPreFlop = 12;
-		betPreFlop = 1;
+		preFlopCheckObs = 8;
+		preFlopCallObs = 10;
+		foldPreFlop = 6;
+		betPreFlop = 2;
 		raisePreFlop = 2;
-		winPreFlop = 10;
+		winPreFlop = 6;
 		flopCheckObs = 10;
 		flopCallObs = 8;
-		foldFlop = 4;
-		betFlop = 5;
+		foldFlop = 5;
+		betFlop = 3;
 		raiseFlop = 1;
 		winFlop = 6;
 		turnCheckObs = 6;
