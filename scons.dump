@@ -1,0 +1,12 @@
+Import failed. Unable to find SCons files in:
+  c:\Users\David\AppData\Local\Enthought\Canopy\User\Scripts\..\engine
+  c:\Users\David\AppData\Local\Enthought\Canopy\User\Scripts\scons-local-2.3.4
+  c:\Users\David\AppData\Local\Enthought\Canopy\User\Scripts\scons-local
+  C:\Program Files (x86)\Anaconda\scons-2.3.4
+  C:\Program Files (x86)\Anaconda\Lib\site-packages\scons-2.3.4
+  C:\Program Files (x86)\Anaconda\scons
+  C:\Program Files (x86)\Anaconda\Lib\site-packages\scons
+Traceback (most recent call last):
+  File "c:\Users\David\AppData\Local\Enthought\Canopy\User\Scripts\scons.py", line 190, in <module>
+    import SCons.Script
+ImportError: No module named SCons.Script
