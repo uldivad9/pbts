@@ -104,7 +104,7 @@ def relative_strength(hand, board):
     wins = 0
     total = 0
     my_score = best_score(hand, board)
-    for opp_tuple in combinations(base_cards, 4):
+    for opp_tuple in itertools.combinations(base_cards, 4):
         opp_score = best_score(Hand(cards=list(opp_tuple)), board)
         if my_score >= opp_score:
             wins += 1

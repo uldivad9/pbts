@@ -1,0 +1,17 @@
+6.176 MIT Pokerbots - BATTLECODE vs CHECKFOLDBOT (stack=200, bb=2)
+Hand #1, BATTLECODE (0), CHECKFOLDBOT (0)
+BATTLECODE posts the blind of 1
+CHECKFOLDBOT posts the blind of 2
+Dealt to BATTLECODE [5s 2d 3s 5h]
+Dealt to CHECKFOLDBOT [2s 6h 4d Qs]
+BATTLECODE folds
+CHECKFOLDBOT wins the pot (3)
+
+Hand #2, CHECKFOLDBOT (1), BATTLECODE (-1)
+CHECKFOLDBOT posts the blind of 1
+BATTLECODE posts the blind of 2
+Dealt to CHECKFOLDBOT [Ad 8d 2d 4h]
+Dealt to BATTLECODE [7s 2s 4c 3h]
+CHECKFOLDBOT folds
+BATTLECODE wins the pot (3)
+

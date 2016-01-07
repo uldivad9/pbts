@@ -1,0 +1,29 @@
+6.176 MIT Pokerbots - BATTLECODE vs RANDOMBOT (stack=200, bb=2)
+Hand #1, BATTLECODE (0), RANDOMBOT (0)
+BATTLECODE posts the blind of 1
+RANDOMBOT posts the blind of 2
+Dealt to BATTLECODE [Kc 3h Qc Tc]
+Dealt to RANDOMBOT [5c Th Ac 5d]
+BATTLECODE folds
+RANDOMBOT wins the pot (3)
+
+Hand #2, RANDOMBOT (1), BATTLECODE (-1)
+RANDOMBOT posts the blind of 1
+BATTLECODE posts the blind of 2
+Dealt to RANDOMBOT [Ad 2d As 7c]
+Dealt to BATTLECODE [8s 2s 2c Jh]
+RANDOMBOT calls
+BATTLECODE checks
+*** FLOP *** (4) [4c 8c 7s]
+BATTLECODE checks
+RANDOMBOT checks
+*** TURN *** (4) [4c 8c 7s] [Ts]
+BATTLECODE checks
+RANDOMBOT checks
+*** RIVER *** (4) [4c 8c 7s Ts] [3c]
+BATTLECODE checks
+RANDOMBOT bets 2
+BATTLECODE folds
+Uncalled bet of 2 returned to RANDOMBOT
+RANDOMBOT wins the pot (4)
+
