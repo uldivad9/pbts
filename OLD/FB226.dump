@@ -1,0 +1,865 @@
+
+C:\Users\dlu\Documents\Lu\pokerbots\src\pokerbots\rikkubot>java -jar pokerbot.jar 3002  
+
+-------------------------------------------------
+
+Hand number: 1
+My hand: {Th,Ts,}
+Board: {}
+My starting hand strength is 0.57894
+
+-------------------------------------------------
+
+Hand number: 2
+My hand: {2d,5h,}
+Board: {}
+My starting hand strength is 0.23275
+
+-------------------------------------------------
+
+Hand number: 3
+My hand: {2h,Td,}
+Board: {}
+My starting hand strength is 0.2694
+
+-------------------------------------------------
+
+Hand number: 4
+My hand: {5d,Qd,}
+Board: {}
+My starting hand strength is 0.37143
+
+-------------------------------------------------
+
+Hand number: 5
+My hand: {Qh,9s,}
+Board: {}
+My starting hand strength is 0.39099
+
+-------------------------------------------------
+
+Hand number: 6
+My hand: {Js,Ad,}
+Board: {}
+My starting hand strength is 0.46742
+My hand: {Js,Ad,}
+Board: {Qs,7c,Tc,}
+Relative strength: 0.5892691951896393
+
+-------------------------------------------------
+
+Hand number: 7
+My hand: {Qc,Kd,}
+Board: {}
+My starting hand strength is 0.45573
+My hand: {Qc,Kd,}
+Board: {}
+My starting hand strength is 0.45573
+My hand: {Qc,Kd,}
+Board: {8d,Ah,9d,}
+Relative strength: 0.6003700277520814
+
+-------------------------------------------------
+
+Hand number: 8
+My hand: {Jd,Th,}
+Board: {}
+My starting hand strength is 0.40665
+My hand: {Jd,Th,}
+Board: {}
+My starting hand strength is 0.40665
+
+-------------------------------------------------
+
+Hand number: 9
+My hand: {As,8h,}
+Board: {}
+My starting hand strength is 0.42166
+My hand: {As,8h,}
+Board: {2s,8s,Tc,}
+Relative strength: 0.8408880666049954
+
+-------------------------------------------------
+
+Hand number: 10
+My hand: {3c,Th,}
+Board: {}
+My starting hand strength is 0.27556
+
+-------------------------------------------------
+
+Hand number: 11
+My hand: {Th,4s,}
+Board: {}
+My starting hand strength is 0.28373
+
+-------------------------------------------------
+
+Hand number: 12
+My hand: {7d,Js,}
+Board: {}
+My starting hand strength is 0.33408
+
+-------------------------------------------------
+
+Hand number: 13
+My hand: {8c,Tc,}
+Board: {}
+My starting hand strength is 0.38466
+
+-------------------------------------------------
+
+Hand number: 14
+My hand: {As,Ah,}
+Board: {}
+My starting hand strength is 0.73786
+
+-------------------------------------------------
+
+Hand number: 15
+My hand: {8d,7c,}
+Board: {}
+My starting hand strength is 0.32328
+
+-------------------------------------------------
+
+Hand number: 16
+My hand: {Td,Qs,}
+Board: {}
+My starting hand strength is 0.41772
+My hand: {Td,Qs,}
+Board: {7s,7h,Ac,}
+Relative strength: 0.5892691951896393
+
+-------------------------------------------------
+
+Hand number: 17
+My hand: {4h,Ts,}
+Board: {}
+My starting hand strength is 0.28373
+
+-------------------------------------------------
+
+Hand number: 18
+My hand: {4s,6c,}
+Board: {}
+My starting hand strength is 0.26909
+
+-------------------------------------------------
+
+Hand number: 19
+My hand: {2c,5h,}
+Board: {}
+My starting hand strength is 0.23275
+
+-------------------------------------------------
+
+Hand number: 20
+My hand: {Qc,7s,}
+Board: {}
+My starting hand strength is 0.35124
+
+-------------------------------------------------
+
+Hand number: 21
+My hand: {8c,6c,}
+Board: {}
+My starting hand strength is 0.34007
+
+-------------------------------------------------
+
+Hand number: 22
+My hand: {5h,Jc,}
+Board: {}
+My starting hand strength is 0.30993
+
+-------------------------------------------------
+
+Hand number: 23
+My hand: {5h,5s,}
+Board: {}
+My starting hand strength is 0.40592
+My hand: {5h,5s,}
+Board: {Kh,Ah,3c,}
+Relative strength: 0.7169287696577243
+My hand: {5h,5s,}
+Board: {Kh,Ah,3c,Td,}
+Relative strength: 0.5903381642512078
+My hand: {5h,5s,}
+Board: {Kh,Ah,3c,Td,Js,}
+Relative strength: 0.38282828282828285
+
+-------------------------------------------------
+
+Hand number: 24
+My hand: {9h,Qc,}
+Board: {}
+My starting hand strength is 0.39099
+
+-------------------------------------------------
+
+Hand number: 25
+My hand: {9c,5h,}
+Board: {}
+My starting hand strength is 0.28614
+
+-------------------------------------------------
+
+Hand number: 26
+My hand: {2d,8c,}
+Board: {}
+My starting hand strength is 0.23989
+
+-------------------------------------------------
+
+Hand number: 27
+My hand: {9s,3c,}
+Board: {}
+My starting hand strength is 0.2596
+
+-------------------------------------------------
+
+Hand number: 28
+My hand: {Td,3c,}
+Board: {}
+My starting hand strength is 0.27556
+
+-------------------------------------------------
+
+Hand number: 29
+My hand: {2d,6d,}
+Board: {}
+My starting hand strength is 0.26704
+
+-------------------------------------------------
+
+Hand number: 30
+My hand: {Kd,Ad,}
+Board: {}
+My starting hand strength is 0.52027
+
+-------------------------------------------------
+
+Hand number: 31
+My hand: {8s,4d,}
+Board: {}
+My starting hand strength is 0.26601
+
+-------------------------------------------------
+
+Hand number: 32
+My hand: {Ac,Qd,}
+Board: {}
+My starting hand strength is 0.4808
+My hand: {Ac,Qd,}
+Board: {3h,9s,5s,}
+Relative strength: 0.5892691951896393
+My hand: {Ac,Qd,}
+Board: {3h,9s,5s,6h,}
+Relative strength: 0.43768115942028984
+My hand: {Ac,Qd,}
+Board: {3h,9s,5s,6h,7c,}
+Relative strength: 0.19090909090909092
+My hand: {Ac,Qd,}
+Board: {3h,9s,5s,6h,7c,}
+Relative strength: 0.19090909090909092
+
+-------------------------------------------------
+
+Hand number: 33
+My hand: {5c,Qd,}
+Board: {}
+My starting hand strength is 0.33475
+
+-------------------------------------------------
+
+Hand number: 34
+My hand: {4s,Qc,}
+Board: {}
+My starting hand strength is 0.32623
+
+-------------------------------------------------
+
+Hand number: 35
+My hand: {9s,9c,}
+Board: {}
+My starting hand strength is 0.54185
+
+-------------------------------------------------
+
+Hand number: 36
+My hand: {Ks,Qs,}
+Board: {}
+My starting hand strength is 0.48236
+My hand: {Ks,Qs,}
+Board: {9h,Jh,Js,}
+Relative strength: 0.6003700277520814
+My hand: {Ks,Qs,}
+Board: {9h,Jh,Js,Qh,}
+Relative strength: 0.8251207729468599
+
+-------------------------------------------------
+
+Hand number: 37
+My hand: {7c,5d,}
+Board: {}
+My starting hand strength is 0.2859
+
+-------------------------------------------------
+
+Hand number: 38
+My hand: {Kc,7h,}
+Board: {}
+My starting hand strength is 0.38062
+
+-------------------------------------------------
+
+Hand number: 39
+My hand: {6h,8c,}
+Board: {}
+My starting hand strength is 0.30266
+
+-------------------------------------------------
+
+Hand number: 40
+My hand: {5d,Ts,}
+Board: {}
+My starting hand strength is 0.29088
+
+-------------------------------------------------
+
+Hand number: 41
+My hand: {5c,4h,}
+Board: {}
+My starting hand strength is 0.27292
+
+-------------------------------------------------
+
+Hand number: 42
+My hand: {3s,3c,}
+Board: {}
+My starting hand strength is 0.34078
+
+-------------------------------------------------
+
+Hand number: 43
+My hand: {Kd,As,}
+Board: {}
+My starting hand strength is 0.49371
+My hand: {Kd,As,}
+Board: {}
+My starting hand strength is 0.49371
+My hand: {Kd,As,}
+Board: {Jd,Jc,5h,}
+Relative strength: 0.7409805735430157
+My hand: {Kd,As,}
+Board: {Jd,Jc,5h,8s,}
+Relative strength: 0.6270531400966184
+My hand: {Kd,As,}
+Board: {Jd,Jc,5h,8s,Ad,}
+Relative strength: 0.9050505050505051
+
+-------------------------------------------------
+
+Hand number: 44
+My hand: {Ts,2c,}
+Board: {}
+My starting hand strength is 0.2694
+
+-------------------------------------------------
+
+Hand number: 45
+My hand: {5d,6h,}
+Board: {}
+My starting hand strength is 0.28491
+
+-------------------------------------------------
+
+Hand number: 46
+My hand: {6s,4s,}
+Board: {}
+My starting hand strength is 0.30438
+
+-------------------------------------------------
+
+Hand number: 47
+My hand: {Qs,6h,}
+Board: {}
+My starting hand strength is 0.34455
+
+-------------------------------------------------
+
+Hand number: 48
+My hand: {7s,Qs,}
+Board: {}
+My starting hand strength is 0.38153
+
+-------------------------------------------------
+
+Hand number: 49
+My hand: {Jc,8c,}
+Board: {}
+My starting hand strength is 0.39146
+
+-------------------------------------------------
+
+Hand number: 50
+My hand: {9s,2s,}
+Board: {}
+My starting hand strength is 0.289
+
+-------------------------------------------------
+
+Hand number: 51
+My hand: {Kh,3d,}
+Board: {}
+My starting hand strength is 0.34139
+
+-------------------------------------------------
+
+Hand number: 52
+My hand: {9c,6s,}
+Board: {}
+My starting hand strength is 0.30402
+
+-------------------------------------------------
+
+Hand number: 53
+My hand: {4h,2h,}
+Board: {}
+My starting hand strength is 0.26332
+
+-------------------------------------------------
+
+Hand number: 54
+My hand: {Kc,Ad,}
+Board: {}
+My starting hand strength is 0.49371
+
+-------------------------------------------------
+
+Hand number: 55
+My hand: {Ts,8d,}
+Board: {}
+My starting hand strength is 0.35371
+
+-------------------------------------------------
+
+Hand number: 56
+My hand: {Qc,2s,}
+Board: {}
+My starting hand strength is 0.30701
+
+-------------------------------------------------
+
+Hand number: 57
+My hand: {2s,Qs,}
+Board: {}
+My starting hand strength is 0.34423
+
+-------------------------------------------------
+
+Hand number: 58
+My hand: {7s,Ts,}
+Board: {}
+My starting hand strength is 0.3671
+
+-------------------------------------------------
+
+Hand number: 59
+My hand: {9c,Qs,}
+Board: {}
+My starting hand strength is 0.39099
+
+-------------------------------------------------
+
+Hand number: 60
+My hand: {3d,Ad,}
+Board: {}
+My starting hand strength is 0.41724
+My hand: {3d,Ad,}
+Board: {Qh,Kh,3h,}
+Relative strength: 0.6688251618871416
+My hand: {3d,Ad,}
+Board: {Qh,Kh,3h,Qd,}
+Relative strength: 0.6985507246376812
+My hand: {3d,Ad,}
+Board: {Qh,Kh,3h,Qd,2d,}
+Relative strength: 0.6868686868686869
+
+-------------------------------------------------
+
+Hand number: 61
+My hand: {Ac,Ad,}
+Board: {}
+My starting hand strength is 0.73786
+
+-------------------------------------------------
+
+Hand number: 62
+My hand: {5h,7c,}
+Board: {}
+My starting hand strength is 0.2859
+
+-------------------------------------------------
+
+Hand number: 63
+My hand: {5c,3c,}
+Board: {}
+My starting hand strength is 0.29064
+
+-------------------------------------------------
+
+Hand number: 64
+My hand: {8h,5h,}
+Board: {}
+My starting hand strength is 0.32024
+
+-------------------------------------------------
+
+Hand number: 65
+My hand: {Ac,As,}
+Board: {}
+My starting hand strength is 0.73786
+
+-------------------------------------------------
+
+Hand number: 66
+My hand: {As,4s,}
+Board: {}
+My starting hand strength is 0.42682
+My hand: {As,4s,}
+Board: {}
+My starting hand strength is 0.42682
+My hand: {As,4s,}
+Board: {Qd,9c,Kc,}
+Relative strength: 0.5189639222941721
+My hand: {As,4s,}
+Board: {Qd,9c,Kc,7d,}
+Relative strength: 0.4454106280193237
+My hand: {As,4s,}
+Board: {Qd,9c,Kc,7d,}
+Relative strength: 0.4454106280193237
+
+-------------------------------------------------
+
+Hand number: 67
+My hand: {2h,5d,}
+Board: {}
+My starting hand strength is 0.23275
+
+-------------------------------------------------
+
+Hand number: 68
+My hand: {8c,5c,}
+Board: {}
+My starting hand strength is 0.32024
+
+-------------------------------------------------
+
+Hand number: 69
+My hand: {Tc,8c,}
+Board: {}
+My starting hand strength is 0.38466
+My hand: {Tc,8c,}
+Board: {6d,7d,3h,}
+Relative strength: 0.16003700277520813
+
+-------------------------------------------------
+
+Hand number: 70
+My hand: {5c,2h,}
+Board: {}
+My starting hand strength is 0.23275
+
+-------------------------------------------------
+
+Hand number: 71
+My hand: {Jc,Kd,}
+Board: {}
+My starting hand strength is 0.4459
+My hand: {Jc,Kd,}
+Board: {6s,Ad,9d,}
+Relative strength: 0.5892691951896393
+My hand: {Jc,Kd,}
+Board: {6s,Ad,9d,}
+Relative strength: 0.5892691951896393
+
+-------------------------------------------------
+
+Hand number: 72
+My hand: {Ts,Qc,}
+Board: {}
+My starting hand strength is 0.41772
+
+-------------------------------------------------
+
+Hand number: 73
+My hand: {8h,2s,}
+Board: {}
+My starting hand strength is 0.23989
+
+-------------------------------------------------
+
+Hand number: 74
+My hand: {Ac,8s,}
+Board: {}
+My starting hand strength is 0.42166
+My hand: {Ac,8s,}
+Board: {}
+My starting hand strength is 0.42166
+My hand: {Ac,8s,}
+Board: {5c,9c,Ks,}
+Relative strength: 0.5670675300647549
+My hand: {Ac,8s,}
+Board: {5c,9c,Ks,3c,}
+Relative strength: 0.43381642512077295
+My hand: {Ac,8s,}
+Board: {5c,9c,Ks,3c,6d,}
+Relative strength: 0.29797979797979796
+
+-------------------------------------------------
+
+Hand number: 75
+My hand: {7d,2c,}
+Board: {}
+My starting hand strength is 0.2249
+
+-------------------------------------------------
+
+Hand number: 76
+My hand: {6c,3d,}
+Board: {}
+My starting hand strength is 0.24675
+
+-------------------------------------------------
+
+Hand number: 77
+My hand: {Jd,Qh,}
+Board: {}
+My starting hand strength is 0.42708
+My hand: {Jd,Qh,}
+Board: {6c,3s,Qs,}
+Relative strength: 0.9481961147086031
+
+-------------------------------------------------
+
+Hand number: 78
+My hand: {Ah,6d,}
+Board: {}
+My starting hand strength is 0.40092
+
+-------------------------------------------------
+
+Hand number: 79
+My hand: {Ac,Ad,}
+Board: {}
+My starting hand strength is 0.73786
+My hand: {Ac,Ad,}
+Board: {4h,3s,Kh,}
+Relative strength: 0.9666975023126735
+My hand: {Ac,Ad,}
+Board: {4h,3s,Kh,5c,}
+Relative strength: 0.8975845410628019
+My hand: {Ac,Ad,}
+Board: {4h,3s,Kh,5c,Kc,}
+Relative strength: 0.8626262626262626
+
+-------------------------------------------------
+
+Hand number: 80
+My hand: {5h,4s,}
+Board: {}
+My starting hand strength is 0.27292
+
+-------------------------------------------------
+
+Hand number: 81
+My hand: {Td,3d,}
+Board: {}
+My starting hand strength is 0.31563
+
+-------------------------------------------------
+
+Hand number: 82
+My hand: {Qs,Ah,}
+Board: {}
+My starting hand strength is 0.4808
+
+-------------------------------------------------
+
+Hand number: 83
+My hand: {5c,9s,}
+Board: {}
+My starting hand strength is 0.28614
+
+-------------------------------------------------
+
+Hand number: 84
+My hand: {5d,7c,}
+Board: {}
+My starting hand strength is 0.2859
+
+-------------------------------------------------
+
+Hand number: 85
+My hand: {Qc,2h,}
+Board: {}
+My starting hand strength is 0.30701
+
+-------------------------------------------------
+
+Hand number: 86
+My hand: {4s,3h,}
+Board: {}
+My starting hand strength is 0.24438
+
+-------------------------------------------------
+
+Hand number: 87
+My hand: {Jd,8d,}
+Board: {}
+My starting hand strength is 0.39146
+My hand: {Jd,8d,}
+Board: {6d,9h,5s,}
+Relative strength: 0.24514338575393155
+My hand: {Jd,8d,}
+Board: {6d,9h,5s,8s,}
+Relative strength: 0.6396135265700483
+My hand: {Jd,8d,}
+Board: {6d,9h,5s,8s,6s,}
+Relative strength: 0.5525252525252525
+
+-------------------------------------------------
+
+Hand number: 88
+My hand: {6d,Kc,}
+Board: {}
+My starting hand strength is 0.36842
+My hand: {6d,Kc,}
+Board: {Qd,5c,Jc,}
+Relative strength: 0.4301572617946346
+
+-------------------------------------------------
+
+Hand number: 89
+My hand: {7s,3h,}
+Board: {}
+My starting hand strength is 0.24471
+
+-------------------------------------------------
+
+Hand number: 90
+My hand: {7s,Jd,}
+Board: {}
+My starting hand strength is 0.33408
+My hand: {7s,Jd,}
+Board: {4c,8c,2d,}
+Relative strength: 0.24514338575393155
+My hand: {7s,Jd,}
+Board: {4c,8c,2d,7c,}
+Relative strength: 0.7323671497584541
+My hand: {7s,Jd,}
+Board: {4c,8c,2d,7c,Kd,}
+Relative strength: 0.6252525252525253
+My hand: {7s,Jd,}
+Board: {4c,8c,2d,7c,Kd,}
+Relative strength: 0.6252525252525253
+
+-------------------------------------------------
+
+Hand number: 91
+My hand: {Jc,Ad,}
+Board: {}
+My starting hand strength is 0.46742
+My hand: {Jc,Ad,}
+Board: {4c,Ts,Th,}
+Relative strength: 0.7187789084181314
+My hand: {Jc,Ad,}
+Board: {4c,Ts,Th,Jh,}
+Relative strength: 0.8956521739130435
+My hand: {Jc,Ad,}
+Board: {4c,Ts,Th,Jh,3s,}
+Relative strength: 0.8898989898989899
+
+-------------------------------------------------
+
+Hand number: 92
+My hand: {5d,Jh,}
+Board: {}
+My starting hand strength is 0.30993
+
+-------------------------------------------------
+
+Hand number: 93
+My hand: {Ac,2h,}
+Board: {}
+My starting hand strength is 0.3742
+
+-------------------------------------------------
+
+Hand number: 94
+My hand: {Ts,Kd,}
+Board: {}
+My starting hand strength is 0.43471
+My hand: {Ts,Kd,}
+Board: {}
+My starting hand strength is 0.43471
+My hand: {Ts,Kd,}
+Board: {Jc,9d,8h,}
+Relative strength: 0.4412580943570768
+
+-------------------------------------------------
+
+Hand number: 95
+My hand: {7s,Kd,}
+Board: {}
+My starting hand strength is 0.38062
+
+-------------------------------------------------
+
+Hand number: 96
+My hand: {8s,8c,}
+Board: {}
+My starting hand strength is 0.50239
+
+-------------------------------------------------
+
+Hand number: 97
+My hand: {4d,7c,}
+Board: {}
+My starting hand strength is 0.26598
+
+-------------------------------------------------
+
+Hand number: 98
+My hand: {2d,4s,}
+Board: {}
+My starting hand strength is 0.22671
+
+-------------------------------------------------
+
+Hand number: 99
+My hand: {7d,Kc,}
+Board: {}
+My starting hand strength is 0.38062
+My hand: {7d,Kc,}
+Board: {Qs,3c,Qc,}
+Relative strength: 0.5559666975023126
+
+-------------------------------------------------
+
+Hand number: 100
+My hand: {Ah,9d,}
+Board: {}
+My starting hand strength is 0.43227
+My hand: {Ah,9d,}
+Board: {}
+My starting hand strength is 0.43227
+My hand: {Ah,9d,}
+Board: {7h,5s,Td,}
+Relative strength: 0.5670675300647549
+My hand: {Ah,9d,}
+Board: {7h,5s,Td,Qc,}
+Relative strength: 0.47246376811594204
+Gameover, engine disconnected

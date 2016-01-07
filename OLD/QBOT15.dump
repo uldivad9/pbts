@@ -1,0 +1,4167 @@
+
+C:\Users\dlu\Documents\Lu\pokerbots\src\pokerbots\q>java -jar pokerbot.jar 3000  
+
+NEWGAME QBOT15 FB115 FB225 100000 2 100 10.000000
+
+NEWHAND 1 2 Qs 6c 100000 100000 100000 FB225 QBOT15 FB115 3 true true true 10.000000
+
+-------------------------------------------------
+
+Hand number: 1
+
+GETACTION 10 0 99993 99999 99998 3 true true true 3 POST:1:QBOT15 POST:2:FB115 RAISE:7:FB225 3 FOLD CALL:7 RAISE:12:23 10.0
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.49411, 0.35]
+Raises: 1
+Time left: 10.0
+My hand: {Qs,6c,}
+Board: {}
+Combined:{Qs,6c,}
+Stacks: [99993, 99999, 99998] (I have 99999)
+Pot size: 10
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 7 (an addition of 6)
+I can raise from 12 to 23
+My starting hand strength is 0.34455
+This round's variance is -0.010101501376330344
+Not bluffing preflop against a raise
+Not bluffing preflop against a raise
+7 to call
+My action is: FOLD
+
+HANDOVER 101224 99999 98777 5 7c Ah 7d Td 9s 16 FOLD:QBOT15 CALL:7:FB115 DEAL:FLOP BET:13:FB115 CALL:13:FB225 DEAL:TURN BET:36:FB115 RAISE:139:FB225 CALL:139:FB115 DEAL:RIVER BET:279:FB115 RAISE:1064:FB225 CALL:1064:FB115 SHOW:Th:Ts:FB225 SHOW:As:9h:FB115 WIN:2447:FB225 9.995004542
+All hand actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, FOLD:QBOT15, CALL:7:FB115, DEAL:FLOP, BET:13:FB115, CALL:13:FB225, DEAL:TURN, BET:36:FB115, RAISE:139:FB225, CALL:139:FB115, DEAL:RIVER, BET:279:FB115, RAISE:1064:FB225, CALL:1064:FB115, SHOW:Th:Ts:FB225, SHOW:As:9h:FB115, WIN:2447:FB225]
+
+NEWHAND 2 3 Ah Ts 98777 101224 99999 FB115 FB225 QBOT15 3 true true true 9.995005
+
+-------------------------------------------------
+
+Hand number: 2
+
+HANDOVER 98777 101223 100000 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.995004542
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 3 1 5d 4s 100000 98777 101223 QBOT15 FB115 FB225 3 true true true 9.995005
+
+-------------------------------------------------
+
+Hand number: 3
+
+GETACTION 3 0 100000 98776 101221 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.995004542
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.995005
+My hand: {5d,4s,}
+Board: {}
+Combined:{5d,4s,}
+Stacks: [100000, 98776, 101221] (I have 100000)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.27292
+This round's variance is -0.008457297104531579
+2 to call
+My action is: FOLD
+
+HANDOVER 100000 98776 101224 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.992433527000001
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 4 2 Th Qs 101224 100000 98776 FB225 QBOT15 FB115 3 true true true 9.992434
+
+-------------------------------------------------
+
+Hand number: 4
+
+GETACTION 3 0 101224 99999 98774 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.992433527000001
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.992434
+My hand: {Th,Qs,}
+Board: {}
+Combined:{Th,Qs,}
+Stacks: [101224, 99999, 98774] (I have 99999)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.41772
+This round's variance is 0.004943688127234855
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101224 100002 98774 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.9914476
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 5 3 6h 9h 98774 101224 100002 FB115 FB225 QBOT15 3 true true true 9.991448
+
+-------------------------------------------------
+
+Hand number: 5
+
+GETACTION 5 0 98772 101223 100000 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.9914476
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.43227]
+Raises: 0
+Time left: 9.991448
+My hand: {6h,9h,}
+Board: {}
+Combined:{6h,9h,}
+Stacks: [98772, 101223, 100000] (I have 100000)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.34126
+This round's variance is 0.026266724908830752
+Attempting preflop steal
+0 to call
+My action is: RAISE:4
+
+HANDOVER 98772 101223 100005 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:7:QBOT15 9.990497365000001
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:7:QBOT15]
+
+NEWHAND 6 1 Kd 7s 100005 98772 101223 QBOT15 FB115 FB225 3 true true true 9.990497
+
+-------------------------------------------------
+
+Hand number: 6
+
+GETACTION 3 0 100005 98771 101221 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.990497365000001
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.990497
+My hand: {Kd,7s,}
+Board: {}
+Combined:{Kd,7s,}
+Stacks: [100005, 98771, 101221] (I have 100005)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.38062
+This round's variance is 0.0441826376296225
+2 to call
+My action is: RAISE:7
+
+GETACTION 42 0 99998 98765 101195 3 true true true 3 RAISE:7:QBOT15 CALL:7:FB115 RAISE:28:FB225 3 FOLD CALL:28 RAISE:49:91 9.989311913000002
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, CALL:7:FB115, RAISE:28:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.42708, 0.48236]
+Raises: 2
+Time left: 9.990497
+My hand: {Kd,7s,}
+Board: {}
+Combined:{Kd,7s,}
+Stacks: [99998, 98765, 101195] (I have 99998)
+Pot size: 42
+I cannot check.
+Pip: 7
+I can bet 0 to 0
+I can call with 28 (an addition of 21)
+I can raise from 49 to 91
+My starting hand strength is 0.38062
+This round's variance is -0.014952848606422878
+Not bluffing preflop against a raise
+Not bluffing preflop against a raise
+28 to call
+My action is: FOLD
+
+HANDOVER 99998 98807 101195 3 Qs 7c Tc 6 FOLD:QBOT15 CALL:28:FB115 DEAL:FLOP BET:56:FB115 FOLD:FB225 WIN:119:FB115 9.988083162000002
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, CALL:7:FB115, RAISE:28:FB225, FOLD:QBOT15, CALL:28:FB115, DEAL:FLOP, BET:56:FB115, FOLD:FB225, WIN:119:FB115]
+
+NEWHAND 7 2 Ks 4s 101195 99998 98807 FB225 QBOT15 FB115 3 true true true 9.988083
+
+-------------------------------------------------
+
+Hand number: 7
+
+GETACTION 5 0 101193 99997 98805 3 true true true 3 POST:1:QBOT15 POST:2:FB115 CALL:2:FB225 3 FOLD CALL:2 RAISE:4:8 9.988083162000002
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.41929, 0.35]
+Raises: 0
+Time left: 9.988083
+My hand: {Ks,4s,}
+Board: {}
+Combined:{Ks,4s,}
+Stacks: [101193, 99997, 98805] (I have 99997)
+Pot size: 5
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 8
+My starting hand strength is 0.38445
+This round's variance is -0.005950380587744641
+2 to call
+My action is: FOLD
+
+HANDOVER 101193 99997 98810 4 8d Ah 9d Th 9 FOLD:QBOT15 CHECK:FB115 DEAL:FLOP CHECK:FB115 CHECK:FB225 DEAL:TURN BET:4:FB115 FOLD:FB225 WIN:9:FB115 9.986886593000003
+All hand actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, FOLD:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:FB115, CHECK:FB225, DEAL:TURN, BET:4:FB115, FOLD:FB225, WIN:9:FB115]
+
+NEWHAND 8 3 As 2c 98810 101193 99997 FB115 FB225 QBOT15 3 true true true 9.986887
+
+-------------------------------------------------
+
+Hand number: 8
+
+GETACTION 4 0 98810 101191 99995 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 CALL:2:FB225 2 CHECK RAISE:4:6 9.986886593000003
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.41724]
+Raises: 0
+Time left: 9.986887
+My hand: {As,2c,}
+Board: {}
+Combined:{As,2c,}
+Stacks: [98810, 101191, 99995] (I have 99995)
+Pot size: 4
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 6
+My starting hand strength is 0.3742
+This round's variance is -0.004619001819899648
+Attempting preflop steal
+0 to call
+My action is: RAISE:4
+
+GETACTION 8 3 3d Ah 9h 98810 101189 99993 3 true true true 4 RAISE:4:QBOT15 CALL:4:FB225 DEAL:FLOP CHECK:FB225 2 CHECK BET:2:8 9.985691486000004
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225, RAISE:4:QBOT15, CALL:4:FB225, DEAL:FLOP, CHECK:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.986887
+My hand: {As,2c,}
+Board: {3d,Ah,9h,}
+Combined:{As,2c,3d,Ah,9h,}
+Stacks: [98810, 101189, 99993] (I have 99993)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.9074930619796485
+This round's variance is: -1.3371245118585473E-4
+Failed a preflop steal during this hand
+Uber hand; betting max
+0 to call
+My action is: BET:7
+
+HANDOVER 98810 101189 100001 3 3d Ah 9h 3 BET:7:QBOT15 FOLD:FB225 WIN:15:QBOT15 9.978451217000003
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225, RAISE:4:QBOT15, CALL:4:FB225, DEAL:FLOP, CHECK:FB225, BET:7:QBOT15, FOLD:FB225, WIN:15:QBOT15]
+
+NEWHAND 9 1 9d Kd 100001 98810 101189 QBOT15 FB115 FB225 3 true true true 9.978451
+
+-------------------------------------------------
+
+Hand number: 9
+
+GETACTION 3 0 100001 98809 101187 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.978451217000003
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.978451
+My hand: {9d,Kd,}
+Board: {}
+Combined:{9d,Kd,}
+Stacks: [100001, 98809, 101187] (I have 100001)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.43955
+This round's variance is -0.037753600778210834
+2 to call
+My action is: RAISE:7
+
+GETACTION 27 3 2s 8s Tc 99994 98809 101170 3 true true true 5 RAISE:7:QBOT15 FOLD:FB115 CALL:7:FB225 DEAL:FLOP BET:12:FB225 3 FOLD CALL:12 RAISE:24:51 9.977287999000003
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, BET:12:FB225]
+Active players: [QBOT1, FB22]
+Players: 2
+Estimated strengths: [0.7916666666666666]
+Raises: 0
+Time left: 9.978451
+My hand: {9d,Kd,}
+Board: {2s,8s,Tc,}
+Combined:{9d,Kd,2s,8s,Tc,}
+Stacks: [99994, 98809, 101170] (I have 99994)
+Pot size: 27
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 12 (an addition of 12)
+I can raise from 24 to 51
+Relative strength: 0.45235892691951896
+This round's variance is: -0.038462053403959424
+Opponents probably beat me; folding
+My chances for outs are: 0.0425531914893617
+12 to call
+My action is: FOLD
+
+HANDOVER 99994 98809 101197 3 2s 8s Tc 2 FOLD:QBOT15 WIN:27:FB225 9.939729468000003
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, BET:12:FB225, FOLD:QBOT15, WIN:27:FB225]
+
+NEWHAND 10 2 Jd 8s 101197 99994 98809 FB225 QBOT15 FB115 3 true true true 9.939729
+
+-------------------------------------------------
+
+Hand number: 10
+
+GETACTION 3 0 101197 99993 98807 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.939729468000003
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.939729
+My hand: {Jd,8s,}
+Board: {}
+Combined:{Jd,8s,}
+Stacks: [101197, 99993, 98807] (I have 99993)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.36198
+This round's variance is -0.036054622522602386
+2 to call
+My action is: CALL:2
+
+GETACTION 4 3 Qh 7s 2c 101197 99992 98807 3 true true true 3 CALL:2:QBOT15 CHECK:FB115 DEAL:FLOP 2 CHECK BET:2:4 9.938955355000003
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.939729
+My hand: {Jd,8s,}
+Board: {Qh,7s,2c,}
+Combined:{Jd,8s,Qh,7s,2c,}
+Stacks: [101197, 99992, 98807] (I have 99992)
+Pot size: 4
+I can check.
+Pip: 0
+I can bet 2 to 4
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.34135060129509714
+This round's variance is: 0.0028367332638473404
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 4 4 Qh 7s 2c 5h 101197 99992 98807 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:TURN 2 CHECK BET:2:4 9.937449550000002
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.939729
+My hand: {Jd,8s,}
+Board: {Qh,7s,2c,5h,}
+Combined:{Jd,8s,Qh,7s,2c,5h,}
+Stacks: [101197, 99992, 98807] (I have 99992)
+Pot size: 4
+I can check.
+Pip: 0
+I can bet 2 to 4
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.2560386473429952
+This round's variance is: 0.0482643143764621
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 4 5 Qh 7s 2c 5h 5d 101197 99992 98807 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:RIVER 2 CHECK BET:2:4 9.936028879000002
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.939729
+My hand: {Jd,8s,}
+Board: {Qh,7s,2c,5h,5d,}
+Combined:{Jd,8s,Qh,7s,2c,5h,5d,}
+Stacks: [101197, 99992, 98807] (I have 99992)
+Pot size: 4
+I can check.
+Pip: 0
+I can bet 2 to 4
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.2676767676767677
+This round's variance is: -0.006162505099477367
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+HANDOVER 101197 99996 98807 5 Qh 7s 2c 5h 5d 5 CHECK:QBOT15 CHECK:FB115 SHOW:Jd:8s:QBOT15 SHOW:4s:9d:FB115 WIN:4:QBOT15 9.934683105000001
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER, CHECK:QBOT15, CHECK:FB115, SHOW:Jd:8s:QBOT15, SHOW:4s:9d:FB115, WIN:4:QBOT15]
+
+NEWHAND 11 3 9h 3s 98807 101197 99996 FB115 FB225 QBOT15 3 true true true 9.934683
+
+-------------------------------------------------
+
+Hand number: 11
+
+HANDOVER 98807 101196 99997 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.934683105000001
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 12 1 9s 7h 99997 98807 101196 QBOT15 FB115 FB225 3 true true true 9.934683
+
+-------------------------------------------------
+
+Hand number: 12
+
+GETACTION 3 0 99997 98806 101194 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.934683105000001
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.934683
+My hand: {9s,7h,}
+Board: {}
+Combined:{9s,7h,}
+Stacks: [99997, 98806, 101194] (I have 99997)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.32303
+This round's variance is 0.0044283005907603396
+2 to call
+My action is: FOLD
+
+HANDOVER 99997 98806 101197 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.933840240000002
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 13 2 8d 3c 101197 99997 98806 FB225 QBOT15 FB115 3 true true true 9.933840
+
+-------------------------------------------------
+
+Hand number: 13
+
+GETACTION 3 0 101197 99996 98804 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.933840240000002
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.93384
+My hand: {8d,3c,}
+Board: {}
+Combined:{8d,3c,}
+Stacks: [101197, 99996, 98804] (I have 99996)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.2418
+This round's variance is -0.009547112443372585
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+GETACTION 8 3 6c Qh Jc 101197 99993 98802 3 true true true 3 RAISE:4:QBOT15 CALL:4:FB115 DEAL:FLOP 2 CHECK BET:2:8 9.933146874000002
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.93384
+My hand: {8d,3c,}
+Board: {6c,Qh,Jc,}
+Combined:{8d,3c,6c,Qh,Jc,}
+Stacks: [101197, 99993, 98802] (I have 99993)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.15263644773358
+This round's variance is: -0.010248612943756997
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 8 4 6c Qh Jc Kh 101197 99993 98802 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:TURN 2 CHECK BET:2:8 9.928782760000002
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.93384
+My hand: {8d,3c,}
+Board: {6c,Qh,Jc,Kh,}
+Combined:{8d,3c,6c,Qh,Jc,Kh,}
+Stacks: [101197, 99993, 98802] (I have 99993)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.1826086956521739
+This round's variance is: 0.03636031412574358
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 15 4 6c Qh Jc Kh 101197 99993 98795 3 true true true 2 CHECK:QBOT15 BET:7:FB115 3 FOLD CALL:7 RAISE:14:29 9.927513051000002
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, BET:7:FB115]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.7777777777777778]
+Raises: 0
+Time left: 9.93384
+My hand: {8d,3c,}
+Board: {6c,Qh,Jc,Kh,}
+Combined:{8d,3c,6c,Qh,Jc,Kh,}
+Stacks: [101197, 99993, 98795] (I have 99993)
+Pot size: 15
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 7 (an addition of 7)
+I can raise from 14 to 29
+Relative strength: 0.1826086956521739
+This round's variance is: -0.013236365482211585
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+7 to call
+My action is: FOLD
+
+HANDOVER 101197 99993 98810 4 6c Qh Jc Kh 2 FOLD:QBOT15 WIN:15:FB115 9.900017407000002
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, BET:7:FB115, FOLD:QBOT15, WIN:15:FB115]
+
+NEWHAND 14 3 9h 8d 98810 101197 99993 FB115 FB225 QBOT15 3 true true true 9.900017
+
+-------------------------------------------------
+
+Hand number: 14
+
+GETACTION 8 0 98810 101191 99991 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 RAISE:6:FB225 3 FOLD CALL:6 RAISE:10:18 9.900017407000002
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.48236]
+Raises: 1
+Time left: 9.900017
+My hand: {9h,8d,}
+Board: {}
+Combined:{9h,8d,}
+Stacks: [98810, 101191, 99991] (I have 99991)
+Pot size: 8
+I cannot check.
+Pip: 2
+I can bet 0 to 0
+I can call with 6 (an addition of 4)
+I can raise from 10 to 18
+My starting hand strength is 0.34638
+This round's variance is 0.01710528663101763
+Not bluffing preflop against a raise
+6 to call
+My action is: FOLD
+
+HANDOVER 98810 101199 99991 0 2 FOLD:QBOT15 WIN:8:FB225 9.899286300000002
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225, FOLD:QBOT15, WIN:8:FB225]
+
+NEWHAND 15 1 6h 5s 99991 98810 101199 QBOT15 FB115 FB225 3 true true true 9.899286
+
+-------------------------------------------------
+
+Hand number: 15
+
+GETACTION 3 0 99991 98809 101197 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.899286300000002
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.899286
+My hand: {6h,5s,}
+Board: {}
+Combined:{6h,5s,}
+Stacks: [99991, 98809, 101197] (I have 99991)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.28491
+This round's variance is 0.032513322052296637
+2 to call
+My action is: FOLD
+
+HANDOVER 99991 98809 101200 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.898437584000002
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 16 2 9d 5s 101200 99991 98809 FB225 QBOT15 FB115 3 true true true 9.898438
+
+-------------------------------------------------
+
+Hand number: 16
+
+GETACTION 5 0 101198 99990 98807 3 true true true 3 POST:1:QBOT15 POST:2:FB115 CALL:2:FB225 3 FOLD CALL:2 RAISE:4:8 9.898437584000002
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.40847, 0.35]
+Raises: 0
+Time left: 9.898438
+My hand: {9d,5s,}
+Board: {}
+Combined:{9d,5s,}
+Stacks: [101198, 99990, 98807] (I have 99990)
+Pot size: 5
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 8
+My starting hand strength is 0.28614
+This round's variance is -0.02313405553867939
+2 to call
+My action is: FOLD
+
+HANDOVER 101203 99990 98807 5 7s 7h Ac 8c Js 14 FOLD:QBOT15 CHECK:FB115 DEAL:FLOP CHECK:FB115 CHECK:FB225 DEAL:TURN CHECK:FB115 CHECK:FB225 DEAL:RIVER CHECK:FB115 CHECK:FB225 SHOW:Td:Qs:FB225 SHOW:2d:4c:FB115 WIN:5:FB225 9.897762941000002
+All hand actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, FOLD:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:FB115, CHECK:FB225, DEAL:TURN, CHECK:FB115, CHECK:FB225, DEAL:RIVER, CHECK:FB115, CHECK:FB225, SHOW:Td:Qs:FB225, SHOW:2d:4c:FB115, WIN:5:FB225]
+
+NEWHAND 17 3 Kc Ad 98807 101203 99990 FB115 FB225 QBOT15 3 true true true 9.897763
+
+-------------------------------------------------
+
+Hand number: 17
+
+HANDOVER 98807 101202 99991 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.897762941000002
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 18 1 6d 2h 99991 98807 101202 QBOT15 FB115 FB225 3 true true true 9.897763
+
+-------------------------------------------------
+
+Hand number: 18
+
+GETACTION 3 0 99991 98806 101200 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.897762941000002
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.897763
+My hand: {6d,2h,}
+Board: {}
+Combined:{6d,2h,}
+Stacks: [99991, 98806, 101200] (I have 99991)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.22795
+This round's variance is 0.016530597844709213
+2 to call
+My action is: FOLD
+
+HANDOVER 99991 98809 101200 5 3s 8h Tc 9h 8c 15 FOLD:QBOT15 CALL:2:FB115 CHECK:FB225 DEAL:FLOP CHECK:FB115 CHECK:FB225 DEAL:TURN CHECK:FB115 CHECK:FB225 DEAL:RIVER CHECK:FB115 CHECK:FB225 SHOW:Ad:7c:FB115 SHOW:4s:6c:FB225 WIN:4:FB115 9.896787546000002
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, CALL:2:FB115, CHECK:FB225, DEAL:FLOP, CHECK:FB115, CHECK:FB225, DEAL:TURN, CHECK:FB115, CHECK:FB225, DEAL:RIVER, CHECK:FB115, CHECK:FB225, SHOW:Ad:7c:FB115, SHOW:4s:6c:FB225, WIN:4:FB115]
+
+NEWHAND 19 2 Jc Ks 101200 99991 98809 FB225 QBOT15 FB115 3 true true true 9.896788
+
+-------------------------------------------------
+
+Hand number: 19
+
+GETACTION 3 0 101200 99990 98807 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.896787546000002
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.896788
+My hand: {Jc,Ks,}
+Board: {}
+Combined:{Jc,Ks,}
+Stacks: [101200, 99990, 98807] (I have 99990)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.4459
+This round's variance is 0.034245351146481265
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101200 99993 98807 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.896060243000003
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 20 3 9d 4h 98807 101200 99993 FB115 FB225 QBOT15 3 true true true 9.896060
+
+-------------------------------------------------
+
+Hand number: 20
+
+HANDOVER 98807 101199 99994 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.896060243000003
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 21 1 7c 9h 99994 98807 101199 QBOT15 FB115 FB225 3 true true true 9.896060
+
+-------------------------------------------------
+
+Hand number: 21
+
+GETACTION 3 0 99994 98806 101197 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.896060243000003
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.89606
+My hand: {7c,9h,}
+Board: {}
+Combined:{7c,9h,}
+Stacks: [99994, 98806, 101197] (I have 99994)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.32303
+This round's variance is 0.01407810761860285
+2 to call
+My action is: FOLD
+
+HANDOVER 99994 98806 101200 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.895341424000003
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 22 2 3d Qd 101200 99994 98806 FB225 QBOT15 FB115 3 true true true 9.895341
+
+-------------------------------------------------
+
+Hand number: 22
+
+GETACTION 3 0 101200 99993 98804 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.895341424000003
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.895341
+My hand: {3d,Qd,}
+Board: {}
+Combined:{3d,Qd,}
+Stacks: [101200, 99993, 98804] (I have 99993)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.35417
+This round's variance is -0.03556097302424131
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101200 99996 98804 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.894739921000003
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 23 3 7h 2h 98804 101200 99996 FB115 FB225 QBOT15 3 true true true 9.894740
+
+-------------------------------------------------
+
+Hand number: 23
+
+HANDOVER 98804 101199 99997 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.894739921000003
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 24 1 6s 2d 99997 98804 101199 QBOT15 FB115 FB225 3 true true true 9.894740
+
+-------------------------------------------------
+
+Hand number: 24
+
+GETACTION 3 0 99997 98803 101197 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.894739921000003
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.89474
+My hand: {6s,2d,}
+Board: {}
+Combined:{6s,2d,}
+Stacks: [99997, 98803, 101197] (I have 99997)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.22795
+This round's variance is 0.045543575102081124
+2 to call
+My action is: FOLD
+
+HANDOVER 99997 98803 101200 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.894196931000003
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 25 2 8c Js 101200 99997 98803 FB225 QBOT15 FB115 3 true true true 9.894197
+
+-------------------------------------------------
+
+Hand number: 25
+
+GETACTION 3 0 101200 99996 98801 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.894196931000003
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.894197
+My hand: {8c,Js,}
+Board: {}
+Combined:{8c,Js,}
+Stacks: [101200, 99996, 98801] (I have 99996)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.36198
+This round's variance is -0.04898258662450835
+2 to call
+My action is: CALL:2
+
+GETACTION 4 3 6d 2s 7s 101200 99995 98801 3 true true true 3 CALL:2:QBOT15 CHECK:FB115 DEAL:FLOP 2 CHECK BET:2:4 9.893758091000004
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.894197
+My hand: {8c,Js,}
+Board: {6d,2s,7s,}
+Combined:{8c,Js,6d,2s,7s,}
+Stacks: [101200, 99995, 98801] (I have 99995)
+Pot size: 4
+I can check.
+Pip: 0
+I can bet 2 to 4
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.24514338575393155
+This round's variance is: 0.0016103622563446093
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 4 4 6d 2s 7s Kd 101200 99995 98801 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:TURN 2 CHECK BET:2:4 9.892649582000004
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.894197
+My hand: {8c,Js,}
+Board: {6d,2s,7s,Kd,}
+Combined:{8c,Js,6d,2s,7s,Kd,}
+Stacks: [101200, 99995, 98801] (I have 99995)
+Pot size: 4
+I can check.
+Pip: 0
+I can bet 2 to 4
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.2560386473429952
+This round's variance is: 0.014079301868055446
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 4 5 6d 2s 7s Kd Th 101200 99995 98801 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:RIVER 2 CHECK BET:2:4 9.891360271000003
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.894197
+My hand: {8c,Js,}
+Board: {6d,2s,7s,Kd,Th,}
+Combined:{8c,Js,6d,2s,7s,Kd,Th,}
+Stacks: [101200, 99995, 98801] (I have 99995)
+Pot size: 4
+I can check.
+Pip: 0
+I can bet 2 to 4
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.1787878787878788
+This round's variance is: -0.008816508522768706
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+HANDOVER 101200 99995 98805 5 6d 2s 7s Kd Th 5 CHECK:QBOT15 CHECK:FB115 SHOW:8c:Js:QBOT15 SHOW:Ts:3d:FB115 WIN:4:FB115 9.890305593000004
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, CALL:2:QBOT15, CHECK:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER, CHECK:QBOT15, CHECK:FB115, SHOW:8c:Js:QBOT15, SHOW:Ts:3d:FB115, WIN:4:FB115]
+
+NEWHAND 26 3 Ks 4s 98805 101200 99995 FB115 FB225 QBOT15 3 true true true 9.890306
+
+-------------------------------------------------
+
+Hand number: 26
+
+GETACTION 5 0 98803 101199 99993 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.890305593000004
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.43456]
+Raises: 0
+Time left: 9.890306
+My hand: {Ks,4s,}
+Board: {}
+Combined:{Ks,4s,}
+Stacks: [98803, 101199, 99993] (I have 99993)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.38445
+This round's variance is 0.027486745328039165
+Attempting preflop steal
+0 to call
+My action is: RAISE:4
+
+GETACTION 9 3 Th 7s Qh 98801 101199 99991 3 true true true 3 RAISE:4:QBOT15 CALL:4:FB115 DEAL:FLOP 2 CHECK BET:2:9 9.889829891000005
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.890306
+My hand: {Ks,4s,}
+Board: {Th,7s,Qh,}
+Combined:{Ks,4s,Th,7s,Qh,}
+Stacks: [98801, 101199, 99991] (I have 99991)
+Pot size: 9
+I can check.
+Pip: 0
+I can bet 2 to 9
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.41905642923219244
+This round's variance is: -0.04023892550144591
+Failed a preflop steal during this hand
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 9 4 Th 7s Qh 8s 98801 101199 99991 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:TURN 2 CHECK BET:2:9 9.888811783000005
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.890306
+My hand: {Ks,4s,}
+Board: {Th,7s,Qh,8s,}
+Combined:{Ks,4s,Th,7s,Qh,8s,}
+Stacks: [98801, 101199, 99991] (I have 99991)
+Pot size: 9
+I can check.
+Pip: 0
+I can bet 2 to 9
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.32560386473429953
+This round's variance is: 0.009755959570492922
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 9 5 Th 7s Qh 8s 6c 98801 101199 99991 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:RIVER 2 CHECK BET:2:9 9.887795138000005
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.890306
+My hand: {Ks,4s,}
+Board: {Th,7s,Qh,8s,6c,}
+Combined:{Ks,4s,Th,7s,Qh,8s,6c,}
+Stacks: [98801, 101199, 99991] (I have 99991)
+Pot size: 9
+I can check.
+Pip: 0
+I can bet 2 to 9
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.1787878787878788
+This round's variance is: -0.012317395391156043
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+HANDOVER 98810 101199 99991 5 Th 7s Qh 8s 6c 5 CHECK:QBOT15 CHECK:FB115 SHOW:Ah:Jc:FB115 SHOW:Ks:4s:QBOT15 WIN:9:FB115 9.886738997000005
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER, CHECK:QBOT15, CHECK:FB115, SHOW:Ah:Jc:FB115, SHOW:Ks:4s:QBOT15, WIN:9:FB115]
+
+NEWHAND 27 1 Qs 3s 99991 98810 101199 QBOT15 FB115 FB225 3 true true true 9.886739
+
+-------------------------------------------------
+
+Hand number: 27
+
+GETACTION 3 0 99991 98809 101197 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.886738997000005
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.886739
+My hand: {Qs,3s,}
+Board: {}
+Combined:{Qs,3s,}
+Stacks: [99991, 98809, 101197] (I have 99991)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.35417
+This round's variance is 0.011805985477089246
+2 to call
+My action is: FOLD
+
+HANDOVER 99991 98808 101201 3 9d 2s Kc 8 FOLD:QBOT15 CALL:2:FB115 CHECK:FB225 DEAL:FLOP CHECK:FB115 BET:3:FB225 FOLD:FB115 WIN:7:FB225 9.886258322000005
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, CALL:2:FB115, CHECK:FB225, DEAL:FLOP, CHECK:FB115, BET:3:FB225, FOLD:FB115, WIN:7:FB225]
+
+NEWHAND 28 2 2c 9c 101201 99991 98808 FB225 QBOT15 FB115 3 true true true 9.886258
+
+-------------------------------------------------
+
+Hand number: 28
+
+GETACTION 3 0 101201 99990 98806 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.886258322000005
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.886258
+My hand: {2c,9c,}
+Board: {}
+Combined:{2c,9c,}
+Stacks: [101201, 99990, 98806] (I have 99990)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.289
+This round's variance is -0.03018281897208779
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101201 99993 98806 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.885818312000005
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 29 3 Ts 3h 98806 101201 99993 FB115 FB225 QBOT15 3 true true true 9.885818
+
+-------------------------------------------------
+
+Hand number: 29
+
+HANDOVER 98806 101200 99994 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.885818312000005
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 30 1 8c 5c 99994 98806 101200 QBOT15 FB115 FB225 3 true true true 9.885818
+
+-------------------------------------------------
+
+Hand number: 30
+
+GETACTION 3 0 99994 98805 101198 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.885818312000005
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.885818
+My hand: {8c,5c,}
+Board: {}
+Combined:{8c,5c,}
+Stacks: [99994, 98805, 101198] (I have 99994)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.32024
+This round's variance is -0.009576894543424756
+2 to call
+My action is: FOLD
+
+HANDOVER 99994 98805 101201 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.885403169000005
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 31 2 Ah As 101201 99994 98805 FB225 QBOT15 FB115 3 true true true 9.885403
+
+-------------------------------------------------
+
+Hand number: 31
+
+GETACTION 3 0 101201 99993 98803 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.885403169000005
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.885403
+My hand: {Ah,As,}
+Board: {}
+Combined:{Ah,As,}
+Stacks: [101201, 99993, 98803] (I have 99993)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.73786
+This round's variance is 0.03316803583689642
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101201 99996 98803 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.884989490000006
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 32 3 Qc 4d 98803 101201 99996 FB115 FB225 QBOT15 3 true true true 9.884989
+
+-------------------------------------------------
+
+Hand number: 32
+
+GETACTION 8 0 98803 101195 99994 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 RAISE:6:FB225 3 FOLD CALL:6 RAISE:10:18 9.884989490000006
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.4808]
+Raises: 1
+Time left: 9.884989
+My hand: {Qc,4d,}
+Board: {}
+Combined:{Qc,4d,}
+Stacks: [98803, 101195, 99994] (I have 99994)
+Pot size: 8
+I cannot check.
+Pip: 2
+I can bet 0 to 0
+I can call with 6 (an addition of 4)
+I can raise from 10 to 18
+My starting hand strength is 0.32623
+This round's variance is 0.011992492854243844
+Not bluffing preflop against a raise
+6 to call
+My action is: FOLD
+
+HANDOVER 98803 101203 99994 0 2 FOLD:QBOT15 WIN:8:FB225 9.884508814000005
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225, FOLD:QBOT15, WIN:8:FB225]
+
+NEWHAND 33 1 8c 6s 99994 98803 101203 QBOT15 FB115 FB225 3 true true true 9.884509
+
+-------------------------------------------------
+
+Hand number: 33
+
+GETACTION 3 0 99994 98802 101201 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.884508814000005
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.884509
+My hand: {8c,6s,}
+Board: {}
+Combined:{8c,6s,}
+Stacks: [99994, 98802, 101201] (I have 99994)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.30266
+This round's variance is -0.009111979229103864
+2 to call
+My action is: FOLD
+
+HANDOVER 99994 98802 101204 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.884013511000006
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 34 2 Qd 7s 101204 99994 98802 FB225 QBOT15 FB115 3 true true true 9.884014
+
+-------------------------------------------------
+
+Hand number: 34
+
+GETACTION 3 0 101204 99993 98800 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.884013511000006
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.884014
+My hand: {Qd,7s,}
+Board: {}
+Combined:{Qd,7s,}
+Stacks: [101204, 99993, 98800] (I have 99993)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.35124
+This round's variance is -0.0727405433728412
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101204 99996 98800 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.883548633000006
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 35 3 Ad 2c 98800 101204 99996 FB115 FB225 QBOT15 3 true true true 9.883549
+
+-------------------------------------------------
+
+Hand number: 35
+
+GETACTION 8 0 98800 101198 99994 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 RAISE:6:FB225 3 FOLD CALL:6 RAISE:10:18 9.883548633000006
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.46835]
+Raises: 1
+Time left: 9.883549
+My hand: {Ad,2c,}
+Board: {}
+Combined:{Ad,2c,}
+Stacks: [98800, 101198, 99994] (I have 99994)
+Pot size: 8
+I cannot check.
+Pip: 2
+I can bet 0 to 0
+I can call with 6 (an addition of 4)
+I can raise from 10 to 18
+My starting hand strength is 0.3742
+This round's variance is -0.014553995130946015
+Not bluffing preflop against a raise
+6 to call
+My action is: FOLD
+
+HANDOVER 98800 101206 99994 0 2 FOLD:QBOT15 WIN:8:FB225 9.883126470000006
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225, FOLD:QBOT15, WIN:8:FB225]
+
+NEWHAND 36 1 8c Ad 99994 98800 101206 QBOT15 FB115 FB225 3 true true true 9.883126
+
+-------------------------------------------------
+
+Hand number: 36
+
+GETACTION 3 0 99994 98799 101204 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.883126470000006
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.883126
+My hand: {8c,Ad,}
+Board: {}
+Combined:{8c,Ad,}
+Stacks: [99994, 98799, 101204] (I have 99994)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.42166
+This round's variance is 0.0033793571947849056
+2 to call
+My action is: RAISE:7
+
+GETACTION 30 0 99987 98799 101184 3 true true true 3 RAISE:7:QBOT15 FOLD:FB115 RAISE:22:FB225 3 FOLD CALL:22 RAISE:37:67 9.882707525000006
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, RAISE:22:FB225]
+Active players: [QBOT1, FB22]
+Players: 2
+Estimated strengths: [0.46296]
+Raises: 2
+Time left: 9.883126
+My hand: {8c,Ad,}
+Board: {}
+Combined:{8c,Ad,}
+Stacks: [99987, 98799, 101184] (I have 99987)
+Pot size: 30
+I cannot check.
+Pip: 7
+I can bet 0 to 0
+I can call with 22 (an addition of 15)
+I can raise from 37 to 67
+My starting hand strength is 0.42166
+This round's variance is -0.02913244045665513
+Not bluffing preflop against a raise
+22 to call
+My action is: FOLD
+
+HANDOVER 99987 98799 101214 0 2 FOLD:QBOT15 WIN:30:FB225 9.882330123000006
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, RAISE:22:FB225, FOLD:QBOT15, WIN:30:FB225]
+
+NEWHAND 37 2 9d 2d 101214 99987 98799 FB225 QBOT15 FB115 3 true true true 9.882330
+
+-------------------------------------------------
+
+Hand number: 37
+
+GETACTION 3 0 101214 99986 98797 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.882330123000006
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.88233
+My hand: {9d,2d,}
+Board: {}
+Combined:{9d,2d,}
+Stacks: [101214, 99986, 98797] (I have 99986)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.289
+This round's variance is 0.01118219703122364
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101214 99989 98797 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.881849740000007
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 38 3 9d 3s 98797 101214 99989 FB115 FB225 QBOT15 3 true true true 9.881850
+
+-------------------------------------------------
+
+Hand number: 38
+
+GETACTION 5 0 98795 101213 99987 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.881849740000007
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.43471]
+Raises: 0
+Time left: 9.88185
+My hand: {9d,3s,}
+Board: {}
+Combined:{9d,3s,}
+Stacks: [98795, 101213, 99987] (I have 99987)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.2596
+This round's variance is -0.008520626604035696
+Failed too many preflop steals to try again.
+0 to call
+My action is: CHECK
+
+GETACTION 5 3 Jh 4d Ah 98795 101213 99987 3 true true true 2 CHECK:QBOT15 DEAL:FLOP 2 CHECK BET:2:5 9.881350341000006
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.88185
+My hand: {9d,3s,}
+Board: {Jh,4d,Ah,}
+Combined:{9d,3s,Jh,4d,Ah,}
+Stacks: [98795, 101213, 99987] (I have 99987)
+Pot size: 5
+I can check.
+Pip: 0
+I can bet 2 to 5
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.22294172062904719
+This round's variance is: -0.022642864199159694
+Attempting bluff
+0 to call
+My action is: BET:3
+
+GETACTION 11 4 Jh 4d Ah 9h 98792 101213 99984 3 true true true 3 BET:3:QBOT15 CALL:3:FB115 DEAL:TURN 2 CHECK BET:2:11 9.880049913000006
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, BET:3:QBOT15, CALL:3:FB115, DEAL:TURN]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.7777777777777778]
+Raises: 0
+Time left: 9.88185
+My hand: {9d,3s,}
+Board: {Jh,4d,Ah,9h,}
+Combined:{9d,3s,Jh,4d,Ah,9h,}
+Stacks: [98792, 101213, 99984] (I have 99984)
+Pot size: 11
+I can check.
+Pip: 0
+I can bet 2 to 11
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.6289855072463768
+This round's variance is: 0.004444946769418071
+Opponents probably beat me; checking
+0 to call
+My action is: CHECK
+
+GETACTION 19 4 Jh 4d Ah 9h 98784 101213 99984 3 true true true 2 CHECK:QBOT15 BET:8:FB115 3 FOLD CALL:8 RAISE:16:35 9.878726372000006
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, BET:3:QBOT15, CALL:3:FB115, DEAL:TURN, CHECK:QBOT15, BET:8:FB115]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.8214285714285714]
+Raises: 0
+Time left: 9.88185
+My hand: {9d,3s,}
+Board: {Jh,4d,Ah,9h,}
+Combined:{9d,3s,Jh,4d,Ah,9h,}
+Stacks: [98784, 101213, 99984] (I have 99984)
+Pot size: 19
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 8 (an addition of 8)
+I can raise from 16 to 35
+Relative strength: 0.6289855072463768
+This round's variance is: -0.02936146530662615
+Opponents probably beat me; folding
+My chances for outs are: 0.043478260869565216
+8 to call
+My action is: FOLD
+
+HANDOVER 98803 101213 99984 4 Jh 4d Ah 9h 2 FOLD:QBOT15 WIN:19:FB115 9.848233453000006
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, BET:3:QBOT15, CALL:3:FB115, DEAL:TURN, CHECK:QBOT15, BET:8:FB115, FOLD:QBOT15, WIN:19:FB115]
+
+NEWHAND 39 1 4c 8h 99984 98803 101213 QBOT15 FB115 FB225 3 true true true 9.848233
+
+-------------------------------------------------
+
+Hand number: 39
+
+GETACTION 3 0 99984 98802 101211 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.848233453000006
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.848233
+My hand: {4c,8h,}
+Board: {}
+Combined:{4c,8h,}
+Stacks: [99984, 98802, 101211] (I have 99984)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.26601
+This round's variance is -0.013347353132122023
+2 to call
+My action is: FOLD
+
+HANDOVER 99984 98802 101214 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.847431840000006
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 40 2 Td Jc 101214 99984 98802 FB225 QBOT15 FB115 3 true true true 9.847432
+
+-------------------------------------------------
+
+Hand number: 40
+
+GETACTION 3 0 101214 99983 98800 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.847431840000006
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.847432
+My hand: {Td,Jc,}
+Board: {}
+Combined:{Td,Jc,}
+Stacks: [101214, 99983, 98800] (I have 99983)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.40665
+This round's variance is 0.022168879142583822
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101214 99986 98800 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.847060874000006
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 41 3 Kc Jh 98800 101214 99986 FB115 FB225 QBOT15 3 true true true 9.847061
+
+-------------------------------------------------
+
+Hand number: 41
+
+HANDOVER 98800 101213 99987 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.847060874000006
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 42 1 8d Tc 99987 98800 101213 QBOT15 FB115 FB225 3 true true true 9.847061
+
+-------------------------------------------------
+
+Hand number: 42
+
+GETACTION 3 0 99987 98799 101211 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.847060874000006
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.847061
+My hand: {8d,Tc,}
+Board: {}
+Combined:{8d,Tc,}
+Stacks: [99987, 98799, 101211] (I have 99987)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.35371
+This round's variance is 0.040906598842544516
+2 to call
+My action is: FOLD
+
+HANDOVER 99987 98799 101214 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.846707755000006
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 43 2 Ah Qs 101214 99987 98799 FB225 QBOT15 FB115 3 true true true 9.846708
+
+-------------------------------------------------
+
+Hand number: 43
+
+GETACTION 10 0 101207 99986 98797 3 true true true 3 POST:1:QBOT15 POST:2:FB115 RAISE:7:FB225 3 FOLD CALL:7 RAISE:12:23 9.846707755000006
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.4629, 0.35]
+Raises: 1
+Time left: 9.846708
+My hand: {Ah,Qs,}
+Board: {}
+Combined:{Ah,Qs,}
+Stacks: [101207, 99986, 98797] (I have 99986)
+Pot size: 10
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 7 (an addition of 6)
+I can raise from 12 to 23
+My starting hand strength is 0.4808
+This round's variance is 0.01276535998811627
+7 to call
+My action is: RAISE:23
+
+GETACTION 48 3 Jd Jc 5h 101191 99964 98797 3 true true true 4 RAISE:23:QBOT15 FOLD:FB115 CALL:23:FB225 DEAL:FLOP 2 CHECK BET:2:48 9.846349369000006
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, CALL:23:FB225, DEAL:FLOP]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.846708
+My hand: {Ah,Qs,}
+Board: {Jd,Jc,5h,}
+Combined:{Ah,Qs,Jd,Jc,5h,}
+Stacks: [101191, 99964, 98797] (I have 99964)
+Pot size: 48
+I can check.
+Pip: 0
+I can bet 2 to 48
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.7298797409805735
+This round's variance is: -0.0034479776305923956
+Strong hand; betting high
+0 to call
+My action is: BET:34
+
+GETACTION 116 4 Jd Jc 5h 8s 101157 99930 98797 3 true true true 3 BET:34:QBOT15 CALL:34:FB225 DEAL:TURN 2 CHECK BET:2:116 9.845400890000006
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, CALL:23:FB225, DEAL:FLOP, BET:34:QBOT15, CALL:34:FB225, DEAL:TURN]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.7727272727272727]
+Raises: 0
+Time left: 9.846708
+My hand: {Ah,Qs,}
+Board: {Jd,Jc,5h,8s,}
+Combined:{Ah,Qs,Jd,Jc,5h,8s,}
+Stacks: [101157, 99930, 98797] (I have 99930)
+Pot size: 116
+I can check.
+Pip: 0
+I can bet 2 to 116
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.6154589371980677
+This round's variance is: 0.006069863391709131
+Opponents probably beat me; checking
+0 to call
+My action is: CHECK
+
+GETACTION 116 5 Jd Jc 5h 8s Ad 101157 99930 98797 3 true true true 3 CHECK:QBOT15 CHECK:FB225 DEAL:RIVER 2 CHECK BET:2:116 9.844315785000006
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, CALL:23:FB225, DEAL:FLOP, BET:34:QBOT15, CALL:34:FB225, DEAL:TURN, CHECK:QBOT15, CHECK:FB225, DEAL:RIVER]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.846708
+My hand: {Ah,Qs,}
+Board: {Jd,Jc,5h,8s,Ad,}
+Combined:{Ah,Qs,Jd,Jc,5h,8s,Ad,}
+Stacks: [101157, 99930, 98797] (I have 99930)
+Pot size: 116
+I can check.
+Pip: 0
+I can bet 2 to 116
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.896969696969697
+This round's variance is: 0.0033340281120348716
+Uber hand; betting max
+0 to call
+My action is: BET:110
+
+HANDOVER 101383 99820 98797 5 Jd Jc 5h 8s Ad 5 BET:110:QBOT15 CALL:110:FB225 SHOW:Kd:As:FB225 SHOW:Ah:Qs:QBOT15 WIN:336:FB225 9.843356189000007
+All hand actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, CALL:23:FB225, DEAL:FLOP, BET:34:QBOT15, CALL:34:FB225, DEAL:TURN, CHECK:QBOT15, CHECK:FB225, DEAL:RIVER, BET:110:QBOT15, CALL:110:FB225, SHOW:Kd:As:FB225, SHOW:Ah:Qs:QBOT15, WIN:336:FB225]
+
+NEWHAND 44 3 5c Qs 98797 101383 99820 FB115 FB225 QBOT15 3 true true true 9.843356
+
+-------------------------------------------------
+
+Hand number: 44
+
+GETACTION 5 0 98795 101382 99818 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.843356189000007
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.4381]
+Raises: 0
+Time left: 9.843356
+My hand: {5c,Qs,}
+Board: {}
+Combined:{5c,Qs,}
+Stacks: [98795, 101382, 99818] (I have 99818)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.33475
+This round's variance is 0.043795134484767476
+Attempting preflop steal
+0 to call
+My action is: RAISE:4
+
+GETACTION 9 3 4d 7d 3d 98793 101382 99816 3 true true true 3 RAISE:4:QBOT15 CALL:4:FB115 DEAL:FLOP 2 CHECK BET:2:9 9.843018867000007
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.843356
+My hand: {5c,Qs,}
+Board: {4d,7d,3d,}
+Combined:{5c,Qs,4d,7d,3d,}
+Stacks: [98793, 101382, 99816] (I have 99816)
+Pot size: 9
+I can check.
+Pip: 0
+I can bet 2 to 9
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.2765957446808511
+This round's variance is: 0.0034209215517075286
+Failed a preflop steal during this hand
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 9 4 4d 7d 3d 3c 98793 101382 99816 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:TURN 2 CHECK BET:2:9 9.842083553000007
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.843356
+My hand: {5c,Qs,}
+Board: {4d,7d,3d,3c,}
+Combined:{5c,Qs,4d,7d,3d,3c,}
+Stacks: [98793, 101382, 99816] (I have 99816)
+Pot size: 9
+I can check.
+Pip: 0
+I can bet 2 to 9
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.28888888888888886
+This round's variance is: -0.030462171542745838
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 9 5 4d 7d 3d 3c Qh 98793 101382 99816 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:RIVER 2 CHECK BET:2:9 9.840746847000007
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.843356
+My hand: {5c,Qs,}
+Board: {4d,7d,3d,3c,Qh,}
+Combined:{5c,Qs,4d,7d,3d,3c,Qh,}
+Stacks: [98793, 101382, 99816] (I have 99816)
+Pot size: 9
+I can check.
+Pip: 0
+I can bet 2 to 9
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.7818181818181819
+This round's variance is: 0.009007612822482868
+Strong hand; betting high
+0 to call
+My action is: BET:7
+
+HANDOVER 98793 101382 99825 5 4d 7d 3d 3c Qh 3 BET:7:QBOT15 FOLD:FB115 WIN:16:QBOT15 9.839766187000007
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER, BET:7:QBOT15, FOLD:FB115, WIN:16:QBOT15]
+
+NEWHAND 45 1 9h 7s 99825 98793 101382 QBOT15 FB115 FB225 3 true true true 9.839766
+
+-------------------------------------------------
+
+Hand number: 45
+
+GETACTION 3 0 99825 98792 101380 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.839766187000007
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.839766
+My hand: {9h,7s,}
+Board: {}
+Combined:{9h,7s,}
+Stacks: [99825, 98792, 101380] (I have 99825)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.32303
+This round's variance is -0.02298767990448391
+2 to call
+My action is: FOLD
+
+HANDOVER 99825 98792 101383 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.839445542000007
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 46 2 Th 3s 101383 99825 98792 FB225 QBOT15 FB115 3 true true true 9.839446
+
+-------------------------------------------------
+
+Hand number: 46
+
+GETACTION 3 0 101383 99824 98790 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.839445542000007
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.839446
+My hand: {Th,3s,}
+Board: {}
+Combined:{Th,3s,}
+Stacks: [101383, 99824, 98790] (I have 99824)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.27556
+This round's variance is -0.06492496842281134
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101383 99827 98790 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.839111147000008
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 47 3 4s As 98790 101383 99827 FB115 FB225 QBOT15 3 true true true 9.839111
+
+-------------------------------------------------
+
+Hand number: 47
+
+GETACTION 5 0 98788 101382 99825 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.839111147000008
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.43471]
+Raises: 0
+Time left: 9.839111
+My hand: {4s,As,}
+Board: {}
+Combined:{4s,As,}
+Stacks: [98788, 101382, 99825] (I have 99825)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.42682
+This round's variance is 0.046998758876700845
+0 to call
+My action is: RAISE:4
+
+GETACTION 9 3 8c Kc 8s 98786 101382 99823 3 true true true 3 RAISE:4:QBOT15 CALL:4:FB115 DEAL:FLOP 2 CHECK BET:2:9 9.838755394000009
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.839111
+My hand: {4s,As,}
+Board: {8c,Kc,8s,}
+Combined:{4s,As,8c,Kc,8s,}
+Stacks: [98786, 101382, 99823] (I have 99823)
+Pot size: 9
+I can check.
+Pip: 0
+I can bet 2 to 9
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.6632747456059205
+This round's variance is: 0.01758076379501299
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 15 3 8c Kc 8s 98780 101382 99823 3 true true true 2 CHECK:QBOT15 BET:6:FB115 3 FOLD CALL:6 RAISE:12:27 9.837563213000008
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, BET:6:FB115]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.8333333333333334]
+Raises: 0
+Time left: 9.839111
+My hand: {4s,As,}
+Board: {8c,Kc,8s,}
+Combined:{4s,As,8c,Kc,8s,}
+Stacks: [98780, 101382, 99823] (I have 99823)
+Pot size: 15
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 6 (an addition of 6)
+I can raise from 12 to 27
+Relative strength: 0.6632747456059205
+This round's variance is: -0.012102902105980983
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+6 to call
+My action is: FOLD
+
+HANDOVER 98795 101382 99823 3 8c Kc 8s 2 FOLD:QBOT15 WIN:15:FB115 9.810702130000008
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, BET:6:FB115, FOLD:QBOT15, WIN:15:FB115]
+
+NEWHAND 48 1 Th 4h 99823 98795 101382 QBOT15 FB115 FB225 3 true true true 9.810702
+
+-------------------------------------------------
+
+Hand number: 48
+
+GETACTION 3 0 99823 98794 101380 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.810702130000008
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.810702
+My hand: {Th,4h,}
+Board: {}
+Combined:{Th,4h,}
+Stacks: [99823, 98794, 101380] (I have 99823)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.31966
+This round's variance is 0.045277841109014484
+2 to call
+My action is: FOLD
+
+HANDOVER 99823 98794 101383 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.810295180000008
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 49 2 9d As 101383 99823 98794 FB225 QBOT15 FB115 3 true true true 9.810295
+
+-------------------------------------------------
+
+Hand number: 49
+
+GETACTION 3 0 101383 99822 98792 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.810295180000008
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.810295
+My hand: {9d,As,}
+Board: {}
+Combined:{9d,As,}
+Stacks: [101383, 99822, 98792] (I have 99822)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.43227
+This round's variance is -0.02168149058040073
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101383 99825 98792 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.809966636000008
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 50 3 7d 4d 98792 101383 99825 FB115 FB225 QBOT15 3 true true true 9.809967
+
+-------------------------------------------------
+
+Hand number: 50
+
+HANDOVER 98792 101382 99826 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.809966636000008
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 51 1 Ah Ks 99826 98792 101382 QBOT15 FB115 FB225 3 true true true 9.809967
+
+-------------------------------------------------
+
+Hand number: 51
+
+GETACTION 3 0 99826 98791 101380 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.809966636000008
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.809967
+My hand: {Ah,Ks,}
+Board: {}
+Combined:{Ah,Ks,}
+Stacks: [99826, 98791, 101380] (I have 99826)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.49371
+This round's variance is -0.013799387511389552
+2 to call
+My action is: RAISE:7
+
+GETACTION 16 3 2h Qc Kd 99819 98785 101380 3 true true true 5 RAISE:7:QBOT15 CALL:7:FB115 FOLD:FB225 DEAL:FLOP CHECK:FB115 2 CHECK BET:2:16 9.809640432000007
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, CALL:7:FB115, FOLD:FB225, DEAL:FLOP, CHECK:FB115]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.809967
+My hand: {Ah,Ks,}
+Board: {2h,Qc,Kd,}
+Combined:{Ah,Ks,2h,Qc,Kd,}
+Stacks: [99819, 98785, 101380] (I have 99819)
+Pot size: 16
+I can check.
+Pip: 0
+I can bet 2 to 16
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.971322849213691
+This round's variance is: -8.062790760168448E-4
+Uber hand; betting max
+0 to call
+My action is: BET:14
+
+HANDOVER 99835 98785 101380 3 2h Qc Kd 3 BET:14:QBOT15 FOLD:FB115 WIN:30:QBOT15 9.808552694000007
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, CALL:7:FB115, FOLD:FB225, DEAL:FLOP, CHECK:FB115, BET:14:QBOT15, FOLD:FB115, WIN:30:QBOT15]
+
+NEWHAND 52 2 7s 5c 101380 99835 98785 FB225 QBOT15 FB115 3 true true true 9.808553
+
+-------------------------------------------------
+
+Hand number: 52
+
+GETACTION 3 0 101380 99834 98783 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.808552694000007
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.808553
+My hand: {7s,5c,}
+Board: {}
+Combined:{7s,5c,}
+Stacks: [101380, 99834, 98783] (I have 99834)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.2859
+This round's variance is 0.020130141487100857
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101380 99837 98783 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.808179388000006
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 53 3 9d 5c 98783 101380 99837 FB115 FB225 QBOT15 3 true true true 9.808179
+
+-------------------------------------------------
+
+Hand number: 53
+
+GETACTION 5 0 98781 101379 99835 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.808179388000006
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.43456]
+Raises: 0
+Time left: 9.808179
+My hand: {9d,5c,}
+Board: {}
+Combined:{9d,5c,}
+Stacks: [98781, 101379, 99835] (I have 99835)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.28614
+This round's variance is 0.003212065006302324
+Failed too many preflop steals to try again.
+0 to call
+My action is: CHECK
+
+GETACTION 5 3 4d Ad Qs 98781 101379 99835 3 true true true 2 CHECK:QBOT15 DEAL:FLOP 2 CHECK BET:2:5 9.807843237000005
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.808179
+My hand: {9d,5c,}
+Board: {4d,Ad,Qs,}
+Combined:{9d,5c,4d,Ad,Qs,}
+Stacks: [98781, 101379, 99835] (I have 99835)
+Pot size: 5
+I can check.
+Pip: 0
+I can bet 2 to 5
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.23404255319148937
+This round's variance is: -0.023295139130402452
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 9 3 4d Ad Qs 98777 101379 99835 3 true true true 2 CHECK:QBOT15 BET:4:FB115 3 FOLD CALL:4 RAISE:8:17 9.806952685000006
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, CHECK:QBOT15, BET:4:FB115]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.8260869565217391]
+Raises: 0
+Time left: 9.808179
+My hand: {9d,5c,}
+Board: {4d,Ad,Qs,}
+Combined:{9d,5c,4d,Ad,Qs,}
+Stacks: [98777, 101379, 99835] (I have 99835)
+Pot size: 9
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 4 (an addition of 4)
+I can raise from 8 to 17
+Relative strength: 0.23404255319148937
+This round's variance is: -0.04035045332264564
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+4 to call
+My action is: FOLD
+
+HANDOVER 98786 101379 99835 3 4d Ad Qs 2 FOLD:QBOT15 WIN:9:FB115 9.779641354000006
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, CHECK:QBOT15, BET:4:FB115, FOLD:QBOT15, WIN:9:FB115]
+
+NEWHAND 54 1 4d Ts 99835 98786 101379 QBOT15 FB115 FB225 3 true true true 9.779641
+
+-------------------------------------------------
+
+Hand number: 54
+
+GETACTION 3 0 99835 98785 101377 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.779641354000006
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.779641
+My hand: {4d,Ts,}
+Board: {}
+Combined:{4d,Ts,}
+Stacks: [99835, 98785, 101377] (I have 99835)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.28373
+This round's variance is -0.05445177919919125
+2 to call
+My action is: FOLD
+
+HANDOVER 99835 98785 101380 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.779264244000005
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 55 2 4c Qh 101380 99835 98785 FB225 QBOT15 FB115 3 true true true 9.779264
+
+-------------------------------------------------
+
+Hand number: 55
+
+GETACTION 3 0 101380 99834 98783 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.779264244000005
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.779264
+My hand: {4c,Qh,}
+Board: {}
+Combined:{4c,Qh,}
+Stacks: [101380, 99834, 98783] (I have 99834)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.32623
+This round's variance is -5.540550248222489E-4
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101380 99837 98783 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.778536648000005
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 56 3 Ks 7c 98783 101380 99837 FB115 FB225 QBOT15 3 true true true 9.778537
+
+-------------------------------------------------
+
+Hand number: 56
+
+HANDOVER 98783 101379 99838 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.778536648000005
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 57 1 3c 7d 99838 98783 101379 QBOT15 FB115 FB225 3 true true true 9.778537
+
+-------------------------------------------------
+
+Hand number: 57
+
+GETACTION 3 0 99838 98782 101377 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.778536648000005
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.778537
+My hand: {3c,7d,}
+Board: {}
+Combined:{3c,7d,}
+Stacks: [99838, 98782, 101377] (I have 99838)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.24471
+This round's variance is 0.10756408902069732
+2 to call
+My action is: FOLD
+
+HANDOVER 99838 98785 101377 0 4 FOLD:QBOT15 RAISE:6:FB115 FOLD:FB225 WIN:8:FB115 9.778187332000005
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, RAISE:6:FB115, FOLD:FB225, WIN:8:FB115]
+
+NEWHAND 58 2 4h 8h 101377 99838 98785 FB225 QBOT15 FB115 3 true true true 9.778187
+
+-------------------------------------------------
+
+Hand number: 58
+
+GETACTION 3 0 101377 99837 98783 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.778187332000005
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.778187
+My hand: {4h,8h,}
+Board: {}
+Combined:{4h,8h,}
+Stacks: [101377, 99837, 98783] (I have 99837)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.30094
+This round's variance is -0.002841848246250411
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+GETACTION 8 3 Qc Ad Kd 101377 99834 98781 3 true true true 3 RAISE:4:QBOT15 CALL:4:FB115 DEAL:FLOP 2 CHECK BET:2:8 9.777851181000004
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.778187
+My hand: {4h,8h,}
+Board: {Qc,Ad,Kd,}
+Combined:{4h,8h,Qc,Ad,Kd,}
+Stacks: [101377, 99834, 98781] (I have 99834)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.23404255319148937
+This round's variance is: 0.07742356468511354
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 14 3 Qc Ad Kd 101377 99834 98775 3 true true true 2 CHECK:QBOT15 BET:6:FB115 3 FOLD CALL:6 RAISE:12:26 9.776944538000004
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, BET:6:FB115]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.8125]
+Raises: 0
+Time left: 9.778187
+My hand: {4h,8h,}
+Board: {Qc,Ad,Kd,}
+Combined:{4h,8h,Qc,Ad,Kd,}
+Stacks: [101377, 99834, 98775] (I have 99834)
+Pot size: 14
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 6 (an addition of 6)
+I can raise from 12 to 26
+Relative strength: 0.23404255319148937
+This round's variance is: -0.09739072305512618
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+6 to call
+My action is: FOLD
+
+HANDOVER 101377 99834 98789 3 Qc Ad Kd 2 FOLD:QBOT15 WIN:14:FB115 9.750412293000004
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, BET:6:FB115, FOLD:QBOT15, WIN:14:FB115]
+
+NEWHAND 59 3 5d 2s 98789 101377 99834 FB115 FB225 QBOT15 3 true true true 9.750412
+
+-------------------------------------------------
+
+Hand number: 59
+
+HANDOVER 98789 101376 99835 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.750412293000004
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 60 1 5s 5h 99835 98789 101376 QBOT15 FB115 FB225 3 true true true 9.750412
+
+-------------------------------------------------
+
+Hand number: 60
+
+GETACTION 3 0 99835 98788 101374 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.750412293000004
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.750412
+My hand: {5s,5h,}
+Board: {}
+Combined:{5s,5h,}
+Stacks: [99835, 98788, 101374] (I have 99835)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.40592
+This round's variance is -0.011903150260549472
+2 to call
+My action is: RAISE:7
+
+GETACTION 15 3 Qh Kh 3h 99828 98788 101369 3 true true true 5 RAISE:7:QBOT15 FOLD:FB115 CALL:7:FB225 DEAL:FLOP CHECK:FB225 2 CHECK BET:2:15 9.750015290000004
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225]
+Active players: [QBOT1, FB22]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.750412
+My hand: {5s,5h,}
+Board: {Qh,Kh,3h,}
+Combined:{5s,5h,Qh,Kh,3h,}
+Stacks: [99828, 98788, 101369] (I have 99828)
+Pot size: 15
+I can check.
+Pip: 0
+I can bet 2 to 15
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.6836262719703978
+This round's variance is: 0.005961120680290042
+Decent hand with position; attempting steal
+0 to call
+My action is: BET:10
+
+GETACTION 35 4 Qh Kh 3h Qd 99818 98788 101359 3 true true true 4 BET:10:QBOT15 CALL:10:FB225 DEAL:TURN CHECK:FB225 2 CHECK BET:2:35 9.748925212000003
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225, BET:10:QBOT15, CALL:10:FB225, DEAL:TURN, CHECK:FB225]
+Active players: [QBOT1, FB22]
+Players: 2
+Estimated strengths: [0.75]
+Raises: 0
+Time left: 9.750412
+My hand: {5s,5h,}
+Board: {Qh,Kh,3h,Qd,}
+Combined:{5s,5h,Qh,Kh,3h,Qd,}
+Stacks: [99818, 98788, 101359] (I have 99818)
+Pot size: 35
+I can check.
+Pip: 0
+I can bet 2 to 35
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.7140096618357488
+This round's variance is: -0.01228351596355583
+Failed a steal during this hand
+Opponents probably beat me; checking
+0 to call
+My action is: CHECK
+
+GETACTION 35 5 Qh Kh 3h Qd 2d 99818 98788 101359 3 true true true 3 CHECK:QBOT15 DEAL:RIVER CHECK:FB225 2 CHECK BET:2:35 9.747965616000004
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225, BET:10:QBOT15, CALL:10:FB225, DEAL:TURN, CHECK:FB225, CHECK:QBOT15, DEAL:RIVER, CHECK:FB225]
+Active players: [QBOT1, FB22]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.750412
+My hand: {5s,5h,}
+Board: {Qh,Kh,3h,Qd,2d,}
+Combined:{5s,5h,Qh,Kh,3h,Qd,2d,}
+Stacks: [99818, 98788, 101359] (I have 99818)
+Pot size: 35
+I can check.
+Pip: 0
+I can bet 2 to 35
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.703030303030303
+This round's variance is: -0.002888034022440532
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+HANDOVER 99853 98788 101359 5 Qh Kh 3h Qd 2d 4 CHECK:QBOT15 SHOW:5s:5h:QBOT15 SHOW:3d:Ad:FB225 WIN:35:QBOT15 9.747017137000004
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225, BET:10:QBOT15, CALL:10:FB225, DEAL:TURN, CHECK:FB225, CHECK:QBOT15, DEAL:RIVER, CHECK:FB225, CHECK:QBOT15, SHOW:5s:5h:QBOT15, SHOW:3d:Ad:FB225, WIN:35:QBOT15]
+
+NEWHAND 61 2 Ah 3c 101359 99853 98788 FB225 QBOT15 FB115 3 true true true 9.747017
+
+-------------------------------------------------
+
+Hand number: 61
+
+GETACTION 10 0 101352 99852 98786 3 true true true 3 POST:1:QBOT15 POST:2:FB115 RAISE:7:FB225 3 FOLD CALL:7 RAISE:12:23 9.747017137000004
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.46296, 0.35]
+Raises: 1
+Time left: 9.747017
+My hand: {Ah,3c,}
+Board: {}
+Combined:{Ah,3c,}
+Stacks: [101352, 99852, 98786] (I have 99852)
+Pot size: 10
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 7 (an addition of 6)
+I can raise from 12 to 23
+My starting hand strength is 0.38378
+This round's variance is -0.024842750472988485
+Not bluffing preflop against a raise
+Not bluffing preflop against a raise
+7 to call
+My action is: FOLD
+
+HANDOVER 101362 99852 98786 0 3 FOLD:QBOT15 FOLD:FB115 WIN:10:FB225 9.746655533000004
+All hand actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, FOLD:QBOT15, FOLD:FB115, WIN:10:FB225]
+
+NEWHAND 62 3 9d Ad 98786 101362 99852 FB115 FB225 QBOT15 3 true true true 9.746656
+
+-------------------------------------------------
+
+Hand number: 62
+
+HANDOVER 98786 101361 99853 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.746655533000004
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 63 1 3d 7d 99853 98786 101361 QBOT15 FB115 FB225 3 true true true 9.746656
+
+-------------------------------------------------
+
+Hand number: 63
+
+GETACTION 3 0 99853 98785 101359 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.746655533000004
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.746656
+My hand: {3d,7d,}
+Board: {}
+Combined:{3d,7d,}
+Stacks: [99853, 98785, 101359] (I have 99853)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.28474
+This round's variance is 0.034313319393965175
+2 to call
+My action is: FOLD
+
+HANDOVER 99853 98785 101362 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.746302998000004
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 64 2 2h 8s 101362 99853 98785 FB225 QBOT15 FB115 3 true true true 9.746303
+
+-------------------------------------------------
+
+Hand number: 64
+
+GETACTION 3 0 101362 99852 98783 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.746302998000004
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.746303
+My hand: {2h,8s,}
+Board: {}
+Combined:{2h,8s,}
+Stacks: [101362, 99852, 98783] (I have 99852)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.23989
+This round's variance is -0.011786589434866344
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101362 99855 98783 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.745933788000004
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 65 3 7h Qd 98783 101362 99855 FB115 FB225 QBOT15 3 true true true 9.745934
+
+-------------------------------------------------
+
+Hand number: 65
+
+GETACTION 8 0 98783 101356 99853 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 RAISE:6:FB225 3 FOLD CALL:6 RAISE:10:18 9.745933788000004
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.4629]
+Raises: 1
+Time left: 9.745934
+My hand: {7h,Qd,}
+Board: {}
+Combined:{7h,Qd,}
+Stacks: [98783, 101356, 99853] (I have 99853)
+Pot size: 8
+I cannot check.
+Pip: 2
+I can bet 0 to 0
+I can call with 6 (an addition of 4)
+I can raise from 10 to 18
+My starting hand strength is 0.35124
+This round's variance is -0.02222075045332684
+Not bluffing preflop against a raise
+6 to call
+My action is: FOLD
+
+HANDOVER 98783 101364 99853 0 2 FOLD:QBOT15 WIN:8:FB225 9.745486172000003
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225, FOLD:QBOT15, WIN:8:FB225]
+
+NEWHAND 66 1 7c 7s 99853 98783 101364 QBOT15 FB115 FB225 3 true true true 9.745486
+
+-------------------------------------------------
+
+Hand number: 66
+
+GETACTION 3 0 99853 98782 101362 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.745486172000003
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.745486
+My hand: {7c,7s,}
+Board: {}
+Combined:{7c,7s,}
+Stacks: [99853, 98782, 101362] (I have 99853)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.46835
+This round's variance is 0.019234603155303374
+2 to call
+My action is: RAISE:7
+
+GETACTION 15 3 Qd 9c Kc 99846 98782 101357 3 true true true 5 RAISE:7:QBOT15 FOLD:FB115 CALL:7:FB225 DEAL:FLOP CHECK:FB225 2 CHECK BET:2:15 9.741583717000003
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225]
+Active players: [QBOT1, FB22]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.745486
+My hand: {7c,7s,}
+Board: {Qd,9c,Kc,}
+Combined:{7c,7s,Qd,9c,Kc,}
+Stacks: [99846, 98782, 101357] (I have 99846)
+Pot size: 15
+I can check.
+Pip: 0
+I can bet 2 to 15
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.6133209990749307
+This round's variance is: 0.027349483128805623
+Decent hand with position; attempting steal
+0 to call
+My action is: BET:10
+
+HANDOVER 99861 98782 101357 3 Qd 9c Kc 3 BET:10:QBOT15 FOLD:FB225 WIN:25:QBOT15 9.740674734000002
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225, BET:10:QBOT15, FOLD:FB225, WIN:25:QBOT15]
+
+NEWHAND 67 2 Ks Ac 101357 99861 98782 FB225 QBOT15 FB115 3 true true true 9.740675
+
+-------------------------------------------------
+
+Hand number: 67
+
+GETACTION 3 0 101357 99860 98780 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.740674734000002
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.740675
+My hand: {Ks,Ac,}
+Board: {}
+Combined:{Ks,Ac,}
+Stacks: [101357, 99860, 98780] (I have 99860)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.49371
+This round's variance is 0.025708567123254682
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101357 99863 98780 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.740331854000003
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 68 3 Tc Ac 98780 101357 99863 FB115 FB225 QBOT15 3 true true true 9.740332
+
+-------------------------------------------------
+
+Hand number: 68
+
+HANDOVER 98780 101356 99864 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.740331854000003
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 69 1 Qc 6s 99864 98780 101356 QBOT15 FB115 FB225 3 true true true 9.740332
+
+-------------------------------------------------
+
+Hand number: 69
+
+GETACTION 3 0 99864 98779 101354 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.740331854000003
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.740332
+My hand: {Qc,6s,}
+Board: {}
+Combined:{Qc,6s,}
+Stacks: [99864, 98779, 101354] (I have 99864)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.34455
+This round's variance is 0.03347017441968281
+2 to call
+My action is: FOLD
+
+HANDOVER 99864 98779 101357 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.739995996000003
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 70 2 Jh 8h 101357 99864 98779 FB225 QBOT15 FB115 3 true true true 9.739996
+
+-------------------------------------------------
+
+Hand number: 70
+
+GETACTION 3 0 101357 99863 98777 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.739995996000003
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.739996
+My hand: {Jh,8h,}
+Board: {}
+Combined:{Jh,8h,}
+Stacks: [101357, 99863, 98777] (I have 99863)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.39146
+This round's variance is -0.027575376394009178
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101357 99866 98777 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.739662770000002
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 71 3 5d 7s 98777 101357 99866 FB115 FB225 QBOT15 3 true true true 9.739663
+
+-------------------------------------------------
+
+Hand number: 71
+
+GETACTION 8 0 98777 101351 99864 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 RAISE:6:FB225 3 FOLD CALL:6 RAISE:10:18 9.739662770000002
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.45721]
+Raises: 1
+Time left: 9.739663
+My hand: {5d,7s,}
+Board: {}
+Combined:{5d,7s,}
+Stacks: [98777, 101351, 99864] (I have 99864)
+Pot size: 8
+I cannot check.
+Pip: 2
+I can bet 0 to 0
+I can call with 6 (an addition of 4)
+I can raise from 10 to 18
+My starting hand strength is 0.2859
+This round's variance is -0.020625709279303163
+Not bluffing preflop against a raise
+6 to call
+My action is: FOLD
+
+HANDOVER 98777 101359 99864 0 2 FOLD:QBOT15 WIN:8:FB225 9.739255234000002
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, RAISE:6:FB225, FOLD:QBOT15, WIN:8:FB225]
+
+NEWHAND 72 1 4h 3s 99864 98777 101359 QBOT15 FB115 FB225 3 true true true 9.739255
+
+-------------------------------------------------
+
+Hand number: 72
+
+GETACTION 3 0 99864 98776 101357 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.739255234000002
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.739255
+My hand: {4h,3s,}
+Board: {}
+Combined:{4h,3s,}
+Stacks: [99864, 98776, 101357] (I have 99864)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.24438
+This round's variance is 0.019988904096861573
+2 to call
+My action is: FOLD
+
+HANDOVER 99864 98776 101360 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.738680062000002
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 73 2 4s 3c 101360 99864 98776 FB225 QBOT15 FB115 3 true true true 9.738680
+
+-------------------------------------------------
+
+Hand number: 73
+
+GETACTION 3 0 101360 99863 98774 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.738680062000002
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.73868
+My hand: {4s,3c,}
+Board: {}
+Combined:{4s,3c,}
+Stacks: [101360, 99863, 98774] (I have 99863)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.24438
+This round's variance is -0.02263078107333743
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+GETACTION 8 3 Qs Ks As 101360 99860 98772 3 true true true 3 RAISE:4:QBOT15 CALL:4:FB115 DEAL:FLOP 2 CHECK BET:2:8 9.738311729000001
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.73868
+My hand: {4s,3c,}
+Board: {Qs,Ks,As,}
+Combined:{4s,3c,Qs,Ks,As,}
+Stacks: [101360, 99860, 98772] (I have 99860)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.02960222016651249
+This round's variance is: -0.05762583823295825
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 14 3 Qs Ks As 101360 99860 98766 3 true true true 2 CHECK:QBOT15 BET:6:FB115 3 FOLD CALL:6 RAISE:12:26 9.7373495
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, BET:6:FB115]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.8]
+Raises: 0
+Time left: 9.73868
+My hand: {4s,3c,}
+Board: {Qs,Ks,As,}
+Combined:{4s,3c,Qs,Ks,As,}
+Stacks: [101360, 99860, 98766] (I have 99860)
+Pot size: 14
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 6 (an addition of 6)
+I can raise from 12 to 26
+Relative strength: 0.02960222016651249
+This round's variance is: 0.059207880261436106
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+6 to call
+My action is: FOLD
+
+HANDOVER 101360 99860 98780 3 Qs Ks As 2 FOLD:QBOT15 WIN:14:FB115 9.708501936000001
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, BET:6:FB115, FOLD:QBOT15, WIN:14:FB115]
+
+NEWHAND 74 3 Ts 7s 98780 101360 99860 FB115 FB225 QBOT15 3 true true true 9.708502
+
+-------------------------------------------------
+
+Hand number: 74
+
+GETACTION 4 0 98780 101358 99858 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 CALL:2:FB225 2 CHECK RAISE:4:6 9.708501936000001
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.40861]
+Raises: 0
+Time left: 9.708502
+My hand: {Ts,7s,}
+Board: {}
+Combined:{Ts,7s,}
+Stacks: [98780, 101358, 99858] (I have 99858)
+Pot size: 4
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 6
+My starting hand strength is 0.3671
+This round's variance is 0.006202112017206695
+Attempting preflop steal
+0 to call
+My action is: RAISE:4
+
+GETACTION 8 3 5c 9c Ks 98780 101356 99856 3 true true true 4 RAISE:4:QBOT15 CALL:4:FB225 DEAL:FLOP CHECK:FB225 2 CHECK BET:2:8 9.708116342
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225, RAISE:4:QBOT15, CALL:4:FB225, DEAL:FLOP, CHECK:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.708502
+My hand: {Ts,7s,}
+Board: {5c,9c,Ks,}
+Combined:{Ts,7s,5c,9c,Ks,}
+Stacks: [98780, 101356, 99856] (I have 99856)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.25624421831637373
+This round's variance is: 0.009486017533227352
+Failed a preflop steal during this hand
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 8 4 5c 9c Ks 3c 98780 101356 99856 3 true true true 3 CHECK:QBOT15 DEAL:TURN CHECK:FB225 2 CHECK BET:2:8 9.707044111
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225, RAISE:4:QBOT15, CALL:4:FB225, DEAL:FLOP, CHECK:FB225, CHECK:QBOT15, DEAL:TURN, CHECK:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.708502
+My hand: {Ts,7s,}
+Board: {5c,9c,Ks,3c,}
+Combined:{Ts,7s,5c,9c,Ks,3c,}
+Stacks: [98780, 101356, 99856] (I have 99856)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.16908212560386474
+This round's variance is: 0.04626810854584865
+Attempting bluff
+0 to call
+My action is: BET:6
+
+HANDOVER 98780 101356 99864 4 5c 9c Ks 3c 3 BET:6:QBOT15 FOLD:FB225 WIN:14:QBOT15 9.705959592
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225, RAISE:4:QBOT15, CALL:4:FB225, DEAL:FLOP, CHECK:FB225, CHECK:QBOT15, DEAL:TURN, CHECK:FB225, BET:6:QBOT15, FOLD:FB225, WIN:14:QBOT15]
+
+NEWHAND 75 1 8d Kc 99864 98780 101356 QBOT15 FB115 FB225 3 true true true 9.705960
+
+-------------------------------------------------
+
+Hand number: 75
+
+GETACTION 3 0 99864 98779 101354 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.705959592
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.70596
+My hand: {8d,Kc,}
+Board: {}
+Combined:{8d,Kc,}
+Stacks: [99864, 98779, 101354] (I have 99864)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.38843
+This round's variance is 0.013643989552952668
+2 to call
+My action is: RAISE:7
+
+HANDOVER 99867 98779 101354 0 4 RAISE:7:QBOT15 FOLD:FB115 FOLD:FB225 WIN:10:QBOT15 9.705562880999999
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, FOLD:FB225, WIN:10:QBOT15]
+
+NEWHAND 76 2 4c 3h 101354 99867 98779 FB225 QBOT15 FB115 3 true true true 9.705563
+
+-------------------------------------------------
+
+Hand number: 76
+
+GETACTION 3 0 101354 99866 98777 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.705562880999999
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.705563
+My hand: {4c,3h,}
+Board: {}
+Combined:{4c,3h,}
+Stacks: [101354, 99866, 98777] (I have 99866)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.24438
+This round's variance is -0.009500306797999732
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101354 99869 98777 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.705196304
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 77 3 2c Tc 98777 101354 99869 FB115 FB225 QBOT15 3 true true true 9.705196
+
+-------------------------------------------------
+
+Hand number: 77
+
+GETACTION 4 0 98777 101352 99867 3 true true true 4 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 CALL:2:FB225 2 CHECK RAISE:4:6 9.705196304
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.40847]
+Raises: 0
+Time left: 9.705196
+My hand: {2c,Tc,}
+Board: {}
+Combined:{2c,Tc,}
+Stacks: [98777, 101352, 99867] (I have 99867)
+Pot size: 4
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 6
+My starting hand strength is 0.30536
+This round's variance is 0.0587196732095893
+Failed too many preflop steals to try again.
+0 to call
+My action is: CHECK
+
+GETACTION 7 3 6c 3s Qs 98777 101349 99867 3 true true true 3 CHECK:QBOT15 DEAL:FLOP BET:3:FB225 3 FOLD CALL:3 RAISE:6:13 9.704814221
+Actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225, CHECK:QBOT15, DEAL:FLOP, BET:3:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.672514619883041]
+Raises: 0
+Time left: 9.705196
+My hand: {2c,Tc,}
+Board: {6c,3s,Qs,}
+Combined:{2c,Tc,6c,3s,Qs,}
+Stacks: [98777, 101349, 99867] (I have 99867)
+Pot size: 7
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 3 (an addition of 3)
+I can raise from 6 to 13
+Relative strength: 0.211840888066605
+This round's variance is: 0.014850302846976355
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+3 to call
+My action is: FOLD
+
+HANDOVER 98777 101356 99867 3 6c 3s Qs 2 FOLD:QBOT15 WIN:7:FB225 9.676192806
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, CALL:2:FB225, CHECK:QBOT15, DEAL:FLOP, BET:3:FB225, FOLD:QBOT15, WIN:7:FB225]
+
+NEWHAND 78 1 Kc 8h 99867 98777 101356 QBOT15 FB115 FB225 3 true true true 9.676193
+
+-------------------------------------------------
+
+Hand number: 78
+
+GETACTION 3 0 99867 98776 101354 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.676192806
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.676193
+My hand: {Kc,8h,}
+Board: {}
+Combined:{Kc,8h,}
+Stacks: [99867, 98776, 101354] (I have 99867)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.38843
+This round's variance is 0.00988845657434988
+2 to call
+My action is: RAISE:7
+
+GETACTION 40 3 Qc Tc 3h 99860 98751 101349 3 true true true 6 RAISE:7:QBOT15 CALL:7:FB115 CALL:7:FB225 DEAL:FLOP BET:19:FB115 FOLD:FB225 3 FOLD CALL:19 RAISE:38:78 9.675784978
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, CALL:7:FB115, CALL:7:FB225, DEAL:FLOP, BET:19:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.9788461538461538]
+Raises: 0
+Time left: 9.676193
+My hand: {Kc,8h,}
+Board: {Qc,Tc,3h,}
+Combined:{Kc,8h,Qc,Tc,3h,}
+Stacks: [99860, 98751, 101349] (I have 99860)
+Pot size: 40
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 19 (an addition of 19)
+I can raise from 38 to 78
+Relative strength: 0.45235892691951896
+This round's variance is: -0.009393144293538389
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+19 to call
+My action is: FOLD
+
+HANDOVER 99860 98791 101349 3 Qc Tc 3h 2 FOLD:QBOT15 WIN:40:FB115 9.648117601
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, CALL:7:FB115, CALL:7:FB225, DEAL:FLOP, BET:19:FB115, FOLD:FB225, FOLD:QBOT15, WIN:40:FB115]
+
+NEWHAND 79 2 8h 8d 101349 99860 98791 FB225 QBOT15 FB115 3 true true true 9.648118
+
+-------------------------------------------------
+
+Hand number: 79
+
+GETACTION 10 0 101342 99859 98789 3 true true true 3 POST:1:QBOT15 POST:2:FB115 RAISE:7:FB225 3 FOLD CALL:7 RAISE:12:23 9.648117601
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.45721, 0.35]
+Raises: 1
+Time left: 9.648118
+My hand: {8h,8d,}
+Board: {}
+Combined:{8h,8d,}
+Stacks: [101342, 99859, 98789] (I have 99859)
+Pot size: 10
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 7 (an addition of 6)
+I can raise from 12 to 23
+My starting hand strength is 0.50239
+This round's variance is 0.01418556923032411
+7 to call
+My action is: RAISE:23
+
+GETACTION 96 0 101278 99837 98789 3 true true true 3 RAISE:23:QBOT15 FOLD:FB115 RAISE:71:FB225 3 FOLD CALL:71 RAISE:119:215 9.647769162
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, RAISE:71:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.45721]
+Raises: 3
+Time left: 9.648118
+My hand: {8h,8d,}
+Board: {}
+Combined:{8h,8d,}
+Stacks: [101278, 99837, 98789] (I have 99837)
+Pot size: 96
+I cannot check.
+Pip: 23
+I can bet 0 to 0
+I can call with 71 (an addition of 48)
+I can raise from 119 to 215
+My starting hand strength is 0.50239
+This round's variance is 0.0049312517663193025
+71 to call
+My action is: CALL:71
+
+GETACTION 144 3 4h 3s Kh 101278 99789 98789 3 true true true 2 CALL:71:QBOT15 DEAL:FLOP 2 CHECK BET:2:144 9.647322423
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, RAISE:71:FB225, CALL:71:QBOT15, DEAL:FLOP]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.648118
+My hand: {8h,8d,}
+Board: {4h,3s,Kh,}
+Combined:{8h,8d,4h,3s,Kh,}
+Stacks: [101278, 99789, 98789] (I have 99789)
+Pot size: 144
+I can check.
+Pip: 0
+I can bet 2 to 144
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.8334875115633672
+This round's variance is: -0.0013805049849914318
+Strong hand; betting high
+0 to call
+My action is: BET:119
+
+GETACTION 744 3 4h 3s Kh 100797 99670 98789 3 true true true 2 BET:119:QBOT15 RAISE:481:FB225 3 FOLD CALL:481 RAISE:843:1587 9.64609572
+Actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, RAISE:71:FB225, CALL:71:QBOT15, DEAL:FLOP, BET:119:QBOT15, RAISE:481:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.9642857142857143]
+Raises: 1
+Time left: 9.648118
+My hand: {8h,8d,}
+Board: {4h,3s,Kh,}
+Combined:{8h,8d,4h,3s,Kh,}
+Stacks: [100797, 99670, 98789] (I have 99670)
+Pot size: 744
+I cannot check.
+Pip: 119
+I can bet 0 to 0
+I can call with 481 (an addition of 362)
+I can raise from 843 to 1587
+Relative strength: 0.8334875115633672
+This round's variance is: -0.008109972628301902
+Opponents probably beat me; folding
+My chances for outs are: 0.0425531914893617
+481 to call
+My action is: FOLD
+
+HANDOVER 101541 99670 98789 3 4h 3s Kh 2 FOLD:QBOT15 WIN:744:FB225 9.617303743
+All hand actions: [POST:1:QBOT15, POST:2:FB115, RAISE:7:FB225, RAISE:23:QBOT15, FOLD:FB115, RAISE:71:FB225, CALL:71:QBOT15, DEAL:FLOP, BET:119:QBOT15, RAISE:481:FB225, FOLD:QBOT15, WIN:744:FB225]
+
+NEWHAND 80 3 4c 6h 98789 101541 99670 FB115 FB225 QBOT15 3 true true true 9.617304
+
+-------------------------------------------------
+
+Hand number: 80
+
+HANDOVER 98789 101540 99671 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.617303743
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 81 1 4s 3h 99671 98789 101540 QBOT15 FB115 FB225 3 true true true 9.617304
+
+-------------------------------------------------
+
+Hand number: 81
+
+GETACTION 3 0 99671 98788 101538 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.617303743
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.617304
+My hand: {4s,3h,}
+Board: {}
+Combined:{4s,3h,}
+Stacks: [99671, 98788, 101538] (I have 99671)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.24438
+This round's variance is 0.01886246818512538
+2 to call
+My action is: FOLD
+
+HANDOVER 99671 98787 101542 5 5h 8h Ks Th 4c 15 FOLD:QBOT15 CALL:2:FB115 CHECK:FB225 DEAL:FLOP CHECK:FB115 CHECK:FB225 DEAL:TURN CHECK:FB115 CHECK:FB225 DEAL:RIVER CHECK:FB115 CHECK:FB225 SHOW:As:2s:FB115 SHOW:Td:3d:FB225 WIN:4:FB225 9.616878069
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, CALL:2:FB115, CHECK:FB225, DEAL:FLOP, CHECK:FB115, CHECK:FB225, DEAL:TURN, CHECK:FB115, CHECK:FB225, DEAL:RIVER, CHECK:FB115, CHECK:FB225, SHOW:As:2s:FB115, SHOW:Td:3d:FB225, WIN:4:FB225]
+
+NEWHAND 82 2 Ts Qd 101542 99671 98787 FB225 QBOT15 FB115 3 true true true 9.616878
+
+-------------------------------------------------
+
+Hand number: 82
+
+GETACTION 5 0 101540 99670 98785 3 true true true 3 POST:1:QBOT15 POST:2:FB115 CALL:2:FB225 3 FOLD CALL:2 RAISE:4:8 9.616878069
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.40665, 0.35]
+Raises: 0
+Time left: 9.616878
+My hand: {Ts,Qd,}
+Board: {}
+Combined:{Ts,Qd,}
+Stacks: [101540, 99670, 98785] (I have 99670)
+Pot size: 5
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 8
+My starting hand strength is 0.41772
+This round's variance is 0.027861656960443487
+2 to call
+My action is: RAISE:8
+
+GETACTION 36 0 101516 99663 98785 3 true true true 3 RAISE:8:QBOT15 FOLD:FB115 RAISE:26:FB225 3 FOLD CALL:26 RAISE:44:80 9.61652729
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, RAISE:8:QBOT15, FOLD:FB115, RAISE:26:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.45536]
+Raises: 2
+Time left: 9.616878
+My hand: {Ts,Qd,}
+Board: {}
+Combined:{Ts,Qd,}
+Stacks: [101516, 99663, 98785] (I have 99663)
+Pot size: 36
+I cannot check.
+Pip: 8
+I can bet 0 to 0
+I can call with 26 (an addition of 18)
+I can raise from 44 to 80
+My starting hand strength is 0.41772
+This round's variance is -0.02865033830453647
+Not bluffing preflop against a raise
+26 to call
+My action is: FOLD
+
+HANDOVER 101552 99663 98785 0 2 FOLD:QBOT15 WIN:36:FB225 9.616129409000001
+All hand actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, RAISE:8:QBOT15, FOLD:FB115, RAISE:26:FB225, FOLD:QBOT15, WIN:36:FB225]
+
+NEWHAND 83 3 2d 4d 98785 101552 99663 FB115 FB225 QBOT15 3 true true true 9.616129
+
+-------------------------------------------------
+
+Hand number: 83
+
+HANDOVER 98785 101551 99664 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.616129409000001
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 84 1 4h 8h 99664 98785 101551 QBOT15 FB115 FB225 3 true true true 9.616129
+
+-------------------------------------------------
+
+Hand number: 84
+
+GETACTION 3 0 99664 98784 101549 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.616129409000001
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.616129
+My hand: {4h,8h,}
+Board: {}
+Combined:{4h,8h,}
+Stacks: [99664, 98784, 101549] (I have 99664)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.30094
+This round's variance is 0.032245713434103394
+2 to call
+My action is: FOLD
+
+HANDOVER 99664 98784 101552 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.615780092000001
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 85 2 9d 5s 101552 99664 98784 FB225 QBOT15 FB115 3 true true true 9.615780
+
+-------------------------------------------------
+
+Hand number: 85
+
+GETACTION 3 0 101552 99663 98782 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.615780092000001
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.61578
+My hand: {9d,5s,}
+Board: {}
+Combined:{9d,5s,}
+Stacks: [101552, 99663, 98782] (I have 99663)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.28614
+This round's variance is -0.07410630865248051
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+GETACTION 8 3 Tc 4h 4c 101552 99660 98780 3 true true true 3 RAISE:4:QBOT15 CALL:4:FB115 DEAL:FLOP 2 CHECK BET:2:8 9.615382503000001
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.61578
+My hand: {9d,5s,}
+Board: {Tc,4h,4c,}
+Combined:{9d,5s,Tc,4h,4c,}
+Stacks: [101552, 99660, 98780] (I have 99660)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.23404255319148937
+This round's variance is: 0.0078074346649740405
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 8 4 Tc 4h 4c Th 101552 99660 98780 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:TURN 2 CHECK BET:2:8 9.614394237
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.61578
+My hand: {9d,5s,}
+Board: {Tc,4h,4c,Th,}
+Combined:{9d,5s,Tc,4h,4c,Th,}
+Stacks: [101552, 99660, 98780] (I have 99660)
+Pot size: 8
+I can check.
+Pip: 0
+I can bet 2 to 8
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.29082125603864734
+This round's variance is: -0.005869527466222576
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 14 4 Tc 4h 4c Th 101552 99660 98774 3 true true true 2 CHECK:QBOT15 BET:6:FB115 3 FOLD CALL:6 RAISE:12:26 9.613458045000002
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, BET:6:FB115]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.7529411764705882]
+Raises: 0
+Time left: 9.61578
+My hand: {9d,5s,}
+Board: {Tc,4h,4c,Th,}
+Combined:{9d,5s,Tc,4h,4c,Th,}
+Stacks: [101552, 99660, 98774] (I have 99660)
+Pot size: 14
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 6 (an addition of 6)
+I can raise from 12 to 26
+Relative strength: 0.29082125603864734
+This round's variance is: 0.03645548003629482
+Opponents probably beat me; folding
+My chances for outs are: 0.043478260869565216
+6 to call
+My action is: FOLD
+
+HANDOVER 101552 99660 98788 4 Tc 4h 4c Th 2 FOLD:QBOT15 WIN:14:FB115 9.588481633000002
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, CALL:4:FB115, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, BET:6:FB115, FOLD:QBOT15, WIN:14:FB115]
+
+NEWHAND 86 3 7h Th 98788 101552 99660 FB115 FB225 QBOT15 3 true true true 9.588482
+
+-------------------------------------------------
+
+Hand number: 86
+
+HANDOVER 98788 101551 99661 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.588481633000002
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 87 1 8c Ad 99661 98788 101551 QBOT15 FB115 FB225 3 true true true 9.588482
+
+-------------------------------------------------
+
+Hand number: 87
+
+GETACTION 3 0 99661 98787 101549 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.588481633000002
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.588482
+My hand: {8c,Ad,}
+Board: {}
+Combined:{8c,Ad,}
+Stacks: [99661, 98787, 101549] (I have 99661)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.42166
+This round's variance is -0.01804866689542564
+2 to call
+My action is: RAISE:7
+
+GETACTION 15 3 6d 9h 5s 99654 98787 101544 3 true true true 5 RAISE:7:QBOT15 FOLD:FB115 CALL:7:FB225 DEAL:FLOP CHECK:FB225 2 CHECK BET:2:15 9.585756146000003
+Actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225]
+Active players: [QBOT1, FB22]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.588482
+My hand: {8c,Ad,}
+Board: {6d,9h,5s,}
+Combined:{8c,Ad,6d,9h,5s,}
+Stacks: [99654, 98787, 101544] (I have 99654)
+Pot size: 15
+I can check.
+Pip: 0
+I can bet 2 to 15
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.5448658649398704
+This round's variance is: -0.028500531634395775
+Decent hand with position; attempting steal
+0 to call
+My action is: BET:10
+
+HANDOVER 99669 98787 101544 3 6d 9h 5s 3 BET:10:QBOT15 FOLD:FB225 WIN:25:QBOT15 9.584932590000003
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, CALL:7:FB225, DEAL:FLOP, CHECK:FB225, BET:10:QBOT15, FOLD:FB225, WIN:25:QBOT15]
+
+NEWHAND 88 2 3c 9h 101544 99669 98787 FB225 QBOT15 FB115 3 true true true 9.584933
+
+-------------------------------------------------
+
+Hand number: 88
+
+GETACTION 3 0 101544 99668 98785 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.584932590000003
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.584933
+My hand: {3c,9h,}
+Board: {}
+Combined:{3c,9h,}
+Stacks: [101544, 99668, 98785] (I have 99668)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.2596
+This round's variance is -0.0647900303662201
+Attempting preflop bluff
+2 to call
+My action is: RAISE:4
+
+HANDOVER 101544 99671 98785 0 3 RAISE:4:QBOT15 FOLD:FB115 WIN:6:QBOT15 9.584122200000003
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:4:QBOT15, FOLD:FB115, WIN:6:QBOT15]
+
+NEWHAND 89 3 9s 7c 98785 101544 99671 FB115 FB225 QBOT15 3 true true true 9.584122
+
+-------------------------------------------------
+
+Hand number: 89
+
+HANDOVER 98785 101543 99672 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.584122200000003
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 90 1 Kc Qh 99672 98785 101543 QBOT15 FB115 FB225 3 true true true 9.584122
+
+-------------------------------------------------
+
+Hand number: 90
+
+GETACTION 3 0 99672 98784 101541 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.584122200000003
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.584122
+My hand: {Kc,Qh,}
+Board: {}
+Combined:{Kc,Qh,}
+Stacks: [99672, 98784, 101541] (I have 99672)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.45573
+This round's variance is 0.0027956279877187438
+2 to call
+My action is: RAISE:7
+
+HANDOVER 99675 98784 101541 0 4 RAISE:7:QBOT15 FOLD:FB115 FOLD:FB225 WIN:10:QBOT15 9.583699158000003
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, FOLD:FB225, WIN:10:QBOT15]
+
+NEWHAND 91 2 Jd Qc 101541 99675 98784 FB225 QBOT15 FB115 3 true true true 9.583699
+
+-------------------------------------------------
+
+Hand number: 91
+
+GETACTION 5 0 101539 99674 98782 3 true true true 3 POST:1:QBOT15 POST:2:FB115 CALL:2:FB225 3 FOLD CALL:2 RAISE:4:8 9.583699158000003
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.40847, 0.35]
+Raises: 0
+Time left: 9.583699
+My hand: {Jd,Qc,}
+Board: {}
+Combined:{Jd,Qc,}
+Stacks: [101539, 99674, 98782] (I have 99674)
+Pot size: 5
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 8
+My starting hand strength is 0.42708
+This round's variance is -0.021314020648196506
+2 to call
+My action is: RAISE:8
+
+GETACTION 36 0 101515 99667 98782 3 true true true 3 RAISE:8:QBOT15 FOLD:FB115 RAISE:26:FB225 3 FOLD CALL:26 RAISE:44:80 9.583282260000004
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, RAISE:8:QBOT15, FOLD:FB115, RAISE:26:FB225]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.61453]
+Raises: 2
+Time left: 9.583699
+My hand: {Jd,Qc,}
+Board: {}
+Combined:{Jd,Qc,}
+Stacks: [101515, 99667, 98782] (I have 99667)
+Pot size: 36
+I cannot check.
+Pip: 8
+I can bet 0 to 0
+I can call with 26 (an addition of 18)
+I can raise from 44 to 80
+My starting hand strength is 0.42708
+This round's variance is 0.01880485475349457
+Not bluffing preflop against a raise
+26 to call
+My action is: FOLD
+
+HANDOVER 101551 99667 98782 0 2 FOLD:QBOT15 WIN:36:FB225 9.582947279000004
+All hand actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, RAISE:8:QBOT15, FOLD:FB115, RAISE:26:FB225, FOLD:QBOT15, WIN:36:FB225]
+
+NEWHAND 92 3 Kc 5h 98782 101551 99667 FB115 FB225 QBOT15 3 true true true 9.582947
+
+-------------------------------------------------
+
+Hand number: 92
+
+GETACTION 5 0 98780 101550 99665 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.582947279000004
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.43887]
+Raises: 0
+Time left: 9.582947
+My hand: {Kc,5h,}
+Board: {}
+Combined:{Kc,5h,}
+Stacks: [98780, 101550, 99665] (I have 99665)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.36302
+This round's variance is -0.02438279888283923
+Failed too many preflop steals to try again.
+0 to call
+My action is: CHECK
+
+GETACTION 5 3 Ad 9s 6h 98780 101550 99665 3 true true true 2 CHECK:QBOT15 DEAL:FLOP 2 CHECK BET:2:5 9.582573680000005
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.582947
+My hand: {Kc,5h,}
+Board: {Ad,9s,6h,}
+Combined:{Kc,5h,Ad,9s,6h,}
+Stacks: [98780, 101550, 99665] (I have 99665)
+Pot size: 5
+I can check.
+Pip: 0
+I can bet 2 to 5
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.5448658649398704
+This round's variance is: 0.06750411907832748
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 5 4 Ad 9s 6h 7h 98780 101550 99665 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:TURN 2 CHECK BET:2:5 9.581641292000004
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.582947
+My hand: {Kc,5h,}
+Board: {Ad,9s,6h,7h,}
+Combined:{Kc,5h,Ad,9s,6h,7h,}
+Stacks: [98780, 101550, 99665] (I have 99665)
+Pot size: 5
+I can check.
+Pip: 0
+I can bet 2 to 5
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.4222222222222222
+This round's variance is: 0.05656009014679714
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 5 5 Ad 9s 6h 7h Qs 98780 101550 99665 3 true true true 3 CHECK:QBOT15 CHECK:FB115 DEAL:RIVER 2 CHECK BET:2:5 9.580688133000004
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.582947
+My hand: {Kc,5h,}
+Board: {Ad,9s,6h,7h,Qs,}
+Combined:{Kc,5h,Ad,9s,6h,7h,Qs,}
+Stacks: [98780, 101550, 99665] (I have 99665)
+Pot size: 5
+I can check.
+Pip: 0
+I can bet 2 to 5
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.3323232323232323
+This round's variance is: 0.04044639873834255
+Attempting bluff
+0 to call
+My action is: BET:4
+
+HANDOVER 98780 101550 99670 5 Ad 9s 6h 7h Qs 3 BET:4:QBOT15 FOLD:FB115 WIN:9:QBOT15 9.579735851000004
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, CHECK:QBOT15, CHECK:FB115, DEAL:TURN, CHECK:QBOT15, CHECK:FB115, DEAL:RIVER, BET:4:QBOT15, FOLD:FB115, WIN:9:QBOT15]
+
+NEWHAND 93 1 Td 5d 99670 98780 101550 QBOT15 FB115 FB225 3 true true true 9.579736
+
+-------------------------------------------------
+
+Hand number: 93
+
+GETACTION 3 0 99670 98779 101548 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.579735851000004
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.579736
+My hand: {Td,5d,}
+Board: {}
+Combined:{Td,5d,}
+Stacks: [99670, 98779, 101548] (I have 99670)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.32862
+This round's variance is -0.028890881487681087
+2 to call
+My action is: FOLD
+
+HANDOVER 99670 98779 101551 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.579389167000004
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 94 2 Qc 4h 101551 99670 98779 FB225 QBOT15 FB115 3 true true true 9.579389
+
+-------------------------------------------------
+
+Hand number: 94
+
+GETACTION 5 0 101549 99669 98777 3 true true true 3 POST:1:QBOT15 POST:2:FB115 CALL:2:FB225 3 FOLD CALL:2 RAISE:4:8 9.579389167000004
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.40592, 0.35]
+Raises: 0
+Time left: 9.579389
+My hand: {Qc,4h,}
+Board: {}
+Combined:{Qc,4h,}
+Stacks: [101549, 99669, 98777] (I have 99669)
+Pot size: 5
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 8
+My starting hand strength is 0.32623
+This round's variance is 0.050041124267942175
+2 to call
+My action is: FOLD
+
+HANDOVER 101544 99669 98787 3 Jc 9d 8h 7 FOLD:QBOT15 RAISE:7:FB115 CALL:7:FB225 DEAL:FLOP BET:12:FB115 FOLD:FB225 WIN:27:FB115 9.579081102000004
+All hand actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, FOLD:QBOT15, RAISE:7:FB115, CALL:7:FB225, DEAL:FLOP, BET:12:FB115, FOLD:FB225, WIN:27:FB115]
+
+NEWHAND 95 3 Ts 4c 98787 101544 99669 FB115 FB225 QBOT15 3 true true true 9.579081
+
+-------------------------------------------------
+
+Hand number: 95
+
+HANDOVER 98787 101543 99670 0 5 POST:1:FB225 POST:2:QBOT15 FOLD:FB115 FOLD:FB225 WIN:3:QBOT15 9.579081102000004
+All hand actions: [POST:1:FB225, POST:2:QBOT15, FOLD:FB115, FOLD:FB225, WIN:3:QBOT15]
+
+NEWHAND 96 1 Qc 6d 99670 98787 101543 QBOT15 FB115 FB225 3 true true true 9.579081
+
+-------------------------------------------------
+
+Hand number: 96
+
+GETACTION 3 0 99670 98786 101541 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.579081102000004
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.579081
+My hand: {Qc,6d,}
+Board: {}
+Combined:{Qc,6d,}
+Stacks: [99670, 98786, 101541] (I have 99670)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.34455
+This round's variance is -0.027707086310941414
+2 to call
+My action is: FOLD
+
+HANDOVER 99670 98786 101544 0 3 FOLD:QBOT15 FOLD:FB115 WIN:3:FB225 9.578713062000004
+All hand actions: [POST:1:FB115, POST:2:FB225, FOLD:QBOT15, FOLD:FB115, WIN:3:FB225]
+
+NEWHAND 97 2 Js Jd 101544 99670 98786 FB225 QBOT15 FB115 3 true true true 9.578713
+
+-------------------------------------------------
+
+Hand number: 97
+
+GETACTION 3 0 101544 99669 98784 3 true true true 3 POST:1:QBOT15 POST:2:FB115 FOLD:FB225 3 FOLD CALL:2 RAISE:4:6 9.578713062000004
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225]
+Active players: [QBOT1, FB11]
+Players: 2
+Estimated strengths: [0.35]
+Raises: 0
+Time left: 9.578713
+My hand: {Js,Jd,}
+Board: {}
+Combined:{Js,Jd,}
+Stacks: [101544, 99669, 98784] (I have 99669)
+Pot size: 3
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 6
+My starting hand strength is 0.61453
+This round's variance is -0.035595873490105526
+2 to call
+My action is: RAISE:6
+
+HANDOVER 101544 99672 98784 0 3 RAISE:6:QBOT15 FOLD:FB115 WIN:8:QBOT15 9.578305233000004
+All hand actions: [POST:1:QBOT15, POST:2:FB115, FOLD:FB225, RAISE:6:QBOT15, FOLD:FB115, WIN:8:QBOT15]
+
+NEWHAND 98 3 Tc 4d 98784 101544 99672 FB115 FB225 QBOT15 3 true true true 9.578305
+
+-------------------------------------------------
+
+Hand number: 98
+
+GETACTION 5 0 98782 101543 99670 3 true true true 4 POST:1:FB225 POST:2:QBOT15 CALL:2:FB115 FOLD:FB225 2 CHECK RAISE:4:7 9.578305233000004
+POSTed blind of 2
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.43887]
+Raises: 0
+Time left: 9.578305
+My hand: {Tc,4d,}
+Board: {}
+Combined:{Tc,4d,}
+Stacks: [98782, 101543, 99670] (I have 99670)
+Pot size: 5
+I can check.
+Pip: 2
+I can bet 0 to 0
+I can call with 0 (an addition of 0)
+I can raise from 4 to 7
+My starting hand strength is 0.28373
+This round's variance is 7.554642212706267E-5
+Failed too many preflop steals to try again.
+0 to call
+My action is: CHECK
+
+GETACTION 5 3 6h 3c Kc 98782 101543 99670 3 true true true 2 CHECK:QBOT15 DEAL:FLOP 2 CHECK BET:2:5 9.577836845000004
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.578305
+My hand: {Tc,4d,}
+Board: {6h,3c,Kc,}
+Combined:{Tc,4d,6h,3c,Kc,}
+Stacks: [98782, 101543, 99670] (I have 99670)
+Pot size: 5
+I can check.
+Pip: 0
+I can bet 2 to 5
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.22294172062904719
+This round's variance is: 0.042288451970715915
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 9 3 6h 3c Kc 98778 101543 99670 3 true true true 2 CHECK:QBOT15 BET:4:FB115 3 FOLD CALL:4 RAISE:8:17 9.576790943000004
+Actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, CHECK:QBOT15, BET:4:FB115]
+Active players: [FB11, QBOT1]
+Players: 2
+Estimated strengths: [0.7553763440860215]
+Raises: 0
+Time left: 9.578305
+My hand: {Tc,4d,}
+Board: {6h,3c,Kc,}
+Combined:{Tc,4d,6h,3c,Kc,}
+Stacks: [98778, 101543, 99670] (I have 99670)
+Pot size: 9
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 4 (an addition of 4)
+I can raise from 8 to 17
+Relative strength: 0.22294172062904719
+This round's variance is: -0.011827765857057937
+Opponents probably beat me; folding
+My chances for outs are: 0.0
+4 to call
+My action is: FOLD
+
+HANDOVER 98787 101543 99670 3 6h 3c Kc 2 FOLD:QBOT15 WIN:9:FB115 9.549039016000004
+All hand actions: [POST:1:FB225, POST:2:QBOT15, CALL:2:FB115, FOLD:FB225, CHECK:QBOT15, DEAL:FLOP, CHECK:QBOT15, BET:4:FB115, FOLD:QBOT15, WIN:9:FB115]
+
+NEWHAND 99 1 9s 8s 99670 98787 101543 QBOT15 FB115 FB225 3 true true true 9.549039
+
+-------------------------------------------------
+
+Hand number: 99
+
+GETACTION 3 0 99670 98786 101541 3 true true true 2 POST:1:FB115 POST:2:FB225 3 CALL:2 FOLD RAISE:4:7 9.549039016000004
+Actions: [POST:1:FB115, POST:2:FB225]
+Active players: [QBOT1, FB11, FB22]
+Players: 3
+Estimated strengths: [0.35, 0.35]
+Raises: 0
+Time left: 9.549039
+My hand: {9s,8s,}
+Board: {}
+Combined:{9s,8s,}
+Stacks: [99670, 98786, 101541] (I have 99670)
+Pot size: 3
+I cannot check.
+Pip: 0
+I can bet 0 to 0
+I can call with 2 (an addition of 2)
+I can raise from 4 to 7
+My starting hand strength is 0.37766
+This round's variance is 0.03099519829308046
+2 to call
+My action is: RAISE:7
+
+HANDOVER 99673 98786 101541 0 4 RAISE:7:QBOT15 FOLD:FB115 FOLD:FB225 WIN:10:QBOT15 9.548675657000004
+All hand actions: [POST:1:FB115, POST:2:FB225, RAISE:7:QBOT15, FOLD:FB115, FOLD:FB225, WIN:10:QBOT15]
+
+NEWHAND 100 2 Qd Kc 101541 99673 98786 FB225 QBOT15 FB115 3 true true true 9.548676
+
+-------------------------------------------------
+
+Hand number: 100
+
+GETACTION 5 0 101539 99672 98784 3 true true true 3 POST:1:QBOT15 POST:2:FB115 CALL:2:FB225 3 FOLD CALL:2 RAISE:4:8 9.548675657000004
+POSTed blind of 1
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225]
+Active players: [FB22, QBOT1, FB11]
+Players: 3
+Estimated strengths: [0.40665, 0.35]
+Raises: 0
+Time left: 9.548676
+My hand: {Qd,Kc,}
+Board: {}
+Combined:{Qd,Kc,}
+Stacks: [101539, 99672, 98784] (I have 99672)
+Pot size: 5
+I cannot check.
+Pip: 1
+I can bet 0 to 0
+I can call with 2 (an addition of 1)
+I can raise from 4 to 8
+My starting hand strength is 0.45573
+This round's variance is 0.00775974588379745
+2 to call
+My action is: RAISE:8
+
+GETACTION 18 3 7h 5s Td 101533 99665 98784 3 true true true 4 RAISE:8:QBOT15 FOLD:FB115 CALL:8:FB225 DEAL:FLOP 2 CHECK BET:2:18 9.548255541000003
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, RAISE:8:QBOT15, FOLD:FB115, CALL:8:FB225, DEAL:FLOP]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.548676
+My hand: {Qd,Kc,}
+Board: {7h,5s,Td,}
+Combined:{Qd,Kc,7h,5s,Td,}
+Stacks: [101533, 99665, 98784] (I have 99665)
+Pot size: 18
+I can check.
+Pip: 0
+I can bet 2 to 18
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.4745605920444033
+This round's variance is: -0.007703158175248069
+Bluff probably won't work
+0 to call
+My action is: CHECK
+
+GETACTION 18 4 7h 5s Td Qc 101533 99665 98784 3 true true true 3 CHECK:QBOT15 CHECK:FB225 DEAL:TURN 2 CHECK BET:2:18 9.547342169000004
+Actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, RAISE:8:QBOT15, FOLD:FB115, CALL:8:FB225, DEAL:FLOP, CHECK:QBOT15, CHECK:FB225, DEAL:TURN]
+Active players: [FB22, QBOT1]
+Players: 2
+Estimated strengths: [0.5]
+Raises: 0
+Time left: 9.548676
+My hand: {Qd,Kc,}
+Board: {7h,5s,Td,Qc,}
+Combined:{Qd,Kc,7h,5s,Td,Qc,}
+Stacks: [101533, 99665, 98784] (I have 99665)
+Pot size: 18
+I can check.
+Pip: 0
+I can bet 2 to 18
+I can call with 0 (an addition of 0)
+I can raise from 0 to 0
+Relative strength: 0.9304347826086956
+This round's variance is: 0.0016621346136017703
+Uber hand; betting max
+0 to call
+My action is: BET:17
+
+HANDOVER 101533 99683 98784 4 7h 5s Td Qc 3 BET:17:QBOT15 FOLD:FB225 WIN:35:QBOT15 9.546353317000003
+All hand actions: [POST:1:QBOT15, POST:2:FB115, CALL:2:FB225, RAISE:8:QBOT15, FOLD:FB115, CALL:8:FB225, DEAL:FLOP, CHECK:QBOT15, CHECK:FB225, DEAL:TURN, BET:17:QBOT15, FOLD:FB225, WIN:35:QBOT15]
+
+REQUESTKEYVALUES 2000
+Gameover, engine disconnected
