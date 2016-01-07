@@ -53,27 +53,27 @@ public class PlayerProfile {
 		out.foldPreFlop = Integer.parseInt(tokens[2]);
 		out.betPreFlop = Integer.parseInt(tokens[3]);
 		out.raisePreFlop = Integer.parseInt(tokens[4]);
-		out.winPreFlop = Integer.parseInt(tokens[5]);
-		out.flopCheckObs = Integer.parseInt(tokens[6]);
-		out.flopCallObs = Integer.parseInt(tokens[7]);
-		out.foldFlop = Integer.parseInt(tokens[8]);
-		out.betFlop = Integer.parseInt(tokens[9]);
-		out.raiseFlop = Integer.parseInt(tokens[10]);
-		out.winFlop = Integer.parseInt(tokens[11]);
-		out.turnCheckObs = Integer.parseInt(tokens[12]);
-		out.turnCallObs = Integer.parseInt(tokens[13]);
-		out.foldTurn = Integer.parseInt(tokens[14]);
-		out.betTurn = Integer.parseInt(tokens[15]);
-		out.raiseTurn = Integer.parseInt(tokens[16]);
-		out.winTurn = Integer.parseInt(tokens[17]);
-		out.riverCheckObs = Integer.parseInt(tokens[18]);
-		out.riverCallObs = Integer.parseInt(tokens[19]);
-		out.foldRiver = Integer.parseInt(tokens[20]);
-		out.betRiver = Integer.parseInt(tokens[21]);
-		out.raiseRiver = Integer.parseInt(tokens[22]);
-		out.winRiver= Integer.parseInt(tokens[23]);
-		out.showdown = Integer.parseInt(tokens[24]);
-		out.showdownWin = Integer.parseInt(tokens[25]);
+		//out.winPreFlop = Integer.parseInt(tokens[5]);
+		out.flopCheckObs = Integer.parseInt(tokens[5]);
+		out.flopCallObs = Integer.parseInt(tokens[6]);
+		out.foldFlop = Integer.parseInt(tokens[7]);
+		out.betFlop = Integer.parseInt(tokens[8]);
+		out.raiseFlop = Integer.parseInt(tokens[9]);
+		//out.winFlop = Integer.parseInt(tokens[11]);
+		out.turnCheckObs = Integer.parseInt(tokens[10]);
+		out.turnCallObs = Integer.parseInt(tokens[11]);
+		out.foldTurn = Integer.parseInt(tokens[12]);
+		out.betTurn = Integer.parseInt(tokens[13]);
+		out.raiseTurn = Integer.parseInt(tokens[14]);
+		//out.winTurn = Integer.parseInt(tokens[17]);
+		out.riverCheckObs = Integer.parseInt(tokens[15]);
+		out.riverCallObs = Integer.parseInt(tokens[16]);
+		out.foldRiver = Integer.parseInt(tokens[17]);
+		out.betRiver = Integer.parseInt(tokens[18]);
+		out.raiseRiver = Integer.parseInt(tokens[19]);
+		//out.winRiver= Integer.parseInt(tokens[23]);
+		//out.showdown = Integer.parseInt(tokens[24]);
+		//out.showdownWin = Integer.parseInt(tokens[25]);
 		return out;
 	}
 	
@@ -208,36 +208,6 @@ public class PlayerProfile {
 			
 			
 			
-			/*
-			if ("POST".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				if ("2".equals(tokens[1])) {
-					postedBB = true;
-				}
-			} else if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				winPreFlop++;
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (postedBB && !raised) {
-					preFlopCheckObs++;
-				} else {
-					preFlopCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldPreFlop++;
-				} else if ("RAISE".equals(tokens[0])) {
-					if (postedBB && !raised) {
-						betPreFlop++;
-						
-						
-					} else {
-						raisePreFlop++;
-					}
-				}
-			} else if ("RAISE".equals(tokens[0])) {
-				raised = true;
-			} else if ("DEAL".equals(tokens[0])) {
-				break preflop;
-			}*/
 		}
 		
 		for (String key : pips.keySet()) {
@@ -312,28 +282,6 @@ public class PlayerProfile {
 				}
 			}
 			
-			/*
-			if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				winFlop++;
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (canCheck) {
-					flopCheckObs++;
-				} else {
-					flopCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldFlop++;
-				} else if ("BET".equals(tokens[0])) {
-					betFlop++;
-				} else if ("RAISE".equals(tokens[0])) {
-					raiseFlop++;
-				}
-			} else if ("BET".equals(tokens[0]) || "RAISE".equals(tokens[0])) {
-				canCheck = false;
-			} else if ("DEAL".equals(tokens[0])) {
-				break flop;
-			}*/
 		}
 		
 		for (String key : pips.keySet()) {
@@ -406,28 +354,6 @@ public class PlayerProfile {
 					foldTurn++;
 				}
 			}
-			/*
-			if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				winTurn++;
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (canCheck) {
-					turnCheckObs++;
-				} else {
-					turnCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldTurn++;
-				} else if ("BET".equals(tokens[0])) {
-					betTurn++;
-				} else if ("RAISE".equals(tokens[0])) {
-					raiseTurn++;
-				}
-			} else if ("BET".equals(tokens[0]) || "RAISE".equals(tokens[0])) {
-				canCheck = false;
-			} else if ("DEAL".equals(tokens[0])) {
-				break turn;
-			}*/
 		}
 		
 		for (String key : pips.keySet()) {
@@ -509,34 +435,36 @@ public class PlayerProfile {
 				}
 			}
 			
-			/*
-			if ("SHOW".equals(tokens[0]) && name.equals(parsePlayer(tokens[3]))) {
-				madeShowdown = true;
-				showdown++;
-			} else if ("WIN".equals(tokens[0]) && name.equals(parsePlayer(tokens[2]))) {
-				if (madeShowdown) {
-					showdownWin++;
-				} else {
-					winRiver++;
-				}
-			} else if (name.equals(parsePlayer(tokens[tokens.length-1]))) {
-				//our player is making an action
-				if (canCheck) {
-					riverCheckObs++;
-				} else {
-					riverCallObs++;
-				}
-				if ("FOLD".equals(tokens[0])) {
-					foldRiver++;
-				} else if ("BET".equals(tokens[0])) {
-					betRiver++;
-				} else if ("RAISE".equals(tokens[0])) {
-					raiseRiver++;
-				}
-			} else if ("BET".equals(tokens[0]) || "RAISE".equals(tokens[0])) {
-				canCheck = false;
-			}*/
 		}
+		
+		
+		/*
+		public int preFlopCheckObs;
+		public int preFlopCallObs;
+		public int flopCheckObs;
+		public int flopCallObs;
+		public int turnCheckObs;
+		public int turnCallObs;
+		public int riverCheckObs;
+		public int riverCallObs;
+		
+		//percentage of x during y means the probability that the player will do x if in y.
+		int foldPreFlop; //number of folds preflop
+		int foldFlop; //number of folds during flop
+		int foldTurn; //number of folds during turn
+		int foldRiver; //number of folds during river
+		int raisePreFlop; //number of raises preflop
+		int raiseFlop; //number of raises during flop
+		int raiseTurn; //number of raises during turn
+		int raiseRiver; //number of raises during river
+		int betPreFlop; //number of raises instead of checking preflop
+		int betFlop; //number of bets during flop
+		int betTurn; //number of bets during turn
+		int betRiver; //number of bets during river
+		int winPreFlop; //number of hands won by folds preflop
+		int winFlop; //number of hands won by folds during flop
+		int winTurn; //number of hands won by folds during turn
+		int winRiver; //number of hands won by folds during river*/
 	}
 	
 	//'street' is the number of cards on the board (should be 0, 3, 4, or 5)
@@ -853,32 +781,32 @@ public class PlayerProfile {
 	}
 	
 	public String toKeyValue() {
-		String output = Integer.toString(preFlopCheckObs);
-		output+=" "+preFlopCallObs;
-		output+=" "+foldPreFlop;
-		output+=" "+betPreFlop;
-		output+=" "+raisePreFlop;
-		output+=" "+winPreFlop;
-		output+=" "+flopCheckObs;
-		output+=" "+flopCallObs;
-		output+=" "+foldFlop;
-		output+=" "+betFlop;
-		output+=" "+raiseFlop;
-		output+=" "+winFlop;
-		output+=" "+turnCheckObs;
-		output+=" "+turnCallObs;
-		output+=" "+foldTurn;
-		output+=" "+betTurn;
-		output+=" "+raiseTurn;
-		output+=" "+winTurn;
-		output+=" "+riverCheckObs;
-		output+=" "+riverCallObs;
-		output+=" "+foldRiver;
-		output+=" "+betRiver;
-		output+=" "+raiseRiver;
-		output+=" "+winRiver;
-		output+=" "+showdown;
-		output+=" "+showdownWin;
+		String output = Integer.toString(preFlopCheckObs/5);
+		output+=" "+preFlopCallObs/5;
+		output+=" "+foldPreFlop/5;
+		output+=" "+betPreFlop/5;
+		output+=" "+raisePreFlop/5;
+		//output+=" "+winPreFlop/10;
+		output+=" "+flopCheckObs/3;
+		output+=" "+flopCallObs/3;
+		output+=" "+foldFlop/3;
+		output+=" "+betFlop/3;
+		output+=" "+raiseFlop/3;
+		//output+=" "+winFlop/10;
+		output+=" "+turnCheckObs/2;
+		output+=" "+turnCallObs/2;
+		output+=" "+foldTurn/2;
+		output+=" "+betTurn/2;
+		output+=" "+raiseTurn/2;
+		//output+=" "+winTurn/10;
+		output+=" "+riverCheckObs/2;
+		output+=" "+riverCallObs/2;
+		output+=" "+foldRiver/2;
+		output+=" "+betRiver/2;
+		output+=" "+raiseRiver/2;
+		//output+=" "+winRiver/10;
+		//output+=" "+showdown/10;
+		//output+=" "+showdownWin/10;
 		return output;
 	}
 	

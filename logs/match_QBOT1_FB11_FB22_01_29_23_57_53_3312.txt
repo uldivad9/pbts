@@ -1,0 +1,1238 @@
+6.176 MIT Pokerbots - QBOT12 vs FB222 vs FB112 (stack=100000, bb=2)
+Hand #1, QBOT12 (100000), FB222 (100000), FB112 (100000)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Th Ts]
+Dealt to FB222 [Qs 6c]
+Dealt to FB112 [As 9h]
+QBOT12 raises to 7
+FB222 folds
+FB112 calls 7
+*** FLOP *** (15) [7c Ah 7d]
+FB112 bets 13
+QBOT12 calls 13
+*** TURN *** (41) [7c Ah 7d] [Td]
+FB112 bets 36
+QBOT12 raises to 144
+FB112 calls 144
+*** RIVER *** (329) [7c Ah 7d Td] [9s]
+FB112 bets 285
+QBOT12 raises to 1156
+FB112 calls 1156
+QBOT12 shows [Th Ts]
+FB112 shows [As 9h]
+QBOT12 wins the pot (2641)
+
+Hand #2, FB112 (98680), QBOT12 (101321), FB222 (99999)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Qd 8d]
+Dealt to QBOT12 [2d 5h]
+Dealt to FB222 [Ah Ts]
+FB112 calls 2
+QBOT12 folds
+FB222 raises to 7
+FB112 calls 7
+*** FLOP *** (15) [Ac Th Jc]
+FB222 bets 13
+FB112 folds
+FB222 wins the pot (28)
+
+Hand #3, FB222 (100007), FB112 (98673), QBOT12 (101320)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [5d 4s]
+Dealt to FB112 [7d 2s]
+Dealt to QBOT12 [2h Td]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #4, QBOT12 (101321), FB222 (100007), FB112 (98672)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [5d Qd]
+Dealt to FB222 [Th Qs]
+Dealt to FB112 [4s Jc]
+QBOT12 raises to 7
+FB222 calls 7
+FB112 folds
+*** FLOP *** (16) [Ad 9c 8s]
+FB222 checks
+QBOT12 bets 11
+FB222 folds
+QBOT12 wins the pot (27)
+
+Hand #5, FB112 (98670), QBOT12 (101330), FB222 (100000)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [4d Ah]
+Dealt to QBOT12 [Qh 9s]
+Dealt to FB222 [6h 9h]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #6, FB222 (99998), FB112 (98670), QBOT12 (101332)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Kd 7s]
+Dealt to FB112 [Jc Qd]
+Dealt to QBOT12 [Js Ad]
+FB222 folds
+FB112 calls 2
+QBOT12 raises to 6
+FB112 calls 6
+*** FLOP *** (12) [Qs 7c Tc]
+FB112 bets 10
+QBOT12 folds
+FB112 wins the pot (22)
+
+Hand #7, QBOT12 (101326), FB222 (99998), FB112 (98676)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Qc Kd]
+Dealt to FB222 [Ks 4s]
+Dealt to FB112 [7s Jh]
+QBOT12 raises to 7
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (10)
+
+Hand #8, FB112 (98674), QBOT12 (101329), FB222 (99997)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [6h Kd]
+Dealt to QBOT12 [Jd Th]
+Dealt to FB222 [As 2c]
+FB112 calls 2
+QBOT12 calls 2
+FB222 checks
+*** FLOP *** (6) [3d Ah 9h]
+QBOT12 checks
+FB222 bets 5
+FB112 folds
+QBOT12 folds
+FB222 wins the pot (11)
+
+Hand #9, FB222 (100001), FB112 (98672), QBOT12 (101327)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [9d Kd]
+Dealt to FB112 [5s 9h]
+Dealt to QBOT12 [As 8h]
+FB222 calls 2
+FB112 folds
+QBOT12 raises to 4
+FB222 calls 4
+*** FLOP *** (9) [2s 8s Tc]
+QBOT12 bets 7
+FB222 folds
+QBOT12 wins the pot (16)
+
+Hand #10, QBOT12 (101332), FB222 (99997), FB112 (98671)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [3c Th]
+Dealt to FB222 [Jd 8s]
+Dealt to FB112 [4s 9d]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #11, FB112 (98672), QBOT12 (101332), FB222 (99996)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [5h 4c]
+Dealt to QBOT12 [Th 4s]
+Dealt to FB222 [9h 3s]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #12, FB222 (99994), FB112 (98672), QBOT12 (101334)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [9s 7h]
+Dealt to FB112 [Ks 6s]
+Dealt to QBOT12 [7d Js]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #13, QBOT12 (101335), FB222 (99994), FB112 (98671)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [8c Tc]
+Dealt to FB222 [8d 3c]
+Dealt to FB112 [Ts Kc]
+QBOT12 raises to 7
+FB222 folds
+FB112 calls 7
+*** FLOP *** (15) [6c Qh Jc]
+FB112 checks
+QBOT12 bets 12
+FB112 folds
+QBOT12 wins the pot (27)
+
+Hand #14, FB112 (98664), QBOT12 (101343), FB222 (99993)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [5d 5s]
+Dealt to QBOT12 [As Ah]
+Dealt to FB222 [9h 8d]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #15, FB222 (99991), FB112 (98664), QBOT12 (101345)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [6h 5s]
+Dealt to FB112 [2d Ad]
+Dealt to QBOT12 [8d 7c]
+FB222 folds
+FB112 calls 2
+QBOT12 raises to 4
+FB112 folds
+QBOT12 wins the pot (6)
+
+Hand #16, QBOT12 (101347), FB222 (99991), FB112 (98662)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Td Qs]
+Dealt to FB222 [9d 5s]
+Dealt to FB112 [2d 4c]
+QBOT12 raises to 7
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (10)
+
+Hand #17, FB112 (98660), QBOT12 (101350), FB222 (99990)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Js 3c]
+Dealt to QBOT12 [4h Ts]
+Dealt to FB222 [Kc Ad]
+FB112 folds
+QBOT12 raises to 4
+FB222 raises to 12
+QBOT12 folds
+FB222 wins the pot (16)
+
+Hand #18, FB222 (99994), FB112 (98660), QBOT12 (101346)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [6d 2h]
+Dealt to FB112 [Ad 7c]
+Dealt to QBOT12 [4s 6c]
+FB222 folds
+FB112 calls 2
+QBOT12 raises to 4
+FB112 folds
+QBOT12 wins the pot (6)
+
+Hand #19, QBOT12 (101348), FB222 (99994), FB112 (98658)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [2c 5h]
+Dealt to FB222 [Jc Ks]
+Dealt to FB112 [3s Qc]
+QBOT12 folds
+FB222 calls 2
+FB112 checks
+*** FLOP *** (4) [6s 4c 7c]
+FB222 checks
+FB112 checks
+*** TURN *** (4) [6s 4c 7c] [Qs]
+FB222 checks
+FB112 bets 3
+FB222 folds
+FB112 wins the pot (7)
+
+Hand #20, FB112 (98660), QBOT12 (101348), FB222 (99992)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Th 7d]
+Dealt to QBOT12 [Qc 7s]
+Dealt to FB222 [9d 4h]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #21, FB222 (99990), FB112 (98660), QBOT12 (101350)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [7c 9h]
+Dealt to FB112 [8s 5s]
+Dealt to QBOT12 [8c 6c]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #22, QBOT12 (101351), FB222 (99990), FB112 (98659)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [5h Jc]
+Dealt to FB222 [3d Qd]
+Dealt to FB112 [4h 6c]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #23, FB112 (98660), QBOT12 (101351), FB222 (99989)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [4c Jh]
+Dealt to QBOT12 [5h 5s]
+Dealt to FB222 [7h 2h]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #24, FB222 (99987), FB112 (98660), QBOT12 (101353)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [6s 2d]
+Dealt to FB112 [6h Kh]
+Dealt to QBOT12 [9h Qc]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #25, QBOT12 (101354), FB222 (99987), FB112 (98659)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [9c 5h]
+Dealt to FB222 [8c Js]
+Dealt to FB112 [Ts 3d]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #26, FB112 (98660), QBOT12 (101354), FB222 (99986)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Ah Jc]
+Dealt to QBOT12 [2d 8c]
+Dealt to FB222 [Ks 4s]
+FB112 raises to 7
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (10)
+
+Hand #27, FB222 (99984), FB112 (98663), QBOT12 (101353)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Qs 3s]
+Dealt to FB112 [7c 7s]
+Dealt to QBOT12 [9s 3c]
+FB222 folds
+FB112 raises to 6
+QBOT12 folds
+FB112 wins the pot (8)
+
+Hand #28, QBOT12 (101351), FB222 (99984), FB112 (98665)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Td 3c]
+Dealt to FB222 [2c 9c]
+Dealt to FB112 [6c Qd]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #29, FB112 (98666), QBOT12 (101351), FB222 (99983)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [9d 8h]
+Dealt to QBOT12 [2d 6d]
+Dealt to FB222 [Ts 3h]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #30, FB222 (99981), FB112 (98666), QBOT12 (101353)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [8c 5c]
+Dealt to FB112 [2d Tc]
+Dealt to QBOT12 [Kd Ad]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #31, QBOT12 (101354), FB222 (99981), FB112 (98665)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [8s 4d]
+Dealt to FB222 [Ah As]
+Dealt to FB112 [2d 6s]
+QBOT12 folds
+FB222 raises to 6
+FB112 folds
+FB222 wins the pot (8)
+
+Hand #32, FB112 (98663), QBOT12 (101354), FB222 (99983)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [2s 5c]
+Dealt to QBOT12 [Ac Qd]
+Dealt to FB222 [Qc 4d]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #33, FB222 (99981), FB112 (98663), QBOT12 (101356)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [8c 6s]
+Dealt to FB112 [7s 6c]
+Dealt to QBOT12 [5c Qd]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #34, QBOT12 (101357), FB222 (99981), FB112 (98662)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [4s Qc]
+Dealt to FB222 [Qd 7s]
+Dealt to FB112 [5c Qs]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #35, FB112 (98663), QBOT12 (101357), FB222 (99980)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [4c 7s]
+Dealt to QBOT12 [9s 9c]
+Dealt to FB222 [Ad 2c]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #36, FB222 (99978), FB112 (98663), QBOT12 (101359)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [8c Ad]
+Dealt to FB112 [Ah 5d]
+Dealt to QBOT12 [Ks Qs]
+FB222 calls 2
+FB112 folds
+QBOT12 raises to 7
+FB222 calls 7
+*** FLOP *** (15) [9h Jh Js]
+QBOT12 bets 12
+FB222 folds
+QBOT12 wins the pot (27)
+
+Hand #37, QBOT12 (101367), FB222 (99971), FB112 (98662)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [7c 5d]
+Dealt to FB222 [9d 2d]
+Dealt to FB112 [Ts 6c]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #38, FB112 (98663), QBOT12 (101367), FB222 (99970)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Th Jd]
+Dealt to QBOT12 [Kc 7h]
+Dealt to FB222 [9d 3s]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #39, FB222 (99968), FB112 (98663), QBOT12 (101369)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [4c 8h]
+Dealt to FB112 [7d Js]
+Dealt to QBOT12 [6h 8c]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #40, QBOT12 (101370), FB222 (99968), FB112 (98662)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [5d Ts]
+Dealt to FB222 [Td Jc]
+Dealt to FB112 [8h 2h]
+QBOT12 folds
+FB222 calls 2
+FB112 checks
+*** FLOP *** (4) [9c Qh 5c]
+FB222 checks
+FB112 checks
+*** TURN *** (4) [9c Qh 5c] [4s]
+FB222 checks
+FB112 checks
+*** RIVER *** (4) [9c Qh 5c 4s] [Kd]
+FB222 bets 3
+FB112 folds
+FB222 wins the pot (7)
+
+Hand #41, FB112 (98660), QBOT12 (101370), FB222 (99970)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [4d 5s]
+Dealt to QBOT12 [5c 4h]
+Dealt to FB222 [Kc Jh]
+FB112 folds
+QBOT12 raises to 4
+FB222 calls 4
+*** FLOP *** (8) [6d 9s 3c]
+QBOT12 bets 6
+FB222 folds
+QBOT12 wins the pot (14)
+
+Hand #42, FB222 (99966), FB112 (98660), QBOT12 (101374)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [8d Tc]
+Dealt to FB112 [5c 9d]
+Dealt to QBOT12 [3s 3c]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #43, QBOT12 (101375), FB222 (99966), FB112 (98659)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Kd As]
+Dealt to FB222 [Ah Qs]
+Dealt to FB112 [6c 9s]
+QBOT12 raises to 7
+FB222 raises to 23
+FB112 folds
+QBOT12 calls 23
+*** FLOP *** (48) [Jd Jc 5h]
+FB222 checks
+QBOT12 bets 35
+FB222 calls 35
+*** TURN *** (118) [Jd Jc 5h] [8s]
+FB222 checks
+QBOT12 checks
+*** RIVER *** (118) [Jd Jc 5h 8s] [Ad]
+FB222 bets 104
+QBOT12 raises to 413
+FB222 calls 413
+QBOT12 shows [Kd As]
+FB222 shows [Ah Qs]
+QBOT12 wins the pot (944)
+
+Hand #44, FB112 (98657), QBOT12 (101848), FB222 (99495)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Jh Th]
+Dealt to QBOT12 [Ts 2c]
+Dealt to FB222 [5c Qs]
+FB112 calls 2
+QBOT12 folds
+FB222 checks
+*** FLOP *** (5) [4d 7d 3d]
+FB222 checks
+FB112 checks
+*** TURN *** (5) [4d 7d 3d] [3c]
+FB222 checks
+FB112 checks
+*** RIVER *** (5) [4d 7d 3d 3c] [Qh]
+FB222 bets 4
+FB112 folds
+FB222 wins the pot (9)
+
+Hand #45, FB222 (99498), FB112 (98655), QBOT12 (101847)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [9h 7s]
+Dealt to FB112 [2h 6d]
+Dealt to QBOT12 [5d 6h]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #46, QBOT12 (101848), FB222 (99498), FB112 (98654)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [6s 4s]
+Dealt to FB222 [Th 3s]
+Dealt to FB112 [2s Td]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #47, FB112 (98655), QBOT12 (101848), FB222 (99497)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [5d 5h]
+Dealt to QBOT12 [Qs 6h]
+Dealt to FB222 [4s As]
+FB112 calls 2
+QBOT12 folds
+FB222 raises to 7
+FB112 calls 7
+*** FLOP *** (15) [8c Kc 8s]
+FB222 checks
+FB112 bets 11
+FB222 folds
+FB112 wins the pot (26)
+
+Hand #48, FB222 (99490), FB112 (98663), QBOT12 (101847)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Th 4h]
+Dealt to FB112 [5s Jd]
+Dealt to QBOT12 [7s Qs]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #49, QBOT12 (101848), FB222 (99490), FB112 (98662)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Jc 8c]
+Dealt to FB222 [9d As]
+Dealt to FB112 [Kc 6d]
+QBOT12 raises to 7
+FB222 calls 7
+FB112 folds
+*** FLOP *** (16) [Ks 8h 5d]
+FB222 checks
+QBOT12 bets 13
+FB222 folds
+QBOT12 wins the pot (29)
+
+Hand #50, FB112 (98660), QBOT12 (101857), FB222 (99483)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [3c Qs]
+Dealt to QBOT12 [9s 2s]
+Dealt to FB222 [7d 4d]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #51, FB222 (99481), FB112 (98660), QBOT12 (101859)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Ah Ks]
+Dealt to FB112 [Tc Ad]
+Dealt to QBOT12 [Kh 3d]
+FB222 raises to 7
+FB112 calls 7
+QBOT12 folds
+*** FLOP *** (16) [2h Qc Kd]
+FB112 checks
+FB222 bets 14
+FB112 folds
+FB222 wins the pot (30)
+
+Hand #52, QBOT12 (101857), FB222 (99490), FB112 (98653)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [9c 6s]
+Dealt to FB222 [7s 5c]
+Dealt to FB112 [4h 7d]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #53, FB112 (98654), QBOT12 (101857), FB222 (99489)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Ac 4c]
+Dealt to QBOT12 [4h 2h]
+Dealt to FB222 [9d 5c]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #54, FB222 (99487), FB112 (98654), QBOT12 (101859)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [4d Ts]
+Dealt to FB112 [7s 6s]
+Dealt to QBOT12 [Kc Ad]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #55, QBOT12 (101860), FB222 (99487), FB112 (98653)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Ts 8d]
+Dealt to FB222 [4c Qh]
+Dealt to FB112 [Jc 6c]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #56, FB112 (98654), QBOT12 (101860), FB222 (99486)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [3d 5d]
+Dealt to QBOT12 [Qc 2s]
+Dealt to FB222 [Ks 7c]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #57, FB222 (99484), FB112 (98654), QBOT12 (101862)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [3c 7d]
+Dealt to FB112 [9h 9s]
+Dealt to QBOT12 [2s Qs]
+FB222 folds
+FB112 raises to 6
+QBOT12 folds
+FB112 wins the pot (8)
+
+Hand #58, QBOT12 (101860), FB222 (99484), FB112 (98656)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [7s Ts]
+Dealt to FB222 [4h 8h]
+Dealt to FB112 [8c Kc]
+QBOT12 calls 2
+FB222 folds
+FB112 raises to 7
+QBOT12 folds
+FB112 wins the pot (10)
+
+Hand #59, FB112 (98659), QBOT12 (101858), FB222 (99483)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Kh 4s]
+Dealt to QBOT12 [9c Qs]
+Dealt to FB222 [5d 2s]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #60, FB222 (99481), FB112 (98659), QBOT12 (101860)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [5s 5h]
+Dealt to FB112 [4d As]
+Dealt to QBOT12 [3d Ad]
+FB222 calls 2
+FB112 calls 2
+QBOT12 raises to 4
+FB222 calls 4
+FB112 folds
+*** FLOP *** (10) [Qh Kh 3h]
+QBOT12 bets 8
+FB222 folds
+QBOT12 wins the pot (18)
+
+Hand #61, QBOT12 (101866), FB222 (99477), FB112 (98657)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Ac Ad]
+Dealt to FB222 [Ah 3c]
+Dealt to FB112 [4s 5h]
+QBOT12 raises to 7
+FB222 calls 7
+FB112 folds
+*** FLOP *** (16) [Jc 2s 9s]
+FB222 checks
+QBOT12 bets 15
+FB222 folds
+QBOT12 wins the pot (31)
+
+Hand #62, FB112 (98655), QBOT12 (101875), FB222 (99470)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Qs 5s]
+Dealt to QBOT12 [5h 7c]
+Dealt to FB222 [9d Ad]
+FB112 folds
+QBOT12 raises to 4
+FB222 calls 4
+*** FLOP *** (8) [Kh 7h Ah]
+QBOT12 bets 6
+FB222 calls 6
+*** TURN *** (20) [Kh 7h Ah] [6s]
+QBOT12 checks
+FB222 bets 17
+QBOT12 folds
+FB222 wins the pot (37)
+
+Hand #63, FB222 (99480), FB112 (98655), QBOT12 (101865)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [3d 7d]
+Dealt to FB112 [9h Qs]
+Dealt to QBOT12 [5c 3c]
+FB222 folds
+FB112 calls 2
+QBOT12 raises to 4
+FB112 folds
+QBOT12 wins the pot (6)
+
+Hand #64, QBOT12 (101867), FB222 (99480), FB112 (98653)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [8h 5h]
+Dealt to FB222 [2h 8s]
+Dealt to FB112 [5c 3d]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #65, FB112 (98654), QBOT12 (101867), FB222 (99479)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [9d 7d]
+Dealt to QBOT12 [Ac As]
+Dealt to FB222 [7h Qd]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #66, FB222 (99477), FB112 (98654), QBOT12 (101869)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [7c 7s]
+Dealt to FB112 [Th 6h]
+Dealt to QBOT12 [As 4s]
+FB222 calls 2
+FB112 folds
+QBOT12 raises to 4
+FB222 calls 4
+*** FLOP *** (9) [Qd 9c Kc]
+QBOT12 bets 7
+FB222 folds
+QBOT12 wins the pot (16)
+
+Hand #67, QBOT12 (101874), FB222 (99473), FB112 (98653)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [2h 5d]
+Dealt to FB222 [Ks Ac]
+Dealt to FB112 [6h 4s]
+QBOT12 folds
+FB222 raises to 6
+FB112 folds
+FB222 wins the pot (8)
+
+Hand #68, FB112 (98651), QBOT12 (101874), FB222 (99475)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Td 4h]
+Dealt to QBOT12 [8c 5c]
+Dealt to FB222 [Tc Ac]
+FB112 folds
+QBOT12 raises to 4
+FB222 raises to 12
+QBOT12 folds
+FB222 wins the pot (16)
+
+Hand #69, FB222 (99479), FB112 (98651), QBOT12 (101870)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Qc 6s]
+Dealt to FB112 [9s 7s]
+Dealt to QBOT12 [Tc 8c]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #70, QBOT12 (101871), FB222 (99479), FB112 (98650)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [5c 2h]
+Dealt to FB222 [Jh 8h]
+Dealt to FB112 [4s Th]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #71, FB112 (98651), QBOT12 (101871), FB222 (99478)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Qh 9c]
+Dealt to QBOT12 [Jc Kd]
+Dealt to FB222 [5d 7s]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #72, FB222 (99476), FB112 (98651), QBOT12 (101873)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [4h 3s]
+Dealt to FB112 [5c 9c]
+Dealt to QBOT12 [Ts Qc]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #73, QBOT12 (101874), FB222 (99476), FB112 (98650)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [8h 2s]
+Dealt to FB222 [4s 3c]
+Dealt to FB112 [Kd Td]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #74, FB112 (98651), QBOT12 (101874), FB222 (99475)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [5d Js]
+Dealt to QBOT12 [Ac 8s]
+Dealt to FB222 [Ts 7s]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #75, FB222 (99473), FB112 (98651), QBOT12 (101876)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [8d Kc]
+Dealt to FB112 [8s 3h]
+Dealt to QBOT12 [7d 2c]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #76, QBOT12 (101877), FB222 (99473), FB112 (98650)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [6c 3d]
+Dealt to FB222 [4c 3h]
+Dealt to FB112 [6d 5h]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #77, FB112 (98651), QBOT12 (101877), FB222 (99472)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [2h 9d]
+Dealt to QBOT12 [Jd Qh]
+Dealt to FB222 [2c Tc]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #78, FB222 (99470), FB112 (98651), QBOT12 (101879)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Kc 8h]
+Dealt to FB112 [Qh Jc]
+Dealt to QBOT12 [Ah 6d]
+FB222 folds
+FB112 calls 2
+QBOT12 raises to 4
+FB112 calls 4
+*** FLOP *** (8) [Qc Tc 3h]
+FB112 bets 7
+QBOT12 folds
+FB112 wins the pot (15)
+
+Hand #79, QBOT12 (101875), FB222 (99470), FB112 (98655)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Ac Ad]
+Dealt to FB222 [8h 8d]
+Dealt to FB112 [3c As]
+QBOT12 raises to 7
+FB222 raises to 23
+FB112 calls 23
+QBOT12 raises to 92
+FB222 calls 92
+FB112 calls 92
+*** FLOP *** (276) [4h 3s Kh]
+FB222 bets 232
+FB112 calls 232
+QBOT12 raises to 1202
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (1942)
+
+Hand #80, FB112 (98331), QBOT12 (102523), FB222 (99146)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [8d 3c]
+Dealt to QBOT12 [5h 4s]
+Dealt to FB222 [4c 6h]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #81, FB222 (99144), FB112 (98331), QBOT12 (102525)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [4s 3h]
+Dealt to FB112 [As 2s]
+Dealt to QBOT12 [Td 3d]
+FB222 folds
+FB112 calls 2
+QBOT12 raises to 4
+FB112 calls 4
+*** FLOP *** (8) [5h 8h Ks]
+FB112 checks
+QBOT12 bets 6
+FB112 folds
+QBOT12 wins the pot (14)
+
+Hand #82, QBOT12 (102529), FB222 (99144), FB112 (98327)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Qs Ah]
+Dealt to FB222 [Ts Qd]
+Dealt to FB112 [Tc 9h]
+QBOT12 raises to 7
+FB222 calls 7
+FB112 folds
+*** FLOP *** (16) [Kd Jd 8h]
+FB222 checks
+QBOT12 bets 11
+FB222 folds
+QBOT12 wins the pot (27)
+
+Hand #83, FB112 (98325), QBOT12 (102538), FB222 (99137)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [8s 6c]
+Dealt to QBOT12 [5c 9s]
+Dealt to FB222 [2d 4d]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #84, FB222 (99135), FB112 (98325), QBOT12 (102540)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [4h 8h]
+Dealt to FB112 [5s Jh]
+Dealt to QBOT12 [5d 7c]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #85, QBOT12 (102541), FB222 (99135), FB112 (98324)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Qc 2h]
+Dealt to FB222 [9d 5s]
+Dealt to FB112 [Jc Ad]
+QBOT12 folds
+FB222 folds
+FB112 wins the pot (3)
+
+Hand #86, FB112 (98325), QBOT12 (102541), FB222 (99134)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Kc 6h]
+Dealt to QBOT12 [4s 3h]
+Dealt to FB222 [7h Th]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #87, FB222 (99132), FB112 (98325), QBOT12 (102543)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [8c Ad]
+Dealt to FB112 [Qd 8h]
+Dealt to QBOT12 [Jd 8d]
+FB222 calls 2
+FB112 folds
+QBOT12 raises to 4
+FB222 calls 4
+*** FLOP *** (9) [6d 9h 5s]
+QBOT12 bets 7
+FB222 folds
+QBOT12 wins the pot (16)
+
+Hand #88, QBOT12 (102548), FB222 (99128), FB112 (98324)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [6d Kc]
+Dealt to FB222 [3c 9h]
+Dealt to FB112 [Ks 6h]
+QBOT12 calls 2
+FB222 folds
+FB112 raises to 4
+QBOT12 folds
+FB112 wins the pot (7)
+
+Hand #89, FB112 (98327), QBOT12 (102546), FB222 (99127)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [9c Qd]
+Dealt to QBOT12 [7s 3h]
+Dealt to FB222 [9s 7c]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #90, FB222 (99125), FB112 (98327), QBOT12 (102548)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Kc Qh]
+Dealt to FB112 [5h 4d]
+Dealt to QBOT12 [7s Jd]
+FB222 calls 2
+FB112 folds
+QBOT12 raises to 4
+FB222 calls 4
+*** FLOP *** (9) [4c 8c 2d]
+QBOT12 bets 6
+FB222 folds
+QBOT12 wins the pot (15)
+
+Hand #91, QBOT12 (102553), FB222 (99121), FB112 (98326)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Jc Ad]
+Dealt to FB222 [Jd Qc]
+Dealt to FB112 [2h Js]
+QBOT12 raises to 7
+FB222 calls 7
+FB112 folds
+*** FLOP *** (16) [4c Ts Th]
+FB222 checks
+QBOT12 bets 10
+FB222 folds
+QBOT12 wins the pot (26)
+
+Hand #92, FB112 (98324), QBOT12 (102562), FB222 (99114)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [8d Kd]
+Dealt to QBOT12 [5d Jh]
+Dealt to FB222 [Kc 5h]
+FB112 folds
+QBOT12 raises to 4
+FB222 folds
+QBOT12 wins the pot (6)
+
+Hand #93, FB222 (99112), FB112 (98324), QBOT12 (102564)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Td 5d]
+Dealt to FB112 [9s 2c]
+Dealt to QBOT12 [Ac 2h]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #94, QBOT12 (102565), FB222 (99112), FB112 (98323)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Ts Kd]
+Dealt to FB222 [Qc 4h]
+Dealt to FB112 [Kc 9h]
+QBOT12 raises to 7
+FB222 folds
+FB112 calls 7
+*** FLOP *** (15) [Jc 9d 8h]
+FB112 bets 12
+QBOT12 folds
+FB112 wins the pot (27)
+
+Hand #95, FB112 (98331), QBOT12 (102558), FB222 (99111)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Qs 7c]
+Dealt to QBOT12 [7s Kd]
+Dealt to FB222 [Ts 4c]
+FB112 folds
+QBOT12 raises to 6
+FB222 folds
+QBOT12 wins the pot (8)
+
+Hand #96, FB222 (99109), FB112 (98331), QBOT12 (102560)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [Qc 6d]
+Dealt to FB112 [4s 2s]
+Dealt to QBOT12 [8s 8c]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #97, QBOT12 (102561), FB222 (99109), FB112 (98330)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [4d 7c]
+Dealt to FB222 [Js Jd]
+Dealt to FB112 [7s 9h]
+QBOT12 folds
+FB222 raises to 6
+FB112 folds
+FB222 wins the pot (8)
+
+Hand #98, FB112 (98328), QBOT12 (102561), FB222 (99111)
+QBOT12 posts the blind of 1
+FB222 posts the blind of 2
+Dealt to FB112 [Kd Qc]
+Dealt to QBOT12 [2d 4s]
+Dealt to FB222 [Tc 4d]
+FB112 calls 2
+QBOT12 folds
+FB222 checks
+*** FLOP *** (5) [6h 3c Kc]
+FB222 checks
+FB112 bets 4
+FB222 folds
+FB112 wins the pot (9)
+
+Hand #99, FB222 (99109), FB112 (98331), QBOT12 (102560)
+FB112 posts the blind of 1
+QBOT12 posts the blind of 2
+Dealt to FB222 [9s 8s]
+Dealt to FB112 [Th 4d]
+Dealt to QBOT12 [7d Kc]
+FB222 folds
+FB112 folds
+QBOT12 wins the pot (3)
+
+Hand #100, QBOT12 (102561), FB222 (99109), FB112 (98330)
+FB222 posts the blind of 1
+FB112 posts the blind of 2
+Dealt to QBOT12 [Ah 9d]
+Dealt to FB222 [Qd Kc]
+Dealt to FB112 [5d Ks]
+QBOT12 raises to 7
+FB222 calls 7
+FB112 folds
+*** FLOP *** (16) [7h 5s Td]
+FB222 checks
+QBOT12 bets 10
+FB222 folds
+QBOT12 wins the pot (26)
+

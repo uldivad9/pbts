@@ -1,0 +1,1284 @@
+6.176 MIT Pokerbots - FB226 vs FB116 vs QBOT16 (stack=100000, bb=2)
+Hand #1, FB226 (100000), FB116 (100000), QBOT16 (100000)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Th Ts]
+Dealt to FB116 [Qs 6c]
+Dealt to QBOT16 [As 9h]
+FB226 raises to 7
+FB116 folds
+QBOT16 folds
+FB226 wins the pot (10)
+
+Hand #2, QBOT16 (99998), FB226 (100003), FB116 (99999)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Qd 8d]
+Dealt to FB226 [2d 5h]
+Dealt to FB116 [Ah Ts]
+QBOT16 raises to 7
+FB226 folds
+FB116 calls 7
+*** FLOP *** (15) [Ac Th Jc]
+FB116 bets 14
+QBOT16 folds
+FB116 wins the pot (29)
+
+Hand #3, FB116 (100007), QBOT16 (99991), FB226 (100002)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [5d 4s]
+Dealt to QBOT16 [7d 2s]
+Dealt to FB226 [2h Td]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #4, FB226 (100000), FB116 (100007), QBOT16 (99993)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [5d Qd]
+Dealt to FB116 [Th Qs]
+Dealt to QBOT16 [4s Jc]
+FB226 folds
+FB116 calls 2
+QBOT16 raises to 4
+FB116 calls 4
+*** FLOP *** (8) [Ad 9c 8s]
+FB116 checks
+QBOT16 checks
+*** TURN *** (8) [Ad 9c 8s] [Td]
+FB116 bets 6
+QBOT16 folds
+FB116 wins the pot (14)
+
+Hand #5, QBOT16 (99989), FB226 (100000), FB116 (100011)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [4d Ah]
+Dealt to FB226 [Qh 9s]
+Dealt to FB116 [6h 9h]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #6, FB116 (100009), QBOT16 (99992), FB226 (99999)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Kd 7s]
+Dealt to QBOT16 [Jc Qd]
+Dealt to FB226 [Js Ad]
+FB116 folds
+QBOT16 raises to 6
+FB226 calls 6
+*** FLOP *** (12) [Qs 7c Tc]
+QBOT16 bets 10
+FB226 folds
+QBOT16 wins the pot (22)
+
+Hand #7, FB226 (99993), FB116 (100009), QBOT16 (99998)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Qc Kd]
+Dealt to FB116 [Ks 4s]
+Dealt to QBOT16 [7s Jh]
+FB226 calls 2
+FB116 folds
+QBOT16 raises to 4
+FB226 calls 4
+*** FLOP *** (9) [8d Ah 9d]
+QBOT16 bets 7
+FB226 folds
+QBOT16 wins the pot (16)
+
+Hand #8, QBOT16 (100003), FB226 (99989), FB116 (100008)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [6h Kd]
+Dealt to FB226 [Jd Th]
+Dealt to FB116 [As 2c]
+QBOT16 calls 2
+FB226 calls 2
+FB116 raises to 4
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (8)
+
+Hand #9, FB116 (100012), QBOT16 (100001), FB226 (99987)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [9d Kd]
+Dealt to QBOT16 [5s 9h]
+Dealt to FB226 [As 8h]
+FB116 calls 2
+QBOT16 folds
+FB226 raises to 7
+FB116 calls 7
+*** FLOP *** (15) [2s 8s Tc]
+FB226 bets 12
+FB116 folds
+FB226 wins the pot (27)
+
+Hand #10, FB226 (99995), FB116 (100005), QBOT16 (100000)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [3c Th]
+Dealt to FB116 [Jd 8s]
+Dealt to QBOT16 [4s 9d]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #11, QBOT16 (100001), FB226 (99995), FB116 (100004)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [5h 4c]
+Dealt to FB226 [Th 4s]
+Dealt to FB116 [9h 3s]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #12, FB116 (100005), QBOT16 (100001), FB226 (99994)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [9s 7h]
+Dealt to QBOT16 [Ks 6s]
+Dealt to FB226 [7d Js]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #13, FB226 (99992), FB116 (100005), QBOT16 (100003)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [8c Tc]
+Dealt to FB116 [8d 3c]
+Dealt to QBOT16 [Ts Kc]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #14, QBOT16 (100004), FB226 (99992), FB116 (100004)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [5d 5s]
+Dealt to FB226 [As Ah]
+Dealt to FB116 [9h 8d]
+QBOT16 raises to 7
+FB226 raises to 23
+FB116 folds
+QBOT16 folds
+FB226 wins the pot (32)
+
+Hand #15, FB116 (100002), QBOT16 (99997), FB226 (100001)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [6h 5s]
+Dealt to QBOT16 [2d Ad]
+Dealt to FB226 [8d 7c]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #16, FB226 (99999), FB116 (100002), QBOT16 (99999)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Td Qs]
+Dealt to FB116 [9d 5s]
+Dealt to QBOT16 [2d 4c]
+FB226 calls 2
+FB116 folds
+QBOT16 checks
+*** FLOP *** (5) [7s 7h Ac]
+QBOT16 bets 3
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #17, QBOT16 (100002), FB226 (99997), FB116 (100001)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Js 3c]
+Dealt to FB226 [4h Ts]
+Dealt to FB116 [Kc Ad]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #18, FB116 (100002), QBOT16 (100002), FB226 (99996)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [6d 2h]
+Dealt to QBOT16 [Ad 7c]
+Dealt to FB226 [4s 6c]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #19, FB226 (99994), FB116 (100002), QBOT16 (100004)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [2c 5h]
+Dealt to FB116 [Jc Ks]
+Dealt to QBOT16 [3s Qc]
+FB226 folds
+FB116 calls 2
+QBOT16 raises to 4
+FB116 calls 4
+*** FLOP *** (8) [6s 4c 7c]
+FB116 checks
+QBOT16 bets 6
+FB116 folds
+QBOT16 wins the pot (14)
+
+Hand #20, QBOT16 (100008), FB226 (99994), FB116 (99998)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Th 7d]
+Dealt to FB226 [Qc 7s]
+Dealt to FB116 [9d 4h]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #21, FB116 (99999), QBOT16 (100008), FB226 (99993)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [7c 9h]
+Dealt to QBOT16 [8s 5s]
+Dealt to FB226 [8c 6c]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #22, FB226 (99991), FB116 (99999), QBOT16 (100010)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [5h Jc]
+Dealt to FB116 [3d Qd]
+Dealt to QBOT16 [4h 6c]
+FB226 folds
+FB116 calls 2
+QBOT16 checks
+*** FLOP *** (4) [As Ts 3s]
+FB116 checks
+QBOT16 bets 3
+FB116 folds
+QBOT16 wins the pot (7)
+
+Hand #23, QBOT16 (100012), FB226 (99991), FB116 (99997)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [4c Jh]
+Dealt to FB226 [5h 5s]
+Dealt to FB116 [7h 2h]
+QBOT16 folds
+FB226 calls 2
+FB116 checks
+*** FLOP *** (4) [Kh Ah 3c]
+FB226 checks
+FB116 checks
+*** TURN *** (4) [Kh Ah 3c] [Td]
+FB226 checks
+FB116 checks
+*** RIVER *** (4) [Kh Ah 3c Td] [Js]
+FB226 checks
+FB116 checks
+FB226 shows [5h 5s]
+FB116 shows [7h 2h]
+FB226 wins the pot (4)
+
+Hand #24, FB116 (99995), QBOT16 (100012), FB226 (99993)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [6s 2d]
+Dealt to QBOT16 [6h Kh]
+Dealt to FB226 [9h Qc]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #25, FB226 (99991), FB116 (99995), QBOT16 (100014)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [9c 5h]
+Dealt to FB116 [8c Js]
+Dealt to QBOT16 [Ts 3d]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #26, QBOT16 (100015), FB226 (99991), FB116 (99994)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Ah Jc]
+Dealt to FB226 [2d 8c]
+Dealt to FB116 [Ks 4s]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #27, FB116 (99992), QBOT16 (100018), FB226 (99990)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Qs 3s]
+Dealt to QBOT16 [7c 7s]
+Dealt to FB226 [9s 3c]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #28, FB226 (99988), FB116 (99992), QBOT16 (100020)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Td 3c]
+Dealt to FB116 [2c 9c]
+Dealt to QBOT16 [6c Qd]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #29, QBOT16 (100021), FB226 (99988), FB116 (99991)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [9d 8h]
+Dealt to FB226 [2d 6d]
+Dealt to FB116 [Ts 3h]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #30, FB116 (99992), QBOT16 (100021), FB226 (99987)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [8c 5c]
+Dealt to QBOT16 [2d Tc]
+Dealt to FB226 [Kd Ad]
+FB116 folds
+QBOT16 raises to 4
+FB226 raises to 12
+QBOT16 folds
+FB226 wins the pot (16)
+
+Hand #31, FB226 (99991), FB116 (99992), QBOT16 (100017)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [8s 4d]
+Dealt to FB116 [Ah As]
+Dealt to QBOT16 [2d 6s]
+FB226 folds
+FB116 raises to 6
+QBOT16 folds
+FB116 wins the pot (8)
+
+Hand #32, QBOT16 (100015), FB226 (99991), FB116 (99994)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [2s 5c]
+Dealt to FB226 [Ac Qd]
+Dealt to FB116 [Qc 4d]
+QBOT16 folds
+FB226 calls 2
+FB116 checks
+*** FLOP *** (4) [3h 9s 5s]
+FB226 checks
+FB116 checks
+*** TURN *** (4) [3h 9s 5s] [6h]
+FB226 checks
+FB116 checks
+*** RIVER *** (4) [3h 9s 5s 6h] [7c]
+FB226 checks
+FB116 bets 3
+FB226 folds
+FB116 wins the pot (7)
+
+Hand #33, FB116 (99996), QBOT16 (100015), FB226 (99989)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [8c 6s]
+Dealt to QBOT16 [7s 6c]
+Dealt to FB226 [5c Qd]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #34, FB226 (99987), FB116 (99996), QBOT16 (100017)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [4s Qc]
+Dealt to FB116 [Qd 7s]
+Dealt to QBOT16 [5c Qs]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #35, QBOT16 (100018), FB226 (99987), FB116 (99995)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [4c 7s]
+Dealt to FB226 [9s 9c]
+Dealt to FB116 [Ad 2c]
+QBOT16 folds
+FB226 raises to 6
+FB116 folds
+FB226 wins the pot (8)
+
+Hand #36, FB116 (99993), QBOT16 (100018), FB226 (99989)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [8c Ad]
+Dealt to QBOT16 [Ah 5d]
+Dealt to FB226 [Ks Qs]
+FB116 calls 2
+QBOT16 calls 2
+FB226 raises to 8
+FB116 calls 8
+QBOT16 folds
+*** FLOP *** (18) [9h Jh Js]
+FB226 checks
+FB116 checks
+*** TURN *** (18) [9h Jh Js] [Qh]
+FB226 bets 14
+FB116 folds
+FB226 wins the pot (32)
+
+Hand #37, FB226 (99999), FB116 (99985), QBOT16 (100016)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [7c 5d]
+Dealt to FB116 [9d 2d]
+Dealt to QBOT16 [Ts 6c]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #38, QBOT16 (100017), FB226 (99999), FB116 (99984)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Th Jd]
+Dealt to FB226 [Kc 7h]
+Dealt to FB116 [9d 3s]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #39, FB116 (99982), QBOT16 (100020), FB226 (99998)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [4c 8h]
+Dealt to QBOT16 [7d Js]
+Dealt to FB226 [6h 8c]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #40, FB226 (99996), FB116 (99982), QBOT16 (100022)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [5d Ts]
+Dealt to FB116 [Td Jc]
+Dealt to QBOT16 [8h 2h]
+FB226 folds
+FB116 calls 2
+QBOT16 checks
+*** FLOP *** (4) [9c Qh 5c]
+FB116 checks
+QBOT16 bets 3
+FB116 folds
+QBOT16 wins the pot (7)
+
+Hand #41, QBOT16 (100024), FB226 (99996), FB116 (99980)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [4d 5s]
+Dealt to FB226 [5c 4h]
+Dealt to FB116 [Kc Jh]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #42, FB116 (99981), QBOT16 (100024), FB226 (99995)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [8d Tc]
+Dealt to QBOT16 [5c 9d]
+Dealt to FB226 [3s 3c]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #43, FB226 (99993), FB116 (99981), QBOT16 (100026)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Kd As]
+Dealt to FB116 [Ah Qs]
+Dealt to QBOT16 [6c 9s]
+FB226 raises to 7
+FB116 raises to 23
+QBOT16 folds
+FB226 calls 23
+*** FLOP *** (48) [Jd Jc 5h]
+FB116 checks
+FB226 checks
+*** TURN *** (48) [Jd Jc 5h] [8s]
+FB116 checks
+FB226 checks
+*** RIVER *** (48) [Jd Jc 5h 8s] [Ad]
+FB116 bets 43
+FB226 calls 43
+FB226 shows [Kd As]
+FB116 shows [Ah Qs]
+FB226 wins the pot (134)
+
+Hand #44, QBOT16 (100024), FB226 (100061), FB116 (99915)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Jh Th]
+Dealt to FB226 [Ts 2c]
+Dealt to FB116 [5c Qs]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #45, FB116 (99913), QBOT16 (100027), FB226 (100060)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [9h 7s]
+Dealt to QBOT16 [2h 6d]
+Dealt to FB226 [5d 6h]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #46, FB226 (100058), FB116 (99913), QBOT16 (100029)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [6s 4s]
+Dealt to FB116 [Th 3s]
+Dealt to QBOT16 [2s Td]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #47, QBOT16 (100030), FB226 (100058), FB116 (99912)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [5d 5h]
+Dealt to FB226 [Qs 6h]
+Dealt to FB116 [4s As]
+QBOT16 raises to 7
+FB226 folds
+FB116 calls 7
+*** FLOP *** (15) [8c Kc 8s]
+FB116 checks
+QBOT16 bets 11
+FB116 folds
+QBOT16 wins the pot (26)
+
+Hand #48, FB116 (99905), QBOT16 (100038), FB226 (100057)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Th 4h]
+Dealt to QBOT16 [5s Jd]
+Dealt to FB226 [7s Qs]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #49, FB226 (100055), FB116 (99905), QBOT16 (100040)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Jc 8c]
+Dealt to FB116 [9d As]
+Dealt to QBOT16 [Kc 6d]
+FB226 folds
+FB116 calls 2
+QBOT16 checks
+*** FLOP *** (4) [Ks 8h 5d]
+FB116 checks
+QBOT16 bets 3
+FB116 folds
+QBOT16 wins the pot (7)
+
+Hand #50, QBOT16 (100042), FB226 (100055), FB116 (99903)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [3c Qs]
+Dealt to FB226 [9s 2s]
+Dealt to FB116 [7d 4d]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #51, FB116 (99904), QBOT16 (100042), FB226 (100054)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Ah Ks]
+Dealt to QBOT16 [Tc Ad]
+Dealt to FB226 [Kh 3d]
+FB116 raises to 7
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (10)
+
+Hand #52, FB226 (100052), FB116 (99907), QBOT16 (100041)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [9c 6s]
+Dealt to FB116 [7s 5c]
+Dealt to QBOT16 [4h 7d]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #53, QBOT16 (100042), FB226 (100052), FB116 (99906)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Ac 4c]
+Dealt to FB226 [4h 2h]
+Dealt to FB116 [9d 5c]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #54, FB116 (99904), QBOT16 (100045), FB226 (100051)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [4d Ts]
+Dealt to QBOT16 [7s 6s]
+Dealt to FB226 [Kc Ad]
+FB116 folds
+QBOT16 raises to 4
+FB226 raises to 12
+QBOT16 folds
+FB226 wins the pot (16)
+
+Hand #55, FB226 (100055), FB116 (99904), QBOT16 (100041)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Ts 8d]
+Dealt to FB116 [4c Qh]
+Dealt to QBOT16 [Jc 6c]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #56, QBOT16 (100042), FB226 (100055), FB116 (99903)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [3d 5d]
+Dealt to FB226 [Qc 2s]
+Dealt to FB116 [Ks 7c]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #57, FB116 (99904), QBOT16 (100042), FB226 (100054)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [3c 7d]
+Dealt to QBOT16 [9h 9s]
+Dealt to FB226 [2s Qs]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #58, FB226 (100052), FB116 (99904), QBOT16 (100044)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [7s Ts]
+Dealt to FB116 [4h 8h]
+Dealt to QBOT16 [8c Kc]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #59, QBOT16 (100045), FB226 (100052), FB116 (99903)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Kh 4s]
+Dealt to FB226 [9c Qs]
+Dealt to FB116 [5d 2s]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #60, FB116 (99904), QBOT16 (100045), FB226 (100051)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [5s 5h]
+Dealt to QBOT16 [4d As]
+Dealt to FB226 [3d Ad]
+FB116 calls 2
+QBOT16 folds
+FB226 raises to 4
+FB116 calls 4
+*** FLOP *** (9) [Qh Kh 3h]
+FB226 checks
+FB116 checks
+*** TURN *** (9) [Qh Kh 3h] [Qd]
+FB226 checks
+FB116 checks
+*** RIVER *** (9) [Qh Kh 3h Qd] [2d]
+FB226 checks
+FB116 checks
+FB116 shows [5s 5h]
+FB226 shows [3d Ad]
+FB116 wins the pot (9)
+
+Hand #61, FB226 (100047), FB116 (99909), QBOT16 (100044)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Ac Ad]
+Dealt to FB116 [Ah 3c]
+Dealt to QBOT16 [4s 5h]
+FB226 raises to 7
+FB116 folds
+QBOT16 folds
+FB226 wins the pot (10)
+
+Hand #62, QBOT16 (100042), FB226 (100050), FB116 (99908)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Qs 5s]
+Dealt to FB226 [5h 7c]
+Dealt to FB116 [9d Ad]
+QBOT16 raises to 7
+FB226 folds
+FB116 calls 7
+*** FLOP *** (15) [Kh 7h Ah]
+FB116 bets 13
+QBOT16 folds
+FB116 wins the pot (28)
+
+Hand #63, FB116 (99916), QBOT16 (100035), FB226 (100049)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [3d 7d]
+Dealt to QBOT16 [9h Qs]
+Dealt to FB226 [5c 3c]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #64, FB226 (100047), FB116 (99916), QBOT16 (100037)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [8h 5h]
+Dealt to FB116 [2h 8s]
+Dealt to QBOT16 [5c 3d]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #65, QBOT16 (100038), FB226 (100047), FB116 (99915)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [9d 7d]
+Dealt to FB226 [Ac As]
+Dealt to FB116 [7h Qd]
+QBOT16 calls 2
+FB226 raises to 8
+FB116 folds
+QBOT16 folds
+FB226 wins the pot (12)
+
+Hand #66, FB116 (99913), QBOT16 (100036), FB226 (100051)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [7c 7s]
+Dealt to QBOT16 [Th 6h]
+Dealt to FB226 [As 4s]
+FB116 calls 2
+QBOT16 folds
+FB226 raises to 7
+FB116 raises to 22
+FB226 calls 22
+*** FLOP *** (45) [Qd 9c Kc]
+FB226 checks
+FB116 checks
+*** TURN *** (45) [Qd 9c Kc] [7d]
+FB226 checks
+FB116 bets 44
+FB226 folds
+FB116 wins the pot (89)
+
+Hand #67, FB226 (100029), FB116 (99936), QBOT16 (100035)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [2h 5d]
+Dealt to FB116 [Ks Ac]
+Dealt to QBOT16 [6h 4s]
+FB226 folds
+FB116 calls 2
+QBOT16 checks
+*** FLOP *** (4) [6s 8d 3d]
+FB116 checks
+QBOT16 bets 3
+FB116 folds
+QBOT16 wins the pot (7)
+
+Hand #68, QBOT16 (100037), FB226 (100029), FB116 (99934)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Td 4h]
+Dealt to FB226 [8c 5c]
+Dealt to FB116 [Tc Ac]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #69, FB116 (99935), QBOT16 (100037), FB226 (100028)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Qc 6s]
+Dealt to QBOT16 [9s 7s]
+Dealt to FB226 [Tc 8c]
+FB116 folds
+QBOT16 calls 2
+FB226 checks
+*** FLOP *** (4) [6d 7d 3h]
+QBOT16 bets 3
+FB226 folds
+QBOT16 wins the pot (7)
+
+Hand #70, FB226 (100026), FB116 (99935), QBOT16 (100039)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [5c 2h]
+Dealt to FB116 [Jh 8h]
+Dealt to QBOT16 [4s Th]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #71, QBOT16 (100040), FB226 (100026), FB116 (99934)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Qh 9c]
+Dealt to FB226 [Jc Kd]
+Dealt to FB116 [5d 7s]
+QBOT16 raises to 7
+FB226 calls 7
+FB116 folds
+*** FLOP *** (16) [6s Ad 9d]
+FB226 checks
+QBOT16 bets 13
+FB226 folds
+QBOT16 wins the pot (29)
+
+Hand #72, FB116 (99932), QBOT16 (100049), FB226 (100019)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [4h 3s]
+Dealt to QBOT16 [5c 9c]
+Dealt to FB226 [Ts Qc]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #73, FB226 (100017), FB116 (99932), QBOT16 (100051)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [8h 2s]
+Dealt to FB116 [4s 3c]
+Dealt to QBOT16 [Kd Td]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #74, QBOT16 (100052), FB226 (100017), FB116 (99931)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [5d Js]
+Dealt to FB226 [Ac 8s]
+Dealt to FB116 [Ts 7s]
+QBOT16 folds
+FB226 calls 2
+FB116 raises to 4
+FB226 calls 4
+*** FLOP *** (8) [5c 9c Ks]
+FB226 checks
+FB116 checks
+*** TURN *** (8) [5c 9c Ks] [3c]
+FB226 checks
+FB116 checks
+*** RIVER *** (8) [5c 9c Ks 3c] [6d]
+FB226 checks
+FB116 checks
+FB226 shows [Ac 8s]
+FB116 shows [Ts 7s]
+FB226 wins the pot (8)
+
+Hand #75, FB116 (99927), QBOT16 (100052), FB226 (100021)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [8d Kc]
+Dealt to QBOT16 [8s 3h]
+Dealt to FB226 [7d 2c]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #76, FB226 (100019), FB116 (99927), QBOT16 (100054)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [6c 3d]
+Dealt to FB116 [4c 3h]
+Dealt to QBOT16 [6d 5h]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #77, QBOT16 (100055), FB226 (100019), FB116 (99926)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [2h 9d]
+Dealt to FB226 [Jd Qh]
+Dealt to FB116 [2c Tc]
+QBOT16 folds
+FB226 calls 2
+FB116 checks
+*** FLOP *** (4) [6c 3s Qs]
+FB226 bets 3
+FB116 folds
+FB226 wins the pot (7)
+
+Hand #78, FB116 (99924), QBOT16 (100055), FB226 (100021)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Kc 8h]
+Dealt to QBOT16 [Qh Jc]
+Dealt to FB226 [Ah 6d]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #79, FB226 (100019), FB116 (99924), QBOT16 (100057)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Ac Ad]
+Dealt to FB116 [8h 8d]
+Dealt to QBOT16 [3c As]
+FB226 raises to 7
+FB116 calls 7
+QBOT16 folds
+*** FLOP *** (16) [4h 3s Kh]
+FB116 bets 13
+FB226 raises to 53
+FB116 calls 53
+*** TURN *** (122) [4h 3s Kh] [5c]
+FB116 bets 92
+FB226 calls 92
+*** RIVER *** (306) [4h 3s Kh 5c] [Kc]
+FB116 bets 252
+FB226 calls 252
+FB226 shows [Ac Ad]
+FB116 shows [8h 8d]
+FB226 wins the pot (810)
+
+Hand #80, QBOT16 (100055), FB226 (100425), FB116 (99520)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [8d 3c]
+Dealt to FB226 [5h 4s]
+Dealt to FB116 [4c 6h]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #81, FB116 (99521), QBOT16 (100055), FB226 (100424)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [4s 3h]
+Dealt to QBOT16 [As 2s]
+Dealt to FB226 [Td 3d]
+FB116 folds
+QBOT16 raises to 6
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #82, FB226 (100422), FB116 (99521), QBOT16 (100057)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Qs Ah]
+Dealt to FB116 [Ts Qd]
+Dealt to QBOT16 [Tc 9h]
+FB226 raises to 7
+FB116 folds
+QBOT16 folds
+FB226 wins the pot (10)
+
+Hand #83, QBOT16 (100055), FB226 (100425), FB116 (99520)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [8s 6c]
+Dealt to FB226 [5c 9s]
+Dealt to FB116 [2d 4d]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #84, FB116 (99521), QBOT16 (100055), FB226 (100424)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [4h 8h]
+Dealt to QBOT16 [5s Jh]
+Dealt to FB226 [5d 7c]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #85, FB226 (100422), FB116 (99521), QBOT16 (100057)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Qc 2h]
+Dealt to FB116 [9d 5s]
+Dealt to QBOT16 [Jc Ad]
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (3)
+
+Hand #86, QBOT16 (100058), FB226 (100422), FB116 (99520)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Kc 6h]
+Dealt to FB226 [4s 3h]
+Dealt to FB116 [7h Th]
+QBOT16 calls 2
+FB226 folds
+FB116 checks
+*** FLOP *** (5) [7s 3d As]
+FB116 bets 4
+QBOT16 folds
+FB116 wins the pot (9)
+
+Hand #87, FB116 (99523), QBOT16 (100056), FB226 (100421)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [8c Ad]
+Dealt to QBOT16 [Qd 8h]
+Dealt to FB226 [Jd 8d]
+FB116 calls 2
+QBOT16 folds
+FB226 raises to 4
+FB116 calls 4
+*** FLOP *** (9) [6d 9h 5s]
+FB226 checks
+FB116 checks
+*** TURN *** (9) [6d 9h 5s] [8s]
+FB226 checks
+FB116 checks
+*** RIVER *** (9) [6d 9h 5s 8s] [6s]
+FB226 checks
+FB116 checks
+FB116 shows [8c Ad]
+FB226 shows [Jd 8d]
+FB116 wins the pot (9)
+
+Hand #88, FB226 (100417), FB116 (99528), QBOT16 (100055)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [6d Kc]
+Dealt to FB116 [3c 9h]
+Dealt to QBOT16 [Ks 6h]
+FB226 calls 2
+FB116 folds
+QBOT16 checks
+*** FLOP *** (5) [Qd 5c Jc]
+QBOT16 bets 3
+FB226 folds
+QBOT16 wins the pot (8)
+
+Hand #89, QBOT16 (100058), FB226 (100415), FB116 (99527)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [9c Qd]
+Dealt to FB226 [7s 3h]
+Dealt to FB116 [9s 7c]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #90, FB116 (99525), QBOT16 (100061), FB226 (100414)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Kc Qh]
+Dealt to QBOT16 [5h 4d]
+Dealt to FB226 [7s Jd]
+FB116 calls 2
+QBOT16 folds
+FB226 checks
+*** FLOP *** (5) [4c 8c 2d]
+FB226 checks
+FB116 checks
+*** TURN *** (5) [4c 8c 2d] [7c]
+FB226 checks
+FB116 checks
+*** RIVER *** (5) [4c 8c 2d 7c] [Kd]
+FB226 checks
+FB116 bets 4
+FB226 folds
+FB116 wins the pot (9)
+
+Hand #91, FB226 (100412), FB116 (99528), QBOT16 (100060)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Jc Ad]
+Dealt to FB116 [Jd Qc]
+Dealt to QBOT16 [2h Js]
+FB226 calls 2
+FB116 calls 2
+QBOT16 checks
+*** FLOP *** (6) [4c Ts Th]
+FB116 checks
+QBOT16 checks
+FB226 checks
+*** TURN *** (6) [4c Ts Th] [Jh]
+FB116 bets 5
+QBOT16 folds
+FB226 calls 5
+*** RIVER *** (16) [4c Ts Th Jh] [3s]
+FB116 bets 13
+FB226 calls 13
+FB226 shows [Jc Ad]
+FB116 shows [Jd Qc]
+FB226 wins the pot (42)
+
+Hand #92, QBOT16 (100058), FB226 (100434), FB116 (99508)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [8d Kd]
+Dealt to FB226 [5d Jh]
+Dealt to FB116 [Kc 5h]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #93, FB116 (99506), QBOT16 (100061), FB226 (100433)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Td 5d]
+Dealt to QBOT16 [9s 2c]
+Dealt to FB226 [Ac 2h]
+FB116 folds
+QBOT16 raises to 4
+FB226 folds
+QBOT16 wins the pot (6)
+
+Hand #94, FB226 (100431), FB116 (99506), QBOT16 (100063)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Ts Kd]
+Dealt to FB116 [Qc 4h]
+Dealt to QBOT16 [Kc 9h]
+FB226 calls 2
+FB116 folds
+QBOT16 raises to 4
+FB226 calls 4
+*** FLOP *** (9) [Jc 9d 8h]
+QBOT16 bets 7
+FB226 folds
+QBOT16 wins the pot (16)
+
+Hand #95, QBOT16 (100068), FB226 (100427), FB116 (99505)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Qs 7c]
+Dealt to FB226 [7s Kd]
+Dealt to FB116 [Ts 4c]
+QBOT16 folds
+FB226 folds
+FB116 wins the pot (3)
+
+Hand #96, FB116 (99506), QBOT16 (100068), FB226 (100426)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [Qc 6d]
+Dealt to QBOT16 [4s 2s]
+Dealt to FB226 [8s 8c]
+FB116 folds
+QBOT16 raises to 4
+FB226 raises to 12
+QBOT16 folds
+FB226 wins the pot (16)
+
+Hand #97, FB226 (100430), FB116 (99506), QBOT16 (100064)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [4d 7c]
+Dealt to FB116 [Js Jd]
+Dealt to QBOT16 [7s 9h]
+FB226 folds
+FB116 raises to 6
+QBOT16 folds
+FB116 wins the pot (8)
+
+Hand #98, QBOT16 (100062), FB226 (100430), FB116 (99508)
+FB226 posts the blind of 1
+FB116 posts the blind of 2
+Dealt to QBOT16 [Kd Qc]
+Dealt to FB226 [2d 4s]
+Dealt to FB116 [Tc 4d]
+QBOT16 raises to 7
+FB226 folds
+FB116 folds
+QBOT16 wins the pot (10)
+
+Hand #99, FB116 (99506), QBOT16 (100065), FB226 (100429)
+QBOT16 posts the blind of 1
+FB226 posts the blind of 2
+Dealt to FB116 [9s 8s]
+Dealt to QBOT16 [Th 4d]
+Dealt to FB226 [7d Kc]
+FB116 folds
+QBOT16 raises to 4
+FB226 calls 4
+*** FLOP *** (8) [Qs 3c Qc]
+QBOT16 bets 5
+FB226 folds
+QBOT16 wins the pot (13)
+
+Hand #100, FB226 (100425), FB116 (99506), QBOT16 (100069)
+FB116 posts the blind of 1
+QBOT16 posts the blind of 2
+Dealt to FB226 [Ah 9d]
+Dealt to FB116 [Qd Kc]
+Dealt to QBOT16 [5d Ks]
+FB226 calls 2
+FB116 raises to 8
+QBOT16 folds
+FB226 calls 8
+*** FLOP *** (18) [7h 5s Td]
+FB116 checks
+FB226 checks
+*** TURN *** (18) [7h 5s Td] [Qc]
+FB116 bets 16
+FB226 folds
+FB116 wins the pot (34)
+

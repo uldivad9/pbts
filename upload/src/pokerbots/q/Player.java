@@ -553,7 +553,7 @@ public class Player {
 							}
 						} else if (numRaises == 0) {
 							//can't check.
-							if (relativeStrength < 2*estr-1) {
+							if (relativeStrength < estr) {
 								//fold if you think you're beat.
 								System.out.println("Opponents probably beat me; folding");
 								output = "FOLD";
@@ -706,6 +706,7 @@ public class Player {
 					// At the end, engine will allow bot to send key/value pairs to store.
 					// FINISH indicates no more to store.
 					try {
+						/*
 						for (String playername : playerNames) {
 							profileMap.get(playername).printRatios();
 							System.out.println("-"+profileMap.get(playername).preFlopBets);
@@ -725,12 +726,13 @@ public class Player {
 							outStream.println(keyInstruction);
 							System.out.println(keyInstruction);
 						}
-						
+						/*
 						for (String playername : playerNames) {
 							String keyInstruction = "PUT I"+playername+" "+failedStealMap.get(playername)+" "+attemptedStealMap.get(playername)+" "+failedRaiseMap.get(playername)+" "+attemptedRaiseMap.get(playername)+" "+pfFailedStealMap.get(playername)+" "+pfAttemptedStealMap.get(playername);
 							outStream.println(keyInstruction);
 							System.out.println(keyInstruction);
 						}
+						*/
 					} catch (Exception e) {
 						e.printStackTrace();
 						System.out.println(e.getMessage());
@@ -741,6 +743,8 @@ public class Player {
 					try {
 						if ("I".equals(tokens[1].substring(0,1))) {
 							//deal with failedstealmap
+							
+							/*
 							String playerName = tokens[1].substring(1,tokens[1].length());
 							failedStealMap.put(playerName,Integer.parseInt(tokens[2]));
 							attemptedStealMap.put(playerName,Integer.parseInt(tokens[3]));
@@ -748,7 +752,9 @@ public class Player {
 							attemptedRaiseMap.put(playerName,Integer.parseInt(tokens[5]));
 							pfFailedStealMap.put(playerName,Integer.parseInt(tokens[6]));
 							pfAttemptedStealMap.put(playerName,Integer.parseInt(tokens[7]));
+							*/
 						} else if (profileMap.containsKey(tokens[1])) {
+							
 							String[] codedtokens = new String[tokens.length-2];
 							for (int i=2; i<tokens.length; i++) {
 								codedtokens[i-2] = tokens[i];
@@ -756,6 +762,7 @@ public class Player {
 							String keyValue = BytePacker.unpack(codedtokens);
 							System.out.println(" unpacked: "+keyValue);
 							profileMap.put(tokens[1],PlayerProfile.parseKeyValue(tokens[1],keyValue));
+							
 						}
 					} catch (Exception e) {
 						e.printStackTrace();
