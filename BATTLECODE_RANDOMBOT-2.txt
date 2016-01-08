@@ -1,0 +1,132 @@
+6.176 MIT Pokerbots - RANDOMBOT2 vs BATTLECODE2 (stack=200, bb=2)
+Hand #1, RANDOMBOT2 (0), BATTLECODE2 (0)
+RANDOMBOT2 posts the blind of 1
+BATTLECODE2 posts the blind of 2
+Dealt to RANDOMBOT2 [7c Jd 4d Tc]
+Dealt to BATTLECODE2 [5h Kh Js Kc]
+RANDOMBOT2 calls
+BATTLECODE2 raises to 4
+RANDOMBOT2 folds
+Uncalled bet of 2 returned to BATTLECODE2
+BATTLECODE2 wins the pot (4)
+
+Hand #2, BATTLECODE2 (2), RANDOMBOT2 (-2)
+BATTLECODE2 posts the blind of 1
+RANDOMBOT2 posts the blind of 2
+Dealt to BATTLECODE2 [Ts 4d Ad Jh]
+Dealt to RANDOMBOT2 [Qc 7s 7c Td]
+BATTLECODE2 calls
+RANDOMBOT2 raises to 4
+BATTLECODE2 calls
+*** FLOP *** (8) [2h Jc As]
+RANDOMBOT2 bets 6
+BATTLECODE2 raises to 26
+RANDOMBOT2 raises to 66
+BATTLECODE2 raises to 170
+RANDOMBOT2 folds
+Uncalled bet of 104 returned to BATTLECODE2
+BATTLECODE2 wins the pot (140)
+
+Hand #3, RANDOMBOT2 (-72), BATTLECODE2 (72)
+RANDOMBOT2 posts the blind of 1
+BATTLECODE2 posts the blind of 2
+Dealt to RANDOMBOT2 [2d 3s 3d 7c]
+Dealt to BATTLECODE2 [Kd Js 4s 2h]
+RANDOMBOT2 folds
+BATTLECODE2 wins the pot (3)
+
+Hand #4, BATTLECODE2 (73), RANDOMBOT2 (-73)
+BATTLECODE2 posts the blind of 1
+RANDOMBOT2 posts the blind of 2
+Dealt to BATTLECODE2 [3s 2s Kh 4s]
+Dealt to RANDOMBOT2 [5c Jd 3d Jc]
+BATTLECODE2 folds
+RANDOMBOT2 wins the pot (3)
+
+Hand #5, RANDOMBOT2 (-72), BATTLECODE2 (72)
+RANDOMBOT2 posts the blind of 1
+BATTLECODE2 posts the blind of 2
+Dealt to RANDOMBOT2 [Ad Ah 9d 9h]
+Dealt to BATTLECODE2 [9s Qh 5h Js]
+RANDOMBOT2 raises to 4
+BATTLECODE2 calls
+*** FLOP *** (8) [8h 6s Kc]
+BATTLECODE2 checks
+RANDOMBOT2 checks
+*** TURN *** (8) [8h 6s Kc] [2c]
+BATTLECODE2 checks
+RANDOMBOT2 bets 2
+BATTLECODE2 folds
+Uncalled bet of 2 returned to RANDOMBOT2
+RANDOMBOT2 wins the pot (8)
+
+Hand #6, BATTLECODE2 (68), RANDOMBOT2 (-68)
+BATTLECODE2 posts the blind of 1
+RANDOMBOT2 posts the blind of 2
+Dealt to BATTLECODE2 [As Ah Qd 7s]
+Dealt to RANDOMBOT2 [3s Jh 6c 9d]
+BATTLECODE2 raises to 6
+RANDOMBOT2 calls
+*** FLOP *** (12) [6h Qc Qs]
+RANDOMBOT2 bets 5
+BATTLECODE2 raises to 27
+RANDOMBOT2 folds
+Uncalled bet of 22 returned to BATTLECODE2
+BATTLECODE2 wins the pot (22)
+
+Hand #7, RANDOMBOT2 (-79), BATTLECODE2 (79)
+RANDOMBOT2 posts the blind of 1
+BATTLECODE2 posts the blind of 2
+Dealt to RANDOMBOT2 [5s As 4s 4h]
+Dealt to BATTLECODE2 [5d Js Tc 2s]
+RANDOMBOT2 calls
+BATTLECODE2 checks
+*** FLOP *** (4) [8d 6h 3h]
+BATTLECODE2 checks
+RANDOMBOT2 bets 2
+BATTLECODE2 folds
+Uncalled bet of 2 returned to RANDOMBOT2
+RANDOMBOT2 wins the pot (4)
+
+Hand #8, BATTLECODE2 (77), RANDOMBOT2 (-77)
+BATTLECODE2 posts the blind of 1
+RANDOMBOT2 posts the blind of 2
+Dealt to BATTLECODE2 [8c Jc 8s Ac]
+Dealt to RANDOMBOT2 [Kc 2c Jd 9c]
+BATTLECODE2 calls
+RANDOMBOT2 raises to 4
+BATTLECODE2 calls
+*** FLOP *** (8) [9d 2h 3c]
+RANDOMBOT2 bets 3
+BATTLECODE2 folds
+Uncalled bet of 3 returned to RANDOMBOT2
+RANDOMBOT2 wins the pot (8)
+
+Hand #9, RANDOMBOT2 (-73), BATTLECODE2 (73)
+RANDOMBOT2 posts the blind of 1
+BATTLECODE2 posts the blind of 2
+Dealt to RANDOMBOT2 [Ac 4s Td 5s]
+Dealt to BATTLECODE2 [8c Qh 6h 3h]
+RANDOMBOT2 calls
+BATTLECODE2 checks
+*** FLOP *** (4) [Jc 3s 4d]
+BATTLECODE2 checks
+RANDOMBOT2 bets 2
+BATTLECODE2 folds
+Uncalled bet of 2 returned to RANDOMBOT2
+RANDOMBOT2 wins the pot (4)
+
+Hand #10, BATTLECODE2 (71), RANDOMBOT2 (-71)
+BATTLECODE2 posts the blind of 1
+RANDOMBOT2 posts the blind of 2
+Dealt to BATTLECODE2 [Kh 5h Ts Js]
+Dealt to RANDOMBOT2 [Tc 4s Jd 5d]
+BATTLECODE2 calls
+RANDOMBOT2 raises to 4
+BATTLECODE2 calls
+*** FLOP *** (8) [3h 7h 2c]
+RANDOMBOT2 bets 5
+BATTLECODE2 folds
+Uncalled bet of 5 returned to RANDOMBOT2
+RANDOMBOT2 wins the pot (8)
+

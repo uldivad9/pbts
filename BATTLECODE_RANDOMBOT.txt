@@ -2,28 +2,97 @@
 Hand #1, BATTLECODE (0), RANDOMBOT (0)
 BATTLECODE posts the blind of 1
 RANDOMBOT posts the blind of 2
-Dealt to BATTLECODE [Kc 3h Qc Tc]
-Dealt to RANDOMBOT [5c Th Ac 5d]
+Dealt to BATTLECODE [7d 6d 4h Ac]
+Dealt to RANDOMBOT [5s 5h Qs Jh]
 BATTLECODE folds
 RANDOMBOT wins the pot (3)
 
 Hand #2, RANDOMBOT (1), BATTLECODE (-1)
 RANDOMBOT posts the blind of 1
 BATTLECODE posts the blind of 2
-Dealt to RANDOMBOT [Ad 2d As 7c]
-Dealt to BATTLECODE [8s 2s 2c Jh]
+Dealt to RANDOMBOT [8h 9h As Qh]
+Dealt to BATTLECODE [Js Jh 6s Ah]
+RANDOMBOT raises to 5
+BATTLECODE raises to 15
+RANDOMBOT folds
+Uncalled bet of 10 returned to BATTLECODE
+BATTLECODE wins the pot (10)
+
+Hand #3, BATTLECODE (4), RANDOMBOT (-4)
+BATTLECODE posts the blind of 1
+RANDOMBOT posts the blind of 2
+Dealt to BATTLECODE [2d 6s Kh 8d]
+Dealt to RANDOMBOT [Kd 4s 7h 9d]
+BATTLECODE folds
+RANDOMBOT wins the pot (3)
+
+Hand #4, RANDOMBOT (-3), BATTLECODE (3)
+RANDOMBOT posts the blind of 1
+BATTLECODE posts the blind of 2
+Dealt to RANDOMBOT [8c Ts Tc Ac]
+Dealt to BATTLECODE [5d Jd 7h 2d]
 RANDOMBOT calls
 BATTLECODE checks
-*** FLOP *** (4) [4c 8c 7s]
-BATTLECODE checks
-RANDOMBOT checks
-*** TURN *** (4) [4c 8c 7s] [Ts]
-BATTLECODE checks
-RANDOMBOT checks
-*** RIVER *** (4) [4c 8c 7s Ts] [3c]
-BATTLECODE checks
-RANDOMBOT bets 2
+*** FLOP *** (4) [9h 5c Jh]
+BATTLECODE bets 4
+RANDOMBOT folds
+Uncalled bet of 4 returned to BATTLECODE
+BATTLECODE wins the pot (4)
+
+Hand #5, BATTLECODE (5), RANDOMBOT (-5)
+BATTLECODE posts the blind of 1
+RANDOMBOT posts the blind of 2
+Dealt to BATTLECODE [2s Ad 5h 2c]
+Dealt to RANDOMBOT [Kd 3d 4h Kc]
 BATTLECODE folds
-Uncalled bet of 2 returned to RANDOMBOT
-RANDOMBOT wins the pot (4)
+RANDOMBOT wins the pot (3)
+
+Hand #6, RANDOMBOT (-4), BATTLECODE (4)
+RANDOMBOT posts the blind of 1
+BATTLECODE posts the blind of 2
+Dealt to RANDOMBOT [4c 8s Js 6s]
+Dealt to BATTLECODE [4h 7s 3s 5h]
+RANDOMBOT calls
+BATTLECODE checks
+*** FLOP *** (4) [7h Jc 5d]
+BATTLECODE bets 3
+RANDOMBOT calls
+*** TURN *** (10) [7h Jc 5d] [8d]
+BATTLECODE checks
+RANDOMBOT bets 3
+BATTLECODE folds
+Uncalled bet of 3 returned to RANDOMBOT
+RANDOMBOT wins the pot (10)
+
+Hand #7, BATTLECODE (-1), RANDOMBOT (1)
+BATTLECODE posts the blind of 1
+RANDOMBOT posts the blind of 2
+Dealt to BATTLECODE [Jh 9s 8h 6s]
+Dealt to RANDOMBOT [Jd 5d 4s Jc]
+BATTLECODE folds
+RANDOMBOT wins the pot (3)
+
+Hand #8, RANDOMBOT (2), BATTLECODE (-2)
+RANDOMBOT posts the blind of 1
+BATTLECODE posts the blind of 2
+Dealt to RANDOMBOT [6d Jh Qh Qc]
+Dealt to BATTLECODE [Jc Kd Th Qs]
+RANDOMBOT folds
+BATTLECODE wins the pot (3)
+
+Hand #9, BATTLECODE (-1), RANDOMBOT (1)
+BATTLECODE posts the blind of 1
+RANDOMBOT posts the blind of 2
+Dealt to BATTLECODE [3d 4h 2d 6s]
+Dealt to RANDOMBOT [Kd 2c 5h Jh]
+BATTLECODE folds
+RANDOMBOT wins the pot (3)
+
+Hand #10, RANDOMBOT (2), BATTLECODE (-2)
+RANDOMBOT posts the blind of 1
+BATTLECODE posts the blind of 2
+Dealt to RANDOMBOT [Kc 7d 8d Qc]
+Dealt to BATTLECODE [2c Kd Tc Ac]
+RANDOMBOT folds
+BATTLECODE wins the pot (3)
 

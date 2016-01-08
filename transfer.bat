@@ -1,1 +1,0 @@
-COPY "cards.py" "battlecode/cards.py"
