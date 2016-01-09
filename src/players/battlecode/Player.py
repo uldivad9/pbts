@@ -56,7 +56,7 @@ class Player:
                 bb = int(words[4])
                 num_hands = int(words[5])
                 time_bank = float(words[6])
-            if words[0] == "NEWHAND":
+            elif words[0] == "NEWHAND":
                 hand_id = int(words[1])
                 button = (words[2].lower() == 'true')
                 hand = make_hand(' '.join(words[3:7]))
@@ -70,6 +70,12 @@ class Player:
                 num_raises = 0
                 street = 0
                 my_last_action = "CHECK"
+                
+                if(debug):
+                    opp_profile.reset()
+            elif words[0] == "HANDOVER":
+                opp_profile.pretty_print()
+                print
             elif words[0] == "GETACTION":
                 pot_size = int(words[1])
                 board_size = int(words[2])
@@ -97,6 +103,8 @@ class Player:
                 to_call = 0
                 
                 for action in last_actions_raw:
+                    print("processing action {}".format(action))
+                    print("street: {}".format(street))
                     split_action = action.split(':')
                     if split_action[0] == 'DEAL':
                         # New card has been dealt, pip resets.
@@ -105,7 +113,10 @@ class Player:
                     elif split_action[-1] != my_name:
                         if split_action[0] == 'CHECK':
                             opp_profile.check_obs[street] += 1
-                        elif split_action[0] == 'BET' 
+                        elif split_action[0] == 'CALL':
+                            opp_profile.call_obs[street] += 1
+                            opp_profile.calls[street] += 1
+                        elif split_action[0] == 'BET':
                             to_call = int(split_action[1])
                             opp_profile.check_obs[street] += 1
                             opp_profile.bets[street] += 1

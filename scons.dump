@@ -1,5 +1,8 @@
 scons: Reading SConscript files ...
 scons: done reading SConscript files.
 scons: Building targets ...
+
+scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
+File "C:\Program Files (x86)\Anaconda\Scripts\scons.py", line 199, in <module>
 scons: `.' is up to date.
 scons: done building targets.
